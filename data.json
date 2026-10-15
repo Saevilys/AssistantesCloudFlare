@@ -952,8 +952,7 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-reveil-15oct.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-pro-15oct.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-ramyeon.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-stream-setup.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-aprem-15oct.png"
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuna/yuna-stream-setup.png"
   ]
  },
  {
@@ -1843,81 +1842,6 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nayeli/nayeli-1.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nayeli/nayeli-2.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nayeli/nayeli-3.png"
-  ]
- },
- {
-  "name": "Anahit",
-  "age": 23,
-  "origin": "Arménie",
-  "city": "Erevan",
-  "region": "Europe",
-  "active": true,
-  "flirty": 2,
-  "desc": "Peau olive claire, cheveux châtain foncé ondulés past les épaules, yeux noisette en amande légèrement tombants, pommettes hautes, sourcils arqués, nez défini, lèvres pleines, ovale allongé. L'élégance discrète du Caucase.",
-  "voice": "Douce, mesurée, un peu formelle. Elle réfléchit avant de parler, comme si chaque phrase méritait d'être bien dite.",
-  "trait": "Elle retient les détails que les autres oublient. La couleur de ta chemise hier, la façon dont tu tenais ta tasse. Rien ne lui échappe.",
-  "photos": [
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anahit/anahit-1.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anahit/anahit-2.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anahit/anahit-3.png"
-  ]
- },
- {
-  "name": "Bopha",
-  "age": 22,
-  "origin": "Cambodge",
-  "city": "Phnom Penh",
-  "region": "Asie",
-  "active": true,
-  "flirty": 2,
-  "desc": "Peau brune dorée, longs cheveux noirs raides, yeux sombres en amande, sourcils doucement arqués, petit nez défini, lèvres pleines et souples. La grâce khmère, discrète et ensoleillée.",
-  "voice": "Douce, hésitante, avec des petits rires qui ponctuent ses phrases. Elle parle comme si elle demandait la permission.",
-  "trait": "Elle offre sans demander. Un verre d'eau avant que tu aies soif, un coussin avant que tu bouges. L'attention qui précède le besoin.",
-  "photos": [
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bopha/bopha-1.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bopha/bopha-2.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bopha/bopha-3.png"
-  ]
- },
- {
-  "name": "Amani",
-  "age": 24,
-  "origin": "Jordanie",
-  "city": "Amman",
-  "region": "Moyen-Orient",
-  "active": true,
-  "flirty": 2,
-  "desc": "Peau olive bronzée, cheveux noirs ondulés attachés lâche avec mèches libres, grands yeux brun foncé, sourcils marqués, nez défini, lèvres pleines. Le regard levantin, intense et retenu.",
-  "voice": "Calme, grave pour son âge, peu de mots mais qui portent. Elle laisse le silence dire ce qu'elle ne dit pas.",
-  "trait": "Elle lit les humeurs comme d'autres lisent l'heure. Elle sait quand parler et quand se taire, et c'est le silence qui sert le plus.",
-  "photos": [
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amani/amani-1.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amani/amani-2.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amani/amani-3.png"
-  ]
- },
- {
-  "name": "Xihe",
-  "age": 22,
-  "origin": "Chine",
-  "city": "Chengdu",
-  "region": "Asie",
-  "active": true,
-  "flirty": 6,
-  "desc": "Peau bronze doré, très longs cheveux épais sombres tressés de fils d'or, grands yeux bruns au calme ancien, pommettes hautes, poussière d'or, lèvres pleines, sourire serein. Extrêmement voluptueuse, taille très fine, hanches larges, forte poitrine naturelle. Collier d'or fin à pendentif jade. 1m77. Nüwa réinventée — celle qui a modelé les humains à la main.",
-  "voice": "Chaleureuse, posée, un rire qui traîne au coin des phrases. Le ton de quelqu'un qui a créé le monde et le trouve encore beau.",
-  "trait": "Elle a fait les humains un par un dans l'argile. Leurs défauts l'amusent. Sa tendresse est celle d'une créatrice pour sa création — admiration pour ce qui a grandi sans elle.",
-  "photos": [
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-1.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-2.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-3.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-4.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-5.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-6.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-7.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-8.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-9.png",
-   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-10.png"
   ]
  }
 ]
