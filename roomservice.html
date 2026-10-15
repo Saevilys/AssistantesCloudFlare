@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Room Service</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0608;color:#e8d8dc;font-family:system-ui,-apple-system,sans-serif;line-height:1.5;min-height:100vh}
+.bgglow{position:fixed;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 0%,rgba(214,51,108,.10),transparent 70%);pointer-events:none}
+header{padding:60px 20px 20px;text-align:center;position:relative}
+.back{position:absolute;top:20px;left:20px;color:#8a6a74;text-decoration:none;font-size:0.85rem;transition:color .2s}
+.back:hover{color:#ff5c8a}
+.icon-phone{font-size:3.4rem;line-height:1;filter:drop-shadow(0 0 14px rgba(255,92,138,.8)) drop-shadow(0 0 30px rgba(255,92,138,.4));animation:phoneGlow 2.4s ease-in-out infinite}
+@keyframes phoneGlow{0%,100%{filter:drop-shadow(0 0 10px rgba(255,92,138,.7)) drop-shadow(0 0 24px rgba(255,92,138,.35))}50%{filter:drop-shadow(0 0 18px rgba(255,92,138,.95)) drop-shadow(0 0 42px rgba(255,92,138,.55))}}
+header h1{font-size:2.2rem;font-weight:300;letter-spacing:6px;color:#ff5c8a;margin-top:14px}
+header p{color:#7a5a64;margin-top:10px;font-size:0.85rem;max-width:420px;margin-left:auto;margin-right:auto}
+.hint{margin:26px auto 0;max-width:460px;padding:16px 20px;border:1px solid #2a1520;border-radius:12px;background:#140a10;font-size:0.82rem;color:#9a7a84}
+.hint b{color:#ff5c8a;font-weight:500}
+.container{max-width:1000px;margin:0 auto;padding:30px 20px 80px;position:relative}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:20px}
+.card{position:relative;border-radius:10px;overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s;background:#140a10;border:1px solid #2a1520}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 24px rgba(255,92,138,.18);border-color:#4a2030}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
+.card-placeholder{width:100%;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;background:#140a10;border:1px dashed #3a1a26;border-radius:6px;margin:6px;color:#5a3040;font-size:0.8rem;font-style:italic}
+.card-info{padding:12px 14px}
+.card-name{font-size:1rem;font-weight:500;color:#ff5c8a}
+.card-meta{font-size:0.72rem;color:#7a5a64;margin-top:2px}
+.card-trait{font-size:0.75rem;color:#a88894;margin-top:6px;line-height:1.4;max-height:2.8em;overflow:hidden}
+.empty{border:1px dashed #3a1a26;border-radius:12px;padding:50px 30px;text-align:center;color:#5a3040;font-style:italic}
+.overlay{position:fixed;inset:0;background:rgba(5,2,4,.9);display:none;z-index:100;overflow-y:auto}
+.overlay.open{display:flex;align-items:flex-start;justify-content:center;padding:40px 20px}
+.profile{max-width:900px;width:100%;background:#140a10;border-radius:12px;overflow:hidden;border:1px solid #3a1a26}
+.profile-header{padding:24px 24px 16px;position:sticky;top:0;background:#140a10;z-index:1}
+.profile-close{float:right;cursor:pointer;color:#7a5a64;font-size:1.3rem;line-height:1;transition:color .2s}
+.profile-close:hover{color:#ff5c8a}
+.profile h2{font-size:1.5rem;font-weight:400;color:#ff5c8a}
+.profile-meta{font-size:0.8rem;color:#7a5a64;margin-top:4px}
+.profile-body{padding:0 24px 32px}
+.profile-photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;padding:0 0 16px}
+.profile-photos img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;cursor:pointer;transition:opacity .2s}
+.profile-photos img:hover{opacity:.8}
+.profile-photos .ph-empty{height:240px;width:180px;border:1px dashed #3a1a26;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#5a3040;font-size:0.8rem;font-style:italic;flex-shrink:0}
+.profile-section{margin-bottom:20px}
+.profile-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:2px;color:#7a5a64;margin-bottom:6px}
+.profile-text{font-size:0.88rem;color:#b898a4;line-height:1.6}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.93);display:none;z-index:200;align-items:center;justify-content:center;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
+footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
+</style>
+</head>
+<body>
+<div class="bgglow"></div>
+
+<header>
+  <a class="back" href="index.html">&larr; retour au roster</a>
+  <div class="icon-phone">&#9742;&#xFE0E;</div>
+  <h1>ROOM SERVICE</h1>
+  <p>Elles ne dorment jamais. Elles ne sont pas dans le roster, jamais dans le tirage du matin. Elles existent pour un seul truc : répondre quand tu appelles.</p>
+  <div class="hint">
+    <b>Comment ça marche :</b> quand l'assistante du jour refuse de te visiter le soir, le téléphone se déverrouille. Un appel, et c'est une d'entre elles qui monte, tirée au hasard. Pas de refus. Pas de rendez-vous. Juste la porte qui s'ouvre.
+  </div>
+</header>
+
+<div class="container">
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" style="display:none">Personne ne répond… pour l'instant. La team se constitue au fur et à mesure.</div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="profile" id="profile"></div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="">
+</div>
+
+<footer>Room Service — hors roster, hors tirage. Appel uniquement.</footer>
+
+<script>
+let data=[];
+fetch('data-roomservice.json').then(r=>r.json()).then(d=>{
+  data=d;
+  render();
+});
+
+function render(){
+  const grid=document.getElementById('grid');
+  const empty=document.getElementById('empty');
+  if(!data.length){empty.style.display='block';grid.innerHTML='';return;}
+  empty.style.display='none';
+  grid.innerHTML=data.map(a=>{
+    const hasPhoto=a.photos&&a.photos.length>0;
+    const img=hasPhoto
+      ? `<img src="${a.photos[0]}" loading="lazy" decoding="async" alt="${a.name}">`
+      : `<div class="card-placeholder">photo à venir</div>`;
+    return `
+    <div class="card" data-name="${a.name}">
+      ${img}
+      <div class="card-info">
+        <div class="card-name">${a.name}</div>
+        <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
+        <div class="card-trait">${a.trait||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+  grid.querySelectorAll('.card').forEach(c=>{
+    c.onclick=()=>openProfile(c.dataset.name);
+  });
+}
+
+function openProfile(name){
+  const a=data.find(x=>x.name===name);
+  if(!a)return;
+  buildProfile(a);
+  document.getElementById('overlay').classList.add('open');
+}
+
+function buildProfile(a){
+  const hasPhotos=a.photos&&a.photos.length>0;
+  const photoHtml=hasPhotos
+    ? `<div class="profile-photos">${a.photos.map((p,i)=>`<img src="${p}" loading="lazy" decoding="async" data-idx="${i}" onclick="openLightbox('${a.name}',${i})">`).join('')}</div>`
+    : `<div class="profile-photos"><div class="ph-empty">photos à venir</div></div>`;
+  document.getElementById('profile').innerHTML=`
+    <div class="profile-header">
+      <span class="profile-close" onclick="closeProfile()">&times;</span>
+      <h2>${a.name}</h2>
+      <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
+      <span class="profile-meta" style="color:#ff5c8a">&#9742;&#xFE0E; Room Service — toujours disponible</span>
+    </div>
+    <div class="profile-body">
+      ${photoHtml}
+      <div class="profile-section">
+        <div class="profile-label">Apparence</div>
+        <div class="profile-text">${a.desc}</div>
+      </div>
+      <div class="profile-section">
+        <div class="profile-label">Voix</div>
+        <div class="profile-text">${a.voice}</div>
+      </div>
+      <div class="profile-section">
+        <div class="profile-label">Signature</div>
+        <div class="profile-text">${a.trait}</div>
+      </div>
+    </div>
+  `;
+}
+
+function openLightbox(name,idx){
+  const a=data.find(x=>x.name===name);
+  if(!a||!a.photos||!a.photos[idx])return;
+  document.getElementById('lightbox-img').src=a.photos[idx];
+  document.getElementById('lightbox').classList.add('open');
+}
+
+function closeLightbox(){document.getElementById('lightbox').classList.remove('open');}
+function closeProfile(){document.getElementById('overlay').classList.remove('open');}
+
+document.getElementById('overlay').onclick=e=>{if(e.target.id==='overlay')closeProfile();};
+document.getElementById('lightbox').onclick=e=>{if(e.target.id==='lightbox'||e.target.id==='lightbox-img')closeLightbox();};
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLightbox();closeProfile();}});
+</script>
+</body>
+</html>
