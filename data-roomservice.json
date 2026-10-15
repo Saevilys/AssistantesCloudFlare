@@ -573,10 +573,10 @@
   "trait": "Elle défait le lit de ses mains lentes avant de le refaire, et te regarde faire semblant de dormir.",
   "flirty": 3,
   "photos": [
-   "img/thandi/thandi-1.png",
-   "img/thandi/thandi-2.png",
-   "img/thandi/thandi-3.png",
-   "img/thandi/thandi-4.png"
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-4.png"
   ]
  },
  {
@@ -590,10 +590,10 @@
   "trait": "Elle range tes affaires en pliant chaque vêtement comme une lettre qu'elle n'enverra jamais.",
   "flirty": 3,
   "photos": [
-   "img/zeynep/zeynep-1.png",
-   "img/zeynep/zeynep-2.png",
-   "img/zeynep/zeynep-3.png",
-   "img/zeynep/zeynep-4.png"
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-4.png"
   ]
  }
 ]
