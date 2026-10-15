@@ -561,5 +561,39 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-nuisette.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-roomservice.png"
   ]
+ },
+ {
+  "name": "Thandi",
+  "age": 23,
+  "origin": "Afrique du Sud",
+  "city": "Le Cap",
+  "role": "Suite de nuit",
+  "desc": "Peau brune foncée aux reflets dorés, cheveux noirs courts crépus, yeux bruns sombres, lèvres pleines, sourcils arqués. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse. La Captonienne qui prend son temps.",
+  "voice": "Douce, posée, un accent sud-africain qui chante. Elle murmure plus qu'elle ne parle.",
+  "trait": "Elle défait le lit de ses mains lentes avant de le refaire, et te regarde faire semblant de dormir.",
+  "flirty": 3,
+  "photos": [
+   "img/thandi/thandi-1.png",
+   "img/thandi/thandi-2.png",
+   "img/thandi/thandi-3.png",
+   "img/thandi/thandi-4.png"
+  ]
+ },
+ {
+  "name": "Zeynep",
+  "age": 23,
+  "origin": "Turquie",
+  "city": "Istanbul",
+  "role": "Femme de chambre",
+  "desc": "Peau olive chaude, cheveux bruns attachés lâches avec une mèche derrière l'oreille, yeux noisette, lèvres pleines, sourcils arqués. Silhouette voluptueuse, taille fine, poitrine généreuse. Timide qui assume.",
+  "voice": "Douce, timide, un accent turc qui traîne. Elle rougit quand tu la regardes, et elle ne détache pas les yeux.",
+  "trait": "Elle range tes affaires en pliant chaque vêtement comme une lettre qu'elle n'enverra jamais.",
+  "flirty": 3,
+  "photos": [
+   "img/zeynep/zeynep-1.png",
+   "img/zeynep/zeynep-2.png",
+   "img/zeynep/zeynep-3.png",
+   "img/zeynep/zeynep-4.png"
+  ]
  }
 ]

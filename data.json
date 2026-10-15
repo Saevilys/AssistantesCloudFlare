@@ -1922,5 +1922,23 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-10.png"
   ],
   "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-idle.mp4"
+ },
+ {
+  "name": "Chiara",
+  "age": 24,
+  "origin": "Italie",
+  "city": "Milan",
+  "region": "Europe",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau olive chaude, chignon brun foncé décoiffé avec mèches libres, yeux amande bruns, sourcils arqués, lèvres pleines, eye-liner fin. Silhouette voluptueuse, taille fine, poitrine généreuse. Milanaise, directe.",
+  "voice": "Sûre d'elle, rapide, l'italien qui roule. Elle te taquine avant que tu aies dit bonjour.",
+  "trait": "Elle te regarde par-dessus son épaule comme si elle savait déjà ce que tu allais dire. Et elle a raison.",
+  "photos": [
+   "img/chiara/chiara-1.png",
+   "img/chiara/chiara-2.png",
+   "img/chiara/chiara-3.png",
+   "img/chiara/chiara-4.png"
+  ]
  }
 ]
