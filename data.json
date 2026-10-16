@@ -694,6 +694,26 @@
   ]
  },
  {
+  "name": "Anqi",
+  "age": 23,
+  "origin": "Taïwan",
+  "city": "Taipei",
+  "region": "Asie",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau claire, cheveux bruns foncés raides mi-longs, yeux en amande sombres, traits doux, poitrine généreuse sur une silhouette fine. Douceur timide taïwanaise.",
+  "voice": "Timide, murmure presque. Elle baisse les yeux quand on la complimente.",
+  "trait": "Ose rarement sourire franchement, mais quand elle ose, c'est désarmant.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-cardigan.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-bubble-tea.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-night-market.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-bain.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-qipao.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anqi/anqi-metro.png"
+  ]
+ },
+ {
   "name": "Chidinma",
   "age": 24,
   "origin": "Nigéria",
