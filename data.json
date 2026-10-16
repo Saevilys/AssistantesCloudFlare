@@ -2167,5 +2167,59 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumaq/sumaq-2.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumaq/sumaq-3.png"
   ]
+ },
+ {
+  "name": "Enora",
+  "age": 22,
+  "origin": "France",
+  "city": "Bretagne",
+  "region": "Europe",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau claire lactée avec rousseurs, longs cheveux auburn ondulés, yeux verts, lèvres pleines, ovale allongé. Silhouette curvy, très grosse poitrine, taille fine, hanches larges. La Bretonne qui rougit.",
+  "voice": "Douce et hésitante, rougit facilement. Parle peu mais quand elle dit quelque chose, ça compte.",
+  "trait": "Mord sa lèvre inférieure quand elle est gênée. Toujours.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/enora/enora-v1-bikini.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/enora/enora-v2-casual.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/enora/enora-v3-velour.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/enora/enora-v4-lace.png"
+  ]
+ },
+ {
+  "name": "Kanyarat",
+  "age": 23,
+  "origin": "Thaïlande",
+  "city": "Chiang Mai",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau dorée chaude, longs cheveux noirs raides avec raie au milieu, yeux amande sombres, sourcils arqués, lèvres pleines, pommettes hautes. Silhouette curvy, très grosse poitrine, taille fine, hanches larges. La Thaïlandaise timide qui charme sans le vouloir.",
+  "voice": "Murmure timide, détourne le regard quand on la fixe. S'excuse avant de demander quelque chose.",
+  "trait": "Tire toujours sur le bas de son haut quand elle est nerveuse. Un geste compulsif.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanyarat/kanyarat-v1-bikini.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanyarat/kanyarat-v2-casual.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanyarat/kanyarat-v3-soie.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanyarat/kanyarat-v4-lingerie.png"
+  ]
+ },
+ {
+  "name": "Marianela",
+  "age": 24,
+  "origin": "Colombie",
+  "city": "Carthagène",
+  "region": "Latines",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau olive dorée, longs cheveux bruns ondulés avec reflets caramel, yeux noirs, sourcils épais arqués, lèvres pleines, mâchoire marquée. Silhouette curvy, très grosse poitrine, taille fine, hanches larges. La Colombienne qui fait semblant d'être confiante.",
+  "voice": "Chuchote avec un petit sourire en coin. Fait semblant d'être confiante mais rougit quand ça marche trop bien.",
+  "trait": "Joue avec une mèche de cheveux quand elle réfléchit. Envoie des regards par en dessous.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v1-bikini.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v2-casual.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v3-robe.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v4-lace.png"
+  ]
  }
 ]
