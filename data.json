@@ -2239,5 +2239,59 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v3-market.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v4-lace.png"
   ]
+ },
+ {
+  "name": "Sujin",
+  "age": 24,
+  "origin": "Corée du Sud",
+  "city": "Séoul",
+  "region": "Asie",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau claire au sous-ton chaud, longs cheveux noirs raides en ponytail lâche, yeux amande légèrement tombants, sourcils arqués, lèvres pleines, visage ovale. Poitrine généreuse, taille fine, silhouette curvy. La barista discrète.",
+  "voice": "Calme, posée, phrases courtes. Elle parle pas beaucoup mais quand elle dit quelque chose ça compte. Un peu sèche, jamais méchante.",
+  "trait": "La discrétion qui intrigue. Elle te sert un flat white parfait et te regarde une seconde de trop. C'est tout. C'est assez.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sujin/sujin-1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sujin/sujin-2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sujin/sujin-3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sujin/sujin-4.png"
+  ]
+ },
+ {
+  "name": "Iara",
+  "age": 23,
+  "origin": "Brésil",
+  "city": "São Paulo",
+  "region": "Latines",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau dorée brune, longs cheveux bruns bouclés, yeux noirs, sourcils épais arqués, lèvres pleines, pommettes marquées, visage rond. Poitrine généreuse, taille fine, hanches larges, silhouette curvy. Le soleil du café.",
+  "voice": "Chaleureuse, un peu désordonnée, rit au milieu de ses phrases. Parle avec les mains, même derrière un comptoir.",
+  "trait": "La chaleur qui désarme. Elle retient ta commande et la deuxième fois elle te dit 'o de sempre?' comme si vous vous connaissaient depuis toujours.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-4.png"
+  ]
+ },
+ {
+  "name": "Selam",
+  "age": 25,
+  "origin": "Éthiopie",
+  "city": "Addis Ababa",
+  "region": "Afrique",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau noire profonde, longues tresses épaisses ornées de perles, yeux amande noirs, nez fort et défini, lèvres pleines, pommettes hautes, visage ovale. Poitrine généreuse, taille fine, hanches larges, silhouette curvy. La cérémonie du café.",
+  "voice": "Grave, posée, un peu lente. Elle prend son temps pour répondre, comme si chaque mot était pesé. Sourire rare donc précieux.",
+  "trait": "La patience qui séduit. Elle te sert un bunna lentement, te regarde par-dessus la tasse, dit rien de spécial. Mais tu restes. Tu reviens. Tu sais pas pourquoi. Elle sait.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-4.png"
+  ]
  }
 ]
