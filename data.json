@@ -2221,5 +2221,23 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v3-robe.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marianela/marianela-v4-lace.png"
   ]
+ },
+ {
+  "name": "Thazin",
+  "age": 24,
+  "origin": "Myanmar",
+  "city": "Yangon",
+  "region": "Asie",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau dorée chaude, longs cheveux noirs raides avec raie au milieu, yeux amande sombres, pommettes hautes, nez défini, lèvres pleines. Silhouette voluptueuse, taille fine, poitrine pleine, hanches larges. La Birmane douce qui rit en cachette.",
+  "voice": "Douce et posée, un accent chantant birman quand elle parle français. Rit doucement, presque en cachette.",
+  "trait": "Ramène toujours la conversation vers la nourriture birmane — le mohinga, le lahpet thoq. C'est sa manière de dire qu'elle s'attache.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v1-tanktop.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v2-rooftop.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v3-market.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-v4-lace.png"
+  ]
  }
 ]
