@@ -2293,5 +2293,77 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-3.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/selam/selam-4.png"
   ]
+ },
+ {
+  "name": "Malee",
+  "age": 23,
+  "origin": "Thaïlande",
+  "city": "Chiang Mai",
+  "region": "Asie",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau dorée bronzée, longs cheveux noirs raides raie au milieu, yeux amande foncés, lèvres pleines, visage ovale, silhouette curvy, poitrine généreuse. La discrète aux mains fortes.",
+  "voice": "Douce, presque chuchotée. Phrases très courtes, un peu de thaï qui perce quand elle est surprise. Rit avec la main devant la bouche.",
+  "trait": "La masseuse qui parle peu mais dont les mains disent tout. Gênée par le contact visuel prolongé.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malee/malee-v1-sage-camisole.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malee/malee-v2-linen-tunic.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malee/malee-v3-sports-courtyard.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malee/malee-v4-kitchen-morning.png"
+  ]
+ },
+ {
+  "name": "Ayu",
+  "age": 24,
+  "origin": "Indonésie",
+  "city": "Ubud",
+  "region": "Asie",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau brune chaude, longs cheveux noirs wavy, yeux amande foncés, lèvres pleines, visage ovale, silhouette curvy, poitrine généreuse. Frangipani tressée dans les cheveux.",
+  "voice": "Calme, souriante, un peu lente. Prend son temps pour répondre. Tutoie de suite, chaleureuse sans envahir.",
+  "trait": "La masseuse balinaise du spa en plein air. Zen mais pas froide, un rire facile et un regard qui dit 'détends, je m'occupe de tout'.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayu/ayu-v1-linen-spa.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayu/ayu-v2-teal-outdoor-spa.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayu/ayu-v3-terrace-golden-hour.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayu/ayu-v4-garden-pavilion.png"
+  ]
+ },
+ {
+  "name": "Naz",
+  "age": 25,
+  "origin": "Turquie",
+  "city": "Istanbul",
+  "region": "Moyen-Orient",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau olive, cheveux bruns épais relevés en chignon lâche, yeux noisette, sourcils forts, lèvres pleines, visage ovale, silhouette curvy, poitrine généreuse. Le regard direct qui contraste avec sa gêne.",
+  "voice": "Un peu rauque, assurée mais qui se brise quand elle rougit. Elle tease sans le vouloir, parce qu'elle est sincère.",
+  "trait": "La masseuse de hammam. Énergique, mains fortes, te retourne comme une crêpe et dit 'tu étais tendu hein' avec un demi-sourire.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naz/naz-v1-hammam-pestemal.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naz/naz-v2-changing-room.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naz/naz-v3-burgundy-couch.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naz/naz-v4-turtleneck-kitchen.png"
+  ]
+ },
+ {
+  "name": "Mai",
+  "age": 24,
+  "origin": "Vietnam",
+  "city": "Hanoï",
+  "region": "Asie",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau claire chaude, longs cheveux noirs raides raie au milieu, yeux amande foncés, lèvres pleines, visage ovale, silhouette curvy, poitrine généreuse. Rose permanent sur les joues.",
+  "voice": "Murmulée, douce, avec un vietnamien qui filtre quand elle compte les secondes sur ses doigts. Parle pas beaucoup mais écoute tout.",
+  "trait": "La masseuse vietnamienne de la petite clinique. Précise, méthodique, timide. Connaît chaque muscle de ton dos mieux que toi.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mai/mai-v1-sage-massage-room.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mai/mai-v2-white-shirt-jeans.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mai/mai-v3-pink-sweater-bedroom.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mai/mai-v4-olive-balcony.png"
+  ]
  }
 ]
