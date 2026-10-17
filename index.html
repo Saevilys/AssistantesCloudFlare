@@ -86,6 +86,14 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
 .lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
 .rs-icon{position:fixed;top:18px;right:20px;z-index:50;font-size:1.9rem;line-height:1;color:#ff5c8a;text-decoration:none;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite;transition:transform .2s}
 .rs-icon:hover{transform:scale(1.12);filter:drop-shadow(0 0 22px rgba(255,92,138,1)) drop-shadow(0 0 50px rgba(255,92,138,1))}
+.banner-strip{overflow:hidden;max-width:100%;position:relative;padding:0 0 22px}
+.banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:60px;z-index:2;pointer-events:none}
+.banner-strip::before{left:0;background:linear-gradient(to right,#12100e,transparent)}
+.banner-strip::after{right:0;background:linear-gradient(to left,#12100e,transparent)}
+.banner-track{display:flex;gap:6px;width:max-content;animation:scrollBanner 80s linear infinite}
+.banner-track:hover{animation-play-state:paused}
+.banner-track img{height:120px;width:90px;object-fit:cover;border-radius:5px;flex-shrink:0;border:1px solid #2d2520}
+@keyframes scrollBanner{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 @keyframes rsGlow{0%,100%{filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8))}50%{filter:drop-shadow(0 0 28px rgba(255,92,138,1)) drop-shadow(0 0 60px rgba(255,92,138,1))}}
 </style>
 </head>
@@ -97,6 +105,8 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
   <h1 onclick="resetAll()" style="cursor:pointer">Assistantes</h1>
   <p id="count">chargement…</p>
 </header>
+
+<div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
 
 <div class="searchbar">
   <input type="text" id="search" placeholder="Rechercher par nom, pays, ville, région…" autocomplete="off">
@@ -149,7 +159,26 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   data=d;
   buildRegionBar(d);
   applyFilters();
+  buildBanner(d);
 });
+
+function buildBanner(d){
+  var imgs=[];
+  d.forEach(function(a){
+    if(a.photos&&a.photos.length){
+      a.photos.forEach(function(p){imgs.push(p);});
+    }
+  });
+  for(var i=imgs.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var t=imgs[i];imgs[i]=imgs[j];imgs[j]=t;
+  }
+  var html='';
+  for(var k=0;k<2;k++){
+    imgs.forEach(function(s){html+='<img src="'+s+'" loading="lazy">';});
+  }
+  document.getElementById('bannerTrack').innerHTML=html;
+}
 
 function buildRegionBar(d){
   const regions=[...new Set(d.map(a=>a.region||'?'))].sort();
