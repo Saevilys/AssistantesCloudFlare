@@ -210,6 +210,10 @@ function buildBanner(d){
     img.addEventListener('mouseleave',function(){
       preview.classList.remove('show');
     });
+    img.addEventListener('click',function(){
+      var n=img.dataset.name||'';
+      if(n)openProfile(n);
+    });
   });
 }
 
