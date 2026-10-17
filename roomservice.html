@@ -68,10 +68,11 @@ footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
 @keyframes scrollBanner{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
 .banner-preview{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.85);z-index:60;pointer-events:none;opacity:0;transition:opacity .25s ease,transform .25s cubic-bezier(.2,.8,.2,1)}
 .banner-preview.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
-.banner-preview img{height:400px;width:250px;object-fit:cover;border-radius:10px;border:1px solid #ff5c8a;box-shadow:0 12px 40px rgba(0,0,0,.7)}
-.bp-name{position:absolute;bottom:0;left:0;right:0;padding:24px 16px 14px;background:linear-gradient(to top,rgba(5,2,4,.95),rgba(5,2,4,.7) 50%,transparent);border-radius:0 0 10px 10px}
-.bp-name-text{color:#ff5c8a;font-size:1.6rem;font-weight:500;line-height:1.2}
-.bp-name-sub{color:#9a7a84;font-size:0.8rem;margin-top:3px}
+.banner-preview img{height:600px;width:auto;max-height:85vh;max-width:90vw;border-radius:10px;box-shadow:0 16px 60px rgba(0,0,0,.95),0 0 0 1px rgba(255,92,138,.3);object-fit:cover}
+.banner-preview .bp-name{position:absolute;bottom:0;left:0;right:0;padding:22px 24px 18px;background:linear-gradient(transparent,rgba(0,0,0,.95));border-radius:0 0 10px 10px;color:#fff;text-align:center;opacity:0;transition:opacity .35s ease .15s}
+.banner-preview.show .bp-name{opacity:1}
+.banner-preview .bp-name .bp-name-text{font-size:1.6rem;font-weight:500;color:#ff5c8a;letter-spacing:1px;text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.banner-preview .bp-name .bp-name-sub{font-size:0.8rem;color:#9a7a84;margin-top:4px}
 </style>
 </head>
 <body>
@@ -152,7 +153,7 @@ function buildBanner(d){
   requestAnimationFrame(function(){
     var w=track.scrollWidth/2;
     var dur=Math.round(w/35);
-    track.style.animation='scrollBanner '+dur+'s linear infinite';
+    track.style.animationDuration=dur+'s';
   });
   var preview=document.createElement('div');
   preview.className='banner-preview';

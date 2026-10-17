@@ -201,7 +201,7 @@ function buildBanner(d){
   requestAnimationFrame(function(){
     var w=track.scrollWidth/2;
     var dur=Math.round(w/35);
-    track.style.animation='scrollBanner '+dur+'s linear infinite';
+    track.style.animationDuration=dur+'s';
   });
   var preview=document.createElement('div');
   preview.className='banner-preview';
