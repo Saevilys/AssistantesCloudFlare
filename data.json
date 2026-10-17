@@ -3030,5 +3030,95 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v4.png"
     ]
+  },
+  {
+    "name": "Florina",
+    "age": 24,
+    "origin": "Roumanie",
+    "city": "Bucarest",
+    "region": "Europe",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau olive claire, cheveux bruns en haute queue de cheval, yeux amande noisette, lèvres pleines, pommettes marquées. Poitrine très généreuse, taille fine, hanches larges. Le tablier de barista serré sur le top blanc.",
+    "voice": "Rapide, un peu hésitante, rougit quand on la complimente. Parle avec les mains, lâche des mots roumains au milieu.",
+    "trait": "Elle te sert ton latte avec un foam art de coeur mais peut pas te regarder quand elle te le tend.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/florina/florina-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/florina/florina-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/florina/florina-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/florina/florina-4.png"
+    ]
+  },
+  {
+    "name": "Ayoka",
+    "age": 24,
+    "origin": "Nigeria",
+    "city": "Lagos",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau ébène profonde et chaude, longs box braids ornés de coquillages cauris, yeux amande sombres, lèvres pleines, visage rond. Poitrine très généreuse, taille fine, hanches larges.",
+    "voice": "Timide mais chaleureuse, accent nigérian léger. Elle murmure les noms des boissons comme des secrets.",
+    "trait": "Elle tasse son tablier quand elle est gênée. Les coquillages cliquettent quand elle baisse la tête.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayoka/ayoka-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayoka/ayoka-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayoka/ayoka-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayoka/ayoka-4.png"
+    ]
+  },
+  {
+    "name": "Pernille",
+    "age": 23,
+    "origin": "Danemark",
+    "city": "Aarhus",
+    "region": "Europe",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau claire avec taches de rousseur légères, cheveux blonds longs et raides en tresse latérale, yeux bleu-gris, lèvres roses et pleines, visage doux et rond. Poitrine très généreuse, taille fine, hanches larges.",
+    "voice": "Douce, réservée, un peu maladroite. Parle peu mais sourit beaucoup. Raconte ses vaches, qu'elle a nommées une par une.",
+    "trait": "Troisième génération de laitière à Aarhus. Elle traite encore à la main le matin, avant l'aube.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pernille/pernille-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pernille/pernille-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pernille/pernille-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pernille/pernille-4.png"
+    ]
+  },
+  {
+    "name": "Katri",
+    "age": 23,
+    "origin": "Finlande",
+    "city": "Tampere",
+    "region": "Europe",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau porcelaine très claire, longs cheveux blond cendre en deux tresses épaisses, yeux bleu-gris clairs, lèvres roses et pleines, visage rond et doux. Poitrine très généreuse, taille fine, hanches larges.",
+    "voice": "Calme, posée, quelques mots suffisent. Un silence finlandais n'est pas un silence gêné, c'est un silence complet.",
+    "trait": "Fermière. Sauna le soir, lait frais le matin. Elle ne s'excuse jamais de son corps, elle le connaît par le travail.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/katri/katri-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/katri/katri-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/katri/katri-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/katri/katri-4.png"
+    ]
+  },
+  {
+    "name": "Dalia",
+    "age": 24,
+    "origin": "Mexique",
+    "city": "Oaxaca",
+    "region": "Amérique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau dorée, longs cheveux noirs en tresse avec rubans rouges, yeux bruns amande, lèvres pleines, pommettes marquées, visage rond. Poitrine très généreuse, silhouette sablier. Broderie florale Oaxaca sur ses blouses.",
+    "voice": "Douce, un peu timide, parle lentement avec un accent chantant. Mélange d'espagnol et de mots indigènes parfois.",
+    "trait": "Barista spécialisée en boissons lactées, chocolat chaud Oaxaca, atole. Elle brode ses propres blouses.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dalia/dalia-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dalia/dalia-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dalia/dalia-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dalia/dalia-4.png"
+    ]
   }
 ]
