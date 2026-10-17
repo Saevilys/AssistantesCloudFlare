@@ -114,6 +114,7 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
   <button class="btn active" id="sortDir">Flirt ↓</button>
   <button class="btn" id="flirtLvl">Tous niveaux</button>
   <button class="btn" data-sort="alpha">A-Z</button>
+  <button class="btn" data-sort="arrival">Arrivée</button>
 </div>
 
 <div class="container">
@@ -180,6 +181,8 @@ function applyFilters(){
     if(currentSort==='flirt-desc')return (b.flirty||0)-(a.flirty||0);
     if(currentSort==='flirt-asc')return (a.flirty||0)-(b.flirty||0);
     if(currentSort==='alpha')return a.name.localeCompare(b.name);
+    if(currentSort==='arrival')return data.indexOf(a)-data.indexOf(b);
+    if(currentSort==='arrival-rev')return data.indexOf(b)-data.indexOf(a);
     return 0;
   });
   filteredData=filtered;
@@ -273,6 +276,8 @@ function resetAll(){
   document.getElementById('flirtLvl').textContent='Tous niveaux';
   document.getElementById('flirtLvl').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée';
   applyFilters();
   window.scrollTo({top:0,behavior:'smooth'});
 }
@@ -388,6 +393,18 @@ document.querySelector('#sortbar .btn[data-sort="alpha"]').onclick=()=>{
   currentSort='alpha';
   document.getElementById('sortDir').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.add('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
+  applyFilters();
+};
+// Arrival
+document.querySelector('#sortbar .btn[data-sort="arrival"]').onclick=()=>{
+  if(currentSort==='arrival'){currentSort='arrival-rev';}
+  else{currentSort='arrival';}
+  const btn=document.querySelector('#sortbar .btn[data-sort="arrival"]');
+  btn.textContent=currentSort==='arrival'?'Arrivée ↓':'Arrivée ↑';
+  btn.classList.add('active');
+  document.getElementById('sortDir').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
   applyFilters();
 };
 
