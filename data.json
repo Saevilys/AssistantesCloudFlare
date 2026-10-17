@@ -3283,5 +3283,28 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sherine/sherine-v6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sherine/sherine-v7.png"
     ]
+  },
+  {
+    "name": "Senna",
+    "age": 23,
+    "origin": "Somalie",
+    "city": "Mogadiscio",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau dark brown profonde et lumineuse, longs cheveux noirs épais texture naturelle, grands yeux amande sombres, sourcils dessinés, lèvres pleines, pommettes hautes, cou élégant, grain de beauté sous l'œil gauche. Corps voluptueux, taille fine, hanches larges, très grande poitrine. Maquillage léger, lèvres nude-brun brillantes.",
+    "voice": "Douce, tout bas, facilement gênée. Rougit quand on la complimente, cache son sourire derrière sa main.",
+    "trait": "Le soin et l'attention dans tout ce qu'elle fait, même quand elle tremble un peu. Elle hésite avant de regarder la caméra trop longtemps.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v8.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat4b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat5b.png"
+    ]
   }
 ]
