@@ -2711,35 +2711,17 @@
     "age": 24,
     "origin": "Japon",
     "city": "Kyoto",
-    "region": "Asie",
+    "region": "Asie de l'Est",
     "active": true,
     "flirty": 5,
-    "desc": "Peau de porcelaine, longs cheveux noirs raides ornés d'un kanzashi argent, sourcils arqués, yeux amande soulignés d'eyeliner, lèvres burgundy, nez fin, traits élégants. Silhouette voluptueuse, taille fine, poitrine généreuse. La grâce de Kyoto avec une touche goth.",
-    "voice": "Each word chosen. Short, clean sentences and silence where others would fill it. L'autorité sans volume.",
-    "trait": "L'okami du ryokan goth. Elle te accueille, t'installe, te désarme. Tu es chez elle. Elle le sait, toi aussi, et c'est pas la peine d'en parler.",
+    "desc": "Peau de porcelaine, longs cheveux noirs raides ornés d'un kanzashi argent, yeux amande soulignés d'eyeliner, lèvres burgundy, traits fins et élégants. Silhouette voluptueuse, taille fine, poitrine généreuse. La grâce de Kyoto avec une touche goth.",
+    "voice": "Each word chosen. Short, clean sentences, silence where others would fill it. L'autorité sans volume.",
+    "trait": "L'okami du ryokan goth. Elle te accueille, te installe, te désarme. Tu es chez elle. Elle le sait, toi aussi, et c'est pas la peine d'en parler.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v4.png"
-    ]
-  },
-  {
-    "name": "Ligeia",
-    "age": 24,
-    "origin": "Grèce",
-    "city": "Athènes",
-    "region": "Europe",
-    "active": true,
-    "flirty": 4,
-    "desc": "Peau olive-dorée, longs cheveux noirs raides séparés au centre, sourcils forts et arqués, yeux bruns profonds bordés de kohl, nez droit, lèvres rouge sombre. Silhouette voluptueuse, taille fine, poitrine généreuse. La prestance méditerranéenne revisitée en goth.",
-    "voice": "Low and warm, like she's telling you a secret she doesn't expect you to believe. Le kohl sur les yeux et le velours sur la peau.",
-    "trait": "L'onden du ryokan goth. Elle te tend la main vers le bain, la vapeur entre vous deux, et tu sais pas si c'est une invitation ou un test. C'est les deux.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v4.png"
     ]
   },
   {
@@ -2750,32 +2732,14 @@
     "region": "Europe",
     "active": true,
     "flirty": 3,
-    "desc": "Peau très claire et pleine de taches de rousseur, longs cheveux cuivrés ondulés, yeux bleu clair, sourcils doux et arqués, nez droit, lèvres bordeaux. Silhouette voluptueuse, taille fine, poitrine généreuse. La fraîcheur celtique croisée avec le goth.",
+    "desc": "Peau très claire pleine de taches de rousseur, longs cheveux cuivrés ondulés, yeux bleu clair, lèvres bordeaux. Silhouette voluptueuse, taille fine, poitrine généreuse. La fraîcheur celtique croisée avec le goth, le contraste chaud-froid dans chaque photo.",
     "voice": "Soft, a little halting, like she's not sure she should say the next part. Mais elle le dit quand même.",
-    "trait": "La fille du thé au ryokan goth. La pluie derrière le shoji, la tasse entre ses mains, ses cheveux roux qui contrastent avec tout le noir. Elle te sert, reste assise, et la conversation dérive sans que personne décide où elle va.",
+    "trait": "La fille du thé au ryokan goth. La pluie derrière la shoji, la tasse entre ses mains, ses cheveux roux qui contrastent avec tout le noir. Elle te sert, reste assise, et la conversation dérive sans que personne décide où elle va.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v4.png"
-    ]
-  },
-  {
-    "name": "Zoraida",
-    "age": 24,
-    "origin": "Maroc",
-    "city": "Marrakech",
-    "region": "Afrique",
-    "active": true,
-    "flirty": 5,
-    "desc": "Peau dorée et chaude, longs cheveux noirs épais en vagues, sourcils arqués, yeux bruns profonds bordés de kohl, nez fin, lèvres mauve sombre. Silhouette voluptueuse, taille fine, poitrine généreuse. Bijoux argent superposés. Le goth mauresque, opulent et sombre.",
-    "voice": "Confident, unhurried, a low purr. Elle prend son temps parce qu'elle sait que tu attends.",
-    "trait": "La fille de l'encens au ryokan goth. Elle prépare la chambre, la fumée monte, ses mains sur tes épaules. À L5 elle ne suggère plus, elle mène. Le kohl, l'argent, la soie noire. Tout est délibéré.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v4.png"
     ]
   },
   {
@@ -2786,7 +2750,7 @@
     "region": "Europe",
     "active": true,
     "flirty": 3,
-    "desc": "Peau très claire aux tons froids, longs cheveux blond cendré en tresse lâche, yeux bleu glace, sourcils doux et droits, nez droit, lèvres rose sombre. Silhouette voluptueuse, taille fine, poitrine généreuse. L'éthéré nordique meet le goth.",
+    "desc": "Peau très claire aux tons froids, longs cheveux blond cendré en tresse lâche, yeux bleu glace, lèvres rose sombre. Silhouette voluptueuse, taille fine, poitrine généreuse. L'éthéré nordique rencontre le goth, brume et velours noir.",
     "voice": "Quiet, precise, a little distant. Like she's listening to something you can't hear. Mais quand elle te regarde, tu as toute son attention.",
     "trait": "La veilleuse du ryokan goth. Elle apparaît la nuit dans les couloirs, une lanterne à la main, la brume derrière elle. Tu la suis sans demander pourquoi.",
     "photos": [

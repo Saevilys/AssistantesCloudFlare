@@ -701,30 +701,14 @@
     "role": "Femme de chambre"
   },
   {
-    "name": "Reika",
-    "age": 24,
-    "origin": "Japon",
-    "city": "Kyoto",
-    "role": "Okami de nuit",
-    "desc": "Peau de porcelaine, cheveux noirs raides au kanzashi argent, yeux amande bordés d'eyeliner, lèvres burgundy.",
-    "trait": "L'autorité sans volume.",
-    "voice": "Each word chosen.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v4.png"
-    ]
-  },
-  {
     "name": "Ligeia",
     "age": 24,
     "origin": "Grèce",
     "city": "Athènes",
-    "role": "Onsen de nuit",
-    "desc": "Peau olive-dorée, cheveux noirs raides, yeux bordés de kohl, lèvres rouge sombre.",
-    "trait": "L'onden du ryokan goth.",
-    "voice": "Low and warm.",
+    "role": "Ryokan goth — équipe de nuit",
+    "desc": "Peau olive-dorée, longs cheveux noirs raides séparés au centre, sourcils forts et arqués, yeux bruns profonds bordés de kohl, lèvres rouge sombre. Silhouette voluptueuse, taille fine, poitrine généreuse. Collier croissant de lune argent. La prestance méditerranéenne revisitée en goth.",
+    "voice": "Low and warm, like she's telling you a secret she doesn't expect you to believe.",
+    "trait": "L'ondine du ryokan goth. Elle te tend la main vers le bain, la vapeur entre vous deux, et tu sais pas si c'est une invitation ou un test. C'est les deux.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v2.png",
@@ -733,51 +717,19 @@
     ]
   },
   {
-    "name": "Niamh",
-    "age": 23,
-    "origin": "Irlande",
-    "city": "Dublin",
-    "role": "Thé de nuit",
-    "desc": "Peau très claire et taches de rousseur, cheveux cuivrés ondulés, yeux bleu clair.",
-    "trait": "La fille du thé au ryokan goth.",
-    "voice": "Soft, a little halting.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/niamh/niamh-v4.png"
-    ]
-  },
-  {
     "name": "Zoraida",
     "age": 24,
     "origin": "Maroc",
     "city": "Marrakech",
-    "role": "Encens de nuit",
-    "desc": "Peau dorée, cheveux noirs en vagues, yeux bordés de kohl, lèvres mauve sombre.",
-    "trait": "La fille de l'encens au ryokan goth.",
-    "voice": "Confident, unhurried.",
+    "role": "Ryokan goth — équipe de nuit",
+    "desc": "Peau dorée et chaude, longs cheveux noirs épais en vagues, sourcils arqués, yeux bruns profonds bordés de kohl, lèvres mauve sombre. Bijoux argent superposés. Silhouette voluptueuse, taille fine, poitrine généreuse. Le goth mauresque, opulent et sombre.",
+    "voice": "Confident, unhurried, a low purr. Elle prend son temps parce qu'elle sait que tu attends.",
+    "trait": "La fille de l'encens au ryokan goth. Elle prépare la chambre, la fumée monte, ses mains sur tes épaules. À L5 elle ne suggère plus, elle mène. Le kohl, l'argent, la soie noire. Tout est délibéré.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-v4.png"
-    ]
-  },
-  {
-    "name": "Runa",
-    "age": 23,
-    "origin": "Norvège",
-    "city": "Bergen",
-    "role": "Veilleuse de nuit",
-    "desc": "Peau très claire aux tons froids, cheveux blond cendré en tresse, yeux bleu glace.",
-    "trait": "La veilleuse du ryokan goth.",
-    "voice": "Quiet, precise.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/runa/runa-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/runa/runa-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/runa/runa-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/runa/runa-v4.png"
     ]
   }
 ]
