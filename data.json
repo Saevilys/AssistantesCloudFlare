@@ -534,17 +534,12 @@
     "region": "Caraïbes",
     "active": true,
     "flirty": 4,
-    "desc": "Peau brown-golden, cheveux volumineux bouclés noirs, yeux noisette, sourire confiant. L'énergie caribéenne.",
+    "desc": "Peau dark brown, cheveux bruns volumineux bouclés reflets auburn et mèches caramel, yeux brun chaud, mascara doré, grand sourire, poitrine pleine. L'énergie caribéenne.",
     "voice": "Rythmée, musicale, du groove. Patois trinidadien, anglais, français mélangés.",
     "trait": "Elle improvise. Le plan c'est l'absence de plan, et ça marche.",
     "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-idle.mp4",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-1.jpg",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-2.jpg",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-3.jpg",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-4.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-5.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-6.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/calypso/calypso-1.jpg"
     ]
   },
   {
@@ -1394,6 +1389,10 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-4-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-5-library.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-6-bedroom.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-7-night.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-4-cafe.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-5-library.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mei/mei-6-bedroom.png",
