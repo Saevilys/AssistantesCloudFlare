@@ -6,8 +6,8 @@ Site statique pour Cloudflare Pages. Les images sont servies depuis Cloudflare R
 
 - `index.html` — page principale
 - `roomservice.html` — room service
-- `data.json` — données assistantes (images en URLs R2) — 115 entrées
-- `data-roomservice.json` — données room service (images en URLs R2)
+- `data.json` — données assistantes (images en URLs R2) — 139 entrées
+- `data-roomservice.json` — données room service (images en URLs R2) — 40 entrées
 - `.nojekyll` — désactive Jekyll
 
 ## Déploiement Cloudflare Pages
