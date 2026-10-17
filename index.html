@@ -227,7 +227,7 @@ function buildBanner(d){
     });
     img.addEventListener('click',function(){
       var n=img.dataset.name||'';
-      if(n)openProfile(n);
+      if(n){document.getElementById('bannerTrack').style.animationPlayState='paused';openProfile(n);}
     });
   });
 }
@@ -438,6 +438,7 @@ function closeLightbox(){
 
 function closeProfile(){
   document.getElementById('overlay').classList.remove('open');
+  document.getElementById('bannerTrack').style.animationPlayState='';
 }
 
 document.getElementById('overlay').onclick=e=>{
