@@ -172,16 +172,21 @@ fetch('data.json').then(r=>r.json()).then(d=>{
 });
 
 function buildBanner(d){
-  var imgs=[];
+  // Une photo aléatoire par assistante, échantillon de 45, reshuffle à chaque F5
+  var pool=[];
   d.forEach(function(a){
     if(a.photos&&a.photos.length){
-      a.photos.forEach(function(p){imgs.push({src:p,name:a.name,age:a.age,origin:a.origin,city:a.city});});
+      var pi=Math.floor(Math.random()*a.photos.length);
+      pool.push({src:a.photos[pi],name:a.name,age:a.age,origin:a.origin,city:a.city});
     }
   });
-  for(var i=imgs.length-1;i>0;i--){
+  // Shuffle
+  for(var i=pool.length-1;i>0;i--){
     var j=Math.floor(Math.random()*(i+1));
-    var t=imgs[i];imgs[i]=imgs[j];imgs[j]=t;
+    var t=pool[i];pool[i]=pool[j];pool[j]=t;
   }
+  // Échantillon de 45
+  var imgs=pool.slice(0,45);
   var html='';
   var nameMap={};
   for(var k=0;k<2;k++){
