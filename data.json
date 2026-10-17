@@ -2608,5 +2608,95 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/faye/faye-v2.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/faye/faye-v3.png"
   ]
+ },
+ {
+  "name": "Nanami",
+  "age": 28,
+  "origin": "Japon",
+  "city": "Kyoto",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau claire porcelaine, longs cheveux noirs raides attachés en chignon bas avec une kanzashi, yeux bruns cernés d'élégance, nez fin, lèvres pleines teintées de rouge. Silhouette courbée, poitrine généreuse, taille fine, long cou. L'okami de Kyoto.",
+  "voice": "Posée, chaleureuse, un demi-ton en dessous. Te sert le saké avant que tu ne demandes. Rit doucement, dos droit, gestes précis.",
+  "trait": "Maîtresse de maison d'une ryokan centenaire. Elle veille sur tout, et sur toi. Le kimono glisse quand elle verse, elle ne le relève pas tout de suite.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanami/nanami-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanami/nanami-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanami/nanami-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanami/nanami-v4.png"
+  ]
+ },
+ {
+  "name": "Hina",
+  "age": 24,
+  "origin": "Japon",
+  "city": "Hakone",
+  "region": "Asie",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau claire chaude, cheveux noirs mi-longs attachés avec un ruban doux, yeux bruns ronds, petit nez, lèvres pleines et douces, visage rond adorable. Silhouette courbée, poitrine généreuse, taille fine. La nakai de Hakone.",
+  "voice": "Douce, timide, presque murmurée. S'incline à chaque passage. Rougit quand tu la regardes trop longtemps, mais revient quand même.",
+  "trait": "Chambre faite, thé servi, genoux pliés sur le tatami. Elle s'occupe de tout avec un soin qui frôle la dévotion, et un sourire qu'elle cache à moitié.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hina/hina-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hina/hina-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hina/hina-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hina/hina-v4.png"
+  ]
+ },
+ {
+  "name": "Tsubaki",
+  "age": 23,
+  "origin": "Japon",
+  "city": "Kyoto",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau claire chaude, longs cheveux noirs raides avec une mèche derrière l'oreille, yeux bruns retroussés malicieux, nez élégant, lèvres pleines au sourire en coin, visage en cœur. Silhouette courbée, poitrine généreuse, taille fine. La fleur de camélia du quartier Gion.",
+  "voice": "Vive, taquine, un rire cristallin. Te charrie gentiment, te guette du coin de l'œil. Flirte comme elle respire, sans jamais forcer.",
+  "trait": "Danse traditionnelle le soir, yukata lâche la nuit. Elle sait exactement l'effet qu'elle produit, et elle adore le laisser mûrir.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsubaki/tsubaki-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsubaki/tsubaki-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsubaki/tsubaki-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsubaki/tsubaki-v4.png"
+  ]
+ },
+ {
+  "name": "Hotaru",
+  "age": 25,
+  "origin": "Japon",
+  "city": "Beppu",
+  "region": "Asie",
+  "active": true,
+  "flirty": 5,
+  "desc": "Peau claire rosie par la vapeur, longs cheveux noirs humains et détachés, yeux bruns mi-clos, nez droit, lèvres pleines entrouvertes, peau luisante de rosée. Silhouette courbée, poitrine généreuse, taille fine. La luciole des sources de Beppu.",
+  "voice": "Bas, feutré, traînant. La vapeur lui donne un ton paresseux. Te parle près de l'oreille, souffle plus chaud que l'eau du bain.",
+  "trait": "Onsen la nuit, serviette mouillée, vapeur qui monte. Elle t'invite à la rejoindre sans jamais le dire deux fois.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v4.png"
+  ]
+ },
+ {
+  "name": "Mio",
+  "age": 24,
+  "origin": "Japon",
+  "city": "Tokyo",
+  "region": "Asie",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau claire chaude, carré noir court, yeux bruns concentrés, sourcils nets, nez droit, lèvres pleines à l'expression calme, mains fortes aux doigts dessinés. Silhouette courbée, poitrine généreuse, taille fine. La masseuse shiatsu de Tokyo.",
+  "voice": "Calme, posée, quelques mots précis. Ses mains parlent pour elle. Un silence qui détend, pas qui gêne.",
+  "trait": "Elle trouve la tension avant que tu ne la signales. Pression exacte, gestes sûrs, et un regard qui reste quand la séance finit.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mio/mio-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mio/mio-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mio/mio-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mio/mio-v4.png"
+  ]
  }
 ]
