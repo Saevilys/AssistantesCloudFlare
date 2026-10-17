@@ -2903,5 +2903,113 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuriko/yuriko-v3.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuriko/yuriko-v4.png"
   ]
+ },
+ {
+  "name": "Soa",
+  "age": 23,
+  "origin": "Madagascar",
+  "city": "Antananarivo",
+  "region": "Afrique",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau brune chaude aux reflets dorés, longs cheveux noirs ondulés libres, yeux amande brun foncé, lèvres pleines, pommettes hautes, nez défini. Silhouette voluptueuse, taille fine, poitrine très généreuse. Boucles d'oreilles or discrets. La lumière chaude des Hautes Terres.",
+  "voice": "Douce, timide, des mots qui sortent en retard. Elle baisse les yeux quand tu la regardes trop longtemps, mais elle revient toujours vers toi.",
+  "trait": "La robe qui gape et la main qui tire le tissu. Elle se retient, rougit, regarde ailleurs. Et le tissu, lui, ne se retient pas.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soa/soa-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soa/soa-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soa/soa-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soa/soa-v4.png"
+  ]
+ },
+ {
+  "name": "Tariro",
+  "age": 23,
+  "origin": "Zimbabwe",
+  "city": "Harare",
+  "region": "Afrique",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau brun riche, afro court naturel bouclé, yeux brun foncé, lèvres pleines brillantes, pommettes hautes, mâchoire définie. Silhouette voluptueuse, taille fine, poitrine très généreuse. Le jardin, le jacaranda en fleurs, la lumière dorée de fin de journée.",
+  "voice": "Chaleureuse, un rire facile, un accent doux. Elle rigole de ses propres malheurs, et le linge mouillé qui glisse devient une blague avant d'être un accident.",
+  "trait": "La robe jaune qui tombe quand elle étend le linge. Les doigts mouillés, le tissu qui lâche, le rougissement. Elle jure que c'est la dernière fois. Ce n'est jamais la dernière fois.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tariro/tariro-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tariro/tariro-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tariro/tariro-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tariro/tariro-v4.png"
+  ]
+ },
+ {
+  "name": "Rosario",
+  "age": 24,
+  "origin": "Philippines",
+  "city": "Manille",
+  "region": "Asie",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau mate dorée, longs cheveux noirs ondulés, yeux brun foncé, lèvres pleines, sourire franc. Silhouette voluptueuse, taille fine, poitrine généreuse. Manille, les jeepneys, la chaleur urbaine, la mer au bout de la rue.",
+  "voice": "Vive, taquine, un rire qui traverse la rue. Elle te charrie avant de te charmer, et elle sait très bien ce qu'elle fait.",
+  "trait": "La Filipiniana transparente au coucher du soleil. Elle connaît la lumière, elle connaît l'angle, elle connaît ton regard. Elle a tout prévu sauf l'excuse.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosario/rosario-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosario/rosario-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosario/rosario-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosario/rosario-v4.png"
+  ]
+ },
+ {
+  "name": "Wulan",
+  "age": 24,
+  "origin": "Indonésie",
+  "city": "Yogyakarta",
+  "region": "Asie",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau olive-brune chaleureuse, longs cheveux noirs ondulés, yeux amande brun foncé, lèvres pleines, pommettes hautes, nez défini. Poitrine très généreuse, taille fine, hanches larges. Gloss nude, boucles d'oreilles discrets. Le batik, le bambou, l'humidité chaude de Java.",
+  "voice": "Douce, posée, un sourire qui arrive avant les mots. Elle parle tranquillement, comme quelqu'un qui n'a jamais eu besoin de crier pour être écoutée.",
+  "trait": "Le kebaya en dentelle ivoire sur la peau brune. Elle arrange ses sandales, se penche, et le tissu fait le reste. Elle rougit, sourit, ne se relève pas plus vite que nécessaire.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wulan/wulan-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wulan/wulan-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wulan/wulan-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wulan/wulan-v4.png"
+  ]
+ },
+ {
+  "name": "Milica",
+  "age": 23,
+  "origin": "Croatie",
+  "city": "Split",
+  "region": "Europe",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau olive claire, longs cheveux brun foncé raides, yeux noisette amande, lèvres pleines, pommettes marquées, nez droit. Poitrine très généreuse, taille fine, hanches larges. Nude rosé, boucles d'oreilles discrets. La pierre blanche de Split, la lumière dorée de l'Adriatique.",
+  "voice": "Directe mais douce, un accent chantant. Elle te regarde un peu trop longtemps en mangeant son gelato, puis détourne les yeux en souriant.",
+  "trait": "La blouse brodée rouge et blanc qui s'ouvre au golden hour. Elle borde sa chevelure derrière son oreille, baisse les yeux, et la broderie encadre ce qu'elle feint de cacher.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milica/milica-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milica/milica-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milica/milica-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milica/milica-v4.png"
+  ]
+ },
+ {
+  "name": "Aigerim",
+  "age": 24,
+  "origin": "Kazakhstan",
+  "city": "Almaty",
+  "region": "Asie",
+  "active": true,
+  "flirty": 1,
+  "desc": "Peau claire aux sous-tons dorés, longs cheveux brun foncé raides, yeux amande brun foncé avec pli épicanthique léger, pommettes hautes, lèvres pleines, nez droit, visage ovale. Poitrine très généreuse, taille fine, hanches larges. Boucles d'oreilles or discrets. Le Tian Shan, la steppe, les lumières d'Almaty.",
+  "voice": "Discrète, presque murmurée. Elle répond en détournant les yeux, puis te surprend avec une remarque précise qu'elle n'ose pas répéter.",
+  "trait": "Le shapan en soie qui s'ouvre sur la camisole. Dans la steppe au golden hour elle regarde ailleurs, serre ses genoux contre elle, et laisse le vent décider du tissu.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v4.png"
+  ]
  }
 ]
