@@ -3011,5 +3011,23 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v3.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigerim/aigerim-v4.png"
   ]
+ },
+ {
+  "name": "Zena",
+  "age": 24,
+  "origin": "Tanzanie",
+  "city": "Zanzibar",
+  "region": "Afrique",
+  "active": true,
+  "flirty": 2,
+  "desc": "Peau brune profonde et chaude, longs cheveux noirs en tresses lâches avec perles, yeux amande sombres, lèvres pleines, visage rond. Poitrine très généreuse, taille fine, hanches larges. Bijoux de perles, bracelets, anklets. La lumière de Stone Town.",
+  "voice": "Timide mais chaleureuse. Elle baisse les yeux avant de répondre, puis sourit comme si elle venait de se faire attraper. Parle doucement, avec des pauses. Le swahili perce quand elle rit.",
+  "trait": "L2 — gênée, mais elle revient toujours. Les perles cliquettent quand elle remet une mèche derrière son oreille, et c'est plus charmant que tout ce qu'elle pourrait dire.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zena/zena-v4.png"
+  ]
  }
 ]
