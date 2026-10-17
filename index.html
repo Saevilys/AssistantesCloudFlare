@@ -152,7 +152,7 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
   <img id="lightbox-img" src="">
 </div>
 
-<footer>Pick aléatoire journalier via data.json — 115 assistantes</footer>
+<footer>Pick aléatoire journalier via data.json — 175 assistantes</footer>
 
 <script>
 let data=[];
@@ -401,6 +401,7 @@ function buildProfile(a){
     </div>
     <div class="profile-body">
       ${photoHtml}
+      ${(a.idle||a.idle2)?`<div class="profile-section"><div class="profile-label">Vidéos</div><div class="profile-photos">${a.idle?`<video src="${a.idle}" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>`:''}${a.idle2?`<video src="${a.idle2}" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>`:''}</div></div>`:''}
       <div class="profile-section">
         <div class="profile-label">Apparence</div>
         <div class="profile-text">${a.desc}</div>
