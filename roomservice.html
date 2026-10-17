@@ -57,6 +57,21 @@ header p{color:#7a5a64;margin-top:10px;font-size:0.85rem;max-width:420px;margin-
 .btn:hover{border-color:#ff5c8a;color:#ff5c8a}
 .btn.active{background:#ff5c8a;color:#140a10;border-color:#ff5c8a}
 footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
+.banner-strip{overflow:hidden;max-width:1400px;margin:0 auto;position:relative;padding:0 20px 22px}
+.banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:60px;z-index:2;pointer-events:none}
+.banner-strip::before{left:0;background:linear-gradient(to right,#0a0608,transparent)}
+.banner-strip::after{right:0;background:linear-gradient(to left,#0a0608,transparent)}
+.banner-track{display:flex;gap:6px;width:max-content;animation:scrollBanner 400s linear infinite}
+.banner-track:hover{animation-play-state:paused}
+.banner-track img{height:240px;width:150px;object-fit:cover;border-radius:6px;flex-shrink:0;border:1px solid #2a1520;transition:box-shadow .2s ease;cursor:pointer}
+.banner-track img:hover{box-shadow:0 0 0 2px #ff5c8a}
+@keyframes scrollBanner{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+.banner-preview{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.85);z-index:60;pointer-events:none;opacity:0;transition:opacity .25s ease,transform .25s cubic-bezier(.2,.8,.2,1)}
+.banner-preview.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.banner-preview img{height:400px;width:250px;object-fit:cover;border-radius:10px;border:1px solid #ff5c8a;box-shadow:0 12px 40px rgba(0,0,0,.7)}
+.bp-name{position:absolute;bottom:0;left:0;right:0;padding:24px 16px 14px;background:linear-gradient(to top,rgba(5,2,4,.95),rgba(5,2,4,.7) 50%,transparent);border-radius:0 0 10px 10px}
+.bp-name-text{color:#ff5c8a;font-size:1.6rem;font-weight:500;line-height:1.2}
+.bp-name-sub{color:#9a7a84;font-size:0.8rem;margin-top:3px}
 </style>
 </head>
 <body>
@@ -71,6 +86,10 @@ footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
     <b>Comment ça marche :</b> quand l'assistante du jour refuse de te visiter le soir, le téléphone se déverrouille. Un appel, et c'est une d'entre elles qui monte, tirée au hasard. Pas de refus. Pas de rendez-vous. Juste la porte qui s'ouvre.
   </div>
 </header>
+
+<div class="banner-strip">
+  <div class="banner-track" id="bannerTrack"></div>
+</div>
 
 <div class="searchbar">
   <input type="text" id="search" placeholder="Rechercher par nom, pays, ville, rôle…" autocomplete="off">
@@ -103,8 +122,63 @@ let currentSortDir='desc';
 let searchTerm='';
 fetch('data-roomservice.json').then(r=>r.json()).then(d=>{
   data=d;
+  buildBanner(d);
   render();
 });
+
+function buildBanner(d){
+  var pool=[];
+  d.forEach(function(a){
+    if(a.photos&&a.photos.length){
+      var pi=Math.floor(Math.random()*a.photos.length);
+      pool.push({src:a.photos[pi],name:a.name,age:a.age,origin:a.origin,city:a.city});
+    }
+  });
+  for(var i=pool.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var t=pool[i];pool[i]=pool[j];pool[j]=t;
+  }
+  var imgs=pool.slice(0,45);
+  var html='';
+  var nameMap={};
+  for(var k=0;k<2;k++){
+    imgs.forEach(function(o){
+      html+='<img src="'+o.src+'" data-name="'+o.name+'" loading="lazy">';
+      nameMap[o.name]=o;
+    });
+  }
+  var track=document.getElementById('bannerTrack');
+  track.innerHTML=html;
+  requestAnimationFrame(function(){
+    var w=track.scrollWidth/2;
+    var dur=Math.round(w/35);
+    track.style.animation='scrollBanner '+dur+'s linear infinite';
+  });
+  var preview=document.createElement('div');
+  preview.className='banner-preview';
+  preview.innerHTML='<img><div class="bp-name"><div class="bp-name-text"></div><div class="bp-name-sub"></div></div>';
+  document.body.appendChild(preview);
+  var pImg=preview.querySelector('img');
+  var pText=preview.querySelector('.bp-name-text');
+  var pSub=preview.querySelector('.bp-name-sub');
+  track.querySelectorAll('img').forEach(function(img){
+    img.addEventListener('mouseenter',function(){
+      pImg.src=img.src;
+      var n=img.dataset.name||'';
+      pText.textContent=n;
+      var o=nameMap[n];
+      pSub.textContent=o?(o.age+' ans · '+o.origin+' · '+o.city):'';
+      preview.classList.add('show');
+    });
+    img.addEventListener('mouseleave',function(){
+      preview.classList.remove('show');
+    });
+    img.addEventListener('click',function(){
+      var n=img.dataset.name||'';
+      if(n)openProfile(n);
+    });
+  });
+}
 
 function getFiltered(){
   let filtered=data.map((a,i)=>({...a,_idx:i}));
