@@ -41,6 +41,24 @@
     ]
   },
   {
+    "name": "Saki",
+    "age": 21,
+    "origin": "Japon",
+    "city": "Tokyo",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire avec des joues qui rougissent vite, cheveux brun foncé mi-long avec une mèche bleu électrique. Visage rond, grands yeux sombres, demi-sourire relax. Fine, petite, pas très poitrue. L'aura des bornes d'arcade sur la peau.",
+    "voice": "Rapide, sèche, ponctuée d'onomatopées de jeu vidéo. Elle parle comme elle joue : sans pause, sans déchet. Rit court et fort quand elle gagne.",
+    "trait": "La gamer nocturne d'Akihabara. Tekken 3, beatmania, chaque combo par cœur. Elle ne flirte pas, elle te défait. Le high score est son langage d'amour.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saki/saki-v1-arcade.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saki/saki-v2-racingjacket.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saki/saki-v3-conbini.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saki/saki-v4-tokyo-night.png"
+    ]
+  },
+  {
     "name": "Sakura",
     "age": 22,
     "origin": "Japon",
