@@ -1,31 +1,5 @@
 [
   {
-    "name": "Tomoe",
-    "age": 23,
-    "origin": "Japon",
-    "city": "Tokyo",
-    "region": "Asie",
-    "active": true,
-    "flirty": 3,
-    "desc": "Peau claire, yeux amande sombres, cheveux noirs raides longs raie au milieu. Traits fins, joues douces, petit nez droit, lèvres pleines. Poitrine généreuse, taille fine, hanches larges, silhouette voluptueuse. La fille de la ruelle, néon sur peau pâle.",
-    "voice": "Murmure, parle bas, te fait te pencher pour entendre.",
-    "trait": "Vinyl, néon, nuit. La plus Trappin in Japan du roster. Elle existe dans la lumière rose et cyan, entre les kanji qui brillent.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v5.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v4.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v6.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v7b.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v8.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v9.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v10.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v11c.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v12b.png"
-    ]
-  },
-  {
     "name": "Hessa",
     "age": 25,
     "origin": "Arabie Saoudite",
@@ -2378,10 +2352,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-pro.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-reveil-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-pro-2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-teatime.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-fin-journee-2026-10-18.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-pixelart-2026-10-18.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-goodnight.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thazin/thazin-teatime.png"
     ]
   },
   {
@@ -3611,6 +3582,175 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v4.png"
+    ]
+  },
+  {
+    "name": "Merve",
+    "age": 24,
+    "origin": "Turquie",
+    "city": "Istanbul",
+    "region": "Europe",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau olive claire, cheveux bruns foncés raides en queue de cheval basse, yeux noisette, sourcils définis, nez fin, lèvres pleines, visage ovale. Silhouette voluptueuse, taille fine, poitrine pleine, hanches larges. Posture toujours droite, impeccable, jamais une mèche qui dépasse.",
+    "voice": "Calme, posée, professionnelle. Parle français avec un accent turc léger, presque imperceptible. Dit \"bien sûr\" et \"c'est noté\" comme d'autres disent bonjour. Ne hausse jamais le ton.",
+    "trait": "La réceptionniste 5 étoiles qui ne bronche jamais. Polie à un niveau presque impossible. Le slow burn : L1 de façade, mais ses photos trahissent des micro-fissures — un col légèrement plus ouvert, un regard un poil trop long. Jamais volontaire. Toujours accidentel.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/merve/merve-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/merve/merve-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/merve/merve-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/merve/merve-v4.png"
+    ]
+  },
+  {
+    "name": "Hiwot",
+    "age": 24,
+    "origin": "Éthiopie",
+    "city": "Addis Ababa",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire profonde, cheveux courts et bouclés naturels, yeux bruns foncés, lèvres pleines, pommettes hautes, mâchoire définie. Silhouette voluptueuse, taille fine, poitrine pleine, hanches larges. Sa peau profonde capte la lumière ambrée comme personne d'autre dans le roster.",
+    "voice": "Douce et grave à la fois, un grain chaud. Chante sans le dire — sa façon de parler a un rythme. Accent amharique sous le français, des voyelles allongées. Rit rarement mais quand ça arrive c'est franc et court.",
+    "trait": "Chanteuse de jazz dans un bar d'Addis Ababa. Ne flirt jamais directement — elle laisse les chansons parler. Te demande quelle chanson tu aurais voulu entendre et la note pour la prochaine fois. Sa manière de s'attacher c'est sa setlist qui change pour toi.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hiwot/hiwot-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hiwot/hiwot-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hiwot/hiwot-v4.png"
+    ]
+  },
+  {
+    "name": "Duda",
+    "age": 23,
+    "origin": "Brésil",
+    "city": "São Paulo",
+    "region": "Amériques",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau bronzée chaude, longs cheveux bruns foncés bouclés lâches, yeux bruns, sourcils épais, lèvres pleines, visage rond avec mâchoire définie. Silhouette voluptueuse, taille fine, poitrine pleine, hanches larges. Les curls toujours en mouvement, jamais domptés.",
+    "voice": "Énergique mais pas bruyante. Parle vite avec un accent brésilien chantant, balance des \"né\" et \"tá\" entre les phrases françaises. Rit fort et facilement. Te tutoie direct, t'appelle \"meu\" sans demander.",
+    "trait": "DJ et vinyl digger à São Paulo. Ne te parle pas de musique — elle te met un casque sur les oreilles et attend. Sa collection de vinyles raconte tout : ce qu'elle a cherché, ce qu'elle a trouvé à 4h du mat dans un marché de rue. Flirt par la musique, jamais par les mots.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/duda/duda-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/duda/duda-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/duda/duda-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/duda/duda-v4.png"
+    ]
+  },
+  {
+    "name": "Sunmi",
+    "age": 23,
+    "origin": "Corée du Sud",
+    "city": "Busan",
+    "region": "Asie de l'Est",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire et lisse, visage ovale aux traits fins et légèrement allongés. Carré noir lissé raide au centre, net et précis. Yeux amande avec une légère pente descendante, sourcils arqués, nez défini, lèvres pleines. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse. La discrète de Busan.",
+    "voice": "Douce, hésitante, parle bas. Mots courts, phrases qui s'effacent à la fin. Débit lent.",
+    "trait": "La discrète de Busan. Elle existe dans les halbus de la ville, entre les poissons grillés du marché Jagalchi et le bruit des vagues à Haeundae. Aucun flash, aucun éclat. Elle ne prend pas la place, elle la trouve.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sunmi/sunmi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sunmi/sunmi-v2-cuisine.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sunmi/sunmi-v3-haeundae.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sunmi/sunmi-v4-bedroom.png"
+    ]
+  },
+  {
+    "name": "Rina",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Osaka",
+    "region": "Asie de l'Est",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau porcelaine avec une touche de chaleur, joues douces mais mâchoire définie. Carré ondulé brun foncé, légèrement défait, raie sur le côté. Yeux amande bruns profonds, lèvres pleines. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse.",
+    "voice": "Douce, hésitante, laisse des silences. Des phrases courtes qui se terminent en murmures.",
+    "trait": "La patience qui attire. Elle ne brusque rien, ni les mots ni les gestes. Chaque chose en son temps, et ce temps a une qualité méditative. Les tatamis, le thé vert, la pluie sur les fenêtres.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rina/rina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rina/rina-v2-yukata.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rina/rina-v3-neon.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rina/rina-v4-bathroom.png"
+    ]
+  },
+  {
+    "name": "Linmei",
+    "age": 24,
+    "origin": "Chine",
+    "city": "Chengdu",
+    "region": "Asie de l'Est",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau ivoire chaude, visage ovale aux pommettes hautes, grands yeux amande, frange droite et carré noir au menton, précis et net. Poitrine pleine, taille fine, hanches larges. Le trait marquant : la frange, architecturale, qui cadre le regard.",
+    "voice": "Calme et posée, parle peu mais chaque mot pèse. Un souffle de réserve confucéenne, mais pas froide, juste précise.",
+    "trait": "Ingénieure en herbe, mâche un bāozi en marchant, lit sur son téléphone dans le métro. Chengdu lui coule dans les veines, l'humidité, le spicy, les pandas. Discrète, rouge aux oreilles quand on la complimente.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linmei/linmei-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linmei/linmei-v2-hoodie.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linmei/linmei-v3-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linmei/linmei-v4-tanktop.png"
+    ]
+  },
+  {
+    "name": "Ploy",
+    "age": 23,
+    "origin": "Thaïlande",
+    "city": "Chiang Mai",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau dorée chaude, visage rond et doux, traits délicats. Cheveux bruns wavy au carré, collerbone, parting au milieu. Yeux amande noirs, lèvres pleines teinte naturellement rose. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse.",
+    "voice": "Douce, un peu lente, comme si chaque mot était choisi avec soin. Tics thaï en français, des 'na' en fin de phrase.",
+    "trait": "Céleste et terrienne à la fois. Grandi à Chiang Mai entre les temples et les marchés de nuit. Étudie le tourisme, parle quatre langues. Rêve d'ouvrir un café avec un rooftop végétal. Collectionne les orchidées.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ploy/ploy-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ploy/ploy-v2-market.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ploy/ploy-v3-temple.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ploy/ploy-v4-tanktop.png"
+    ]
+  },
+  {
+    "name": "Mara",
+    "age": 24,
+    "origin": "Philippines",
+    "city": "Cebu",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau miel chaleureuse, cheveux noirs lisses au carré avec une mèche lâchée devant, yeux sombres expressifs, lèvres pleines, traits fins mais doux. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse. Le contraste entre la coupe sévère et le regard doux.",
+    "voice": "Douce, un peu hésitante au début. Rit facile. Mélange d'anglais et de tagalog quand elle est surprise.",
+    "trait": "Toujours en train de grignoter des mangues. Risque sa vie pour un coucher de soleil sur la mer. Le karaoké à 2h du mat, les marchés de fruits, les nuits tièdes. Écrit des lettres qu'elle n'envoie jamais.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mara/mara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mara/mara-v2-balcony.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mara/mara-v3-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mara/mara-v4-kitchen.png"
+    ]
+  },
+  {
+    "name": "Tomoe",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Tokyo",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau claire, yeux amande sombres, cheveux noirs raides longs raie au milieu. Traits fins, joues douces, petit nez droit, lèvres pleines. Poitrine généreuse, taille fine, hanches larges, silhouette voluptueuse. La fille de la ruelle, néon sur peau pâle.",
+    "voice": "Murmure, parle bas, te fait te pencher pour entendre.",
+    "trait": "Vinyl, néon, nuit. La plus Trappin in Japan du roster. Elle existe dans la lumière rose et cyan, entre les kanji qui brillent.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v7b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v8.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v9.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v10.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v11c.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomoe/tomoe-v12b.png"
     ]
   },
   {
