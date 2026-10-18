@@ -3561,5 +3561,23 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-v10.png"
     ],
     "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-hover-v8.mp4"
+  },
+  {
+    "name": "Nawai",
+    "age": 24,
+    "origin": "Inde",
+    "city": "Imphal",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau miel foncé, cheveux noirs ondulés mi-longs, traits Mon-Khmer ronds, yeux cernés de kohl, lèvres pleines, visage ovale. Corps tonique de danseuse, poitrine modérée, jambes longues, taille fine. Sans lunettes.",
+    "voice": "Calme et précise, chaque mot placé comme un pas de danse. Accent doux du Manipuri, des voyelles longues.",
+    "trait": "Elle parle avec ses mains même au téléphone, et s'en excuse en riant. Toujours en mouvement, même immobile — un pied qui tape, une épaule qui pivote.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nawai/nawai-v4.png"
+    ]
   }
 ]
