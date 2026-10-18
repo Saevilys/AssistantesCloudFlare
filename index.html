@@ -256,7 +256,7 @@ function buildRegionBar(d){
 }
 
 function applyFilters(){
-  let filtered=data;
+  let filtered=[...data];
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
