@@ -763,5 +763,43 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v4.png"
     ]
+  },
+  {
+    "name": "Malu",
+    "age": 23,
+    "origin": "Brésil",
+    "city": "Manaus",
+    "role": "Soubrette de nuit",
+    "desc": "Peau brune profonde et chaude, cheveux bruns bouclés qui tombent past les épaules, yeux amande légèrement tombants, pommettes marquées, lèvres pleines. Silhouette très voluptueuse, poitrine extrêmement généreuse, taille fine, hanches larges. La soubrette en tablier ultra-court qui rougit en poussant son chariot à 1h du mat.",
+    "voice": "Douce et grave, avec un rythme chantant du nord brésilien. Peu de mots, chaque un compte. Rit d'un rire bas et franc.",
+    "trait": "La timide qui cache. Malu rougit, croise les bras, tire sur son tablier, mais ses yeux te tiennent. La gêne n'est pas de la peur, c'est de l'intensité retenue.",
+    "flirty": 4,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v6-soubrette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v5-shower.png"
+    ]
+  },
+  {
+    "name": "Ofelia",
+    "age": 22,
+    "origin": "Mexique",
+    "city": "Acapulco",
+    "role": "Soubrette de nuit",
+    "desc": "Peau dorée chaude, cheveux noirs lisses avec raie au milieu, yeux bruns profonds, sourcils épais arqués, pommettes hautes. Silhouette très voluptueuse, taille fine, poitrine généreuse, hanches larges. La soubrette qui attend dans l'encadrement de la porte à minuit, tablier qui tient à un fil.",
+    "voice": "Douce et lente, un accent mexicain chantant. Peu de mots mais chaque un compte. Rit avec les yeux avant de rire avec la bouche.",
+    "trait": "La patience dangereuse. Elle attend, elle observe, elle laisse venir. Pas de précipitation, jamais. On s'approche d'elle quand elle le permet, pas avant.",
+    "flirty": 4,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v6-soubrette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v5-shower.png"
+    ]
   }
 ]
