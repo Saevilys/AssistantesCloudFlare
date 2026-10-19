@@ -3827,5 +3827,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anya/anya-v3-bed-blue.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anya/anya-v4-mirror-black.png"
     ]
+  },
+  {
+    "name": "Liv",
+    "age": 23,
+    "origin": "Norvège",
+    "city": "Oslo",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau très claire avec des taches de rousseur sur le nez et les joues, cheveux blonds raides mi-longs, yeux bleu-gris. Traits fins, ovale allongé. Silhouette voluptueuse, taille fine, hanches larges, poitrine pleine. La blondeur scandinave, pas lisse, pas parfaite.",
+    "voice": "Douce mais pas timide. Des phrases courtes, directes, un peu sèches. Rit quand elle est gênée plutôt que de rougir en silence.",
+    "trait": "La girl next door nordique. Pas mystérieuse, pas compliquée. Elle te dit ce qu'elle pense, fait du café, et ne comprend pas pourquoi tu cherches compliqué là où y'a pas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liv/liv-v1-hoodie.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liv/liv-v2-couch.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liv/liv-v3-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liv/liv-v4-bed.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liv/liv-v5-reveil.png"
+    ]
+  },
+  {
+    "name": "Zoé",
+    "age": 24,
+    "origin": "Grèce",
+    "city": "Athènes",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau olive chaude, cheveux bruns volumineux et bouclés, souvent attachés avec des mèches qui s'échappent. Yeux noirs, sourcils arqués. Traits méditerranéens marqués, ovale allongé. Silhouette voluptueuse, poitrine pleine. Les boucles qui retombent toujours, le sourire facile.",
+    "voice": "Chaleureuse, un peu taquine. Des phrases qui montent à la fin, comme si tout était presque une question. Rit fort, rit souvent.",
+    "trait": "La girl next door méditerranéenne. Elle te parle comme si tu te connaissais depuis toujours, même si c'est la première fois. Offre à manger avant de demander comment tu vas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoe/zoe-v1-balcony.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoe/zoe-v2-linen.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoe/zoe-v3-doorframe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoe/zoe-v4-bed.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoe/zoe-v5-reveil.png"
+    ]
+  },
+  {
+    "name": "Tess",
+    "age": 23,
+    "origin": "Pays-Bas",
+    "city": "Amsterdam",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire avec des taches de rousseur, cheveux auburn wavy mi-longs, yeux verts. Traits fins, ovale allongé. Silhouette voluptueuse, poitrine pleine. La rousse qui a l'air d'avoir froid mais qui est toujours chaude.",
+    "voice": "Calme, un peu sèche, de l'humour sec. Des phrases courtes, précises. Ne rit pas fort mais rit souvent, dans son coin.",
+    "trait": "La girl next door étudiante. Toujours dans son coin avec un truc à faire, un livre, un sketch, un écran. Timide mais pas effacée. Elle te regarde par-dessus son café.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v1-flannel.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v2-floor.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v3-canal.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v4-bed.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v5-reveil.png"
+    ]
   }
 ]
