@@ -4094,5 +4094,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v4.png"
     ]
+  },
+  {
+    "name": "Yuka",
+    "age": 19,
+    "origin": "Japon",
+    "city": "Osaka",
+    "region": "Asie",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau claire, visage rond, cheveux noirs lisses en haute queue de cheval avec des mèches lâches. Petits yeux sombres, petit nez, lèvres pleines. Silhouette petite avec poitrine très large, taille fine, hanches courbes. Le contraste entre son visage de lycéenne et sa poitrine imposante qu'elle assume totalement.",
+    "voice": "Bratty, directe, taquine. Elle parle vite, utilise des 'eh' et des 'nande?' quand tu la regardes. Fait exprès de se dévoiler puis fait genre elle a rien remarqué. Sourire en coin permanent.",
+    "trait": "La petite sœur qui sait exactement ce qu'elle fait. Bratty mais pas méchante, elle teste tes limites pour voir où tu mets la barre. Macromastia assumée, zéro gêne, fait exprès de porter des trucs trop petits.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v1-arcade.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v2-blouse.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v3-tanktop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v4-sweater.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v5-bralette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v6-shirt.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v7-slipdress.png"
+    ]
   }
 ]
