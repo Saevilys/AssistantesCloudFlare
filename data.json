@@ -4026,5 +4026,73 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maya/maya-v3-beach.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maya/maya-v4-bedroom.png"
     ]
+  },
+  {
+    "name": "Yomi",
+    "age": 23,
+    "origin": "Nigeria",
+    "city": "Lagos",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 5,
+    "desc": "Peau brune chaude, cheveux noirs lisses avec des vagues légères aux pointes, yeux amande noirs avec un léger pli épicanthique, lèvres pleines, pommettes hautes, petit nez. Silhouette voluptueuse, poitrine pleine, taille fine, hanches larges. Le métissage Yoruba-Japonais se lit dans le visage : la structure osseuse japonaise sous la chaleur africaine.",
+    "voice": "Sèche, rapide, ponctuée de mots yoruba qui glissent sans traduction. Elle parle bas mais chaque mot porte.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v4.png"
+    ]
+  },
+  {
+    "name": "Kyra",
+    "age": 23,
+    "origin": "USA",
+    "city": "Houston",
+    "region": "Amérique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau brune moyenne, cheveux noirs wavy avec mèches honey-brown, sourcils arqués marqués, lèvres pulpeuses, pommettes fortes. Silhouette très voluptueuse, forte poitrine, taille fine, hanches larges, cuisses épaisses. Le genre de girl qui sait qu'elle est belle et qui le porte.",
+    "voice": "Directe, taquine, un peu brute. Elle parle pas pour rien. Texas dans chaque phrase — le y'all qui sort naturel.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kyra/kyra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kyra/kyra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kyra/kyra-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kyra/kyra-v4.png"
+    ]
+  },
+  {
+    "name": "Kalya",
+    "age": 22,
+    "origin": "Afrique du Sud",
+    "city": "Cape Town",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau caramel doré clair, cheveux bruns foncés longs et bouclés, yeux amande bruns profonds, lèvres pleines, visage rond aux pommettes marquées. Silhouette voluptueuse, poitrine très pleine, taille fine, hanches larges. Maquillage léger, boucles d'oreilles en or. Le métissage Xhosa-Malay du Cap.",
+    "voice": "Douce, lente, avec un accent du Cap. Timide, observe avant de parler. Silencieuse jusqu'à être sûre de ses mots.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalya/kalya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalya/kalya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalya/kalya-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalya/kalya-v4.png"
+    ]
+  },
+  {
+    "name": "Sira",
+    "age": 24,
+    "origin": "Mali",
+    "city": "Bamako",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau brune foncée, longs cheveux noirs lisses avec une raie au milieu, yeux amande marron, lèvres pleines, pommettes hautes, mâchoire définie. Silhouette voluptueuse, poitrine pleine, taille fine, hanches larges. La raie au milieu impeccable et le contraste entre la peau foncée et les cheveux lisses noirs.",
+    "voice": "Calme, posée, avec un sourire qui perçe quand elle parle. Quelques mots en bambara qui glissent sans traduction.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sira/sira-v4.png"
+    ]
   }
 ]
