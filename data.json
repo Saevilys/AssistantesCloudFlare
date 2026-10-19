@@ -3884,5 +3884,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v4-bed.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tess/tess-v5-reveil.png"
     ]
+  },
+  {
+    "name": "Ayano",
+    "age": 20,
+    "origin": "Japon",
+    "city": "Kyoto",
+    "region": "Asie",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau claire, cheveux mi-longs châtains légèrement ondulés, yeux doux et ronds, sourcils tendres, nez petit, lèvres discrètes. Menue, frêle, pas de poitrine, épaules étroites, poignets fins. L'aura de celle qui dessine dans un café à Kyoto.",
+    "voice": "Basse, lente, avec des pauses. Elle parle peu mais chaque mot compte. Rit derrière la main, pas par timidité, par concentration.",
+    "trait": "La dessinatrice de Kyoto. Elle s'installe dans un café avec un carnet, croque les gens sans qu'ils le sachent. Pas timide, absorbée. Si elle te montre ses dessins, c'est une confidence.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-temple.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-soir.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-pont.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-nuit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-librairie.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayano/ayano-gare.png"
+    ]
   }
 ]
