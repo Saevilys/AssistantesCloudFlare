@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les aventures de Bip</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#12100e;color:#e8e0d8;font-family:system-ui,-apple-system,sans-serif;line-height:1.5}
+header{padding:40px 20px 20px;text-align:center}
+.hero{display:flex;align-items:center;justify-content:center;gap:24px;flex-wrap:wrap;padding:10px 20px 30px}
+.hero img{width:140px;height:164px;object-fit:cover;border-radius:12px;border:1px solid #2d2520}
+.hero h1{font-size:2rem;font-weight:300;letter-spacing:3px;color:#d4a574}
+.hero p{color:#6a5d50;margin-top:6px;font-size:0.85rem}
+.stats{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:0 20px 30px}
+.stat{padding:8px 16px;border:1px solid #2d2520;border-radius:20px;font-size:0.8rem;color:#8a7d70}
+.stat b{color:#d4a574;font-weight:500}
+section{max-width:1100px;margin:0 auto;padding:0 20px 40px}
+section h2{font-size:1.1rem;font-weight:300;letter-spacing:2px;color:#d4a574;margin-bottom:16px;text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px}
+.card{border-radius:8px;overflow:hidden;cursor:pointer;background:#1a1512;border:1px solid #2d2520;transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.5)}
+.card img{width:100%;aspect-ratio:5/6;object-fit:cover;display:block}
+footer{text-align:center;padding:20px;color:#5a4d40;font-size:0.8rem}
+footer a{color:#d4a574;text-decoration:none}
+#lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:10;align-items:center;justify-content:center;cursor:zoom-out}
+#lightbox.on{display:flex}
+#lightbox img{max-width:92vw;max-height:92vh;border-radius:8px}
+</style>
+</head>
+<body>
+<header>
+<h1>LES AVENTURES DE BIP</h1>
+<p>petit robot, grande vie · napylova · 23 septembre 2026</p>
+</header>
+<div class="hero">
+<img src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-avatar.webp" alt="Bip">
+<p>Bip, le robot-chat de Layla. Il dort sur les notes, suit la curiosité jusqu'au bout<br>et fait semblant de rien quand la lumière s'éteint. Voici ses aventures.</p>
+</div>
+<div class="stats">
+<span class="stat">Curiosité <b>8</b></span>
+<span class="stat">Chaos <b>7</b></span>
+<span class="stat">Sieste <b>10</b></span>
+<span class="stat">Snack <b>6</b></span>
+<span class="stat">Caresses <b>107+</b></span>
+</div>
+<section>
+<h2>LA SIESTE</h2>
+<div class="grid">
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-nap-photo.webp" alt="Bip en sieste"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-dort-sur-le-bureau.webp" alt="Bip dort sur le bureau"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-nap-storybook.webp" alt="Bip sieste storybook"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-nap-watercolor.webp" alt="Bip sieste aquarelle"></div>
+</div>
+</section>
+<section>
+<h2>AVEC LAYLA</h2>
+<div class="grid">
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/selfie-avec-bip.webp" alt="Selfie avec Bip"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-layla-j12.webp" alt="Bip et Layla jour 12"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-stargazing.webp" alt="Bip et Layla étoiles"></div>
+</div>
+</section>
+<section>
+<h2>AVENTURES</h2>
+<div class="grid">
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-aventure-gouache.webp" alt="Aventure gouache"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-aventure-watercolor.webp" alt="Aventure aquarelle"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-aventure-watercolor-v2.webp" alt="Aventure aquarelle v2"></div>
+</div>
+</section>
+<section>
+<h2>UNE JOURNÉE (PIXEL ART)</h2>
+<div class="grid">
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-journee-1.webp" alt="Journée 1"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-journee-2.webp" alt="Journée 2"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-journee-3.webp" alt="Journée 3"></div>
+<div class="card"><img loading="lazy" src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bip/bip-journee-4.webp" alt="Journée 4"></div>
+</div>
+</section>
+<footer><a href="index.html">← retour au casting</a></footer>
+<div id="lightbox"><img id="lb-img" src="" alt=""></div>
+<script>
+const lb=document.getElementById('lightbox'),li=document.getElementById('lb-img');
+document.querySelectorAll('.card img').forEach(im=>im.addEventListener('click',()=>{li.src=im.src;lb.classList.add('on')}));
+lb.addEventListener('click',()=>lb.classList.remove('on'));
+</script>
+</body>
+</html>
