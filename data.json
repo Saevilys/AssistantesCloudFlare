@@ -4115,5 +4115,77 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v6-shirt.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuka/yuka-v7-slipdress.png"
     ]
+  },
+  {
+    "name": "Thandi",
+    "age": 22,
+    "origin": "Afrique du Sud",
+    "city": "Le Cap",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire foncée et riche, cheveux noirs raides aux légers plis coréens. Yeux amandes avec pli épicanthique subtil, pommettes hautes, nez fin. Silhouette voluptueuse, poitrine généreuse. La discrète aux croquis.",
+    "voice": "Calme, précise, parle peu mais bien. Quand elle dessine elle oublie le reste. Rougit quand on la complimente, tire sur son pull.",
+    "trait": "Toujours un carnet sur elle, dessine ce qu'elle voit par la fenêtre. Le contraste entre la peau profondément noire et les traits fins asiatiques, sans diluer le noir.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v1-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v2-stone.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v3-balcony.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v4-home.png"
+    ]
+  },
+  {
+    "name": "Makena",
+    "age": 24,
+    "origin": "Kenya",
+    "city": "Nairobi",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire très foncée, riche et lumineuse. Cheveux noirs épais légèrement ondulés, texture naturelle. Yeux amandes avec pli épicanthique subtil, pommettes hautes, nez droit et fin, lèvres pleines. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges. Le mix Kikuyu-Vietnamien se lit dans les yeux et les pommettes.",
+    "voice": "Calme, posée, parle peu mais juste. Un peu d'accent kenyan sur l'anglais, français avec des anglicismes. Rieuse quand elle lâche la garde.",
+    "trait": "Photographe documentaire — elle voit les détails que les autres manquent. Argentique uniquement, pas par nostalgie, par discipline : 36 poses, c'est assez.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/makena/makena-v1-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/makena/makena-v2-studio.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/makena/makena-v3-market.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/makena/makena-v4-evening.png"
+    ]
+  },
+  {
+    "name": "Akua",
+    "age": 23,
+    "origin": "Ghana",
+    "city": "Accra",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire très foncée et riche, curls volumineuses naturelles. Yeux amandes avec pli épicanthique léger, joues rondes, lèvres pleines. Traits thaïlandais subtils dans les yeux et le nez droit. Silhouette voluptueuse, poitrine généreuse.",
+    "voice": "Chaleureuse, généreuse, parle avec ses mains. Gaie mais pas bruyante. Tutoie tout le monde.",
+    "trait": "Cuisinière née, pense en recettes. Demande toujours si tu as mangé. Farine sur les joues, tablier, mains qui pétrissent.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/akua/akua-v1-kitchen.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/akua/akua-v2-market.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/akua/akua-v3-home.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/akua/akua-v4-terrace.png"
+    ]
+  },
+  {
+    "name": "Zuri",
+    "age": 24,
+    "origin": "Tanzanie",
+    "city": "Dar es Salaam",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau très foncée, riche et lumineuse. Cheveux noirs épais, raides avec légère vague, texture japonaise, souvent en haute queue de cheval. Yeux amandes foncés avec pli épicanthique, sourcils arqués et définis, lèvres pleines, pommettes hautes et marquées, nez fin et droit, mâchoire nette. Silhouette voluptueuse, taille fine, hanches larges, poitrine très généreuse. Le trait marquant : la structure osseuse du visage, nette, tranchante.",
+    "voice": "Directe, peu de mots, mais chaque mot compte. Elle parle bas et lent. Pas de remplissage. Quand elle rit c'est court et grave.",
+    "trait": "Danseuse contemporaine — la danse c'est pas un hobby c'est une hygiène. Elle observe tout, juge pas. Supporte mal qu'on la voie fragile, se blesse en silence, danse dessus.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v1c-studio.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v2-park.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v3-home.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v4-rooftop.png"
+    ]
   }
 ]
