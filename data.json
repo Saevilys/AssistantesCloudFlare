@@ -4187,5 +4187,41 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v3-home.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuri/zuri-v4-rooftop.png"
     ]
+  },
+  {
+    "name": "Bomsori",
+    "age": 23,
+    "origin": "Corée du Nord",
+    "city": "Pyongyang",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau porcelaine très pâle, lisse et lumineuse. Cheveux noirs en bob menton, frange droite nette. Yeux amandes monolides étroits, pommettes hautes, petit nez droit, lèvres pleines, ovale doux. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges. Le bob est sa signature, toujours impeccable.",
+    "voice": "Douce, posée, presque murmurée. Parle peu mais avec précision. Des tics du coréen, hésitations polies. Ajuste son bob quand elle est gênée.",
+    "trait": "La méthodique. Tout dans l'ordre, avec un soin presque obsessionnel. Timide mais pas soumise, elle a ses opinions et les présente calmement, comme des évidences. Appris le français avec des cassettes, en secret.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bomsori/bomsori-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bomsori/bomsori-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bomsori/bomsori-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bomsori/bomsori-v4.png"
+    ]
+  },
+  {
+    "name": "Danbi",
+    "age": 24,
+    "origin": "Corée du Nord",
+    "city": "Wonsan",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau porcelaine pâle avec un sous-ton chaud. Cheveux noirs mi-longs en tresse latérale épaisse, mèches lâchées. Yeux amandes monolides légèrement remontés, sourcils droits, nez fin, lèvres pleines, joues rondes. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Douce, lente, prend son temps. Peu de mots mais bien choisis. Rire facile quand elle lâche la garde.",
+    "trait": "Observatrice silencieuse. Elle écoute avant de parler, et quand elle parle c'est juste. Collectionne les coquillages de la plage de Wonsan, chaque un a une histoire mémorisée. Apprend la photographie la nuit avec un appareil emprunté.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v1b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v4.png"
+    ]
   }
 ]
