@@ -1,8 +1,13 @@
+#!/usr/bin/env python3
 import json
-rs = json.load(open('data-roomservice.json'))
-for a in rs:
-    if a['name'].lower() == 'sneha':
-        print(len(a['photos']))
-        for p in a['photos'][-4:]:
-            print(p)
-print('total assistants:', len(rs))
+with open("data.json") as f:
+    data = json.load(f)
+for item in data:
+    if item.get("name") == "bomsori":
+        print(json.dumps(item, indent=2, ensure_ascii=False))
+        break
+print("=== HINA ===")
+for item in data:
+    if item.get("name") == "hina":
+        print(json.dumps(item, indent=2, ensure_ascii=False))
+        break
