@@ -10,7 +10,10 @@
 body{background:#0a0608;color:#e8d8dc;font-family:system-ui,-apple-system,sans-serif;line-height:1.5;min-height:100vh}
 .bgglow{position:fixed;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 0%,rgba(214,51,108,.10),transparent 70%);pointer-events:none}
 header{padding:60px 20px 20px;text-align:center;position:relative}
-.back{position:absolute;top:20px;left:20px;color:#8a6a74;text-decoration:none;font-size:0.85rem;transition:color .2s}
+.back{position:absolute;top:20px;right:20px;color:#8a6a74;text-decoration:none;font-size:0.85rem;transition:color .2s}
+.sec-icon-fixed{position:fixed;top:18px;left:20px;z-index:50;color:#d4a574;text-decoration:none;font-size:1.6rem;line-height:1;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite;transition:transform .2s}
+.sec-icon-fixed:hover{transform:scale(1.12)}
+@keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
 .back:hover{color:#ff5c8a}
 .icon-phone{font-size:3.4rem;line-height:1;filter:drop-shadow(0 0 14px rgba(255,92,138,.8)) drop-shadow(0 0 30px rgba(255,92,138,.4));animation:phoneGlow 2.4s ease-in-out infinite}
 @keyframes phoneGlow{0%,100%{filter:drop-shadow(0 0 10px rgba(255,92,138,.7)) drop-shadow(0 0 24px rgba(255,92,138,.35))}50%{filter:drop-shadow(0 0 18px rgba(255,92,138,.95)) drop-shadow(0 0 42px rgba(255,92,138,.55))}}
@@ -77,6 +80,7 @@ footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
 </head>
 <body>
 <div class="bgglow"></div>
+<a class="sec-icon-fixed" href="secretariat.html" title="Secrétariat — 7 rôles spéciaux">✦</a>
 
 <header>
   <a class="back" href="index.html">&larr; retour au roster</a>

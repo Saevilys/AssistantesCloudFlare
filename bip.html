@@ -27,9 +27,13 @@ footer a{color:#d4a574;text-decoration:none}
 #lightbox{display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:10;align-items:center;justify-content:center;cursor:zoom-out}
 #lightbox.on{display:flex}
 #lightbox img{max-width:92vw;max-height:92vh;border-radius:8px}
+.sec-icon-fixed{position:fixed;top:18px;left:20px;z-index:50;color:#d4a574;text-decoration:none;font-size:1.6rem;line-height:1;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite;transition:transform .2s}
+.sec-icon-fixed:hover{transform:scale(1.12)}
+@keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
 </style>
 </head>
 <body>
+<a class="sec-icon-fixed" href="secretariat.html" title="Secrétariat — 7 rôles spéciaux">✦</a>
 <header>
 <h1>LES AVENTURES DE BIP</h1>
 <p>petit robot, grande vie · napylova · 23 septembre 2026</p>
