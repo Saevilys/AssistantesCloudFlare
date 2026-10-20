@@ -4223,5 +4223,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/danbi/danbi-v4.png"
     ]
+  },
+  {
+    "name": "Kam",
+    "age": 26,
+    "origin": "Chine",
+    "city": "Macao",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau dorée claire, cheveux noirs mi-longs ondulés demi-attachés avec une mèche sur l'oeil. Yeux amande monolides légèrement relevés, sourcils droits, nez fin, lèvres pleines, pommettes marquées, mâchoire définie. Silhouette voluptueuse, taille fine, hanches larges, poitrine très généreuse. La joueuse de poker de Macao.",
+    "voice": "Cool, posée, parle peu mais chaque mot compte. Sourit quand elle te met all-in. Sang-froid absolu, lit les tics des joueurs comme un livre.",
+    "trait": "Le sang-froid de la joueuse professionnelle qui te regarde bluffer sans ciller. Le whisky amber, la veste en cuir, le silence avant le bad beat. Elle flirte avec la patience.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kam/kam-v7.png"
+    ]
   }
 ]
