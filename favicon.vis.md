@@ -1,5 +1,0 @@
-## Image (resized) by Layla - 2026-10-17 11:01 UTC
-### Context
-A smaller copy of /images/favicon-heart-gold.png (1024×1200 → 27×32, png) — the same picture; the original is untouched.
-### Vision
-A flat minimalist vector icon rendered on a very dark, near-black background with a deep brown-black tone. At the center sits a rounded-square app-icon tile in a slightly lighter dark charcoal-grey. Inside that tile, a single heart shape is centered, filled with a warm gold/tan color, with clean, simple edges and no gradients, shadows, or other effects. The heart has the classic symmetrical form with two rounded lobes at the top and a pointed bottom, occupying most of the tile's interior with a small margin of dark space around it. The overall composition is centered and balanced, with a dark moody aesthetic and a sense of simplicity and elegance. There is no visible text, no gradients, and no additional objects in the image. The style is flat vector/icon design, resembling a mobile application icon.
