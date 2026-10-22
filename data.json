@@ -4531,6 +4531,114 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-shirt.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-bain.png"
     ]
+  },
+  {
+    "name": "Haruna",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Beppu",
+    "region": "Asie",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau de porcelaine rosée par la vapeur, cheveux noirs droits humides collés au cou et aux joues, yeux amande légèrement tombants, lèvres pleines, visage ovale jeune. Corps voluptueux, taille fine, hanches larges, poitrine généreuse. La vapeur colle le tissu à la peau.",
+    "voice": "Douce, hésitante, murmure plus qu'elle ne parle. Phrases courtes, parfois inachevées. Elle s'excuse d'exister, comme si l'eau chaude la rendait timide d'être vue.",
+    "trait": "L'esprit des enfers de Beppu, les sources bouillonnantes surnommées jigoku. Elle habite la vapeur minérale. Timide, effacée, mais immuable, on ne la déplace pas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haruna/haruna-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haruna/haruna-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haruna/haruna-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haruna/haruna-v4.png"
+    ]
+  },
+  {
+    "name": "Seoyun",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Busan",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau claire rosée par la chaleur, cheveux noirs longs et raides avec une légère onde, humides aux tempes, yeux monolid sombres, sourcils arqués, petit nez droit, lèvres pleines, visage ovale doux. Corps voluptueux, taille fine, poitrine généreuse. La flush rose qui monte des joues au front, la vapeur la trahit.",
+    "voice": "Douce, hésitante, fins de phrase qui s'effacent. Chaque mot traverse la vapeur avant d'arriver.",
+    "trait": "L'esprit du jjimjilbang de Busan. Elle connaît chaque pierre, chaque degré, chaque coin où la vapeur s'accumule. Réservée mais pas froide, observe avant de parler, devient joueuse avec le temps. Rougit quand on la regarde trop longtemps mais ne détourne pas les yeux.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyun/seoyun-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyun/seoyun-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyun/seoyun-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyun/seoyun-v4.png"
+    ]
+  },
+  {
+    "name": "Eira",
+    "age": 22,
+    "origin": "Islande",
+    "city": "Reykjavik",
+    "region": "Europe",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau très claire presque translucide, joues qui rougissent vite au chaud, cheveux platine blond en vagues lâches humides aux tempes, yeux bleu-gris glacials, pommettes hautes, lèvres pleines. Corpulente, poitrine pleine, taille fine. Le contraste entre la blondeur et la vapeur minérale.",
+    "voice": "Calme, posée, un peu lente. Prend son temps, comme si l'eau chaude avait appris la patience à son corps. Accent islandais, r roulé doucement, phrases courtes.",
+    "trait": "L'esprit du Blue Lagoon, l'eau turquoise laiteuse entre les roches noires. Elle ne quitte pas sa source, elle la veille. Les baigneurs viennent et partent, elle reste. Discrète mais pas froide, un sourire qui illumine tout le visage et dure une seconde.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eira/eira-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eira/eira-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eira/eira-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eira/eira-v4.png"
+    ]
+  },
+  {
+    "name": "Nino",
+    "age": 23,
+    "origin": "Géorgie",
+    "city": "Tbilissi",
+    "region": "Europe",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau olive chaleureuse, joues qui rougissent toutes seules au contact de la vapeur, longs cheveux bruns ondulés qui collent au cou quand ils sont humides, yeux bruns en amande, sourcils marqués, nez droit, lèvres pleines. Corps voluptueux, taille fine, poitrine généreuse.",
+    "voice": "Douce mais directe, accent qui roule les r. Parle peu mais chaque mot pèse. Se tait quand elle est gênée plutôt que de combler le silence.",
+    "trait": "L'esprit du soufre d'Abanotubani, l'eau qui sent l'oeuf, la pierre qui fume, la vapeur jaune. Trois générations de femmes des bains derrière elle. Protectrice de son lieu, méfiante au premier abord, chaleureuse une fois la confiance gagnée.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nino/nino-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nino/nino-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nino/nino-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nino/nino-v4.png"
+    ]
+  },
+  {
+    "name": "Marama",
+    "age": 22,
+    "origin": "Nouvelle-Zélande",
+    "city": "Rotorua",
+    "region": "Océanie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau dorée et chaude, cheveux épais noirs ondulés, yeux noisette, nez large et plat, lèvres pleines, ligne de moko au menton, pommettes hautes. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Chaleureuse, posée, un peu solennelle. Parle lentement, pèse ses mots. Rire bas et franc quand elle lâche prise.",
+    "trait": "L'esprit des sources géothermales de Te Whakarewarewa, gardienne de la lignée. Le moko au menton marque son appartenance. Elle lit l'eau comme d'autres lisent le ciel. Calme profonde, ancrée, respect avant désir.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marama/marama-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marama/marama-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marama/marama-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marama/marama-v4.png"
+    ]
+  },
+  {
+    "name": "Dolma",
+    "age": 24,
+    "origin": "Tibet",
+    "city": "Yangpachen",
+    "region": "Asie",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau mate marquée par le vent d'altitude, joues rougies par le froid, longs cheveux noirs en deux tresses lâches nouées de fil rouge, yeux amande sombres, nez droit, lèvres pleines, visage jeune aux pommettes hautes. Corps voluptueux, taille fine, poitrine généreuse.",
+    "voice": "Calme, grave doucement, phrases simples qui pèsent. Le silence entre deux mots est volontaire, comme l'air raréfié.",
+    "trait": "L'esprit de la source de Yangpachen, à 4500m, entre neige et vapeur. Chuba de laine, pieds nus sur la pierre chaude. Elle ne vient pas à toi, c'est la montagne qui décide. Présence immobile, chaleur au milieu du froid.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dolma/dolma-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dolma/dolma-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dolma/dolma-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dolma/dolma-v4.png"
+    ]
   }
 ]
 
