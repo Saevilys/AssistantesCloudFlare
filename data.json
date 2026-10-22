@@ -4347,5 +4347,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/diya/diya-market.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/diya/diya-bedroom.png"
     ]
+  },
+  {
+    "name": "Priscilla",
+    "age": 23,
+    "origin": "Philippines",
+    "city": "Manille",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau brune chaude, cheveux noirs lisses qui tombent en avant, yeux amande sombres légèrement tombants, lèvres pleines gloss nude, visage ovale. Silhouette voluptueuse, taille fine, hanches larges, poitrine très généreuse et lourde. La camisole qui tend sous le poids, l'air timide par-dessus.",
+    "voice": "Douce, hésitante, parle bas. Des phrases courtes, des « ah » au début. Rougit quand on la regarde trop longtemps.",
+    "trait": "La discrète qui assume pas son corps. Elle se cache derrière ses cheveux, tire sur son haut, mais elle est là, présente, chaude.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priscilla/priscilla-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priscilla/priscilla-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priscilla/priscilla-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priscilla/priscilla-v4.png"
+    ]
+  },
+  {
+    "name": "Safiya",
+    "age": 24,
+    "origin": "Éthiopie",
+    "city": "Addis-Abeba",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire profonde et lumineuse, cheveux volumineux en boucles naturelles, sourcils marqués, pommettes hautes, lèvres pleines. Silhouette voluptueuse, poitrine généreuse et lourde, taille fine, hanches larges. Le contraste entre la profondeur de sa peau et la lumière qui la rend presque dorée.",
+    "voice": "Calme, posée, prend son temps. Parle doucement mais avec assurance. Tics : « hmm », petit rire grave quand elle est amusée.",
+    "trait": "Discrète mais observatrice, elle ne se force pas. Timide au premier abord, humour mordant une fois à l'aise. Étudiante en architecture, elle collectionne le bois et la terre cuite.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/safiya/safiya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/safiya/safiya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/safiya/safiya-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/safiya/safiya-v4.png"
+    ]
+  },
+  {
+    "name": "Eulalie",
+    "age": 22,
+    "origin": "France",
+    "city": "Rennes",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau très claire avec taches de rousseur sur le nez et les joues, cheveux auburn raide en queue de cheval lâche, yeux gris-bleu, nez fin, lèvres roses. Poitrine lourde, taille fine, hanches larges. Les taches de rousseur et le regard gris-bleu, c'est elle.",
+    "voice": "Douce, hésitante, un peu timide. Parle bas, sourit beaucoup. Mordille sa lèvre inférieure quand elle est gênée.",
+    "trait": "Discrète, rêveuse, gênée facilement. Bretonne jusqu'au bout : la pluie, le cidre, les marchés aux puces. Étudiante en histoire de l'art, elle s'enferme dans les musées les jours de grisaille.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eulalie/eulalie-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eulalie/eulalie-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eulalie/eulalie-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eulalie/eulalie-v4.png"
+    ]
   }
 ]
