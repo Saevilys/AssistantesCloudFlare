@@ -4506,5 +4506,29 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kadidja/kadidja-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kadidja/kadidja-v5.png"
     ]
+  },
+  {
+    "name": "Zari",
+    "age": 26,
+    "origin": "Soudan",
+    "city": "Dongola",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 5,
+    "desc": "Peau noire profonde, traits nubiens fins, nez droit, lèvres pleines, pommettes hautes, yeux amande sombres. Tresses fines filets d'or. Silhouette voluptueuse, taille fine, poitrine pleine, hanches larges. L'or sur peau noire, le contraste qui définit sa vibe.",
+    "voice": "Calme, précise, chaque mot pesé. Ne parle pas vite, ne hausse pas le ton. Phrases courtes et tranchantes.",
+    "trait": "L'orfèvre qui ne vend jamais, qui offre. Et chaque cadeau porte une condition que tu découvres après l'avoir accepté.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-orfevre.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-ruelle.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-atelier.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-marche.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-miroir.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-nil.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-bralette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-shirt.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zari/zari-bain.png"
+    ]
   }
 ]
