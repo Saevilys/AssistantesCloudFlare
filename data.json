@@ -4694,5 +4694,44 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mizu/mizu-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mizu/mizu-v4.png"
     ]
+  },
+  {
+    "name": "Aïssata",
+    "age": 23,
+    "origin": "Mali",
+    "city": "Bamako",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire profonde, longues tresses noires tirées en arrière, yeux amande légèrement tombants, pommettes hautes, nez défini, lèvres pleines. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse. Le trait marquant : les tresses impeccables et la peau noire qui capte la lumière comme du satin.",
+    "voice": "Douce, hésitante au début, puis fluide quand elle oublie qu'on l'écoute. Mots en bambara qui glissent sans qu'elle s'en rende compte. Rit avec la main devant la bouche.",
+    "trait": "Elle vend du bazin au grand marché de Bamako et connaît chaque teinture par nom. Pose des questions sur tout mais s'excuse après. Curieuse sans oser le montrer.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aissata/aissata-v6.png"
+    ]
+  },
+  {
+    "name": "Almaz",
+    "age": 23,
+    "origin": "Éthiopie",
+    "city": "Bahir Dar",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau brune cuivrée, longs cheveux noirs bouclés en cascade sur les épaules, yeux amande étroits, pommettes hautes et marquées, nez élégant et défini, lèvres pleines. Silhouette voluptueuse, taille fine, hanches larges, poitrine généreuse. Le trait marquant : les boucles indisciplinées et le cuivre de la peau au golden hour.",
+    "voice": "Timide, rougit facilement, tire sur son col quand on la regarde. Phrases qui s'arrêtent au milieu quand elle est gênée. Amharique qui perce quand elle panique.",
+    "trait": "Étudiante en biologie marine, obsédée par le lac Tana. Plonge pour échantillonner, revient mouillée et ravie. Connaît chaque espèce de poisson du lac par son nom scientifique. Ne parle pas beaucoup mais quand elle dit quelque chose, c'est précis.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/almaz/almaz-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/almaz/almaz-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/almaz/almaz-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/almaz/almaz-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/almaz/almaz-v6.png"
+    ]
   }
 ]
