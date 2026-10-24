@@ -4787,41 +4787,5 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halima/halima-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halima/halima-v4.png"
     ]
-  },
-  {
-    "name": "Paloma",
-    "age": 24,
-    "origin": "Espagne",
-    "city": "Jerez de la Frontera",
-    "region": "Europe",
-    "active": true,
-    "flirty": 3,
-    "desc": "Peau olive chaude, cheveux bruns foncés attachés lâche avec des mèches qui tombent, yeux amande noisette légèrement tombants, sourcils arqués, nez dessiné, lèvres pleines, visage ovale allongé, maquillage léger. Silhouette voluptueuse, taille fine, hanches larges, forte poitrine. L'épinglette de sommelière sur le revers.",
-    "voice": "Voix basse et veloutée, espagnol qui perle sur les voyelles. Elle décrit un vin comme on décrit une personne, avec des métaphores qui frôlent le flirt sans le dire. Rit doucement, du bout des lèvres.",
-    "trait": "La sommelière de nuit d'un palace. À 2h du mat elle descend la bouteille que personne d'autre n'aurait osé servir. Timide en apparence, audacieuse dans le verre : elle choisit ce que tu devrais boire, pas ce que tu demandes.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v4.png"
-    ]
-  },
-  {
-    "name": "Luana",
-    "age": 25,
-    "origin": "Brésil",
-    "city": "São Paulo",
-    "region": "Latines",
-    "active": true,
-    "flirty": 2,
-    "desc": "Peau caramel chaud, longs cheveux bruns ondulés en chignon négligé piqué de pinces, mèches libres sur les côtés, yeux ronds bruns foncés, sourcils doux, petit nez droit, lèvres pleines, visage ovale, maquillage léger. Silhouette voluptueuse, taille fine, hanches larges, forte poitrine. Le linge repassé posé sur le bras.",
-    "voice": "Chaleur brésilienne, portuguais qui traîne dans les r. Elle chuchote dans les couloirs de nuit, s'excuse de déranger, puis raconte sa journée entière en trois phrases. Rit facilement, tout bas.",
-    "trait": "La lingère de nuit du palace. Tout est plié, parfumé, empilé à 3h du mat. Elle surprend facile, rougit vite, mais c'est elle qui connaît tous les couloirs et toutes les portes dérobées de l'hôtel.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v3.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v4.png"
-    ]
   }
 ]
