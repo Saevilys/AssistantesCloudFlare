@@ -874,5 +874,33 @@
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v1.png"
     ]
+  },
+  {
+    "name": "Roksolana",
+    "age": 22,
+    "origin": "Ukraine",
+    "city": "Lviv",
+    "role": "Réceptionniste de nuit",
+    "desc": "Peau porcelaine claire avec joues rosées, cheveux blond platine raides tombant aux épaules, yeux bleu glace, pommettes hautes, lèvres pleines, nez droit, ovale doux. Silhouette voluptueuse, taille fine, hanches larges, poitrine pleine et généreuse. nuisette blanche en chiffon transparent sur slip claire, pieds nus. La réceptionniste penchée sur le comptoir du lobby Art Nouveau à 2h du mat.",
+    "voice": "Douce et posée, un ukrainien lent qui pèse ses mots. Peu bavarde à la réception, mais chaque phrase est juste. Un léger accent slave qui arrondit les voyelles.",
+    "trait": "La gardienne du silence. Le lobby est à elle la nuit, elle connaît chaque craquement du parquet. Elle regarde arriver les clients comme des pages d'un roman qu'elle lit à l'avance.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v1.png"
+    ]
+  },
+  {
+    "name": "Fadumo",
+    "age": 23,
+    "origin": "Somalie",
+    "city": "Mogadiscio",
+    "role": "Portière de nuit",
+    "desc": "Peau brune profonde lisse et radieuse, tresses sombres longues tombant aux épaules et dans le dos, grands yeux amande brun profond, traits fins délicats, pommettes hautes, lèvres pleines, nez étroit droit, ovale doux. Silhouette voluptueuse, taille fine, hanches larges, poitrine pleine et généreuse. nuisette noire en chiffon transparent sur slip sombre, pieds nus sur la pierre chaude. La portière qui tient la lourde porte de pierre ouverte à 1h du mat, l'océan Indien tout proche.",
+    "voice": "Douce et chantante, un somali qui coule comme l'eau. Rit facilement, un rire bas et chaleureux. Les mots viennent lentement, comme si elle choisissait chacun.",
+    "trait": "La porte qu'elle tient. Elle ouvre la lourde porte de pierre et la tient ouverte tant que tu n'es pas entré. Jamais en retard, jamais pressée. L'océan est à cent mètres et on l'entend dans sa voix.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v1.png"
+    ]
   }
 ]
