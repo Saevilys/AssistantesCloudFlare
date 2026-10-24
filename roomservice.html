@@ -87,6 +87,7 @@ footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
   <div class="icon-phone">&#9742;&#xFE0E;</div>
   <h1>ROOM SERVICE</h1>
   <p>Elles ne dorment jamais. Elles ne sont pas dans le roster, jamais dans le tirage du matin. Elles existent pour un seul truc : répondre quand tu appelles.</p>
+  <p class="count" id="rsCount" style="margin-top:8px;font-size:0.8rem;color:#ff5c8a;font-weight:500"></p>
   <div class="hint">
     <b>Comment ça marche :</b> quand l'assistante du jour refuse de te visiter le soir, le téléphone se déverrouille. Un appel, et c'est une d'entre elles qui monte, tirée au hasard. Pas de refus. Pas de rendez-vous. Juste la porte qui s'ouvre.
   </div>
@@ -129,6 +130,7 @@ fetch('data-roomservice.json').then(r=>r.json()).then(d=>{
   data=d;
   buildBanner(d);
   render();
+  document.getElementById('rsCount').textContent=data.length+' membres en service';
 });
 
 function buildBanner(d){
