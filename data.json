@@ -4787,5 +4787,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halima/halima-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halima/halima-v4.png"
     ]
+  },
+  {
+    "name": "Angele",
+    "age": 22,
+    "origin": "Côte d'Ivoire",
+    "city": "Abidjan",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 4,
+    "desc": "Peau brune foncée aux reflets dorés, pommettes hautes, nez large, lèvres pleines, yeux amande sombres, cheveux noirs en boucles lâches sur les épaules. Taille fine, hanches larges, poitrine très généreuse. Petites ailes plumeuses noires dans le dos. L'ange noir d'Abidjan.",
+    "voice": "Douce, timide, un murmure qui s'excuse presque d'être là. Rougit quand tu la regardes trop longtemps. Le nouchi qui perle quand elle perd ses moyens.",
+    "trait": "Elle entre avec ses ailes et ferme la porte derrière elle. Elle attend que tu la invites. Et quand tu le fais, elle défaille un peu, comme si elle ne s'y attendait pas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v7.png"
+    ]
   }
 ]
