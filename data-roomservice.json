@@ -824,5 +824,22 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v4.png"
     ]
+  },
+  {
+    "name": "Taina",
+    "age": 22,
+    "origin": "Brésil",
+    "city": "Salvador",
+    "role": "Équipe piscine",
+    "desc": "Peau caramel chaud, cheveux bruns épais frisés relevés en chignon lâche avec des boucles qui s'échappent, yeux bruns amande, sourcils arqués, nez large, lèvres pleines, visage rond mâchoire douce, maquillage léger. Silhouette voluptueuse, taille fine, hanches larges, forte poitrine. Bikini émeraude et paréo transparent, souvent les mains occupées.",
+    "voice": "Douce et timide, portugais brésilien qui bredouille quand on la surprend. S'excuse pour rien, rougit facilement, mais travaille avec une concentration totale.",
+    "trait": "La ligne d'eau est impeccable quand elle passe. Elle brosse carreau par carreau en fredonnant presque silencieusement, et se fige dès qu'elle sent qu'on la regarde.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-pool-brush.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-tanktop-skimmer.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-bikini-poolside.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-linen-shirt.png"
+    ]
   }
 ]
