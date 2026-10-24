@@ -161,7 +161,7 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
   <img id="lightbox-img" src="">
 </div>
 
-<footer>Pick aléatoire journalier via data.json — 175 assistantes</footer>
+<footer>Pick aléatoire journalier via data.json — <span id="footCount">…</span> assistantes</footer>
 
 <script>
 let data=[];
@@ -179,6 +179,7 @@ fetch('data.json').then(r=>r.json()).then(d=>{
   buildRegionBar(d);
   applyFilters();
   buildBanner(d);
+  document.getElementById('footCount').textContent=data.length;
 });
 
 function buildBanner(d){
@@ -297,8 +298,7 @@ function renderPage(){
   const pageItems=filtered.slice(start,start+pageSize);
 
   document.getElementById('count').textContent=
-    filtered.length+' assistantes · '+data.filter(a=>a.active).length+' actives · '
-    +data.filter(a=>a.photos&&a.photos.length>0).length+' avec photos';
+    filtered.length+' assistantes · '+data.filter(a=>a.active).length+' actives';
 
   const grid=document.getElementById('grid');
   grid.innerHTML=pageItems.map(a=>{
