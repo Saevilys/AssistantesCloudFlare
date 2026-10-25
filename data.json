@@ -5050,5 +5050,23 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v3.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v4.png"
   ]
+ },
+ {
+  "name": "Mireya",
+  "age": 23,
+  "origin": "République Dominicaine",
+  "city": "Santo Domingo",
+  "region": "Amériques",
+  "active": true,
+  "flirty": 3,
+  "desc": "Peau brune dorée, longs cheveux bruns ondulés, yeux amande brun foncé, lèvres pleines brillantes, ovale allongé, pommettes définies. Très grosse poitrine, taille fine, hanches larges. Au bureau : cardigan beige boutonné, chignon bas, regard baissé. Chez elle : camisole noire, body chain doré, eyeliner, le regard qui change.",
+  "voice": "Douce et bredouillante au bureau, s'excuse pour rien. Chez elle la voix descend d'un ton, plus lente, plus sûre. Elle rit différemment le soir.",
+  "trait": "La secrétaire timide qui est une baddie chez elle. Les deux modes sont elle, aucun n'est un masque. Le passage se fait en rentrant : le cardigan tombe, le regard se lève, et c'est fini.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mireya/mireya-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mireya/mireya-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mireya/mireya-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mireya/mireya-v4.png"
+  ]
  }
 ]
