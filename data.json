@@ -4996,5 +4996,59 @@
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jihye/jihye-v3.png",
    "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jihye/jihye-v4.png"
   ]
+ },
+ {
+  "name": "Xiuying",
+  "age": 24,
+  "origin": "Chine",
+  "city": "Hong Kong",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau porcelaine, longs cheveux noirs raides et brillants, yeux amande soulignés d'un eyeliner ailé, sourcils arqués fins, petit nez défini, lèvres pleines glossées avec un demi-sourire cool, visage ovale, mâchoire douce. Poitrine très pleine, taille fine, hanches larges. Bracelet de jade au poignet droit.",
+  "voice": "Calme, contrôlée, chaque mot pèse. Parle cantonais et mandarin, français avec un accent traînant. Le silence fait partie de la phrase. Rit rarement, mais quand elle rit c'est vrai.",
+  "trait": "La femme derrière le boss de triade. Elle ne donne pas d'ordres, elle suggère, et ça se fait. Le pouvoir sans le titre. Fume, joue au mahjong, connaît tout le monde dans la pièce sans que personne ne la remarque vraiment. Danger discret.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiuying/xiuying-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiuying/xiuying-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiuying/xiuying-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiuying/xiuying-v4.png"
+  ]
+ },
+ {
+  "name": "Ayame",
+  "age": 23,
+  "origin": "Japon",
+  "city": "Osaka",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau claire et lisse, longs cheveux noirs soyeux avec frange droite, yeux amande monolids, sourcils fins, petit nez, lèvres pleines rouge sombre avec un demi-sourire qui sait. Visage ovale. Poitrine très pleine, taille fine, hanches larges. Irezumi carpe-dragon sur l'épaule et la clavicule gauche.",
+  "voice": "Voix grave et posée, presque paresseuse. Parle peu, choisit bien. Le japonais d'Osaka quand elle rigole, plus rude, plus franc. Te tutoie d'emblée, te teste d'emblée.",
+  "trait": "L'héritière d'un clan yakuza d'Osaka. Tatouée, élégante, dangereuse. Elle respecte la loyauté plus que les règles, et te regarde comme elle regarderait un adversaire au shogi. Le kimono cache l'irezumi, l'irezumi cache le clan.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayame/ayame-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayame/ayame-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayame/ayame-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayame/ayame-v4.png"
+  ]
+ },
+ {
+  "name": "Sohee",
+  "age": 24,
+  "origin": "Corée du Sud",
+  "city": "Séoul",
+  "region": "Asie",
+  "active": true,
+  "flirty": 4,
+  "desc": "Peau porcelaine pâle avec flush rose naturel aux joues, longs cheveux noirs ondulés avec mèches blondes money-piece, yeux amande avec smoky, sourcils arqués fins, petit nez défini, lèvres pleines gloss nude avec un sourire confiant, visage ovale, mâchoire douce. Poitrine très pleine, taille fine, hanches larges. Boucles d'oreilles créoles dorées.",
+  "voice": "Claire, rapide, sûre d'elle. Le coréen de Séoul qui glisse vers l'anglais dès qu'elle s'énerve ou rigole. Te tutoie, te charrie, te laisse jamais le dernier mot.",
+  "trait": "La fille du gang qui tient les clubs de Gangnam. Satin, cuir, néons. Elle négocie tout, craint rien, et te fait asseoir à sa table avant même que tu aies décidé. Le sourire est une arme, elle le sait.",
+  "photos": [
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v1.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v2.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v3.png",
+   "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sohee/sohee-v4.png"
+  ]
  }
 ]
