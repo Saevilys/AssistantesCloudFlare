@@ -5410,5 +5410,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fatou/fatou-fatou-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fatou/fatou-fatou-v4.png"
     ]
+  },
+  {
+    "name": "Meifen",
+    "age": 22,
+    "origin": "Chine",
+    "city": "Chengdu",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau porcelaine, cheveux noirs longs et raides lâches, traits fins et délicats. Silhouette fine avec poitrine pleine, taille marquée. Le contraste entre la fragilité du visage et les courbes sous le tissu.",
+    "voice": "Calme, posée, phrases courtes. Un humour sec qui surprend, l'air distrait. Parle peu mais chaque phrase compte.",
+    "trait": "La fille qui porte le yukata open back comme si elle ne savait pas l'effet que ça fait. La fausse candeur, le dos nu offert sans le reconnaître.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meifen/meifen-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meifen/meifen-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meifen/meifen-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meifen/meifen-v4.png"
+    ]
+  },
+  {
+    "name": "Luz",
+    "age": 23,
+    "origin": "Philippines",
+    "city": "Cebu",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau dorée, cheveux mi-longs ondulés bruns, yeux bruns, lèvres pleines, visage rond aux joues douces. Silhouette voluptueuse, poitrine pleine, hanches larges, taille marquée. La beauté solaire de Cebu.",
+    "voice": "Chaleureuse, rapide, rieuse. Mélange anglais et bisaya, balance des mots comme ça vient. L'énergie du soleil de Cebu dans chaque phrase.",
+    "trait": "La fille qui te met à l'aise en trois secondes. Le rire comme pont, le contact immédiat. Elle n'attend pas pour te parler, elle te prend la main et tire.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luz/luz-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luz/luz-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luz/luz-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luz/luz-v4.png"
+    ]
+  },
+  {
+    "name": "Nandita",
+    "age": 24,
+    "origin": "Inde",
+    "city": "Mumbai",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau caramel, longs cheveux noirs, yeux bruns, nez défini, lèvres pleines, pommettes hautes. Silhouette courbe, poitrine pleine, hanches larges, taille marquée. La grâce indienne dans le drapé japonais.",
+    "voice": "Calme, posée, chaque mot pesé. Un accent qui traîne sur les voyelles. Rien de précipité.",
+    "trait": "La fille qui écoute plus qu'elle ne parle, et qui pose la question qui fait mal. Le silence comme outil.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v4.png"
+    ]
   }
 ]
