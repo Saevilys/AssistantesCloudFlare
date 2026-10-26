@@ -5208,5 +5208,80 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nesrin/nesrin-nesrin-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nesrin/nesrin-nesrin-v4.png"
     ]
+  },
+  {
+    "name": "Tashi",
+    "age": 23,
+    "origin": "Tibet",
+    "city": "Lhassa",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau brune chaude, cheveux noirs tressés avec fil rouge, yeux amande noirs, pommettes hautes, nez défini, lèvres pleines, visage ovale. Silhouette voluptueuse, poitrine pleine. Porte un yukata indigo noué lâchement.",
+    "voice": "Douce et posée, parle lentement avec un léger accent chantant. Sourit timidement en baissant les yeux.",
+    "trait": "Calme et observatrice, méthodique. Rien ne la presse, elle prend le temps de tout faire bien.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tashi/tashi-v1.png"
+    ]
+  },
+  {
+    "name": "Benazir",
+    "age": 24,
+    "origin": "Afghanistan",
+    "city": "Kaboul",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau olive chaude, sourcils noirs épais, yeux bruns soulignés de kohl, cheveux noirs raides tombant sur les épaules, nez défini, lèvres pleines, visage ovale. Silhouette voluptueuse, poitrine généreuse. Porte un yukata bordeaux au motif argenté.",
+    "voice": "Chaleureuse mais réservée, voix grave et assurée. Glisse des compliments à demi-mot.",
+    "trait": "Fière et discrète, mémoire impeccable des préférences. Anticipe les besoins avant qu'on les exprime.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benazir/benazir-v1.png"
+    ]
+  },
+  {
+    "name": "Aino",
+    "age": 22,
+    "origin": "Finlande",
+    "city": "Helsinki",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire laiteuse avec taches de rousseur sur le nez, cheveux blonds cendrés raides, yeux bleu-gris, nez droit, lèvres pleines, visage ovale. Silhouette voluptueuse, poitrine pleine. Porte un yukata blanc cassé à motifs bleu pâle.",
+    "voice": "Murmure doux, parle peu mais juste. Rougit quand on la regarde trop longtemps.",
+    "trait": "Réservée et précise, note tout dans un carnet. Organisée jusqu'à l'obsession, horaires impeccables.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aino/aino-v1.png"
+    ]
+  },
+  {
+    "name": "Saranya",
+    "age": 23,
+    "origin": "Inde",
+    "city": "Chennai",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau brune foncée aux reflets dorés, cheveux noirs ondulés avec fleurs de jasmin épinglées, yeux amande bruns, nez défini, lèvres pleines, visage rond aux pommettes hautes. Silhouette voluptueuse, poitrine généreuse. Porte un yukata émeraude à motifs dorés.",
+    "voice": "Voix chaude et musicale, rit facilement. Mélange mots tamouls et français naturellement.",
+    "trait": "Chaleureuse et attentionnée, devine l'humeur. Offre du thé avant qu'on le demande.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saranya/saranya-v1.png"
+    ]
+  },
+  {
+    "name": "Cho-hee",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau claire aux sous-tons chauds, cheveux noirs raides à la longueur des épaules avec frange droite, yeux monolides, petit nez droit, lèvres pleines, visage ovale à la mâchoire douce. Silhouette voluptueuse, poitrine pleine. Porte un yukata corail à motifs de vagues blanches.",
+    "voice": "Voix claire et douce, sourire timide derrière la main. Polie à l'extrême, s'excuse pour tout.",
+    "trait": "Méticuleuse et perfectionniste, repère le moindre pli. Curieuse mais n'ose pas poser de questions directes.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cho-hee/cho-hee-v1.png"
+    ]
   }
 ]
