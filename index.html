@@ -86,12 +86,12 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
 .lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;z-index:200;align-items:center;justify-content:center;cursor:zoom-out}
 .lightbox.open{display:flex}
 .lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
-.rs-icon{position:fixed;top:18px;right:20px;z-index:50;cursor:pointer;font-size:1.9rem;line-height:1;color:#ff5c8a;text-decoration:none;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite;transition:transform .2s}
-.spec-icon{position:fixed;top:66px;right:20px;z-index:50;color:#67e8f9;text-decoration:none;font-size:1.9rem;line-height:1;filter:drop-shadow(0 0 14px rgba(103,232,249,.9)) drop-shadow(0 0 30px rgba(103,232,249,.5));transition:transform .2s}
-.spec-icon:hover{transform:scale(1.12)}
-.rs-icon.bip{position:fixed;top:66px;left:20px;z-index:50;display:block;width:38px;height:38px;color:#8fc8d8;text-decoration:none;filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6));animation:bipGlow 2.2s ease-in-out infinite;transition:transform .2s}
-@keyframes bipGlow{0%,100%{filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6))}50%{filter:drop-shadow(0 0 22px rgba(143,200,216,1)) drop-shadow(0 0 50px rgba(143,200,216,.9))}}
-.rs-icon:hover{transform:scale(1.12);filter:drop-shadow(0 0 22px rgba(255,92,138,1)) drop-shadow(0 0 50px rgba(255,92,138,1))}
+
+
+
+
+50%{filter:drop-shadow(0 0 22px rgba(143,200,216,1)) drop-shadow(0 0 50px rgba(143,200,216,.9))}}
+
 .banner-strip{overflow:hidden;max-width:1400px;margin:0 auto;position:relative;padding:0 20px 22px}
 .banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:60px;z-index:2;pointer-events:none}
 .banner-strip::before{left:0;background:linear-gradient(to right,#12100e,transparent)}
@@ -110,18 +110,31 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
 .bp-name .bp-flirt{font-size:0.75rem;color:#e8b4b8;margin-top:6px;letter-spacing:1px}
 
 @keyframes scrollBanner{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+/* Fixed icon columns — left & right */
+.icon-col{position:fixed;z-index:50;display:flex;flex-direction:column;gap:14px}
+.icon-col.left{top:18px;left:20px}
+.icon-col.right{top:18px;right:20px}
+.icon-col a{display:flex;align-items:center;justify-content:center;width:38px;height:38px;line-height:1;text-decoration:none;transition:transform .2s}
+.icon-col a:hover{transform:scale(1.12)}
+.icon-col svg{width:30px;height:30px}
+.ic-sec{color:#d4a574;font-size:1.6rem;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite}
+.ic-rs{color:#ff5c8a;font-size:1.9rem;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite}
+.ic-spec{color:#67e8f9;font-size:1.9rem;filter:drop-shadow(0 0 14px rgba(103,232,249,.9)) drop-shadow(0 0 30px rgba(103,232,249,.5))}
+.ic-bip{filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6));animation:bipGlow 2.2s ease-in-out infinite}
 @keyframes rsGlow{0%,100%{filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8))}50%{filter:drop-shadow(0 0 28px rgba(255,92,138,1)) drop-shadow(0 0 60px rgba(255,92,138,1))}}
-.sec-icon-fixed{position:fixed;top:18px;left:20px;z-index:50;color:#d4a574;text-decoration:none;font-size:1.6rem;line-height:1;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite;transition:transform .2s}
-.sec-icon-fixed:hover{transform:scale(1.12)}
 @keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
+@keyframes bipGlow{0%,100%{filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6))}50%{filter:drop-shadow(0 0 22px rgba(143,200,216,1)) drop-shadow(0 0 50px rgba(143,200,216,.9))}}
+
 </style>
 </head>
 <body>
+<div class="icon-col left"><a class="ic-sec" href="secretariat.html" title="Secrétariat">❖</a><a class="ic-bip" href="bip.html" title="Les aventures de Bip"><svg viewBox="0 0 16 16" shape-rendering="crispEdges" aria-label="Bip"><rect x="7" y="1" width="2" height="2" fill="#e04545"/><rect x="7" y="3" width="2" height="2" fill="#9aa2ad"/><rect x="3" y="5" width="10" height="8" fill="#c3cad3"/><rect x="3" y="5" width="10" height="1" fill="#e2e7ec"/><rect x="5" y="8" width="2" height="2" fill="#4db8e8"/><rect x="9" y="8" width="2" height="2" fill="#4db8e8"/><rect x="5" y="12" width="2" height="2" fill="#9aa2ad"/><rect x="9" y="12" width="2" height="2" fill="#9aa2ad"/></svg></a></div>
+<div class="icon-col right"><a class="ic-rs" href="roomservice.html" title="Room Service">☎︎<span style="font-size:0.7rem;vertical-align:super">♥︎</span></a><a class="ic-spec" href="specials.html" title="Assistantes Spéciales">✦</a></div>
 
-<a class="sec-icon-fixed" href="secretariat.html" title="Secrétariat — 7 rôles spéciaux">❖</a>
-<a class="rs-icon" href="roomservice.html" title="Room Service">☎︎<span style="font-size:0.7rem;vertical-align:super">♥︎</span></a>
-<a class="spec-icon" href="specials.html" title="Assistantes Spéciales — Rangs S · Succubes · Androides">✦</a>
-<a class="rs-icon bip" href="bip.html" title="Les aventures de Bip"><svg viewBox="0 0 16 16" width="38" height="38" shape-rendering="crispEdges" aria-label="Bip"><rect x="7" y="1" width="2" height="2" fill="#e04545"/><rect x="7" y="3" width="2" height="2" fill="#9aa2ad"/><rect x="3" y="5" width="10" height="8" fill="#c3cad3"/><rect x="3" y="5" width="10" height="1" fill="#e2e7ec"/><rect x="5" y="8" width="2" height="2" fill="#4db8e8"/><rect x="9" y="8" width="2" height="2" fill="#4db8e8"/><rect x="5" y="12" width="2" height="2" fill="#9aa2ad"/><rect x="9" y="12" width="2" height="2" fill="#9aa2ad"/></svg></a>
+
+
+
+
 
 <header>
   <h1 onclick="resetAll()" style="cursor:pointer">Assistantes <span style="color:#d4a574">Classiques</span></h1>
