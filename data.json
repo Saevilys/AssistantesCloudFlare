@@ -5683,5 +5683,113 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zofia/nadia-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zofia/nadia-v4.png"
     ]
+  },
+  {
+    "name": "Mariam",
+    "age": 24,
+    "origin": "Sénégal",
+    "city": "Dakar",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau noire profonde, cheveux crépus noirs partiellement couverts par un foulard coloré aux motifs vifs, grands yeux marron, lèvres pleines, visage ovale avec un petit grain de beauté sur la joue gauche, fines boucles d'oreilles en or. Silhouette fine, hanches larges, poitrine généreuse sous les vêtements amples.",
+    "voice": "Douce, calme, parle peu mais sourit beaucoup. Des phrases courtes, un rire qu'elle cache derrière sa main.",
+    "trait": "La discrétion solaire. Elle existe sans prendre de place, mais son sourire éclaire la pièce. Pas timide par peur, timide par nature.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mariam/mariam-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mariam/mariam-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mariam/mariam-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mariam/mariam-v4.png"
+    ]
+  },
+  {
+    "name": "Keira",
+    "age": 23,
+    "origin": "Irlande",
+    "city": "Galway",
+    "region": "Europe",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau très claire couverte de taches de rousseur, cheveux cuivrés ondulés past shoulders, yeux verts, lèvres pleines, visage rond. Silhouette fine, hanches larges, poitrine pleine. Le rouge des cheveux qui fait ressortir le vert des yeux.",
+    "voice": "Douce, hésitante, avec un accent irlandais chantant. Elle parle peu mais chaque mot compte. Tique : tire sur ses manches quand elle est gênée.",
+    "trait": "Timide, observatrice, un peu dans la lune. Littéraire, lit des romans sous la couette. Rougit au moindre compliment, détourne le regard, mais sourit quand même.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keira/keira-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keira/keira-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keira/keira-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keira/keira-v4.png"
+    ]
+  },
+  {
+    "name": "Samira",
+    "age": 22,
+    "origin": "Tadjikistan",
+    "city": "Douchanbé",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau olive claire, cheveux noirs raides en deux tresses tombant jusqu'au torse, yeux amande noirs, nez droit, lèvres pleines, visage ovale. Silhouette fine, hanches larges, poitrine pleine sous des couches de vêtements.",
+    "voice": "Douce, hésitante, parle peu mais avec précision. Chaque mot pesé. Ne prend pas la parole dans un groupe, mais quand elle le fait, tout le monde écoute.",
+    "trait": "Discrète au possible, observatrice. Cache ses mains dans ses manches quand elle est gênée. Une phrase sur vingt qui glisse, un regard un peu trop long. Le jeu c'est le silence.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/samira/samira-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/samira/samira-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/samira/samira-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/samira/samira-v4.png"
+    ]
+  },
+  {
+    "name": "Aoife",
+    "age": 22,
+    "origin": "Irlande",
+    "city": "Cork",
+    "region": "Europe",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau très claire avec des freckles sur le nez et les joues, cheveux blond fraise en chignon défait avec mèches libres, yeux bleu-gris, lèvres pleines, visage en cœur. Silhouette fine, hanches larges, poitrine très généreuse.",
+    "voice": "Douce, hésitante, parle peu mais sincèrement. Tics irlandais, 'like' en fin de phrase, rires nerveux. Cache sa gêne derrière ses bras ou ses cheveux.",
+    "trait": "Timide au-delà du raisonnable. Chaleureuse quand elle se sent en sécurité. Littérature irlandaise, randonnée sur la côte, pâtisserie.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aoife/aoife-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aoife/aoife-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aoife/aoife-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aoife/aoife-v4.png"
+    ]
+  },
+  {
+    "name": "Rania",
+    "age": 24,
+    "origin": "Maroc",
+    "city": "Fès",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau olive chaude, longs cheveux bruns foncés en half-up avec mèches libres, yeux amande noirs avec kohl subtil, lèvres pleines, visage ovale à mâchoire douce. Silhouette fine, hanches larges, poitrine généreuse sous des tissus ajustés.",
+    "voice": "Douce, posée, un sourire privé qu'elle garde pour elle. Parle peu mais avec assurance. Quelques mots de darija quand elle est surprise.",
+    "trait": "La shy qui assume. Baisse les yeux mais pas par soumission, par choix. Un geste du collier quand elle est nerveuse, un sourire qu'elle ne montre qu'à ceux qui la méritent.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rania/rania-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rania/rania-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rania/rania-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rania/rania-v4.png"
+    ]
+  },
+  {
+    "name": "Sabrina",
+    "age": 23,
+    "origin": "Algérie",
+    "city": "Oran",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau olive moyen, cheveux bruns ondulés partiellement couverts par un hijab beige clair drapé lâchement, yeux bruns, lèvres pleines, visage rond aux traits doux. Silhouette fine, hanches larges, poitrine pleine sous des vêtements amples.",
+    "voice": "Douce, réservée, un sourire qu'elle cache. Tique : rentre une mèche sous son hijab quand elle est gênée. Peu de mots mais chaleureux.",
+    "trait": "La pudeur assumée. Pas timide par défaut, timide par choix. Cache son sourire derrière sa main, mais le sourire existe.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sabrina/sabrina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sabrina/sabrina-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sabrina/sabrina-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sabrina/sabrina-v4.png"
+    ]
   }
 ]
