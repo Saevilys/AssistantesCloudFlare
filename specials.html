@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assistantes Spéciales — Rangs S · Succubes · Androides</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#12100e;color:#e8e0d8;font-family:system-ui,-apple-system,sans-serif;line-height:1.5}
+header{padding:40px 20px 30px;text-align:center}
+header h1{font-size:2rem;font-weight:300;letter-spacing:3px;color:#d4a574}
+header p{color:#6a5d50;margin-top:8px;font-size:0.85rem}
+header .biplink{display:inline-block;margin-top:12px;padding:6px 16px;border:1px solid #2d2520;border-radius:20px;color:#8a7d70;font-size:0.8rem;text-decoration:none;transition:all .2s}
+header .biplink:hover{border-color:#d4a574;color:#d4a574}
+.toolbar{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;padding:0 20px 20px}
+.btn{padding:8px 16px;border:1px solid #2d2520;border-radius:20px;background:transparent;color:#8a7d70;font-size:0.8rem;cursor:pointer;transition:all .2s}
+.btn:hover{border-color:#d4a574;color:#d4a574}
+.btn.active{background:#d4a574;color:#12100e;border-color:#d4a574}
+.searchbar{display:flex;justify-content:center;padding:0 20px 14px}
+.searchbar input{width:100%;max-width:500px;padding:10px 18px;border:1px solid #2d2520;border-radius:24px;background:#1a1512;color:#e8e0d8;font-size:0.9rem;outline:none;transition:border-color .2s}
+.searchbar input::placeholder{color:#5a4d40}
+.searchbar input:focus{border-color:#d4a574}
+#regionbar{padding-bottom:20px}
+.container{max-width:1100px;margin:0 auto;padding:0 20px 60px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}
+.card{position:relative;border-radius:8px;overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s;background:#1a1512;border:1px solid #2d2520}
+.card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.5)}
+.card img{width:100%;aspect-ratio:3/4;object-fit:cover;display:block}
+.card .hovervid{display:none;position:absolute;top:0;left:0;width:100%;aspect-ratio:3/4;object-fit:cover;pointer-events:none}
+.card:hover .hovervid{display:block}
+.card-placeholder{width:100%;aspect-ratio:3/4;display:flex;align-items:center;justify-content:center;background:#1a1512;border:1px dashed #3d3530;border-radius:6px;margin:6px;color:#4a3d30;font-size:0.8rem;font-style:italic}
+.status-dot{position:absolute;top:10px;right:10px;width:10px;height:10px;border-radius:50%;border:2px solid #12100e}
+.status-dot.on{background:#4ade80}
+.status-dot.off{background:#ef4444}
+.card-info{padding:12px 14px}
+.card-name{font-size:1rem;font-weight:500;color:#d4a574}
+.card-meta{font-size:0.72rem;color:#6a5d50;margin-top:2px}
+.card-trait{font-size:0.75rem;color:#9a8d80;margin-top:6px;line-height:1.4;max-height:2.8em;overflow:hidden}
+.flirt{position:absolute;top:10px;left:10px;display:flex;gap:3px}
+.flirt-hearts{font-size:0.85rem;line-height:1;letter-spacing:1px;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;text-shadow:1px 1px 0 #12100e,-1px -1px 0 #12100e,1px -1px 0 #12100e,-1px 1px 0 #12100e,0 0 2px #12100e}
+.flirt-hearts .on{color:#d4a574}
+.flirt-hearts .off{color:#4a3d30}
+.flirt-lvl4{font-size:1.15rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulse 1.8s ease-in-out infinite;text-shadow:0 0 6px #ff3366,0 0 12px #ff3366,0 0 18px #ff336680}
+.flirt-lvl5{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseRed 1.8s ease-in-out infinite;text-shadow:0 0 6px #ff0033,0 0 12px #ff0033,0 0 18px #ff003380}
+.flirt-lvl6{font-size:1.5rem;line-height:1;animation:rainbowGlow 1.5s ease-in-out infinite}
+.flirt-lvl6 .heart{font-family:'Times New Roman',Georgia,serif;background:linear-gradient(90deg,#ff0044,#ff8800,#ffdd00,#44ff44,#00ccff,#6644ff,#ff00cc,#ff0044);background-size:300% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rainbowShift 2s linear infinite;filter:drop-shadow(0 0 3px #ff3366) drop-shadow(0 0 6px #6644ff)}
+.flirt-lvl6 .s-mark{font-size:1rem;font-weight:900;font-style:italic;vertical-align:baseline;background:linear-gradient(90deg,#ffd700,#ff8800,#ffd700,#ff3366,#ffd700);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rainbowShift 2.5s linear infinite reverse;filter:drop-shadow(0 0 4px #ffd700) drop-shadow(0 0 8px #ff8800)}
+@keyframes rainbowShift{0%{background-position:0% center}100%{background-position:300% center}}
+@keyframes rainbowGlow{0%,100%{filter:drop-shadow(0 0 5px #ff3366) drop-shadow(0 0 10px #6644ff)}50%{filter:drop-shadow(0 0 8px #44ff44) drop-shadow(0 0 16px #ffdd00)}}
+@keyframes glowPulseRed{0%,100%{opacity:1;text-shadow:0 0 6px #ff0033,0 0 12px #ff0033,0 0 18px #ff003380}50%{opacity:.7;text-shadow:0 0 3px #ff0033,0 0 6px #ff0033,0 0 12px #ff003360}}
+@keyframes glowPulse{0%,100%{opacity:1;text-shadow:0 0 6px #ff3366,0 0 12px #ff3366,0 0 18px #ff336680}50%{opacity:.7;text-shadow:0 0 3px #ff3366,0 0 6px #ff3366,0 0 12px #ff336660}}
+.dim{opacity:.5;filter:grayscale(60%)}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;z-index:100;overflow-y:auto}
+.overlay.open{display:flex;align-items:flex-start;justify-content:center;padding:40px 20px}
+.profile{max-width:900px;width:100%;background:#1a1512;border-radius:12px;overflow:hidden;border:1px solid #2d2520}
+.profile-header{padding:24px 24px 16px;position:sticky;top:0;background:#1a1512;z-index:1}
+.profile-close{float:right;cursor:pointer;color:#6a5d50;font-size:1.3rem;line-height:1;transition:color .2s}
+.profile-close:hover{color:#d4a574}
+.profile h2{font-size:1.5rem;font-weight:400;color:#d4a574}
+.profile-meta{font-size:0.8rem;color:#6a5d50;margin-top:4px}
+.profile-body{padding:0 24px 32px}
+.profile-photos{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;padding:0 0 16px}
+.profile-photos img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:6px;cursor:pointer;transition:opacity .2s}
+.profile-photos img:hover{opacity:.8}
+.profile-photos .ph-empty{height:240px;width:180px;border:1px dashed #3d3530;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#4a3d30;font-size:0.8rem;font-style:italic;flex-shrink:0}
+.profile-section{margin-bottom:20px}
+.profile-label{font-size:0.7rem;text-transform:uppercase;letter-spacing:2px;color:#6a5d50;margin-bottom:6px}
+.profile-text{font-size:0.88rem;color:#b0a396;line-height:1.6}
+.profile-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:0.72rem;margin-right:6px;margin-top:8px;cursor:default}
+.badge-on{background:#1e3a1e;color:#4ade80}
+.badge-off{background:#3a1e1e;color:#ef4444}
+.badge-flirt{background:#2d2520;color:#d4a574} .badge-android{background:#12283a;color:#67e8f9} .android-tag{position:absolute;top:10px;right:10px;background:rgba(18,40,58,.8);color:#67e8f9;font-size:0.62rem;letter-spacing:.08em;padding:3px 7px;border-radius:6px;font-weight:600;z-index:2}
+.toggle-btn{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.75rem;cursor:pointer;border:1px solid #2d2520;transition:all .2s;margin-top:8px;user-select:none}
+.toggle-btn.on{background:#1e3a1e;color:#4ade80;border-color:#1e3a1e}
+.toggle-btn.off{background:#3a1e1e;color:#ef4444;border-color:#3a1e1e}
+.toggle-btn:hover{opacity:.85}
+footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
+.pagination{display:flex;justify-content:center;align-items:center;gap:6px;padding:20px 20px 10px;flex-wrap:wrap}
+.page-btn{padding:6px 12px;border:1px solid #2d2520;border-radius:16px;background:transparent;color:#8a7d70;font-size:0.8rem;cursor:pointer;transition:all .2s;min-width:36px;text-align:center}
+.page-btn:hover{border-color:#d4a574;color:#d4a574}
+.page-btn.active{background:#d4a574;color:#12100e;border-color:#d4a574}
+.page-btn:disabled{opacity:.3;cursor:default;border-color:#2d2520}
+.page-btn:disabled:hover{border-color:#2d2520;color:#8a7d70}
+.page-info{color:#6a5d50;font-size:0.78rem;padding:0 8px}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.92);display:none;z-index:200;align-items:center;justify-content:center;cursor:zoom-out}
+.lightbox.open{display:flex}
+.lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
+.rs-icon{position:fixed;top:18px;right:20px;z-index:50;cursor:pointer;font-size:1.9rem;line-height:1;color:#ff5c8a;text-decoration:none;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite;transition:transform .2s}
+.spec-icon{position:fixed;top:126px;right:20px;z-index:50;color:#67e8f9;text-decoration:none;font-size:1.5rem;line-height:1;filter:drop-shadow(0 0 14px rgba(103,232,249,.9)) drop-shadow(0 0 30px rgba(103,232,249,.5));transition:transform .2s}
+.spec-icon:hover{transform:scale(1.12)}
+.rs-icon.bip{top:72px;color:#8fc8d8;font-size:1.7rem;filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6));animation:bipGlow 2.2s ease-in-out infinite}
+@keyframes bipGlow{0%,100%{filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6))}50%{filter:drop-shadow(0 0 22px rgba(143,200,216,1)) drop-shadow(0 0 50px rgba(143,200,216,.9))}}
+.rs-icon:hover{transform:scale(1.12);filter:drop-shadow(0 0 22px rgba(255,92,138,1)) drop-shadow(0 0 50px rgba(255,92,138,1))}
+.banner-strip{overflow:hidden;max-width:1400px;margin:0 auto;position:relative;padding:0 20px 22px}
+.banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:60px;z-index:2;pointer-events:none}
+.banner-strip::before{left:0;background:linear-gradient(to right,#12100e,transparent)}
+.banner-strip::after{right:0;background:linear-gradient(to left,#12100e,transparent)}
+.banner-track{display:flex;gap:6px;width:max-content;animation:scrollBanner 400s linear infinite}
+.banner-track:hover{animation-play-state:paused}
+.banner-track img{height:240px;width:150px;object-fit:cover;border-radius:6px;flex-shrink:0;border:1px solid #2d2520;transition:box-shadow .2s ease;cursor:pointer}
+.banner-track img:hover{box-shadow:0 0 0 2px #d4a574}
+.banner-preview{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.85);z-index:60;pointer-events:none;opacity:0;transition:opacity .25s ease,transform .25s cubic-bezier(.2,.8,.2,1)}
+.banner-preview.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+.banner-preview img{height:600px;width:auto;max-height:85vh;max-width:90vw;border-radius:10px;box-shadow:0 16px 60px rgba(0,0,0,.95),0 0 0 1px rgba(212,165,116,.3);object-fit:cover}
+.banner-preview .bp-name{position:absolute;bottom:0;left:0;right:0;padding:22px 24px 18px;background:linear-gradient(transparent,rgba(0,0,0,.95));border-radius:0 0 10px 10px;color:#fff;text-align:center;opacity:0;transition:opacity .35s ease .15s}
+.banner-preview.show .bp-name{opacity:1}
+.banner-preview .bp-name .bp-name-text{font-size:1.6rem;font-weight:500;color:#d4a574;letter-spacing:1px;text-shadow:0 2px 12px rgba(0,0,0,.8)}
+.banner-preview .bp-name .bp-name-sub{font-size:0.8rem;color:#9a8d80;margin-top:4px}
+.bp-name .bp-flirt{font-size:0.75rem;color:#e8b4b8;margin-top:6px;letter-spacing:1px}
+
+@keyframes scrollBanner{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@keyframes rsGlow{0%,100%{filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8))}50%{filter:drop-shadow(0 0 28px rgba(255,92,138,1)) drop-shadow(0 0 60px rgba(255,92,138,1))}}
+.sec-icon-fixed{position:fixed;top:18px;left:20px;z-index:50;color:#d4a574;text-decoration:none;font-size:1.6rem;line-height:1;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite;transition:transform .2s}
+.sec-icon-fixed:hover{transform:scale(1.12)}
+@keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
+</style>
+</head>
+<body>
+
+<a class="sec-icon-fixed" href="secretariat.html" title="Secrétariat — 7 rôles spéciaux">✦</a>
+<a class="rs-icon" href="roomservice.html" title="Room Service">&#9742;&#xFE0E;<span style="font-size:0.7rem;vertical-align:super">&#9829;&#xFE0E;</span></a>
+<a class="spec-icon" href="index.html" title="Assistantes Classiques">★&#xFE0E;</a>
+<a class="rs-icon bip" href="bip.html" title="Les aventures de Bip"><svg viewBox="0 0 16 16" width="26" height="26" shape-rendering="crispEdges" aria-label="Bip"><rect x="7" y="1" width="2" height="2" fill="#e04545"/><rect x="7" y="3" width="2" height="2" fill="#9aa2ad"/><rect x="3" y="5" width="10" height="8" fill="#c3cad3"/><rect x="3" y="5" width="10" height="1" fill="#e2e7ec"/><rect x="5" y="8" width="2" height="2" fill="#4db8e8"/><rect x="9" y="8" width="2" height="2" fill="#4db8e8"/><rect x="5" y="12" width="2" height="2" fill="#9aa2ad"/><rect x="9" y="12" width="2" height="2" fill="#9aa2ad"/></svg></a>
+
+<header>
+  <h1 onclick="resetAll()" style="cursor:pointer">Assistantes <span style="color:#67e8f9">Spéciales</span></h1>
+  <p id="count">chargement…</p>
+</header>
+
+<div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
+
+<div class="searchbar">
+  <input type="text" id="search" placeholder="Rechercher par nom, pays, ville, région…" autocomplete="off">
+</div>
+
+<div class="toolbar">
+  <button class="btn active" data-filter="all">Toutes</button>
+  <button class="btn" data-filter="active">Actives</button>
+  <button class="btn" data-filter="inactive">Inactives</button>
+  <button class="btn" data-filter="photos">Avec photos</button>
+</div>
+
+<div class="toolbar" id="regionbar"></div>
+
+<div class="toolbar" id="sortbar">
+  <button class="btn active" id="sortDir">Flirt ↓</button>
+  <button class="btn" id="flirtLvl">Tous niveaux</button>
+  <button class="btn" data-sort="alpha">A-Z</button>
+  <button class="btn" data-sort="arrival">Arrivée</button>
+</div>
+
+<div class="container">
+  <div class="pagination" id="pagination-top"></div>
+  <div class="grid" id="grid"></div>
+  <div class="pagination" id="pagination-bottom"></div>
+</div>
+
+<div class="overlay" id="overlay">
+  <div class="profile" id="profile"></div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <img id="lightbox-img" src="">
+</div>
+
+<footer>Pick aléatoire journalier via data.json — <span id="footCount">…</span> assistantes</footer>
+
+<script>
+let data=[];
+let currentFilter='all';
+let currentRegion='all';
+let currentSort='flirt-desc';
+let currentFlirtLvl=0;
+let searchTerm='';
+let currentPage=1;
+const pageSize=50;
+let filteredData=[];
+
+fetch('data.json').then(r=>r.json()).then(all=>{
+  // Page Spéciales : uniquement rang S (flirty 6), succubes (flirty 5) et Androides
+  const d=all.filter(a=>(a.flirty||0)>=5||(a.region||'')==='Androides');
+  data=d;
+  buildRegionBar(d);
+  applyFilters();
+  buildBanner(d);
+  document.getElementById('footCount').textContent=data.length;
+});
+
+function buildBanner(d){
+  // Une photo aléatoire par assistante, échantillon de 45, reshuffle à chaque F5
+  var pool=[];
+  d.forEach(function(a){
+    if(a.photos&&a.photos.length){
+      var pi=Math.floor(Math.random()*a.photos.length);
+      pool.push({src:a.photos[pi],name:a.name,age:a.age,origin:a.origin,city:a.city,flirty:a.flirty||0});
+    }
+  });
+  // Shuffle
+  for(var i=pool.length-1;i>0;i--){
+    var j=Math.floor(Math.random()*(i+1));
+    var t=pool[i];pool[i]=pool[j];pool[j]=t;
+  }
+  // Échantillon de 45
+  var imgs=pool.slice(0,45);
+  var html='';
+  var nameMap={};
+  for(var k=0;k<2;k++){
+    imgs.forEach(function(o){
+      html+='<img src="'+o.src+'" data-name="'+o.name+'" loading="lazy">';
+      nameMap[o.name]=o;
+    });
+  }
+  var track=document.getElementById('bannerTrack');
+  track.innerHTML=html;
+  // Durée dynamique : vitesse constante (~35px/s) peu importe la taille de la piste
+  requestAnimationFrame(function(){
+    var w=track.scrollWidth/2;
+    var dur=Math.round(w/35);
+    track.style.animationDuration=dur+'s';
+  });
+  var preview=document.createElement('div');
+  preview.className='banner-preview';
+  preview.innerHTML='<img><div class="bp-name"><div class="bp-name-text"></div><div class="bp-name-sub"></div><div class="bp-flirt"></div></div>';
+  document.body.appendChild(preview);
+  var pImg=preview.querySelector('img');
+  var pText=preview.querySelector('.bp-name-text');
+  var pSub=preview.querySelector('.bp-name-sub');
+  var pFlirt=preview.querySelector('.bp-flirt');
+  document.getElementById('bannerTrack').querySelectorAll('img').forEach(function(img){
+    img.addEventListener('mouseenter',function(){
+      pImg.src=img.src;
+      var n=img.dataset.name||'';
+      pText.textContent=n;
+      var o=nameMap[n];
+      pSub.textContent=o?(o.age+' ans · '+o.origin+' · '+o.city):'';
+      pFlirt.textContent=o?flirtBannerLabel(o.flirty):'';
+      preview.classList.add('show');
+    });
+    img.addEventListener('mouseleave',function(){
+      preview.classList.remove('show');
+    });
+    img.addEventListener('click',function(){
+      var n=img.dataset.name||'';
+      if(n){document.getElementById('bannerTrack').style.animationPlayState='paused';openProfile(n);}
+    });
+  });
+}
+
+function flirtBannerLabel(lvl){
+  if(lvl>=6) return '♥\uFE0E S — Rang S';
+  if(lvl>=5) return '☠\uFE0E♥\uFE0E LVL 5 — Succubus';
+  if(lvl>=4) return '♥\uFE0E! LVL 4 — Passionné';
+  if(lvl>=1) return '♥\uFE0E'.repeat(lvl)+'♡\uFE0E'.repeat(3-lvl)+' Flirt L'+lvl;
+  return '';
+}
+
+function buildRegionBar(d){
+  const regions=[...new Set(d.map(a=>a.region||'?'))].sort();
+  const bar=document.getElementById('regionbar');
+  bar.innerHTML=`<button class="btn active" data-region="all">Toutes régions</button>`
+    +regions.map(r=>`<button class="btn" data-region="${r}">${r}</button>`).join('');
+  bar.querySelectorAll('.btn').forEach(b=>{
+    b.onclick=()=>{
+      bar.querySelectorAll('.btn').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      currentRegion=b.dataset.region;
+      applyFilters();
+    };
+  });
+}
+
+function applyFilters(){
+  let filtered=[...data];
+  if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
+  else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
+  else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
+  if(currentRegion!=='all')filtered=filtered.filter(a=>(a.region||'?')===currentRegion);
+  if(currentFlirtLvl>0)filtered=filtered.filter(a=>(a.flirty||0)===currentFlirtLvl);
+  if(searchTerm){
+    const q=searchTerm.toLowerCase();
+    filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
+      .some(v=>(v||'').toLowerCase().includes(q)));
+  }
+  filtered.sort((a,b)=>{
+    if(currentSort==='flirt-desc')return (b.flirty||0)-(a.flirty||0);
+    if(currentSort==='flirt-asc')return (a.flirty||0)-(b.flirty||0);
+    if(currentSort==='alpha')return a.name.localeCompare(b.name);
+    if(currentSort==='arrival')return data.indexOf(a)-data.indexOf(b);
+    if(currentSort==='arrival-rev')return data.indexOf(b)-data.indexOf(a);
+    return 0;
+  });
+  filteredData=filtered;
+  currentPage=1;
+  renderPage();
+}
+
+function renderPage(){
+  const filtered=filteredData;
+  const totalPages=Math.max(1,Math.ceil(filtered.length/pageSize));
+  if(currentPage>totalPages)currentPage=totalPages;
+  const start=(currentPage-1)*pageSize;
+  const pageItems=filtered.slice(start,start+pageSize);
+
+  document.getElementById('count').textContent=
+    filtered.length+' assistantes · '+data.filter(a=>a.active).length+' actives';
+
+  const grid=document.getElementById('grid');
+  grid.innerHTML=pageItems.map(a=>{
+    const hasPhoto=a.photos&&a.photos.length>0;
+    const img=hasPhoto
+      ? `<img src="${a.photos[0]}" loading="lazy" decoding="async" alt="${a.name}">`
+      : `<div class="card-placeholder">photo à venir</div>`;
+    const flirtDots=a.flirty>=6
+      ? `<span class="flirt-lvl6"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span></span>`
+      : a.flirty>=5
+      ? `<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>`
+      : a.flirty>=4
+      ? `<span class="flirt-lvl4">♥\uFE0E!</span>`
+      : `<span class="flirt-hearts">${[1,2,3].map(i=>`<span class="${i<=a.flirty?'on':'off'}">♥\uFE0E</span>`).join('')}</span>`;
+    return `
+    <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
+      <div class="flirt">${flirtDots}</div>
+      <div class="status-dot ${a.active?'on':'off'}"></div>
+      ${a.region==='Androides'?'<span class="android-tag">ANDROID</span>':''}
+      ${img}
+      ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
+      <div class="card-info">
+        <div class="card-name">${a.name}</div>
+        <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
+        <div class="card-trait">${a.trait||''}</div>
+      </div>
+    </div>`;
+  }).join('');
+
+  document.querySelectorAll('.card').forEach(c=>{
+    c.onclick=()=>openProfile(c.dataset.name);
+    const v=c.querySelector('.hovervid');
+    if(v){
+      c.addEventListener('mouseenter',()=>{v.play().catch(()=>{});});
+      c.addEventListener('mouseleave',()=>{v.pause();v.currentTime=0;});
+    }
+  });
+
+  // pagination
+  if(totalPages<=1){document.getElementById('pagination-top').innerHTML='';document.getElementById('pagination-bottom').innerHTML='';return;}
+  let html='';
+  html+=`<button class="page-btn" onclick="goPage(${currentPage-1})" ${currentPage<=1?'disabled':''}>‹</button>`;
+  const maxButtons=7;
+  let s2=Math.max(1,currentPage-3);
+  let e2=Math.min(totalPages,s2+maxButtons-1);
+  s2=Math.max(1,e2-maxButtons+1);
+  if(s2>1){html+=`<button class="page-btn" onclick="goPage(1)">1</button>`;if(s2>2)html+=`<span class="page-info">…</span>`;}
+  for(let i=s2;i<=e2;i++){
+    html+=`<button class="page-btn ${i===currentPage?'active':''}" onclick="goPage(${i})">${i}</button>`;
+  }
+  if(e2<totalPages){if(e2<totalPages-1)html+=`<span class="page-info">…</span>`;html+=`<button class="page-btn" onclick="goPage(${totalPages})">${totalPages}</button>`;}
+  html+=`<button class="page-btn" onclick="goPage(${currentPage+1})" ${currentPage>=totalPages?'disabled':''}>›</button>`;
+  html+=`<span class="page-info">${start+1}-${Math.min(start+pageSize,filtered.length)} / ${filtered.length}</span>`;
+  document.getElementById('pagination-top').innerHTML=html;
+  document.getElementById('pagination-bottom').innerHTML=html;
+}
+
+function goPage(p){currentPage=p;renderPage();window.scrollTo({top:0,behavior:'smooth'});}
+
+function resetAll(){
+  currentPage=1;
+  currentFilter='all';
+  currentRegion='all';
+  currentSort='flirt-desc';
+  searchTerm='';
+  document.getElementById('search').value='';
+  document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
+  document.querySelector('.toolbar .btn[data-filter="all"]').classList.add('active');
+  document.querySelectorAll('#regionbar .btn').forEach(x=>x.classList.remove('active'));
+  document.querySelector('#regionbar .btn[data-region="all"]').classList.add('active');
+  currentFlirtLvl=0;
+  currentSort='flirt-desc';
+  document.getElementById('sortDir').textContent='Flirt ↓';
+  document.getElementById('sortDir').classList.add('active');
+  document.getElementById('flirtLvl').textContent='Tous niveaux';
+  document.getElementById('flirtLvl').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée';
+  applyFilters();
+  window.scrollTo({top:0,behavior:'smooth'});
+}
+
+function openProfile(name){
+  const a=data.find(x=>x.name===name);
+  if(!a)return;
+  buildProfile(a);
+  document.getElementById('overlay').classList.add('open');
+}
+
+function buildProfile(a){
+  const hasPhotos=a.photos&&a.photos.length>0;
+  const photoHtml=hasPhotos
+    ? `<div class="profile-photos">${a.photos.map((p,i)=>`<img src="${p}" loading="lazy" decoding="async" data-idx="${i}" onclick="openLightbox('${a.name}',${i})">`).join('')}</div>`
+    : `<div class="profile-photos"><div class="ph-empty">photos à venir</div></div>`;
+
+  document.getElementById('profile').innerHTML=`
+    <div class="profile-header">
+      <span class="profile-close" onclick="closeProfile()">&times;</span>
+      <h2>${a.name}</h2>
+      <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
+      ${a.region==='Androides'?'<span class="profile-badge badge-android" style="margin-top:8px">ANDROID</span>':''}
+      ${a.flirty>=6
+        ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Rang S</span>`
+        : a.flirty>=5
+        ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E LVL 5 — Succubus</span>`
+        : a.flirty>=4
+        ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px">♥\uFE0E! LVL 4</span>`
+        : `<span class="profile-badge badge-flirt flirt-hearts" style="font-size:0.85rem;padding:4px 12px">${'♥\uFE0E'.repeat(a.flirty)}${'♡\uFE0E'.repeat(3-a.flirty)} Flirt L${a.flirty}</span>`}
+      <span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>
+    </div>
+    <div class="profile-body">
+      ${photoHtml}
+      ${(a.idle||a.idle2)?`<div class="profile-section"><div class="profile-label">Vidéos</div><div class="profile-photos">${a.idle?`<video src="${a.idle}" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>`:''}${a.idle2?`<video src="${a.idle2}" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>`:''}</div></div>`:''}
+      <div class="profile-section">
+        <div class="profile-label">Apparence</div>
+        <div class="profile-text">${a.desc}</div>
+      </div>
+      <div class="profile-section">
+        <div class="profile-label">Voix</div>
+        <div class="profile-text">${a.voice}</div>
+      </div>
+      <div class="profile-section">
+        <div class="profile-label">Signature</div>
+        <div class="profile-text">${a.trait}</div>
+      </div>
+    </div>
+  `;
+}
+
+function toggleActive(name){
+  const a=data.find(x=>x.name===name);
+  if(!a)return;
+  a.active=!a.active;
+  buildProfile(a);
+  applyFilters();
+}
+
+function openLightbox(name,idx){
+  const a=data.find(x=>x.name===name);
+  if(!a||!a.photos||!a.photos[idx])return;
+  document.getElementById('lightbox-img').src=a.photos[idx];
+  document.getElementById('lightbox').classList.add('open');
+}
+
+function closeLightbox(){
+  document.getElementById('lightbox').classList.remove('open');
+}
+
+function closeProfile(){
+  document.getElementById('overlay').classList.remove('open');
+  document.getElementById('bannerTrack').style.animationPlayState='';
+}
+
+document.getElementById('overlay').onclick=e=>{
+  if(e.target.id==='overlay')closeProfile();
+};
+
+document.getElementById('lightbox').onclick=e=>{
+  if(e.target.id==='lightbox'||e.target.id==='lightbox-img')closeLightbox();
+};
+
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){closeLightbox();closeProfile();}
+});
+
+// status filter buttons
+document.querySelectorAll('.toolbar .btn[data-filter]').forEach(b=>{
+  b.onclick=()=>{
+    document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
+    b.classList.add('active');
+    currentFilter=b.dataset.filter;
+    applyFilters();
+  };
+});
+
+// sort direction toggle
+document.getElementById('sortDir').onclick=()=>{
+  if(currentSort==='flirt-desc'){currentSort='flirt-asc';document.getElementById('sortDir').textContent='Flirt ↑';}
+  else{currentSort='flirt-desc';document.getElementById('sortDir').textContent='Flirt ↓';}
+  document.getElementById('sortDir').classList.add('active');
+  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
+  applyFilters();
+};
+// flirt level cycle: 0=Tous → 1..6
+document.getElementById('flirtLvl').onclick=()=>{
+  currentFlirtLvl=(currentFlirtLvl+1)%7;
+  const btn=document.getElementById('flirtLvl');
+  btn.textContent=currentFlirtLvl===0?'Tous niveaux':'Niveau '+currentFlirtLvl;
+  btn.classList.toggle('active',currentFlirtLvl>0);
+  applyFilters();
+};
+// A-Z
+document.querySelector('#sortbar .btn[data-sort="alpha"]').onclick=()=>{
+  currentSort='alpha';
+  document.getElementById('sortDir').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.add('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
+  applyFilters();
+};
+// Arrival
+document.querySelector('#sortbar .btn[data-sort="arrival"]').onclick=()=>{
+  if(currentSort==='arrival'){currentSort='arrival-rev';}
+  else{currentSort='arrival';}
+  const btn=document.querySelector('#sortbar .btn[data-sort="arrival"]');
+  btn.textContent=currentSort==='arrival'?'Arrivée ↓':'Arrivée ↑';
+  btn.classList.add('active');
+  document.getElementById('sortDir').classList.remove('active');
+  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
+  applyFilters();
+};
+
+// search input
+document.getElementById('search').addEventListener('input',e=>{
+  searchTerm=e.target.value.trim();
+  applyFilters();
+});
+</script>
+</body>
+</html>
