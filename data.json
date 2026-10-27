@@ -5466,5 +5466,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandita/nandita-v4.png"
     ]
+  },
+  {
+    "name": "Defne",
+    "age": 24,
+    "origin": "Turquie",
+    "city": "Istanbul",
+    "region": "Europe",
+    "active": true,
+    "flirty": 5,
+    "desc": "Cheveux châtains foncés ondulés, yeux noisette, sourcil droit, petite cicatrice au menton. Peau olivâtre. Buste très généreux sous des vêtements amples qu'elle arrange mal. Grande, mince, démarche rapide.",
+    "voice": "Rapide, s'excuse de parler trop, repart sur un autre sujet à mi-phrase. Le turc perce quand elle est fatiguée.",
+    "trait": "L'étudiante en architecture qui dessine des plans au dos des serviettes. Timide mais obsédée par le détail. Fixe ses mains quand elle parle de ses projets, pas ton visage.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/defne/defne-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/defne/defne-v2-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/defne/defne-v3-bosphore.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/defne/defne-v4-atelier.png"
+    ]
+  },
+  {
+    "name": "Sumi",
+    "age": 22,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "flirty": 4,
+    "desc": "Cheveux noirs longs raides avec bangs, yeux bruns foncés légèrement bridés, petit nez, lèvres fines. Peau claire porcelaine. Très grosse poitrine qu'elle dissimule sous des hoodies et des vestes. Petite, menue.",
+    "voice": "Douce, hésitante, laisse des silences. Le coréen perce quand elle est gênée. Rit d'un petit rire étouffé.",
+    "trait": "La thésarde qui dort à la bibliothèque. Timide extrême, mais observe tout. Ses notes de bas de page sont plus audacieuses que ses phrases.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumi/sumi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumi/sumi-v2-biblio.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumi/sumi-v3-metro.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sumi/sumi-v4-salon.png"
+    ]
+  },
+  {
+    "name": "Kali",
+    "age": 23,
+    "origin": "Thaïlande",
+    "city": "Bangkok",
+    "region": "Asie",
+    "active": true,
+    "flirty": 6,
+    "desc": "Cheveux noirs longs raides raie au milieu, yeux bruns foncés pli épicanthique, lèvres pleines, pommettes hautes. Peau dorée brillante de sueur. Poitrine très massive — macromastia. Mince sinon, hanches larges, 1m65.",
+    "voice": "Chaude, un peu essoufflée, rit facilement. Le thaï perce quand elle s'énerve ou rigole trop fort.",
+    "trait": "La fille du resto familial qui transpire derrière le wok. Timide mais curieuse, pose des questions directes puis rougit de les avoir posées. Rit de ses propres maladresses.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kali/kali-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kali/kali-v2-terrasse.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kali/kali-v3-pluie.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kali/kali-v4-cuisine.png"
+    ]
   }
 ]
