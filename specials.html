@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assistantes Spéciales — Rangs S · Succubes · Androides</title>
+<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -170,6 +170,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="succubes">Succubes <span class="tab-count" id="cnt-succubes"></span></button>
   <button class="section-tab" data-section="androides">Androides <span class="tab-count" id="cnt-androides"></span></button>
   <button class="section-tab" data-section="vampires">Vampires <span class="tab-count" id="cnt-vampires"></span></button>
+  <button class="section-tab" data-section="gardes">Gardes du corps <span class="tab-count" id="cnt-gardes"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -236,6 +237,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-succubes').textContent='('+d.filter(a=>a.tag==='succube').length+')';
   document.getElementById('cnt-androides').textContent='('+d.filter(a=>a.tag==='androide').length+')';
   document.getElementById('cnt-vampires').textContent='('+d.filter(a=>a.tag==='vampire').length+')';
+  document.getElementById('cnt-gardes').textContent='('+d.filter(a=>a.tag==='garde-du-corps').length+')';
 }
 
 function buildBanner(d){
@@ -299,6 +301,7 @@ function tagLabel(tag){
   if(tag==='succube') return '☠\uFE0E♥\uFE0E Succube';
   if(tag==='androide') return '⚡\uFE0E Android';
   if(tag==='vampire') return '🩸♥\uFE0E Vampire';
+  if(tag==='garde-du-corps') return '⚔\uFE0E Garde du corps';
   return '';
 }
 
@@ -323,6 +326,7 @@ function applyFilters(){
   else if(currentSection==='succubes')filtered=filtered.filter(a=>a.tag==='succube');
   else if(currentSection==='androides')filtered=filtered.filter(a=>a.tag==='androide');
   else if(currentSection==='vampires')filtered=filtered.filter(a=>a.tag==='vampire');
+  else if(currentSection==='gardes')filtered=filtered.filter(a=>a.tag==='garde-du-corps');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -333,7 +337,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:4,succube:3,androide:2,vampire:1};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,'garde-du-corps':0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -371,6 +375,8 @@ function renderPage(){
       ? `<span class="flirt-androide">⚡\uFE0E♥\uFE0E</span>`
       : a.tag==='vampire'
       ? `<span class="flirt-vampire"><span class="drop">🩸</span><span class="heart">♥\uFE0E</span></span>`
+      : a.tag==='garde-du-corps'
+      ? `<span class="flirt-androide">⚔\uFE0E</span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -459,6 +465,7 @@ function buildProfile(a){
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
       ${a.tag==='androide'?'<span class="profile-badge badge-android" style="margin-top:8px">⚡\uFE0E♥\uFE0E Androïde</span>':''}
       ${a.tag==='vampire'?'<span class="profile-badge badge-flirt flirt-vampire" style="font-size:0.9rem;padding:4px 12px"><span class="drop">🩸</span><span class="heart">♥\uFE0E</span> Vampire</span>':''}
+      ${a.tag==='garde-du-corps'?'<span class="profile-badge badge-android" style="margin-top:8px">⚔\uFE0E Garde du corps</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
