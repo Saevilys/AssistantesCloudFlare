@@ -1,5 +1,5 @@
 import json
 d = json.load(open("data.json"))
-for a in d:
-    if a["name"].lower() == "dahye":
-        print(json.dumps(a, indent=2, ensure_ascii=False))
+a = [x for x in d if x["name"] == "Dahye"][0]
+print(len(a["photos"]))
+for p in a["photos"]: print(p.split("/img/")[-1])
