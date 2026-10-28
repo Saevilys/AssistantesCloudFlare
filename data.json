@@ -5972,11 +5972,14 @@
     "tag": "garde-du-corps",
     "special": true,
     "flirty": 2,
-    "desc": "Peau pâle nacrée, cheveux violets courts asymétriques, yeux lilas clairs et froids, traits fins, lèvres pâles. Fioles de poison accrochées à la ceinture. Fine, taille fine, hanches étroites, poitrine moyenne. Rooftop, vent, skyline.",
+    "desc": "Cheveux lavande longs raides raie au milieu, grands yeux bruns, maquillage défini, rouge à lèvres rose. Robe noire décolletée, kimono bleu marine sur les épaules, pendentif fiole au cou. Fine, taille fine, poitrine généreuse. Rooftop de temple, lanternes, nuit.",
     "voice": "Claire, détachée, scientifique. Elle explique un poison comme une recette de cuisine, sans malice apparente.",
     "trait": "L'alchimiste du rooftop. Elle fabrique ses propres fioles et teste tout sur elle-même, à doses homéopathiques. Elle protège à distance, calcule le vent, et ne rate jamais deux fois.",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shion/shion-v1.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shion/shion-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shion/shion-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shion/shion-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shion/shion-v4.png"
     ]
   },
   {
