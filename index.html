@@ -187,7 +187,7 @@ let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
   // Page Classiques : tout sauf rang S (flirty 6), succubes (flirty 5) et Androides
-  const d=all.filter(a=>(a.flirty||0)<5&&(a.region||'')!=='Androides');
+  const d=all.filter(a=>!a.tag);
   data=d;
   buildRegionBar(d);
   applyFilters();
