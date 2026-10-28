@@ -83,6 +83,9 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 @keyframes glowPulseRed{0%,100%{opacity:1;text-shadow:0 0 6px #ff0033,0 0 12px #ff0033,0 0 18px #ff003380}50%{opacity:.7;text-shadow:0 0 3px #ff0033,0 0 6px #ff0033,0 0 12px #ff003360}}
 @keyframes glowPulse{0%,100%{opacity:1;text-shadow:0 0 6px #ff3366,0 0 12px #ff3366,0 0 18px #ff336680}50%{opacity:.7;text-shadow:0 0 3px #ff3366,0 0 6px #ff3366,0 0 12px #ff336660}}
 
+.flirt-androide{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseCyan 1.8s ease-in-out infinite;text-shadow:0 0 6px #22d3ee,0 0 12px #22d3ee,0 0 18px #22d3ee80}
+@keyframes glowPulseCyan{0%,100%{opacity:1;text-shadow:0 0 6px #22d3ee,0 0 12px #22d3ee,0 0 18px #22d3ee80}50%{opacity:.7;text-shadow:0 0 3px #22d3ee,0 0 6px #22d3ee,0 0 12px #22d3ee60}}
+
 .android-tag{position:absolute;top:10px;right:10px;background:rgba(18,40,58,.8);color:#67e8f9;font-size:0.62rem;letter-spacing:.08em;padding:3px 7px;border-radius:6px;font-weight:600;z-index:2}
 .dim{opacity:.5;filter:grayscale(60%)}
 
@@ -355,12 +358,13 @@ function renderPage(){
       ? `<span class="flirt-lvl6"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span></span>`
       : a.tag==='succube'
       ? `<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>`
+      : a.tag==='androide'
+      ? `<span class="flirt-androide">⚡\uFE0E♥\uFE0E</span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
       <div class="status-dot ${a.active?'on':'off'}"></div>
-      ${a.tag==='androide'?'<span class="android-tag">ANDROID</span>':''}
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
       <div class="card-info">
@@ -442,7 +446,7 @@ function buildProfile(a){
       <span class="profile-close" onclick="closeProfile()">&times;</span>
       <h2>${a.name}</h2>
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
-      ${a.tag==='androide'?'<span class="profile-badge badge-android" style="margin-top:8px">⚡ ANDROID</span>':''}
+      ${a.tag==='androide'?'<span class="profile-badge badge-android" style="margin-top:8px">⚡\uFE0E♥\uFE0E Androïde</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
