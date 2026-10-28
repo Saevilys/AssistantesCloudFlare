@@ -86,6 +86,11 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .flirt-androide{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;filter:drop-shadow(0 0 2px #000) drop-shadow(0 0 1px #000) drop-shadow(0 -1px 0 #000) drop-shadow(0 1px 0 #000) drop-shadow(1px 0 0 #000) drop-shadow(-1px 0 0 #000);animation:glowPulseCyan 1.8s ease-in-out infinite;text-shadow:0 0 6px #22d3ee,0 0 12px #22d3ee,0 0 18px #22d3ee80}
 @keyframes glowPulseCyan{0%,100%{opacity:1;text-shadow:0 0 6px #22d3ee,0 0 12px #22d3ee,0 0 18px #22d3ee80}50%{opacity:.7;text-shadow:0 0 3px #22d3ee,0 0 6px #22d3ee,0 0 12px #22d3ee60}}
 
+.flirt-vampire{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseBlood 2s ease-in-out infinite;text-shadow:0 0 6px #cc0000,0 0 12px #cc0000,0 0 18px #cc000080}
+.flirt-vampire .drop{color:#cc1a1a;filter:drop-shadow(0 0 4px #ff0000) drop-shadow(0 0 8px #cc0000)}
+.flirt-vampire .heart{color:#ff3344;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 6px #cc0000)}
+@keyframes glowPulseBlood{0%,100%{opacity:1;text-shadow:0 0 6px #cc0000,0 0 12px #cc0000,0 0 18px #cc000080}50%{opacity:.75;text-shadow:0 0 3px #cc0000,0 0 6px #cc0000,0 0 12px #cc000060}}
+
 .android-tag{position:absolute;top:10px;right:10px;background:rgba(18,40,58,.8);color:#67e8f9;font-size:0.62rem;letter-spacing:.08em;padding:3px 7px;border-radius:6px;font-weight:600;z-index:2}
 .dim{opacity:.5;filter:grayscale(60%)}
 
@@ -155,7 +160,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <header>
   <div class="spec-icon">✦</div>
   <h1>Assistantes <span class="spec-cyan">Spéciales</span></h1>
-  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides. Trois catégories, un seul point commun : elles défient les règles du roster.</p>
+  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires. Quatre catégories, un seul point commun : elles défient les règles du roster.</p>
   <p class="count" id="count">chargement…</p>
 </header>
 
@@ -164,6 +169,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="rangS">Rang S <span class="tab-count" id="cnt-rangS"></span></button>
   <button class="section-tab" data-section="succubes">Succubes <span class="tab-count" id="cnt-succubes"></span></button>
   <button class="section-tab" data-section="androides">Androides <span class="tab-count" id="cnt-androides"></span></button>
+  <button class="section-tab" data-section="vampires">Vampires <span class="tab-count" id="cnt-vampires"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -229,6 +235,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-rangS').textContent='('+d.filter(a=>a.tag==='surnaturel').length+')';
   document.getElementById('cnt-succubes').textContent='('+d.filter(a=>a.tag==='succube').length+')';
   document.getElementById('cnt-androides').textContent='('+d.filter(a=>a.tag==='androide').length+')';
+  document.getElementById('cnt-vampires').textContent='('+d.filter(a=>a.tag==='vampire').length+')';
 }
 
 function buildBanner(d){
@@ -291,6 +298,7 @@ function tagLabel(tag){
   if(tag==='surnaturel') return '♥\uFE0E S — Surnaturel';
   if(tag==='succube') return '☠\uFE0E♥\uFE0E Succube';
   if(tag==='androide') return '⚡\uFE0E Android';
+  if(tag==='vampire') return '🩸♥\uFE0E Vampire';
   return '';
 }
 
@@ -314,6 +322,7 @@ function applyFilters(){
   if(currentSection==='rangS')filtered=filtered.filter(a=>a.tag==='surnaturel');
   else if(currentSection==='succubes')filtered=filtered.filter(a=>a.tag==='succube');
   else if(currentSection==='androides')filtered=filtered.filter(a=>a.tag==='androide');
+  else if(currentSection==='vampires')filtered=filtered.filter(a=>a.tag==='vampire');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -324,7 +333,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:3,succube:2,androide:1};
+  const tagOrder={surnaturel:4,succube:3,androide:2,vampire:1};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -360,6 +369,8 @@ function renderPage(){
       ? `<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>`
       : a.tag==='androide'
       ? `<span class="flirt-androide">⚡\uFE0E♥\uFE0E</span>`
+      : a.tag==='vampire'
+      ? `<span class="flirt-vampire"><span class="drop">🩸</span><span class="heart">♥\uFE0E</span></span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -447,6 +458,7 @@ function buildProfile(a){
       <h2>${a.name}</h2>
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
       ${a.tag==='androide'?'<span class="profile-badge badge-android" style="margin-top:8px">⚡\uFE0E♥\uFE0E Androïde</span>':''}
+      ${a.tag==='vampire'?'<span class="profile-badge badge-flirt flirt-vampire" style="font-size:0.9rem;padding:4px 12px"><span class="drop">🩸</span><span class="heart">♥\uFE0E</span> Vampire</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
