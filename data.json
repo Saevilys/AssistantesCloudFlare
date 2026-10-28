@@ -5987,5 +5987,25 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaolan/xiaolan-v3b.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaolan/xiaolan-v4.png"
     ]
+  },
+  {
+    "name": "Moying",
+    "age": 23,
+    "origin": "Chine",
+    "city": "Chongqing",
+    "region": "Asie",
+    "active": true,
+    "tag": "garde-du-corps",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau porcelaine froide, longs cheveux noirs avec mèches cramoisies, yeux sombres perçants, maquillage smoky, lèvres bordeaux. Athlétique, taille fine, hanches larges, poitrine très généreuse. Masque nuo craquelé à la ceinture, doubles lames dans le dos.",
+    "voice": "Sèche, tranchante, parle peu. Chaque mot est choisi pour tuer. Le silence est sa phrase préférée.",
+    "trait": "Le fantôme de Chongqing. Kungfupunk : soie noire sur cuir articulé, fils cramoisine, masques nuo. Elle élimine les menaces avant que tu saches qu'elles existent. La pluie la couvre, les lanternes rouges la trahissent.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moying/moying-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moying/moying-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moying/moying-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moying/moying-v4.png"
+    ]
   }
 ]
