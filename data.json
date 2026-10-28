@@ -575,7 +575,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meilin/meilin-v4d-rooftop.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meilin/meilin-v5d-silk.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meilin/meilin-v6d-casual.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Calypso",
@@ -624,7 +625,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salma/salma-7.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salma/salma-8.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salma/salma-9.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Liling",
@@ -694,7 +696,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linh/linh-7.jpg",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linh/linh-8.jpg",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linh/linh-9.jpg"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Yumi",
@@ -724,7 +727,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yumi/yumi-13.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yumi/yumi-14.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yumi/yumi-15.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Ranya",
@@ -952,7 +956,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lanfen/lanfen-6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lanfen/lanfen-7.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lanfen/lanfen-8.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Tsukiko",
@@ -977,7 +982,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsukiko/tsukiko-6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsukiko/tsukiko-7.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsukiko/tsukiko-8.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Vera",
@@ -1051,7 +1057,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naima/naima-1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naima/naima-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naima/naima-3.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Yuna",
@@ -1215,7 +1222,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/miku/miku-8.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/miku/miku-9.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/miku/miku-10.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Devika",
@@ -1615,7 +1623,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yulia/yulia-4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yulia/yulia-5.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yulia/yulia-7.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Wen",
@@ -1811,7 +1820,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/beatriz/beatriz-2.jpg",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/beatriz/beatriz-3.jpg",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/beatriz/beatriz-4.jpg"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Sunhee",
@@ -2162,7 +2172,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-9.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-10.png"
     ],
-    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-idle.mp4"
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xihe/xihe-idle.mp4",
+    "special": true
   },
   {
     "name": "Chiara",
@@ -2558,7 +2569,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yae/yae-3-vending.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yae/yae-4-sakura.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yae/yae-5-arcade.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Oyuun",
@@ -2787,7 +2799,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hotaru/hotaru-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Mio",
@@ -2823,7 +2836,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/reika/reika-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Ligeia",
@@ -2880,7 +2894,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-zoraida-night-visit.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-zoraida-dodo.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zoraida/zoraida-zoraida-dessin-du-jour.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Runa",
@@ -3443,7 +3458,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lilith/lilith-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lilith/lilith-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lilith/lilith-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Carmilla",
@@ -3542,7 +3558,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keilani/keilani-v6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keilani/keilani-v7.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/keilani/keilani-v8-beach.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Emi",
@@ -3639,7 +3656,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-v9.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-v10.png"
     ],
-    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-hover-v8.mp4"
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sayuri/sayuri-hover-v8.mp4",
+    "special": true
   },
   {
     "name": "Nawai",
@@ -4111,7 +4129,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yomi/yomi-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Kyra",
@@ -4487,7 +4506,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soline/soline-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soline/soline-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/soline/soline-v5.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Berenice",
@@ -4506,7 +4526,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/berenice/berenice-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/berenice/berenice-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/berenice/berenice-v5.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Kadidja",
@@ -4844,7 +4865,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eisheth/eisheth-v5.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eisheth/eisheth-v6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eisheth/eisheth-v7.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Alukah",
@@ -4862,7 +4884,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/alukah/alukah-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/alukah/alukah-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/alukah/alukah-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Nyx",
@@ -4880,7 +4903,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyx/nyx-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyx/nyx-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyx/nyx-v4.png"
-    ]
+    ],
+    "special": true
   },
   {
     "name": "Xueli",
