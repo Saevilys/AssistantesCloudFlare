@@ -179,8 +179,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <div class="toolbar" id="regionbar"></div>
 
 <div class="toolbar" id="sortbar">
-  <button class="btn active" id="sortDir">Flirt ↓</button>
-  <button class="btn" id="flirtLvl">Tous niveaux</button>
+  <button class="btn active" id="sortDir">Tag ↓</button>
   <button class="btn" data-sort="alpha">A-Z</button>
   <button class="btn" data-sort="arrival">Arrivée</button>
 </div>
@@ -205,8 +204,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 let data=[];
 let currentFilter='all';
 let currentRegion='all';
-let currentSort='flirt-desc';
-let currentFlirtLvl=0;
+let currentSort='tag-desc';
 let currentSection='all';
 let searchTerm='';
 let currentPage=1;
@@ -214,7 +212,7 @@ const pageSize=50;
 let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
-  const d=all.filter(a=>(a.flirty||0)>=5||(a.region||'')==='Androides');
+  const d=all.filter(a=>a.tag);
   data=d;
   buildRegionBar(d);
   updateSectionCounts(d);
@@ -225,9 +223,9 @@ fetch('data.json').then(r=>r.json()).then(all=>{
 
 function updateSectionCounts(d){
   document.getElementById('cnt-all').textContent='('+d.length+')';
-  document.getElementById('cnt-rangS').textContent='('+d.filter(a=>(a.flirty||0)===6).length+')';
-  document.getElementById('cnt-succubes').textContent='('+d.filter(a=>(a.flirty||0)===5).length+')';
-  document.getElementById('cnt-androides').textContent='('+d.filter(a=>(a.region||'')==='Androides').length+')';
+  document.getElementById('cnt-rangS').textContent='('+d.filter(a=>a.tag==='surnaturel').length+')';
+  document.getElementById('cnt-succubes').textContent='('+d.filter(a=>a.tag==='succube').length+')';
+  document.getElementById('cnt-androides').textContent='('+d.filter(a=>a.tag==='androide').length+')';
 }
 
 function buildBanner(d){
@@ -235,7 +233,7 @@ function buildBanner(d){
   d.forEach(function(a){
     if(a.photos&&a.photos.length){
       var pi=Math.floor(Math.random()*a.photos.length);
-      pool.push({src:a.photos[pi],name:a.name,age:a.age,origin:a.origin,city:a.city,flirty:a.flirty||0});
+      pool.push({src:a.photos[pi],name:a.name,age:a.age,origin:a.origin,city:a.city,tag:a.tag||''});
     }
   });
   for(var i=pool.length-1;i>0;i--){
@@ -273,7 +271,7 @@ function buildBanner(d){
       pText.textContent=n;
       var o=nameMap[n];
       pSub.textContent=o?(o.age+' ans · '+o.origin+' · '+o.city):'';
-      pFlirt.textContent=o?flirtBannerLabel(o.flirty):'';
+      pFlirt.textContent=o?tagLabel(o.tag):'';
       preview.classList.add('show');
     });
     img.addEventListener('mouseleave',function(){
@@ -286,11 +284,10 @@ function buildBanner(d){
   });
 }
 
-function flirtBannerLabel(lvl){
-  if(lvl>=6) return '♥\uFE0E S — Rang S';
-  if(lvl>=5) return '☠\uFE0E♥\uFE0E LVL 5 — Succubus';
-  if(lvl>=4) return '♥\uFE0E! LVL 4 — Passionné';
-  if(lvl>=1) return '♥\uFE0E'.repeat(lvl)+'♡\uFE0E'.repeat(3-lvl)+' Flirt L'+lvl;
+function tagLabel(tag){
+  if(tag==='surnaturel') return '♥\uFE0E S — Surnaturel';
+  if(tag==='succube') return '☠\uFE0E♥\uFE0E Succube';
+  if(tag==='androide') return '⚡\uFE0E Android';
   return '';
 }
 
@@ -311,22 +308,23 @@ function buildRegionBar(d){
 
 function applyFilters(){
   let filtered=[...data];
-  if(currentSection==='rangS')filtered=filtered.filter(a=>(a.flirty||0)===6);
-  else if(currentSection==='succubes')filtered=filtered.filter(a=>(a.flirty||0)===5);
-  else if(currentSection==='androides')filtered=filtered.filter(a=>(a.region||'')==='Androides');
+  if(currentSection==='rangS')filtered=filtered.filter(a=>a.tag==='surnaturel');
+  else if(currentSection==='succubes')filtered=filtered.filter(a=>a.tag==='succube');
+  else if(currentSection==='androides')filtered=filtered.filter(a=>a.tag==='androide');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
   if(currentRegion!=='all')filtered=filtered.filter(a=>(a.region||'?')===currentRegion);
-  if(currentFlirtLvl>0)filtered=filtered.filter(a=>(a.flirty||0)===currentFlirtLvl);
+
   if(searchTerm){
     const q=searchTerm.toLowerCase();
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
+  const tagOrder={surnaturel:3,succube:2,androide:1};
   filtered.sort((a,b)=>{
-    if(currentSort==='flirt-desc')return (b.flirty||0)-(a.flirty||0);
-    if(currentSort==='flirt-asc')return (a.flirty||0)-(b.flirty||0);
+    if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
+    if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
     if(currentSort==='alpha')return a.name.localeCompare(b.name);
     if(currentSort==='arrival')return data.indexOf(a)-data.indexOf(b);
     if(currentSort==='arrival-rev')return data.indexOf(b)-data.indexOf(a);
@@ -353,18 +351,16 @@ function renderPage(){
     const img=hasPhoto
       ? `<img src="${a.photos[0]}" loading="lazy" decoding="async" alt="${a.name}">`
       : `<div class="card-placeholder">photo à venir</div>`;
-    const flirtDots=a.flirty>=6
+    const flirtDots=a.tag==='surnaturel'
       ? `<span class="flirt-lvl6"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span></span>`
-      : a.flirty>=5
+      : a.tag==='succube'
       ? `<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>`
-      : a.flirty>=4
-      ? `<span class="flirt-lvl4">♥\uFE0E!</span>`
-      : `<span class="flirt-hearts">${[1,2,3].map(i=>`<span class="${i<=a.flirty?'on':'off'}">♥\uFE0E</span>`).join('')}</span>`;
+      : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
       <div class="status-dot ${a.active?'on':'off'}"></div>
-      ${a.region==='Androides'?'<span class="android-tag">ANDROID</span>':''}
+      ${a.tag==='androide'?'<span class="android-tag">ANDROID</span>':''}
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
       <div class="card-info">
@@ -409,7 +405,7 @@ function resetAll(){
   currentFilter='all';
   currentRegion='all';
   currentSection='all';
-  currentSort='flirt-desc';
+  currentSort='tag-desc';
   searchTerm='';
   document.getElementById('search').value='';
   document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
@@ -418,12 +414,9 @@ function resetAll(){
   document.querySelector('#regionbar .btn[data-region="all"]').classList.add('active');
   document.querySelectorAll('#sectionTabs .section-tab').forEach(x=>x.classList.remove('active'));
   document.querySelector('#sectionTabs .section-tab[data-section="all"]').classList.add('active');
-  currentFlirtLvl=0;
-  currentSort='flirt-desc';
-  document.getElementById('sortDir').textContent='Flirt ↓';
+  currentSort='tag-desc';
+  document.getElementById('sortDir').textContent='Tag ↓';
   document.getElementById('sortDir').classList.add('active');
-  document.getElementById('flirtLvl').textContent='Tous niveaux';
-  document.getElementById('flirtLvl').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée';
@@ -449,14 +442,12 @@ function buildProfile(a){
       <span class="profile-close" onclick="closeProfile()">&times;</span>
       <h2>${a.name}</h2>
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
-      ${a.region==='Androides'?'<span class="profile-badge badge-android" style="margin-top:8px">ANDROID</span>':''}
-      ${a.flirty>=6
-        ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Rang S</span>`
-        : a.flirty>=5
-        ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E LVL 5 — Succubus</span>`
-        : a.flirty>=4
-        ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px">♥\uFE0E! LVL 4</span>`
-        : `<span class="profile-badge badge-flirt flirt-hearts" style="font-size:0.85rem;padding:4px 12px">${'♥\uFE0E'.repeat(a.flirty)}${'♡\uFE0E'.repeat(3-a.flirty)} Flirt L${a.flirty}</span>`}
+      ${a.tag==='androide'?'<span class="profile-badge badge-android" style="margin-top:8px">⚡ ANDROID</span>':''}
+      ${a.tag==='surnaturel'
+        ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
+        : a.tag==='succube'
+        ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E Succube</span>`
+        : ''}
       <span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>
     </div>
     <div class="profile-body">
@@ -536,18 +527,10 @@ document.querySelectorAll('.toolbar .btn[data-filter]').forEach(b=>{
 
 // sort direction toggle
 document.getElementById('sortDir').onclick=()=>{
-  if(currentSort==='flirt-desc'){currentSort='flirt-asc';document.getElementById('sortDir').textContent='Flirt ↑';}
-  else{currentSort='flirt-desc';document.getElementById('sortDir').textContent='Flirt ↓';}
+  if(currentSort==='tag-desc'){currentSort='tag-asc';document.getElementById('sortDir').textContent='Tag ↑';}
+  else{currentSort='tag-desc';document.getElementById('sortDir').textContent='Tag ↓';}
   document.getElementById('sortDir').classList.add('active');
   document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
-  applyFilters();
-};
-// flirt level cycle: 0=Tous → 1..6
-document.getElementById('flirtLvl').onclick=()=>{
-  currentFlirtLvl=(currentFlirtLvl+1)%7;
-  const btn=document.getElementById('flirtLvl');
-  btn.textContent=currentFlirtLvl===0?'Tous niveaux':'Niveau '+currentFlirtLvl;
-  btn.classList.toggle('active',currentFlirtLvl>0);
   applyFilters();
 };
 // A-Z
