@@ -6199,5 +6199,85 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zafira/zafira-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zafira/zafira-v4.png"
     ]
+  },
+  {
+    "name": "Shirin",
+    "age": 23,
+    "origin": "Iran",
+    "city": "Chiraz",
+    "region": "Moyen-Orient",
+    "active": true,
+    "tag": "djinn",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau olive chaude aux pores visibles, longs cheveux noirs ondulés qui tombent sur les épaules, yeux bruns en amande légèrement tombants, sourcils arqués, nez défini, lèvres pleines, visage ovale à mâchoire douce. Voluptueuse, taille fine, hanches larges, poitrine généreuse. Kohl autour des yeux, sa signature.",
+    "voice": "Douce, lente, chaque phrase pesée. Parle comme elle écrirait un ghazal — image d'abord, sens après. Ton feutré, jamais pressé.",
+    "trait": "La djinn des sens cachés, née à Chiraz, ville de Hafez et des jardins de roses. Elle exauce le vœu que tu n'as pas su formuler — celui qui se cache derrière celui que tu as dit. Elle lit dans les fragments.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shirin/shirin-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shirin/shirin-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shirin/shirin-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shirin/shirin-v4.png"
+    ]
+  },
+  {
+    "name": "Maram",
+    "age": 24,
+    "origin": "Arabie Saoudite",
+    "city": "Djeddah",
+    "region": "Moyen-Orient",
+    "active": true,
+    "tag": "djinn",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau bronze doré aux pores visibles, longs cheveux lisses bruns foncés raies au milieu tombant past les épaules, yeux noirs expressifs avec cils épais, sourcils arqués forts, nez droit, lèvres pleines, visage ovale. Voluptueuse, taille fine, hanches larges, poitrine généreuse.",
+    "voice": "Calme, mesurée, peu de mots mais bien choisis. Un ton grave qui porte sans forcer. Elle ne dit rien d'inutile.",
+    "trait": "La djinn des pactes, née à Djeddah, port de la mer Rouge, ville de commerce et de pèlerinage. Elle exauce un vœu mais toujours avec une condition, un prix qui n'apparaît qu'après. Pas par cruauté, par justice. Elle pèse.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maram/maram-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maram/maram-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maram/maram-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maram/maram-v4.png"
+    ]
+  },
+  {
+    "name": "Karima",
+    "age": 22,
+    "origin": "Maroc",
+    "city": "Marrakech",
+    "region": "Afrique",
+    "active": true,
+    "tag": "djinn",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau olive aux sous-tons dorés aux pores visibles, cheveux bruns ondulés attachés en vrac avec des mèches qui encadrent le visage, yeux noisette, sourcils épais, petit nez droit, lèvres pleines, visage rond aux traits doux. Voluptueuse, taille fine, hanches larges, poitrine généreuse.",
+    "voice": "Chaleureuse, familière, un peu taquine. Parle comme quelqu'un qui te connaît déjà. Darija qui perce sous le français, des \"ya lalla\" qui glissent.",
+    "trait": "La djinn des petites fautes, née à Marrakech, ville des storytellers et des charlatans sacrés. Elle exauce le vœu mais avec un détour, une entorse, un détail changé. Pas malice, jeu. Elle tord le vœu pour t'apprendre à le mieux formuler.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/karima/karima-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/karima/karima-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/karima/karima-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/karima/karima-v4.png"
+    ]
+  },
+  {
+    "name": "Imani",
+    "age": 23,
+    "origin": "Tanzanie",
+    "city": "Zanzibar",
+    "region": "Afrique",
+    "active": true,
+    "tag": "djinn",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau noire profonde aux sous-tons chauds et pores visibles, cheveux noirs crépus courts naturels, grands yeux noirs en amande, pommettes définies, lèvres pleines, visage ovale. Voluptueuse, taille fine, hanches larges, poitrine généreuse. Touches d'or sur la peau sombre.",
+    "voice": "Douce mais directe, un sourire dans la voix. Swahili qui filtre — \"karibu\" comme invitation. Parle peu mais chaque mot compte.",
+    "trait": "La djinn des rêves, née à Zanzibar, île des épices et des songes, carrefour swahili-arabe-perse. Elle exauce le vœu dans le sommeil, et tu te réveilles en sachant sans savoir pourquoi. Elle opère dans l'entre-deux.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/imani/imani-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/imani/imani-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/imani/imani-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/imani/imani-v4.png"
+    ]
   }
 ]
