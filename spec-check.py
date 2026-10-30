@@ -1,8 +1,15 @@
 h=open("specials.html").read()
-# Voir le sort arrival et la déclaration de currentSort
-i=h.find("if(currentSort==='arrival')")
-print(repr(h[i-50:i+300]))
-print("---")
-i=h.find("let currentSort")
-if i==-1: i=h.find("var currentSort")
-print(repr(h[i:i+60]))
+# Voir buildProfile en entier
+i=h.find("function buildProfile")
+print("=== buildProfile ===")
+print(repr(h[i:i+1200]))
+print("\n---\n")
+# Voir updateSection
+i=h.find("function updateSection")
+print("=== updateSection ===")
+print(repr(h[i:i+500]))
+print("\n---\n")
+# Voir applyFilters debut
+i=h.find("function applyFilters")
+print("=== applyFilters ===")
+print(repr(h[i:i+600]))

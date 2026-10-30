@@ -241,7 +241,7 @@ const pageSize=50;
 let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
-  const d=all.filter(a=>a.tag);
+  const d=all.filter(a=>a.tag).map(a=>({...a,tag:a.tag.replace(/\s+/g,'-').trim()}));
   data=d;
   buildRegionBar(d);
   updateSectionCounts(d);
@@ -324,7 +324,7 @@ function tagLabel(tag){
   if(tag==='succube') return '☠\uFE0E♥\uFE0E Succube';
   if(tag==='androide') return '⚡\uFE0E Android';
   if(tag==='vampire') return '🩸♥\uFE0E Vampire';
-  if(tag==='garde-du-corps') return '⚔\uFE0E Garde du corps';
+  if(tag==='garde-du-corps'||tag==='garde du corps') return '⚔\uFE0E Garde du corps';
   if(tag==='djinn') return '🔥 Djinn';
   if(tag==='ange') return '🕊\uFE0E Ange';
   if(tag==='démone') return '<svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone';
@@ -368,7 +368,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0,'garde du corps':0,kungfupunk:0};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0,kungfupunk:0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -464,7 +464,7 @@ function resetAll(){
   currentFilter='all';
   currentRegion='all';
   currentSection='all';
-  currentSort='tag-desc';
+  currentSort='arrival-rev';
   searchTerm='';
   document.getElementById('search').value='';
   document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
@@ -473,12 +473,12 @@ function resetAll(){
   document.querySelector('#regionbar .btn[data-region="all"]').classList.add('active');
   document.querySelectorAll('#sectionTabs .section-tab').forEach(x=>x.classList.remove('active'));
   document.querySelector('#sectionTabs .section-tab[data-section="all"]').classList.add('active');
-  currentSort='tag-desc';
+  currentSort='arrival-rev';
   document.getElementById('sortDir').textContent='Tag ↓';
-  document.getElementById('sortDir').classList.add('active');
+  document.getElementById('sortDir').classList.remove('active');
   document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée';
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.add('active');
+  document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée ↓';
   applyFilters();
   window.scrollTo({top:0,behavior:'smooth'});
 }
