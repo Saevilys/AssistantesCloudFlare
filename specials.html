@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns</title>
+<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns · Anges</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -94,6 +94,10 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .flirt-djinn{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAmber 2s ease-in-out infinite;text-shadow:0 0 6px #ff8800,0 0 12px #ff6600,0 0 18px #ff440080}
 @keyframes glowPulseAmber{0%,100%{opacity:1;text-shadow:0 0 6px #ff8800,0 0 12px #ff6600,0 0 18px #ff440080}50%{opacity:.75;text-shadow:0 0 3px #ff8800,0 0 6px #ff6600,0 0 12px #ff440060}}
 
+.flirt-ange{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAngel 2.4s ease-in-out infinite;text-shadow:0 0 6px #fff8e0,0 0 12px #ffd966,0 0 18px #ffe8a080}
+.flirt-ange .wing{color:#fff8e0;filter:drop-shadow(0 0 3px #ffd966) drop-shadow(0 0 6px #fff8e080)}
+@keyframes glowPulseAngel{0%,100%{opacity:1;text-shadow:0 0 6px #fff8e0,0 0 12px #ffd966,0 0 18px #ffe8a080}50%{opacity:.8;text-shadow:0 0 3px #fff8e0,0 0 6px #ffd966,0 0 12px #ffe8a060}}
+
 .android-tag{position:absolute;top:10px;right:10px;background:rgba(18,40,58,.8);color:#67e8f9;font-size:0.62rem;letter-spacing:.08em;padding:3px 7px;border-radius:6px;font-weight:600;z-index:2}
 .dim{opacity:.5;filter:grayscale(60%)}
 
@@ -163,7 +167,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <header>
   <div class="spec-icon">✦</div>
   <h1>Assistantes <span class="spec-cyan">Spéciales</span></h1>
-  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns. Six catégories, un seul point commun : elles défient les règles du roster.</p>
+  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns, Anges. Sept catégories, un seul point commun : elles défient les règles du roster.</p>
   <p class="count" id="count">chargement…</p>
 </header>
 
@@ -175,6 +179,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="vampires">Vampires <span class="tab-count" id="cnt-vampires"></span></button>
   <button class="section-tab" data-section="gardes">Gardes du corps <span class="tab-count" id="cnt-gardes"></span></button>
   <button class="section-tab" data-section="djinns">Djinns <span class="tab-count" id="cnt-djinns"></span></button>
+  <button class="section-tab" data-section="anges">Anges <span class="tab-count" id="cnt-anges"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -243,6 +248,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-vampires').textContent='('+d.filter(a=>a.tag==='vampire').length+')';
   document.getElementById('cnt-gardes').textContent='('+d.filter(a=>a.tag==='garde-du-corps').length+')';
   document.getElementById('cnt-djinns').textContent='('+d.filter(a=>a.tag==='djinn').length+')';
+  document.getElementById('cnt-anges').textContent='('+d.filter(a=>a.tag==='ange').length+')';
 }
 
 function buildBanner(d){
@@ -308,6 +314,7 @@ function tagLabel(tag){
   if(tag==='vampire') return '🩸♥\uFE0E Vampire';
   if(tag==='garde-du-corps') return '⚔\uFE0E Garde du corps';
   if(tag==='djinn') return '🔥 Djinn';
+  if(tag==='ange') return '🕊\uFE0E Ange';
   return '';
 }
 
@@ -334,6 +341,7 @@ function applyFilters(){
   else if(currentSection==='vampires')filtered=filtered.filter(a=>a.tag==='vampire');
   else if(currentSection==='gardes')filtered=filtered.filter(a=>a.tag==='garde-du-corps');
   else if(currentSection==='djinns')filtered=filtered.filter(a=>a.tag==='djinn');
+  else if(currentSection==='anges')filtered=filtered.filter(a=>a.tag==='ange');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -344,7 +352,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,'garde-du-corps':0};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'garde-du-corps':0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -386,6 +394,8 @@ function renderPage(){
       ? `<span class="flirt-androide">⚔\uFE0E</span>`
       : a.tag==='djinn'
       ? `<span class="flirt-djinn">🔥</span>`
+      : a.tag==='ange'
+      ? `<span class="flirt-ange"><span class="wing">🕊\uFE0E</span></span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -476,6 +486,7 @@ function buildProfile(a){
       ${a.tag==='vampire'?'<span class="profile-badge badge-flirt flirt-vampire" style="font-size:0.9rem;padding:4px 12px"><span class="drop">🩸</span><span class="heart">♥\uFE0E</span> Vampire</span>':''}
       ${a.tag==='garde-du-corps'?'<span class="profile-badge badge-android" style="margin-top:8px">⚔\uFE0E Garde du corps</span>':''}
       ${a.tag==='djinn'?'<span class="profile-badge" style="margin-top:8px;background:#2a1a08;color:#ff8800">🔥 Djinn</span>':''}
+      ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
