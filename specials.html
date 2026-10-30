@@ -321,7 +321,7 @@ function tagLabel(tag){
   if(tag==='garde-du-corps') return '⚔\uFE0E Garde du corps';
   if(tag==='djinn') return '🔥 Djinn';
   if(tag==='ange') return '🕊\uFE0E Ange';
-  if(tag==='démone') return '<svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="15" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone';
+  if(tag==='démone') return '<svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone';
   return '';
 }
 
@@ -405,7 +405,7 @@ function renderPage(){
       : a.tag==='ange'
       ? `<span class="flirt-ange"><span class="wing">🕊\uFE0E</span></span>`
       : a.tag==='démone'
-      ? `<span class="flirt-demone"><svg viewBox="0 0 20 24" width="15" height="19" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="15" width="16" height="3" rx="1.5" fill="#ff2244"/></svg></span>`
+      ? `<span class="flirt-demone"><svg viewBox="0 0 20 24" width="15" height="19" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg></span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -497,7 +497,7 @@ function buildProfile(a){
       ${a.tag==='garde-du-corps'?'<span class="profile-badge badge-android" style="margin-top:8px">⚔\uFE0E Garde du corps</span>':''}
       ${a.tag==='djinn'?'<span class="profile-badge" style="margin-top:8px;background:#2a1a08;color:#ff8800">🔥 Djinn</span>':''}
       ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
-      ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px"><svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="15" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone</span>':''}
+      ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px"><svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
