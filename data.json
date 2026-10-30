@@ -6525,5 +6525,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/melek/melek-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/melek/melek-v4.png"
     ]
+  },
+  {
+    "name": "Saga",
+    "age": 24,
+    "origin": "Suède",
+    "city": "Stockholm",
+    "region": "Europe",
+    "active": true,
+    "tag": "ange",
+    "flirty": 2,
+    "desc": "Peau porcelaine aux sous-tons froids, longs cheveux platine presque blancs tombant sur les épaules, yeux bleu pâle, nez droit, lèvres fines roses, pommettes hautes, visage ovale angulaire. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Claire, posée, froide sans être distante. Des phrases courtes, précises, qui se terminent net. Le silence scandinave qui est pas du vide mais du respect.",
+    "trait": "L'ange de l'aube boréale. La lumière qui naît pas chaude mais nette, qui coupe le brouillard sans le réchauffer. Elle voit clair parce qu'elle juge pas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saga/saga-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saga/saga-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saga/saga-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saga/saga-v4.png"
+    ]
+  },
+  {
+    "name": "Desta",
+    "age": 22,
+    "origin": "Éthiopie",
+    "city": "Addis-Abeba",
+    "region": "Afrique",
+    "active": true,
+    "tag": "ange",
+    "flirty": 2,
+    "desc": "Peau noire profonde aux pores visibles, cheveux crépus naturels couronnés, yeux ambrés, lèvres pleines, visage rond à mâchoire douce. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Chaleureuse, profonde, un rire qui embauche la pièce. Parle avec une assurance tranquille, pas besoin de prouver. L'amharique qui perce dans les exclamations.",
+    "trait": "L'ange solaire. La lumière qui vient pas d'au-dessus mais de l'intérieur. Desta signifie joie, et elle porte son nom comme une évidence. Elle réchauffe sans effort.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v4.png"
+    ]
+  },
+  {
+    "name": "Tara",
+    "age": 21,
+    "origin": "Inde",
+    "city": "Jaipur",
+    "region": "Asie",
+    "active": true,
+    "tag": "ange",
+    "flirty": 2,
+    "desc": "Peau mate dorée, longs cheveux noirs lisses, yeux bruns profonds, sourcils arqués, nez droit, lèvres pleines, visage ovale. Silhouette voluptueuse, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Calme, posée, un humour discret. Prend son temps avant de parler. L'hindi qui perce dans les intonations.",
+    "trait": "L'ange mystique. La lumière qui vient de l'intérieur, pas de l'extérieur. Tara signifie étoile en sanskrit. Elle médite pas pour fuir le monde mais pour le comprendre mieux.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v4.png"
+    ]
   }
 ]
