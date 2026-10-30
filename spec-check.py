@@ -1,11 +1,11 @@
 h=open("specials.html").read()
-# Voir le template de carte complet
-i=h.find("card-info")
-# Trouver celui dans le JS template (pas CSS)
-import re
-for m in re.finditer(r"card-info", h):
-    j=m.start()
-    ctx=h[j-50:j+300]
-    if '${' in ctx:
-        print(repr(ctx))
-        print("===")
+print("badge-anomalie:", "badge-anomalie" in h)
+print("glowAnomalie:", "glowAnomalie" in h)
+# check raw with cache-busting
+import urllib.request
+url="https://raw.githubusercontent.com/Saevilys/AssistantesCloudFlare/nemini/specials.html?t="+str(len(h))
+r=urllib.request.urlopen(urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Cache-Control":"no-cache"}))
+raw=r.read().decode()
+print("raw badge-anomalie:", "badge-anomalie" in raw)
+print("raw glowAnomalie:", "glowAnomalie" in raw)
+print("raw len:", len(raw), "local len:", len(h))
