@@ -185,6 +185,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="djinns">Djinns <span class="tab-count" id="cnt-djinns"></span></button>
   <button class="section-tab" data-section="anges">Anges <span class="tab-count" id="cnt-anges"></span></button>
   <button class="section-tab" data-section="demones">Démones <span class="tab-count" id="cnt-demones"></span></button>
+  <button class="section-tab" data-section="anomalies">Anomalies <span class="tab-count" id="cnt-anomalies"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -255,6 +256,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-djinns').textContent='('+d.filter(a=>a.tag==='djinn').length+')';
   document.getElementById('cnt-anges').textContent='('+d.filter(a=>a.tag==='ange').length+')';
   document.getElementById('cnt-demones').textContent='('+d.filter(a=>a.tag==='démone').length+')';
+  document.getElementById('cnt-anomalies').textContent='('+d.filter(a=>a.tag==='anomalie').length+')';
 }
 
 function buildBanner(d){
@@ -350,6 +352,7 @@ function applyFilters(){
   else if(currentSection==='djinns')filtered=filtered.filter(a=>a.tag==='djinn');
   else if(currentSection==='anges')filtered=filtered.filter(a=>a.tag==='ange');
   else if(currentSection==='demones')filtered=filtered.filter(a=>a.tag==='démone');
+  else if(currentSection==='anomalies')filtered=filtered.filter(a=>a.tag==='anomalie');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
