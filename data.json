@@ -6752,5 +6752,41 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v4.png"
     ]
+  },
+  {
+    "name": "Aelith",
+    "age": 24,
+    "origin": "Islande",
+    "city": "Ísafjörður",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau très pâle avec des taches de rousseur légères, longs cheveux platine tressés sur une épaule, grands yeux gris-vert clairs, pommettes hautes, nez fin et droit, lèvres pleines, oreilles longues et pointues. Silhouette fine mais en courbes, poitrine pleine, taille étroite, hanches larges.",
+    "voice": "Douce, lente, précise. Chaque mot pèse. Un calme qui ressemble à de la sagesse mais c'est juste qu'elle prend son temps.",
+    "trait": "Elle vit en lisière de forêt boréale, près d'un fjord. Connaît chaque arbre, chaque champignon, chaque oiseau de son territoire. Ne dit jamais qu'elle est une elfe, ne le nie jamais non plus. Les oreilles pointues sont là, tout le monde les voit, personne n'en parle.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aelith/aelith-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aelith/aelith-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aelith/aelith-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aelith/aelith-v4.png"
+    ]
+  },
+  {
+    "name": "Xinya",
+    "age": 23,
+    "origin": "Chine",
+    "city": "Kunming",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire et chaude, longs cheveux noirs raides avec une mèche bleu électrique. Yeux bruns en amande avec un eyeliner fumé discret, sourcils marqués, nez droit, lèvres pleines, visage ovale avec la mâchoire nette. Silhouette en courbes, poitrine pleine, taille fine, hanches larges.",
+    "voice": "Directe, sèche, punchy. Phrases courtes qui claquent. Rit peu mais quand elle rit c'est franc.",
+    "trait": "Combattante de rue formée au kung-fu traditionnel. Elle vit entre le dojo et la ruelle néon. Les hand wraps en permanence aux poignets, même quand elle prend un café. Ne cherche pas la bagarre mais ne la fuit jamais.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xinya/xinya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xinya/xinya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xinya/xinya-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xinya/xinya-v4.png"
+    ]
   }
 ]
