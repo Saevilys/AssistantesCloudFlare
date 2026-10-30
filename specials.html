@@ -97,8 +97,8 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .flirt-ange{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAngel 2.4s ease-in-out infinite;text-shadow:0 0 6px #fff8e0,0 0 12px #ffd966,0 0 18px #ffe8a080}
 .flirt-demone{line-height:1;animation:glowPulseDemon 2s ease-in-out infinite}
 .badge-anomalie{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:12px;font-size:0.68rem;background:#0a0a14;color:#67e8f9;border:1px solid #67e8f940;animation:glowAnomalie 3s ease-in-out infinite}
-.card-tag-badge{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:12px;font-size:0.68rem;background:#0a0a14;border:1px solid;white-space:nowrap;animation:tagGlow 3s ease-in-out infinite}
-@keyframes tagGlow{0%,100%{filter:drop-shadow(0 0 2px currentColor)}50%{filter:drop-shadow(0 0 6px currentColor) drop-shadow(0 0 12px currentColor)}}
+.card-tag-badge{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:12px;font-size:0.68rem;background:#0a0a14;border:1px solid;white-space:nowrap;animation:tagGlow 4s ease-in-out infinite}
+@keyframes tagGlow{0%,100%{filter:drop-shadow(0 0 1px currentColor)}50%{filter:drop-shadow(0 0 3px currentColor) drop-shadow(0 0 6px currentColor)}}
 @keyframes glowAnomalie{0%,100%{box-shadow:0 0 3px #67e8f930}50%{box-shadow:0 0 8px #67e8f960,0 0 16px #67e8f920}}
 .flirt-demone img{width:16px;height:16px;vertical-align:-3px;filter:drop-shadow(0 0 3px #ff003380) drop-shadow(0 0 6px #ff003360)}
 .flirt-demone.profile-badge img{width:14px;height:14px;vertical-align:-2px}
@@ -208,9 +208,9 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <div class="toolbar" id="regionbar"></div>
 
 <div class="toolbar" id="sortbar">
-  <button class="btn active" id="sortDir">Tag ↓</button>
+  <button class="btn" id="sortDir">Tag ↓</button>
   <button class="btn" data-sort="alpha">A-Z</button>
-  <button class="btn" data-sort="arrival">Arrivée</button>
+  <button class="btn active" data-sort="arrival">Arrivée ↓</button>
 </div>
 
 <div class="container">
@@ -233,7 +233,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 let data=[];
 let currentFilter='all';
 let currentRegion='all';
-let currentSort='tag-desc';
+let currentSort='arrival-rev';
 let currentSection='all';
 let searchTerm='';
 let currentPage=1;
@@ -368,7 +368,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0,'garde du corps':0,kungfupunk:0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -425,7 +425,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b']};const t=tags[a.tag];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
