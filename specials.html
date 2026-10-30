@@ -94,6 +94,9 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .flirt-djinn{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAmber 2s ease-in-out infinite;text-shadow:0 0 6px #ff8800,0 0 12px #ff6600,0 0 18px #ff440080}
 @keyframes glowPulseAmber{0%,100%{opacity:1;text-shadow:0 0 6px #ff8800,0 0 12px #ff6600,0 0 18px #ff440080}50%{opacity:.75;text-shadow:0 0 3px #ff8800,0 0 6px #ff6600,0 0 12px #ff440060}}
 
+.flirt-kungfu{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseGold 2.2s ease-in-out infinite;text-shadow:0 0 6px #e8c84b,0 0 12px #d4a82e,0 0 18px #b8860b80}
+@keyframes glowPulseGold{0%,100%{opacity:1;text-shadow:0 0 6px #e8c84b,0 0 12px #d4a82e,0 0 18px #b8860b80}50%{opacity:.75;text-shadow:0 0 3px #e8c84b,0 0 6px #d4a82e,0 0 12px #b8860b60}}
+
 .flirt-ange{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAngel 2.4s ease-in-out infinite;text-shadow:0 0 6px #fff8e0,0 0 12px #ffd966,0 0 18px #ffe8a080}
 .flirt-demone{line-height:1;animation:glowPulseDemon 2s ease-in-out infinite}
 .badge-anomalie{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:12px;font-size:0.68rem;background:#0a0a14;color:#67e8f9;border:1px solid #67e8f940;animation:glowAnomalie 3s ease-in-out infinite}
@@ -190,6 +193,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="anges">Anges <span class="tab-count" id="cnt-anges"></span></button>
   <button class="section-tab" data-section="demones">Démones <span class="tab-count" id="cnt-demones"></span></button>
   <button class="section-tab" data-section="anomalies">Anomalies <span class="tab-count" id="cnt-anomalies"></span></button>
+  <button class="section-tab" data-section="kungfu">Kung Fu Punk <span class="tab-count" id="cnt-kungfu"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -261,6 +265,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-anges').textContent='('+d.filter(a=>a.tag==='ange').length+')';
   document.getElementById('cnt-demones').textContent='('+d.filter(a=>a.tag==='démone').length+')';
   document.getElementById('cnt-anomalies').textContent='('+d.filter(a=>a.tag==='anomalie').length+')';
+  document.getElementById('cnt-kungfu').textContent='('+d.filter(a=>a.tag==='kungfupunk').length+')';
 }
 
 function buildBanner(d){
@@ -329,6 +334,7 @@ function tagLabel(tag){
   if(tag==='ange') return '🕊\uFE0E Ange';
   if(tag==='démone') return '<svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone';
   if(tag==='anomalie') return '◆ Anomalie';
+  if(tag==='kungfupunk') return '☯\uFE0E Kung Fu Punk';
   return '';
 }
 
@@ -358,6 +364,7 @@ function applyFilters(){
   else if(currentSection==='anges')filtered=filtered.filter(a=>a.tag==='ange');
   else if(currentSection==='demones')filtered=filtered.filter(a=>a.tag==='démone');
   else if(currentSection==='anomalies')filtered=filtered.filter(a=>a.tag==='anomalie');
+  else if(currentSection==='kungfu')filtered=filtered.filter(a=>a.tag==='kungfupunk');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -414,6 +421,8 @@ function renderPage(){
       ? `<span class="flirt-ange"><span class="wing">🕊\uFE0E</span></span>`
       : a.tag==='démone'
       ? `<span class="flirt-demone"><svg viewBox="0 0 20 24" width="15" height="19" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg></span>`
+      : a.tag==='kungfupunk'
+      ? `<span class="flirt-kungfu">☯\uFE0E</span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -508,6 +517,7 @@ function buildProfile(a){
       ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
       ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px"><svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone</span>':''}
       ${a.tag==='anomalie'?'<span class="badge-anomalie" style="font-size:0.9rem;padding:4px 12px;margin-top:8px">◆ Anomalie</span>':''}
+      ${a.tag==='kungfupunk'?'<span class="profile-badge" style="margin-top:8px;background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
