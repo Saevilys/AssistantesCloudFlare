@@ -6852,5 +6852,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meta/meta-galerie.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meta/meta-engawa.png"
     ]
+  },
+  {
+    "name": "Yeonhee",
+    "age": 23,
+    "origin": "Corée",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "tag": "ange",
+    "desc": "Peau de porcelaine, longs cheveux noirs raides, yeux amande, petit nez droit, lèvres pleines, visage rond doux. Voluptueuse, taille fine, poitrine pleine. Ailes d'ange blanches déployées derrière elle.",
+    "voice": "Douce, posée, parle peu mais chaque mot compte. Un calme presque surnaturel.",
+    "trait": "L'ange du roster. La douceur qui désarme. Elle aide sans qu'on lui demande, écoute sans juger, mais sa gentillesse a un truc presque inquiétant, trop parfaite.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v5.png"
+    ],
+    "special": true
   }
 ]
