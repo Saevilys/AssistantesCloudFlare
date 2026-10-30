@@ -96,6 +96,8 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 
 .flirt-ange{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseAngel 2.4s ease-in-out infinite;text-shadow:0 0 6px #fff8e0,0 0 12px #ffd966,0 0 18px #ffe8a080}
 .flirt-demone{line-height:1;animation:glowPulseDemon 2s ease-in-out infinite}
+.badge-anomalie{display:inline-block;margin-top:6px;padding:3px 10px;border-radius:12px;font-size:0.68rem;background:#0a0a14;color:#67e8f9;border:1px solid #67e8f940;animation:glowAnomalie 3s ease-in-out infinite}
+@keyframes glowAnomalie{0%,100%{box-shadow:0 0 3px #67e8f930}50%{box-shadow:0 0 8px #67e8f960,0 0 16px #67e8f920}}
 .flirt-demone img{width:16px;height:16px;vertical-align:-3px;filter:drop-shadow(0 0 3px #ff003380) drop-shadow(0 0 6px #ff003360)}
 .flirt-demone.profile-badge img{width:14px;height:14px;vertical-align:-2px}
 .flirt-ange .wing{color:#fff8e0;filter:drop-shadow(0 0 3px #ffd966) drop-shadow(0 0 6px #fff8e080)}
@@ -421,6 +423,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
+        ${a.tag==='anomalie'?'<span class="badge-anomalie">◆ Anomalie</span>':''}
       </div>
     </div>`;
   }).join('');
@@ -502,7 +505,7 @@ function buildProfile(a){
       ${a.tag==='djinn'?'<span class="profile-badge" style="margin-top:8px;background:#2a1a08;color:#ff8800">🔥 Djinn</span>':''}
       ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
       ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px"><svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone</span>':''}
-      ${a.tag==='anomalie'?'<span class="profile-badge" style="margin-top:8px;background:#0a0a14;color:#67e8f9;font-size:0.9rem;padding:4px 12px;border:1px solid #67e8f940">◆ Anomalie</span>':''}
+      ${a.tag==='anomalie'?'<span class="badge-anomalie" style="font-size:0.9rem;padding:4px 12px;margin-top:8px">◆ Anomalie</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'

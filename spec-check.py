@@ -1,7 +1,11 @@
-import re
 h=open("specials.html").read()
-# Trouver le badge démone et sa fin (le :'' qui suit)
-i=h.find("a.tag==='démone'?'<span class=\"profile-badge flirt-demone\"")
-# Chercher le prochain :'' ou :''} après
-ctx=h[i:i+600]
-print(repr(ctx))
+# Voir le template de carte complet
+i=h.find("card-info")
+# Trouver celui dans le JS template (pas CSS)
+import re
+for m in re.finditer(r"card-info", h):
+    j=m.start()
+    ctx=h[j-50:j+300]
+    if '${' in ctx:
+        print(repr(ctx))
+        print("===")
