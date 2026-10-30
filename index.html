@@ -414,6 +414,7 @@ function buildProfile(a){
       <h2>${a.name}</h2>
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
       ${a.region==='Androides'?'<span class="profile-badge badge-android" style="margin-top:8px">ANDROID</span>':''}
+      ${a.tag==='kungfupunk'?'<span class="profile-badge" style="margin-top:8px;background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':''}
       ${a.flirty>=6
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Rang S</span>`
         : a.flirty>=5
