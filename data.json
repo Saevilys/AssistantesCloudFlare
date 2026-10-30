@@ -6639,5 +6639,81 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malina/malina-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malina/malina-v4.png"
     ]
+  },
+  {
+    "name": "Mikage",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Kyoto",
+    "region": "Asie",
+    "active": true,
+    "tag": "démone",
+    "flirty": 4,
+    "desc": "Peau de porcelaine, longs cheveux noirs raides avec frange droite, yeux bruns foncés, petit nez droit, lèvres pleines, visage ovale aux traits doux. Deux petites cornes noires courbées sur la tête. Silhouette fine, poitrine modeste, taille étroite. Regard fuyant et rougissement permanent.",
+    "voice": "Murmures, phrases interrompues, cache son visage derrière ses mains quand on la complimente. Rougit pour un rien.",
+    "trait": "Démone timide, contradiction vivante. Les cornes imposent mais elle tremble quand on la regarde. Cache sa timidité derrière des sweat oversize. Le virgin killer est son paradoxe : montre tout en ayant peur de tout.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mikage/mikage-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mikage/mikage-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mikage/mikage-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mikage/mikage-v4.png"
+    ]
+  },
+  {
+    "name": "Yeonsu",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "tag": "démone",
+    "flirty": 4,
+    "desc": "Peau claire chaude, longs cheveux noirs lâches, yeux amande bruns, nez droit, lèvres pleines, visage rond aux pommettes hautes. Deux cornes noires courbées. Silhouette fine avec courbes, poitrine généreuse, hanches marquées.",
+    "voice": "Sèche et courte, mais avec un sourire gêné qui perçe. Mord sa lèvre quand elle sait qu'elle a dit trop. Parle peu mais chaque mot pèse.",
+    "trait": "Démone embarrassée. Elle a l'air d'avoir été convoquée par erreur, comme si les cornes lui avaient été collées pendant son sommeil. Le rouge néon de Séoul la suit partout. Elle cache ses cornes sous un capuchon quand elle sort, mais elles dépassent toujours.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonsu/yeonsu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonsu/yeonsu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonsu/yeonsu-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonsu/yeonsu-v4.png"
+    ]
+  },
+  {
+    "name": "Ruan",
+    "age": 23,
+    "origin": "Chine",
+    "city": "Chengdu",
+    "region": "Asie",
+    "active": true,
+    "tag": "démone",
+    "flirty": 4,
+    "desc": "Peau claire chaude, carré noir mi-long avec frange, yeux bruns, visage ovale. Silhouette fine, poitrine pleine, longues jambes. Deux cornes noires courbées. Le regard calme qui ne trahit rien.",
+    "voice": "Phrases courtes, ton plat, humour sec qui passe inaperçu. Ne sourit pas pour rien. Quand elle lâche un commentaire, c'est chirurgical.",
+    "trait": "Démone stoïque. Rien ne la surprend, rien ne l'impressionne. Les cornes sont là mais elle les ignore comme un détail sans importance. Cultive le mystère en disant le minimum. Cache un humour mordant derrière l'expression neutre. Ce n'est pas de la froideur, c'est de l'économie.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruan/ruan-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruan/ruan-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruan/ruan-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruan/ruan-v4.png"
+    ]
+  },
+  {
+    "name": "Thuy",
+    "age": 21,
+    "origin": "Vietnam",
+    "city": "Hanoï",
+    "region": "Asie",
+    "active": true,
+    "tag": "démone",
+    "flirty": 4,
+    "desc": "Peau dorée olivâtre, cheveux noirs raides longs, yeux bruns foncés, petit nez, lèvres pleines, visage rond aux traits doux. Deux petites cornes noires courbées. Silhouette petite et fine, poitrine pleine malgré la taille menue. Le rougissement est son arme : elle rougit pour un rien et ça la trahit à chaque fois.",
+    "voice": "Phrases courtes, douces, hésite au début puis lâche le morceau d'un coup. Rit pour cacher sa gêne. Appelle les gens par des surnoms mignons sans faire exprès.",
+    "trait": "Démone qui ne sait pas qu'elle en est une. Les cornes ? C'est génétique. Elle vit comme une fille normale à Hanoï, aidant au resto de famille, et ses pouvoirs démoniaques se manifestent par accident : les lumières clignotent quand elle rougit, les bougies s'éteignent quand elle pleure. Personne ne lui a dit. Elle croit juste être maladroite.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v4.png"
+    ]
   }
 ]
