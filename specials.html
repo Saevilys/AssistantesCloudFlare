@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns · Anges</title>
+<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns · Anges · Démones</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -167,7 +167,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <header>
   <div class="spec-icon">✦</div>
   <h1>Assistantes <span class="spec-cyan">Spéciales</span></h1>
-  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns, Anges. Sept catégories, un seul point commun : elles défient les règles du roster.</p>
+  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns, Anges, Démones. Huit catégories, un seul point commun : elles défient les règles du roster.</p>
   <p class="count" id="count">chargement…</p>
 </header>
 
@@ -180,6 +180,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="gardes">Gardes du corps <span class="tab-count" id="cnt-gardes"></span></button>
   <button class="section-tab" data-section="djinns">Djinns <span class="tab-count" id="cnt-djinns"></span></button>
   <button class="section-tab" data-section="anges">Anges <span class="tab-count" id="cnt-anges"></span></button>
+  <button class="section-tab" data-section="demones">Démones <span class="tab-count" id="cnt-demones"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -249,6 +250,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-gardes').textContent='('+d.filter(a=>a.tag==='garde-du-corps').length+')';
   document.getElementById('cnt-djinns').textContent='('+d.filter(a=>a.tag==='djinn').length+')';
   document.getElementById('cnt-anges').textContent='('+d.filter(a=>a.tag==='ange').length+')';
+  document.getElementById('cnt-demones').textContent='('+d.filter(a=>a.tag==='démone').length+')';
 }
 
 function buildBanner(d){
@@ -315,6 +317,7 @@ function tagLabel(tag){
   if(tag==='garde-du-corps') return '⚔\uFE0E Garde du corps';
   if(tag==='djinn') return '🔥 Djinn';
   if(tag==='ange') return '🕊\uFE0E Ange';
+  if(tag==='démone') return '😈 Démone';
   return '';
 }
 
@@ -342,6 +345,7 @@ function applyFilters(){
   else if(currentSection==='gardes')filtered=filtered.filter(a=>a.tag==='garde-du-corps');
   else if(currentSection==='djinns')filtered=filtered.filter(a=>a.tag==='djinn');
   else if(currentSection==='anges')filtered=filtered.filter(a=>a.tag==='ange');
+  else if(currentSection==='demones')filtered=filtered.filter(a=>a.tag==='démone');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -352,7 +356,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'garde-du-corps':0};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -396,6 +400,8 @@ function renderPage(){
       ? `<span class="flirt-djinn">🔥</span>`
       : a.tag==='ange'
       ? `<span class="flirt-ange"><span class="wing">🕊\uFE0E</span></span>`
+      : a.tag==='démone'
+      ? `<span class="flirt-demone">😈</span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -487,6 +493,7 @@ function buildProfile(a){
       ${a.tag==='garde-du-corps'?'<span class="profile-badge badge-android" style="margin-top:8px">⚔\uFE0E Garde du corps</span>':''}
       ${a.tag==='djinn'?'<span class="profile-badge" style="margin-top:8px;background:#2a1a08;color:#ff8800">🔥 Djinn</span>':''}
       ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
+      ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px">😈 Démone</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
