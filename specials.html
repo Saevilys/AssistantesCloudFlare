@@ -425,7 +425,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#a8d8ea'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b']};const t=tags[a.tag];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b']};const t=tags[a.tag];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
