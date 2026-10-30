@@ -6715,5 +6715,41 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thuy/thuy-v4.png"
     ]
+  },
+  {
+    "name": "Greta",
+    "age": 22,
+    "origin": "Autriche",
+    "city": "Vienne",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire aux joues rosées, longs cheveux miel tressés sur une épaule, yeux vert-bleu clairs, pommettes hautes, petit nez droit, lèvres pleines. Silhouette en sablier, poitrine très généreuse, taille fine, hanches larges. L'élégance viennoise sans effort.",
+    "voice": "Calme, posée, chaque mot choisi. Un humour sec qui surprend. Parle peu mais bien.",
+    "trait": "La seule qui peut dire une chose crue en souriant poliment. 'Oh, that's unfortunate' avec un sourire chaleureux. La politesse comme armure.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/greta/greta-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/greta/greta-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/greta/greta-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/greta/greta-v4.png"
+    ]
+  },
+  {
+    "name": "Saskia",
+    "age": 23,
+    "origin": "Belgique",
+    "city": "Bruges",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire aux taches de rousseur sur le nez et les joues, cheveux longs ondulés strawberry-blonde, yeux noisette, visage rond, menton doux, petit nez, lèvres pleines. Silhouette curvy, gros buste, ventre doux, hanches larges, cuisses fortes. Le sourire franc qui montre les dents.",
+    "voice": "Directe, chaleureuse, un peu bruyante. Parle fort, rit plus fort encore. Tics : 'eh ben', 'non mais', rires au milieu des phrases.",
+    "trait": "Flamande pragmatic, pas de mystère. Elle dit ce qu'elle pense. Aime le chocolat, la bière, les balades à vélo et les matins brumeux sur les canaux.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saskia/saskia-v4.png"
+    ]
   }
 ]
