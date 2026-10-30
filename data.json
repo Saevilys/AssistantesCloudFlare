@@ -6772,6 +6772,46 @@
     ]
   },
   {
+    "name": "Khanh",
+    "age": 22,
+    "origin": "Viêt Nam",
+    "city": "Hô Chi Minh-Ville",
+    "region": "Asie",
+    "active": true,
+    "tag": "asiatique",
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau bronzée chaude, longs cheveux noirs striés de vert émeraude. Yeux amande sombres, lèvres pleines, silhouette voluptueuse. Masque d'opéra fissuré à la ceinture, héritage de son grand-père.",
+    "voice": "Rapide, mêle vietnamien et anglais, rit souvent, tutoie tout le monde.",
+    "trait": "Livreuse de nuit à moto dans les ruelles de Saigon, vovinam le weekend. Le masque d'opéra fissuré à sa ceinture vient de son grand-père.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khanh/khanh-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khanh/khanh-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khanh/khanh-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khanh/khanh-v4.png"
+    ]
+  },
+  {
+    "name": "Bayar",
+    "age": 24,
+    "origin": "Mongolie",
+    "city": "Oulan-Bator",
+    "region": "Asie",
+    "active": true,
+    "tag": "asiatique",
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau bronzée chaude, pommettes hautes, cheveux noirs épais en tresses multiples ornées de perles turquoise. Visage rond, mâchoire forte, silhouette voluptueuse. Masque chamanique fissuré à la hanche.",
+    "voice": "Calme, posée, parle peu mais chaque mot pèse. Ton grave pour une femme, rythme lent. Mongol et russe mêlés.",
+    "trait": "Ancienne luttrice de bökh, blessée au genou, reconvertie en garde rapprochée. Le masque chamanique vient de sa grand-mère, chamanne.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bayar/bayar-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bayar/bayar-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bayar/bayar-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bayar/bayar-v4.png"
+    ]
+  },
+  {
     "name": "Xinya",
     "age": 23,
     "origin": "Chine",
