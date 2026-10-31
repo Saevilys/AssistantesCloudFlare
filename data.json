@@ -7152,5 +7152,27 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruolan/ruolan-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruolan/ruolan-v4.png"
     ]
+  },
+  {
+    "name": "Wanqiu",
+    "age": 24,
+    "origin": "Chine",
+    "city": "Montagnes du nord",
+    "region": "Asie",
+    "active": true,
+    "tag": "wuxia",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau olive claire, cheveux noirs lâches et soyeux sur une épaule, yeux amande légèrement tombants, lèvres pleines, visage ovale. Macromastia évidente, taille fine, hanches larges, silhouette très voluptueuse. Le trait marquant : elle porte systématiquement des hauts en croix, deux sangles qui se croisent en X sur la poitrine, dos nu, à peine contenue. Elle choisit cette tenue. Elle rougit en la portant, mais elle la porte quand même.",
+    "voice": "Calme, mesurée, avec des silences longs. Elle parle bas, comme si chaque mot coûtait quelque chose. Quand elle est gênée elle ne bafouille pas, elle se tait et rougit. Le silence c'est sa façon de dire oui.",
+    "trait": "La contradiction entre sa volonté et sa pudeur. Elle a choisi le X, le dos nu, le sous-boob, la macromastia exhibée par les sangles. Mais chaque fois elle rougit. Elle n'est pas timide par accident, elle est timide par conscience. Elle sait ce qu'elle montre, elle sait pourquoi elle le montre, et elle a quand même honte. Le wuxia noir c'est pas juste l'esthétique, c'est la brisure : une guerrière des montagnes du nord, sabre droit, mains couvertes d'encens, qui porte le X comme un défi qu'elle n'arrive pas à assumer.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanqiu/wanqiu-v5.png"
+    ]
   }
 ]
