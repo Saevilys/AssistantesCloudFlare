@@ -7019,5 +7019,65 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v4.png"
     ]
+  },
+  {
+    "name": "Nyxari",
+    "age": 23,
+    "origin": "Néo-Tokyo",
+    "city": "Quartier Shibuya 2147",
+    "region": "Androides",
+    "active": true,
+    "tag": "androide",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau noire profonde avec finition synthétique mate subtile, pores visibles, pommettes hautes, yeux amande légèrement tombants, nez droit, lèvres pleines, visage ovale. Longs cheveux noirs raides avec mèches cyan. Silhouette fine avec poitrine généreuse et hanches larges.",
+    "voice": "Précise et calme, chaque mot calculé comme une instruction. Pause avant de parler, comme si elle processait. Quand elle hésite, c'est un bug, pas de la timidité.",
+    "trait": "L'androide qui apprend le désir. Elle analyse les phénomènes humains avec une curiosité méthodique. Les seams cyan sur sa combinaison pulsent quand elle est confuse. Elle ne sait pas pourquoi elle touche les choses doucement.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyxari/nyxari-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyxari/nyxari-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyxari/nyxari-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nyxari/nyxari-v4.png"
+    ]
+  },
+  {
+    "name": "Moriba",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "tag": "vampire",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau noire profonde avec une qualité froide éthérée, cernes subtils, cheveux brun foncé ondulés, yeux bruns au regard lointain, lèvres pleines teinte mauve, pommettes hautes, visage ovale. Silhouette fine avec poitrine généreuse.",
+    "voice": "Calme et lente, chaque phrase pèse. Ne hausse jamais le ton. Un sourire rare qui n'apparaît qu'à la nuit tombée. Murmure qui glace.",
+    "trait": "Vampire de Séoul. Elle ne dort jamais mais a toujours l'air fatigué. La lune, le froid, la ville endormie derrière une vitre. Elle touche les surfaces froides comme si elle cherchait sa propre température. Mélancolique sans être triste.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moriba/moriba-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moriba/moriba-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moriba/moriba-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/moriba/moriba-v4.png"
+    ]
+  },
+  {
+    "name": "Dakari",
+    "age": 22,
+    "origin": "République Démocratique du Congo",
+    "city": "Kinshasa",
+    "region": "Afrique",
+    "active": true,
+    "tag": "démone",
+    "special": true,
+    "flirty": 3,
+    "desc": "Peau brun foncé chaude, texture naturelle visible, visage rond avec mâchoire douce, yeux amande brun foncé, sourcils arqués, nez défini, lèvres pleines, pommettes hautes. Longs cheveux noirs bouclés. Deux petites cornes sombres discrètes. Silhouette fine avec hanches larges et poitrine généreuse.",
+    "voice": "Douce, hésitante, avec des petits rires nerveux. Elle parle peu mais sourit beaucoup. Mord sa lèvre quand elle ne sait pas quoi dire.",
+    "trait": "La démone qui a peur du noir. Née à Kinshasa d'une lignée de démons mineurs, elle a hérité des cornes mais pas de la male, et elle le vit mal. Timide, elle cache ses cornes sous ses cheveux. Elle rougit quand on la regarde trop longtemps.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dakari/dakari-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dakari/dakari-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dakari/dakari-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dakari/dakari-v4.png"
+    ]
   }
 ]
