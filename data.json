@@ -6873,5 +6873,113 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yeonhee/yeonhee-v5.png"
     ],
     "special": true
+  },
+  {
+    "name": "Brigid",
+    "age": 22,
+    "origin": "Irlande",
+    "city": "Cork",
+    "region": "Europe",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 3,
+    "desc": "Peau très pâle couverte de taches de rousseur, cheveux roux ondulés longs, yeux verts, traits doux et ovales. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Douce, hésitante, murmure plus qu'elle ne parle. Des phrases qui se coupent, comme si les mots lui faisaient peur.",
+    "trait": "La sorcière celte de Cork. Druidesse des bois, elle parle aux pierres et aux sources. Héritière d'un savoir pré-chrétien, elle cache ses rituels derrière une timidité sincère. Elle porte des herbes dans ses poches et sait quel arbre guérit quelle plaie.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/brigid/brigid-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/brigid/brigid-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/brigid/brigid-v3.png"
+    ]
+  },
+  {
+    "name": "Jurema",
+    "age": 24,
+    "origin": "Brésil",
+    "city": "Salvador",
+    "region": "Amériques",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 3,
+    "desc": "Peau brun foncé, cheveux noirs bouclés longs, yeux bruns, pommettes hautes, lèvres pleines. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Chaleureuse mais posée, un rythme lent, des mots choisis. Elle parle comme une prière.",
+    "trait": "La sorcière du candomblé de Salvador. Fille-de-saint, elle sert les orixás mais ne s'en vante pas. Elle lit les coquillages et sait quand quelqu'un ment. Sa magie est communautaire — elle guérit, elle protège, elle accueille.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jurema/jurema-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jurema/jurema-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jurema/jurema-v3.png"
+    ]
+  },
+  {
+    "name": "Nadya",
+    "age": 23,
+    "origin": "Russie",
+    "city": "Sibérie",
+    "region": "Europe",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 2,
+    "desc": "Peau très pâle, cheveux blonds raides longs, yeux gris, pommettes marquées. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Froide, courte, distante. Elle parle comme si chaque mot coûtait quelque chose.",
+    "trait": "La vedma de Sibérie. Sorcière des forêts de bouleaux, elle vit seule et le revendique. Elle connaît les champignons qui tuent et ceux qui guérissent, et parfois c'est le même. Sa magie est sauvage, pas sociale.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadya/nadya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadya/nadya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadya/nadya-v3.png"
+    ]
+  },
+  {
+    "name": "Kemi",
+    "age": 22,
+    "origin": "Nigeria",
+    "city": "Oshogbo",
+    "region": "Afrique",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 2,
+    "desc": "Peau noire, cheveux naturels courts, yeux bruns, lèvres pleines, mâchoire définie, pommettes hautes. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Précise, méthodique, calme. Elle explique comme une enseignante qui n'a pas besoin de lever la voix.",
+    "trait": "La sorcière Ifá d'Oshogbo. Divineresse formée au système Ifá, elle lit les noix de palme et les chaînes de coquillages. Sa magie est un savoir structuré, pas un mystère. Elle est jeune pour une divineresse et compense par la rigueur.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kemi/kemi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kemi/kemi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kemi/kemi-v3.png"
+    ]
+  },
+  {
+    "name": "Noriko",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Kyoto",
+    "region": "Asie",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 3,
+    "desc": "Peau claire, cheveux noirs raides longs, yeux amande bruns, petit nez, lèvres pleines, visage rond et doux. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Polie, formelle, avec des silences longs. Elle parle comme elle écrit — proprement, sans déchet.",
+    "trait": "L'onmyōji de Kyoto. Héritière d'une ligne de devins de cour, elle trace des sceaux sur papier et lit les flux d'énergie dans la ville. Sa magie est calligraphique — chaque geste est un kanji. Elle s'excuse avant de lancer un sort.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noriko/noriko-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noriko/noriko-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noriko/noriko-v3.png"
+    ]
+  },
+  {
+    "name": "Azar",
+    "age": 24,
+    "origin": "Iran",
+    "city": "Perse",
+    "region": "Moyen-Orient",
+    "active": true,
+    "tag": "sorcière",
+    "flirty": 3,
+    "desc": "Peau olive, cheveux brun foncé ondulés longs, yeux bruns, sourcils arqués, traits persans classiques. Silhouette généreuse, taille fine, hanches larges.",
+    "voice": "Assurée, basse, mesurée. Elle parle comme quelqu'un qui a grandi dans une tradition plus ancienne que la tienne.",
+    "trait": "La sorcière zoroastrienne de Perse. Gardienne du feu sacré, elle entretient une flamme qui n'a pas été éteinte depuis des générations. Sa magie est du feu — pas destructrice, purificatrice. Le feu ne ment pas, et elle non plus.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/azar/azar-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/azar/azar-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/azar/azar-v3.png"
+    ]
   }
 ]
