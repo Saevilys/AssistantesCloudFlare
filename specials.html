@@ -52,6 +52,11 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .btn:hover{border-color:#a855f7;color:#a855f7}
 .btn.active{background:#a855f7;color:#0c0814;border-color:#a855f7}
 #regionbar{padding-bottom:16px;position:relative;z-index:1}
+.filterbar{display:flex;justify-content:center;gap:10px;flex-wrap:wrap;padding:0 20px 16px;position:relative;z-index:1}
+.fsel{padding:8px 32px 8px 14px;border:1px solid #2a2040;border-radius:20px;background:#140e1e;color:#d8d0e8;font-size:0.8rem;cursor:pointer;outline:none;appearance:none;-webkit-appearance:none;-moz-appearance:none;transition:border-color .2s;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'><path d='M1 1l4 4 4-4' stroke='%237a6a8a' stroke-width='1.5' fill='none'/></svg>");background-repeat:no-repeat;background-position:right 12px center}
+.fsel:hover{border-color:#a855f7}
+.fsel:focus{border-color:#a855f7}
+.fsel option{background:#140e1e;color:#d8d0e8}
 .container{max-width:1100px;margin:0 auto;padding:0 20px 60px;position:relative;z-index:1}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:20px}
 .card{position:relative;border-radius:8px;overflow:hidden;cursor:pointer;transition:transform .2s,box-shadow .2s,border-color .2s;background:#140e1e;border:1px solid #2a2040}
@@ -190,42 +195,43 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <p class="count" id="count">chargement…</p>
 </header>
 
-<div class="section-tabs" id="sectionTabs">
-  <button class="section-tab active" data-section="all">Toutes <span class="tab-count" id="cnt-all"></span></button>
-  <button class="section-tab" data-section="rangS">Rang S <span class="tab-count" id="cnt-rangS"></span></button>
-  <button class="section-tab" data-section="succubes">Succubes <span class="tab-count" id="cnt-succubes"></span></button>
-  <button class="section-tab" data-section="androides">Androides <span class="tab-count" id="cnt-androides"></span></button>
-  <button class="section-tab" data-section="vampires">Vampires <span class="tab-count" id="cnt-vampires"></span></button>
-  <button class="section-tab" data-section="gardes">Gardes du corps <span class="tab-count" id="cnt-gardes"></span></button>
-  <button class="section-tab" data-section="djinns">Djinns <span class="tab-count" id="cnt-djinns"></span></button>
-  <button class="section-tab" data-section="anges">Anges <span class="tab-count" id="cnt-anges"></span></button>
-  <button class="section-tab" data-section="demones">Démones <span class="tab-count" id="cnt-demones"></span></button>
-  <button class="section-tab" data-section="anomalies">Anomalies <span class="tab-count" id="cnt-anomalies"></span></button>
-  <button class="section-tab" data-section="kungfu">Kung Fu Punk <span class="tab-count" id="cnt-kungfu"></span></button>
-  <button class="section-tab" data-section="sorcières">Sorcières <span class="tab-count" id="cnt-sorcières"></span></button>
-  <button class="section-tab" data-section="wuxia">Wuxia <span class="tab-count" id="cnt-wuxia"></span></button>
-  <button class="section-tab" data-section="déesses">Déesses <span class="tab-count" id="cnt-déesses"></span></button>
-</div>
-
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
 
 <div class="searchbar">
   <input type="text" id="search" placeholder="Rechercher par nom, pays, ville, région…" autocomplete="off">
 </div>
 
-<div class="toolbar">
-  <button class="btn active" data-filter="all">Toutes</button>
-  <button class="btn" data-filter="active">Actives</button>
-  <button class="btn" data-filter="inactive">Inactives</button>
-  <button class="btn" data-filter="photos">Avec photos</button>
-</div>
-
-<div class="toolbar" id="regionbar"></div>
-
-<div class="toolbar" id="sortbar">
-  <button class="btn" id="sortDir">Tag ↓</button>
-  <button class="btn" data-sort="alpha">A-Z</button>
-  <button class="btn active" data-sort="arrival">Arrivée ↓</button>
+<div class="filterbar">
+  <select class="fsel" id="selSection">
+    <option value="all">Toutes catégories</option>
+    <option value="rangS">Rang S</option>
+    <option value="succubes">Succubes</option>
+    <option value="androides">Androides</option>
+    <option value="vampires">Vampires</option>
+    <option value="gardes">Gardes du corps</option>
+    <option value="djinns">Djinns</option>
+    <option value="anges">Anges</option>
+    <option value="demones">Démones</option>
+    <option value="anomalies">Anomalies</option>
+    <option value="kungfu">Kung Fu Punk</option>
+    <option value="sorcières">Sorcières</option>
+    <option value="wuxia">Wuxia</option>
+    <option value="déesses">Déesses</option>
+  </select>
+  <select class="fsel" id="selRegion"></select>
+  <select class="fsel" id="selStatus">
+    <option value="all">Toutes</option>
+    <option value="active">Actives</option>
+    <option value="inactive">Inactives</option>
+    <option value="photos">Avec photos</option>
+  </select>
+  <select class="fsel" id="selSort">
+    <option value="tag-desc">Tag ↓</option>
+    <option value="tag-asc">Tag ↑</option>
+    <option value="alpha">A-Z</option>
+    <option value="arrival-rev" selected>Arrivée ↓</option>
+    <option value="arrival">Arrivée ↑</option>
+  </select>
 </div>
 
 <div class="container">
@@ -266,20 +272,8 @@ fetch('data.json').then(r=>r.json()).then(all=>{
 });
 
 function updateSectionCounts(d){
-  document.getElementById('cnt-all').textContent='('+d.length+')';
-  document.getElementById('cnt-rangS').textContent='('+d.filter(a=>a.tag==='surnaturel').length+')';
-  document.getElementById('cnt-succubes').textContent='('+d.filter(a=>a.tag==='succube').length+')';
-  document.getElementById('cnt-androides').textContent='('+d.filter(a=>a.tag==='androide').length+')';
-  document.getElementById('cnt-vampires').textContent='('+d.filter(a=>a.tag==='vampire').length+')';
-  document.getElementById('cnt-gardes').textContent='('+d.filter(a=>a.tag==='garde-du-corps').length+')';
-  document.getElementById('cnt-djinns').textContent='('+d.filter(a=>a.tag==='djinn').length+')';
-  document.getElementById('cnt-anges').textContent='('+d.filter(a=>a.tag==='ange').length+')';
-  document.getElementById('cnt-demones').textContent='('+d.filter(a=>a.tag==='démone').length+')';
-  document.getElementById('cnt-anomalies').textContent='('+d.filter(a=>a.tag==='anomalie').length+')';
-  document.getElementById('cnt-kungfu').textContent='('+d.filter(a=>a.tag==='kungfupunk').length+')';
-  document.getElementById('cnt-sorcières').textContent='('+d.filter(a=>a.tag==='sorcière').length+')';
-  document.getElementById('cnt-wuxia').textContent='('+d.filter(a=>a.tag==='wuxia').length+')';
-  document.getElementById('cnt-déesses').textContent='('+d.filter(a=>a.tag==='déesse').length+')';
+  const counts={all:d.length,rangS:d.filter(a=>a.tag==='surnaturel').length,succubes:d.filter(a=>a.tag==='succube').length,androides:d.filter(a=>a.tag==='androide').length,vampires:d.filter(a=>a.tag==='vampire').length,gardes:d.filter(a=>a.tag==='garde-du-corps').length,djinns:d.filter(a=>a.tag==='djinn').length,anges:d.filter(a=>a.tag==='ange').length,demones:d.filter(a=>a.tag==='démone').length,anomalies:d.filter(a=>a.tag==='anomalie').length,kungfu:d.filter(a=>a.tag==='kungfupunk').length,'sorcières':d.filter(a=>a.tag==='sorcière').length,wuxia:d.filter(a=>a.tag==='wuxia').length,'déesses':d.filter(a=>a.tag==='déesse').length};
+  document.getElementById('selSection').querySelectorAll('option').forEach(o=>{const c=counts[o.value];if(c!==undefined)o.textContent=o.textContent.replace(/\s*\(.*\)/,'')+' ('+c+')';});
 }
 
 function buildBanner(d){
@@ -357,17 +351,10 @@ function tagLabel(tag){
 
 function buildRegionBar(d){
   const regions=[...new Set(d.map(a=>a.region||'?'))].sort();
-  const bar=document.getElementById('regionbar');
-  bar.innerHTML=`<button class="btn active" data-region="all">Toutes régions</button>`
-    +regions.map(r=>`<button class="btn" data-region="${r}">${r}</button>`).join('');
-  bar.querySelectorAll('.btn').forEach(b=>{
-    b.onclick=()=>{
-      bar.querySelectorAll('.btn').forEach(x=>x.classList.remove('active'));
-      b.classList.add('active');
-      currentRegion=b.dataset.region;
-      applyFilters();
-    };
-  });
+  const sel=document.getElementById('selRegion');
+  sel.innerHTML='<option value="all">Toutes régions</option>'
+    +regions.map(r=>`<option value="${r}">${r}</option>`).join('');
+  sel.onchange=()=>{currentRegion=sel.value;applyFilters();};
 }
 
 function applyFilters(){
@@ -495,25 +482,12 @@ function renderPage(){
 function goPage(p){currentPage=p;renderPage();window.scrollTo({top:0,behavior:'smooth'});}
 
 function resetAll(){
-  currentPage=1;
-  currentFilter='all';
-  currentRegion='all';
-  currentSection='all';
-  currentSort='arrival-rev';
-  searchTerm='';
+  currentPage=1;currentFilter='all';currentRegion='all';currentSection='all';currentSort='arrival-rev';searchTerm='';
   document.getElementById('search').value='';
-  document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
-  document.querySelector('.toolbar .btn[data-filter="all"]').classList.add('active');
-  document.querySelectorAll('#regionbar .btn').forEach(x=>x.classList.remove('active'));
-  document.querySelector('#regionbar .btn[data-region="all"]').classList.add('active');
-  document.querySelectorAll('#sectionTabs .section-tab').forEach(x=>x.classList.remove('active'));
-  document.querySelector('#sectionTabs .section-tab[data-section="all"]').classList.add('active');
-  currentSort='arrival-rev';
-  document.getElementById('sortDir').textContent='Tag ↓';
-  document.getElementById('sortDir').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.add('active');
-  document.querySelector('#sortbar .btn[data-sort="arrival"]').textContent='Arrivée ↓';
+  document.getElementById('selSection').value='all';
+  document.getElementById('selRegion').value='all';
+  document.getElementById('selStatus').value='all';
+  document.getElementById('selSort').value='arrival-rev';
   applyFilters();
   window.scrollTo({top:0,behavior:'smooth'});
 }
@@ -609,53 +583,10 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){closeLightbox();closeProfile();}
 });
 
-// section tabs
-document.querySelectorAll('#sectionTabs .section-tab').forEach(b=>{
-  b.onclick=()=>{
-    document.querySelectorAll('#sectionTabs .section-tab').forEach(x=>x.classList.remove('active'));
-    b.classList.add('active');
-    currentSection=b.dataset.section;
-    applyFilters();
-  };
-});
-
-// status filter buttons
-document.querySelectorAll('.toolbar .btn[data-filter]').forEach(b=>{
-  b.onclick=()=>{
-    document.querySelectorAll('.toolbar .btn[data-filter]').forEach(x=>x.classList.remove('active'));
-    b.classList.add('active');
-    currentFilter=b.dataset.filter;
-    applyFilters();
-  };
-});
-
-// sort direction toggle
-document.getElementById('sortDir').onclick=()=>{
-  if(currentSort==='tag-desc'){currentSort='tag-asc';document.getElementById('sortDir').textContent='Tag ↑';}
-  else{currentSort='tag-desc';document.getElementById('sortDir').textContent='Tag ↓';}
-  document.getElementById('sortDir').classList.add('active');
-  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
-  applyFilters();
-};
-// A-Z
-document.querySelector('#sortbar .btn[data-sort="alpha"]').onclick=()=>{
-  currentSort='alpha';
-  document.getElementById('sortDir').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.add('active');
-  document.querySelector('#sortbar .btn[data-sort="arrival"]').classList.remove('active');
-  applyFilters();
-};
-// Arrival
-document.querySelector('#sortbar .btn[data-sort="arrival"]').onclick=()=>{
-  if(currentSort==='arrival'){currentSort='arrival-rev';}
-  else{currentSort='arrival';}
-  const btn=document.querySelector('#sortbar .btn[data-sort="arrival"]');
-  btn.textContent=currentSort==='arrival'?'Arrivée ↓':'Arrivée ↑';
-  btn.classList.add('active');
-  document.getElementById('sortDir').classList.remove('active');
-  document.querySelector('#sortbar .btn[data-sort="alpha"]').classList.remove('active');
-  applyFilters();
-};
+// dropdowns
+document.getElementById('selSection').onchange=()=>{currentSection=document.getElementById('selSection').value;applyFilters();};
+document.getElementById('selStatus').onchange=()=>{currentFilter=document.getElementById('selStatus').value;applyFilters();};
+document.getElementById('selSort').onchange=()=>{currentSort=document.getElementById('selSort').value;applyFilters();};
 
 // search input
 document.getElementById('search').addEventListener('input',e=>{
