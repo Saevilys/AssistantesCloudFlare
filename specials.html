@@ -102,6 +102,11 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 .flirt-kungfu{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseGold 2.2s ease-in-out infinite;text-shadow:0 0 6px #e8c84b,0 0 12px #d4a82e,0 0 18px #b8860b80}
 @keyframes glowPulseGold{0%,100%{opacity:1;text-shadow:0 0 6px #e8c84b,0 0 12px #d4a82e,0 0 18px #b8860b80}50%{opacity:.75;text-shadow:0 0 3px #e8c84b,0 0 6px #d4a82e,0 0 12px #b8860b60}}
 
+.flirt-anomalie{line-height:1;animation:glitchShift 2.2s steps(1) infinite;filter:drop-shadow(0 0 3px #ffffff80)}
+.flirt-anomalie .q{fill:#fff}
+.flirt-anomalie .gc{fill:#67e8f9}
+.flirt-anomalie .gm{fill:#ff2d95}
+@keyframes glitchShift{0%,88%,100%{transform:translate(0,0)}89%{transform:translate(-1px,0)}91%{transform:translate(1px,0)}93%{transform:translate(-1px,0)}95%{transform:translate(0,0)}}
 .flirt-sorciere{font-size:1.3rem;line-height:1;animation:glowPulsePurple 2.4s ease-in-out infinite;text-shadow:0 0 6px #a78bfa,0 0 12px #a78bfa,0 0 18px #a78bfa80}
 .flirt-surnaturel{line-height:1;color:#000;filter:drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 3px #fff) drop-shadow(0 0 5px #ffffff60)}
 .flirt-surnaturel svg{vertical-align:-3px}
@@ -341,7 +346,7 @@ function tagLabel(tag){
   if(tag==='djinn') return '🔥 Djinn';
   if(tag==='ange') return '🕊\uFE0E Ange';
   if(tag==='démone') return '<svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone';
-  if(tag==='anomalie') return '◆ Anomalie';
+  if(tag==='anomalie') return '<svg viewBox="0 0 14 18" width="13" height="17" style="vertical-align:-4px" class="flirt-anomalie-inline"><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#67e8f9" opacity=".7">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#ff2d95" opacity=".7" dx="1">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#fff">?</text></svg> Anomalie';
   if(tag==='kungfupunk') return '☯\uFE0E Kung Fu Punk';
   if(tag==='sorcière') return '🔮 Sorcière';
   if(tag==='wuxia') return '🗡\uFE0E Wuxia';
@@ -428,6 +433,8 @@ function renderPage(){
       ? `<span class="flirt-ange"><span class="wing">🕊\uFE0E</span></span>`
       : a.tag==='démone'
       ? `<span class="flirt-demone"><svg viewBox="0 0 20 24" width="15" height="19" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg></span>`
+      : a.tag==='anomalie'
+      ? `<span class="flirt-anomalie"><svg viewBox="0 0 14 18" width="16" height="20" style="vertical-align:-4px"><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#67e8f9" opacity=".7">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#ff2d95" opacity=".7" dx="1">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#fff">?</text></svg></span>`
       : a.tag==='kungfupunk'
       ? `<span class="flirt-kungfu">☯\uFE0E</span>`
       : a.tag==='sorcière'
@@ -447,7 +454,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['?','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
@@ -516,7 +523,7 @@ function buildProfile(a){
       ${a.tag==='djinn'?'<span class="profile-badge" style="margin-top:8px;background:#2a1a08;color:#ff8800">🔥 Djinn</span>':''}
       ${a.tag==='ange'?'<span class="profile-badge flirt-ange" style="margin-top:8px;background:#1e1a08;color:#fff8e0;font-size:0.9rem;padding:4px 12px"><span class="wing">🕊\uFE0E</span> Ange</span>':''}
       ${a.tag==='démone'?'<span class="profile-badge flirt-demone" style="margin-top:8px;background:#1a0a14;color:#ff6b9d;font-size:0.9rem;padding:4px 12px"><svg viewBox="0 0 20 24" width="14" height="18" style="vertical-align:-4px;filter:drop-shadow(0 0 3px #ff0033) drop-shadow(0 0 7px #ff003360)"><rect x="8.5" y="1" width="3" height="22" rx="1.5" fill="#ff2244"/><rect x="2" y="8" width="16" height="3" rx="1.5" fill="#ff2244"/></svg> Démone</span>':''}
-      ${a.tag==='anomalie'?'<span class="badge-anomalie" style="font-size:0.9rem;padding:4px 12px;margin-top:8px">◆ Anomalie</span>':''}
+      ${a.tag==='anomalie'?'<span class="badge-anomalie" style="font-size:0.9rem;padding:4px 12px;margin-top:8px"><svg viewBox="0 0 14 18" width="13" height="17" style="vertical-align:-4px"><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#67e8f9" opacity=".7">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#ff2d95" opacity=".7" dx="1">?</text><text x="7" y="14" text-anchor="middle" font-size="15" font-weight="700" font-family="Arial,sans-serif" fill="#fff">?</text></svg> Anomalie</span>':''}
       ${a.tag==='kungfupunk'?'<span class="profile-badge" style="margin-top:8px;background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':''}
       ${a.tag==='sorcière'?'<span class="profile-badge flirt-sorciere" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">🔮 Sorcière</span>':''}
       ${a.tag==='wuxia'?'<span class="profile-badge flirt-wuxia" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">🗡\uFE0E Wuxia</span>':''}
