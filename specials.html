@@ -98,6 +98,8 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 @keyframes glowPulseGold{0%,100%{opacity:1;text-shadow:0 0 6px #e8c84b,0 0 12px #d4a82e,0 0 18px #b8860b80}50%{opacity:.75;text-shadow:0 0 3px #e8c84b,0 0 6px #d4a82e,0 0 12px #b8860b60}}
 
 .flirt-sorciere{font-size:1.3rem;line-height:1;animation:glowPulsePurple 2.4s ease-in-out infinite;text-shadow:0 0 6px #a78bfa,0 0 12px #a78bfa,0 0 18px #a78bfa80}
+.flirt-surnaturel{line-height:1;color:#a855f7;animation:glowPulsePurple 2.4s ease-in-out infinite;filter:drop-shadow(0 0 4px #a855f7) drop-shadow(0 0 8px #a855f780)}
+.flirt-surnaturel svg{vertical-align:-3px}
 .flirt-wuxia{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseSteel 2.2s ease-in-out infinite;text-shadow:0 0 6px #8a9bb4,0 0 12px #6b7c94,0 0 18px #4a5b7480}
 .flirt-déesse{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;background:linear-gradient(90deg,#ff0044,#ff8800,#ffdd00,#44ff44,#00ccff,#6644ff,#ff00cc,#ff0044);background-size:300% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rainbowShift 2s linear infinite,rainbowGlow 1.5s ease-in-out infinite;filter:drop-shadow(0 0 3px #ff3366) drop-shadow(0 0 6px #6644ff)}
 @keyframes glowPulseSteel{0%,100%{opacity:1;text-shadow:0 0 6px #8a9bb4,0 0 12px #6b7c94,0 0 18px #4a5b7480}50%{opacity:.75;text-shadow:0 0 3px #8a9bb4,0 0 6px #6b7c94,0 0 12px #4a5b7460}}
@@ -337,7 +339,7 @@ function buildBanner(d){
 }
 
 function tagLabel(tag){
-  if(tag==='surnaturel') return '♥\uFE0E S — Surnaturel';
+  if(tag==='surnaturel') return '👁\uFE0E Surnaturel';
   if(tag==='succube') return '☠\uFE0E♥\uFE0E Succube';
   if(tag==='androide') return '⚡\uFE0E Android';
   if(tag==='vampire') return '🩸♥\uFE0E Vampire';
@@ -424,7 +426,7 @@ function renderPage(){
       ? `<img src="${a.photos[0]}" loading="lazy" decoding="async" alt="${a.name}">`
       : `<div class="card-placeholder">photo à venir</div>`;
     const flirtDots=a.tag==='surnaturel'
-      ? `<span class="flirt-lvl6"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span></span>`
+      ? `<span class="flirt-surnaturel"><svg viewBox="0 0 24 16" width="20" height="14" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M 2,8 Q 12,2 22,8 Q 12,14 2,8 Z"/><circle cx="12" cy="8" r="3" stroke-width="1"/><circle cx="12" cy="8" r="1.2" fill="currentColor" stroke="none"/><line x1="12" y1="0" x2="12" y2="1.5" stroke-width="0.8"/><line x1="5" y1="2" x2="5.8" y2="3" stroke-width="0.8"/><line x1="19" y1="2" x2="18.2" y2="3" stroke-width="0.8"/><line x1="0" y1="8" x2="1" y2="8" stroke-width="0.8"/><line x1="24" y1="8" x2="23" y2="8" stroke-width="0.8"/><line x1="5" y1="14" x2="5.8" y2="13" stroke-width="0.8"/><line x1="19" y1="14" x2="18.2" y2="13" stroke-width="0.8"/><line x1="12" y1="16" x2="12" y2="14.5" stroke-width="0.8"/></svg></span>`
       : a.tag==='succube'
       ? `<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>`
       : a.tag==='androide'
@@ -458,7 +460,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#a855f7'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
@@ -546,7 +548,7 @@ function buildProfile(a){
       ${a.tag==='wuxia'?'<span class="profile-badge flirt-wuxia" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">🗡\uFE0E Wuxia</span>':''}
       ${a.tag==='déesse'?'<span class="profile-badge flirt-déesse" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">☀\uFE0E Déesse</span>':''}
       ${a.tag==='surnaturel'
-        ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
+        ? `<span class="profile-badge flirt-surnaturel" style="font-size:0.9rem;padding:4px 12px;background:#1a0e28;color:#a855f7"><svg viewBox="0 0 24 16" width="18" height="12" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M 2,8 Q 12,2 22,8 Q 12,14 2,8 Z"/><circle cx="12" cy="8" r="3" stroke-width="1"/><circle cx="12" cy="8" r="1.2" fill="currentColor" stroke="none"/><line x1="12" y1="0" x2="12" y2="1.5" stroke-width="0.8"/><line x1="5" y1="2" x2="5.8" y2="3" stroke-width="0.8"/><line x1="19" y1="2" x2="18.2" y2="3" stroke-width="0.8"/><line x1="0" y1="8" x2="1" y2="8" stroke-width="0.8"/><line x1="24" y1="8" x2="23" y2="8" stroke-width="0.8"/><line x1="5" y1="14" x2="5.8" y2="13" stroke-width="0.8"/><line x1="19" y1="14" x2="18.2" y2="13" stroke-width="0.8"/><line x1="12" y1="16" x2="12" y2="14.5" stroke-width="0.8"/></svg> Surnaturel</span>`
         : a.tag==='succube'
         ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E Succube</span>`
         : ''}
