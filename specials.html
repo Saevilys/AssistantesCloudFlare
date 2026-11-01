@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns · Anges · Démones</title>
+<title>Assistantes Spéciales — Rangs S · Succubes · Androides · Vampires · Gardes du corps · Djinns · Anges · Démones · Déesses</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
@@ -99,6 +99,8 @@ header .count{margin-top:10px;font-size:0.8rem;color:#67e8f9;font-weight:500}
 
 .flirt-sorciere{font-size:1.3rem;line-height:1;animation:glowPulsePurple 2.4s ease-in-out infinite;text-shadow:0 0 6px #a78bfa,0 0 12px #a78bfa,0 0 18px #a78bfa80}
 .flirt-wuxia{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseSteel 2.2s ease-in-out infinite;text-shadow:0 0 6px #8a9bb4,0 0 12px #6b7c94,0 0 18px #4a5b7480}
+.flirt-déesse{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;font-variant-emoji:text;animation:glowPulseSun 2.4s ease-in-out infinite;text-shadow:0 0 6px #ffd700,0 0 12px #ffb800,0 0 18px #ff950080}
+@keyframes glowPulseSun{0%,100%{opacity:1;text-shadow:0 0 6px #ffd700,0 0 12px #ffb800,0 0 18px #ff950080}50%{opacity:.75;text-shadow:0 0 3px #ffd700,0 0 6px #ffb800,0 0 12px #ff950060}}
 @keyframes glowPulseSteel{0%,100%{opacity:1;text-shadow:0 0 6px #8a9bb4,0 0 12px #6b7c94,0 0 18px #4a5b7480}50%{opacity:.75;text-shadow:0 0 3px #8a9bb4,0 0 6px #6b7c94,0 0 12px #4a5b7460}}
 @keyframes glowPulsePurple{0%,100%{opacity:1;text-shadow:0 0 6px #a78bfa,0 0 12px #a78bfa,0 0 18px #a78bfa80}50%{opacity:.75;text-shadow:0 0 3px #a78bfa,0 0 6px #a78bfa,0 0 12px #a78bfa60}}
 
@@ -183,7 +185,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
 <header>
   <div class="spec-icon">✦</div>
   <h1>Assistantes <span class="spec-cyan">Spéciales</span></h1>
-  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns, Anges, Démones. Huit catégories, un seul point commun : elles défient les règles du roster.</p>
+  <p class="intro">Elles ne sont pas dans le roster classique. Pas dans le tirage du matin. Rangs S, Succubes, Androides, Vampires, Gardes du corps, Djinns, Anges, Démones, Déesses. Neuf catégories, un seul point commun : elles défient les règles du roster.</p>
   <p class="count" id="count">chargement…</p>
 </header>
 
@@ -201,6 +203,7 @@ footer{text-align:center;padding:30px 20px;color:#3a2a4a;font-size:0.75rem}
   <button class="section-tab" data-section="kungfu">Kung Fu Punk <span class="tab-count" id="cnt-kungfu"></span></button>
   <button class="section-tab" data-section="sorcières">Sorcières <span class="tab-count" id="cnt-sorcières"></span></button>
   <button class="section-tab" data-section="wuxia">Wuxia <span class="tab-count" id="cnt-wuxia"></span></button>
+  <button class="section-tab" data-section="déesses">Déesses <span class="tab-count" id="cnt-déesses"></span></button>
 </div>
 
 <div class="banner-strip"><div class="banner-track" id="bannerTrack"></div></div>
@@ -275,6 +278,7 @@ function updateSectionCounts(d){
   document.getElementById('cnt-kungfu').textContent='('+d.filter(a=>a.tag==='kungfupunk').length+')';
   document.getElementById('cnt-sorcières').textContent='('+d.filter(a=>a.tag==='sorcière').length+')';
   document.getElementById('cnt-wuxia').textContent='('+d.filter(a=>a.tag==='wuxia').length+')';
+  document.getElementById('cnt-déesses').textContent='('+d.filter(a=>a.tag==='déesse').length+')';
 }
 
 function buildBanner(d){
@@ -346,6 +350,7 @@ function tagLabel(tag){
   if(tag==='kungfupunk') return '☯\uFE0E Kung Fu Punk';
   if(tag==='sorcière') return '🔮 Sorcière';
   if(tag==='wuxia') return '🗡\uFE0E Wuxia';
+  if(tag==='déesse') return '☀\uFE0E Déesse';
   return '';
 }
 
@@ -378,6 +383,7 @@ function applyFilters(){
   else if(currentSection==='kungfu')filtered=filtered.filter(a=>a.tag==='kungfupunk');
   else if(currentSection==='sorcières')filtered=filtered.filter(a=>a.tag==='sorcière');
   else if(currentSection==='wuxia')filtered=filtered.filter(a=>a.tag==='wuxia');
+  else if(currentSection==='déesses')filtered=filtered.filter(a=>a.tag==='déesse');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -388,7 +394,7 @@ function applyFilters(){
     filtered=filtered.filter(a=>[a.name,a.origin,a.city,a.region,a.trait,a.desc]
       .some(v=>(v||'').toLowerCase().includes(q)));
   }
-  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0,kungfupunk:0,'sorcière':0,'wuxia':0};
+  const tagOrder={surnaturel:5,succube:4,androide:3,vampire:2,djinn:1,ange:0,'démone':0,'garde-du-corps':0,kungfupunk:0,'sorcière':0,'wuxia':0,'déesse':0};
   filtered.sort((a,b)=>{
     if(currentSort==='tag-desc')return (tagOrder[a.tag]||0)-(tagOrder[b.tag]||0);
     if(currentSort==='tag-asc')return (tagOrder[b.tag]||0)-(tagOrder[a.tag]||0);
@@ -440,6 +446,8 @@ function renderPage(){
       ? `<span class="flirt-sorciere">🔮</span>`
       : a.tag==='wuxia'
       ? `<span class="flirt-wuxia">🗡\uFE0E</span>`
+      : a.tag==='déesse'
+      ? `<span class="flirt-déesse">☀\uFE0E</span>`
       : '';
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -451,7 +459,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['✦','Surnaturel','#d4a574'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['◆','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
@@ -537,6 +545,7 @@ function buildProfile(a){
       ${a.tag==='kungfupunk'?'<span class="profile-badge" style="margin-top:8px;background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':''}
       ${a.tag==='sorcière'?'<span class="profile-badge flirt-sorciere" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">🔮 Sorcière</span>':''}
       ${a.tag==='wuxia'?'<span class="profile-badge flirt-wuxia" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">🗡\uFE0E Wuxia</span>':''}
+      ${a.tag==='déesse'?'<span class="profile-badge flirt-déesse" style="margin-top:8px;font-size:0.9rem;padding:4px 12px">☀\uFE0E Déesse</span>':''}
       ${a.tag==='surnaturel'
         ? `<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Surnaturel</span>`
         : a.tag==='succube'
