@@ -7190,9 +7190,13 @@
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-v6.png"
     ],
-    "special": true
+    "special": true,
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/neferti/neferti-hover.mp4"
   },
   {
     "name": "Sirona",
@@ -7209,9 +7213,13 @@
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-v6.png"
     ],
-    "special": true
+    "special": true,
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirona/sirona-hover.mp4"
   },
   {
     "name": "Sakuya",
@@ -7228,9 +7236,13 @@
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-v6.png"
     ],
-    "special": true
+    "special": true,
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sakuya/sakuya-hover.mp4"
   },
   {
     "name": "Citlalli",
@@ -7257,6 +7269,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citlalli/citlalli-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citlalli/citlalli-dotd-v2.png"
     ],
-    "special": true
+    "special": true,
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citlalli/citlalli-hover.mp4"
   }
 ]
