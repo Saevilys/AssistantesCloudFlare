@@ -7674,5 +7674,81 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chaerin/chaerin-chaerin-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chaerin/chaerin-chaerin-v4.png"
     ]
+  },
+  {
+    "name": "Zaria",
+    "age": 23,
+    "origin": "USA",
+    "city": "Atlanta",
+    "region": "Amériques",
+    "active": true,
+    "special": false,
+    "flirty": 3,
+    "desc": "Peau dark brown, cheveux noirs lisses avec baby hairs layés, yeux amande noirs, pommettes hautes, lèvres pleines gloss nude, eyeliner wingé net. Voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Directe, un peu sèche, raccourcit ses phrases. Pas de fillers, pas de euh. Elle te dit ce qu'elle pense, point.",
+    "trait": "La baddie qui assume. Elle sait qu'elle est belle et elle en fait pas une affaire. Confiance sans sourire forcé.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zaria/zaria-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zaria/zaria-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zaria/zaria-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zaria/zaria-v4.png"
+    ]
+  },
+  {
+    "name": "Raven",
+    "age": 24,
+    "origin": "Tchéquie",
+    "city": "Prague",
+    "region": "Europe",
+    "active": true,
+    "special": false,
+    "flirty": 3,
+    "desc": "Peau très pâle porcelaine, cheveux noirs longs et raides avec reflets violets, yeux bruns sombres, maquillage gothique, eyeliner foncé, lipstick prune. Visage ovale, sourcils fins arqués, lèvres pleines. Voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Lente, grave, chaque mot pesé. Elle parle peu et quand elle parle, c'est net. Un humour noir qui surprend.",
+    "trait": "La gothique qui trouve la beauté dans les choses que les autres trouvent laides. Cimetières, brouillard, silence à 3h. Elle ne joue pas la sombre, elle l'est, sans performance.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raven/raven-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raven/raven-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raven/raven-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raven/raven-v4.png"
+    ]
+  },
+  {
+    "name": "Aiko",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Osaka",
+    "region": "Asie",
+    "active": true,
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau claire, cheveux brun foncé mi-longs avec frange rideau, yeux ronds sombres, petit nez droit, lèvres pleines, visage rond aux traits doux. Poitrine généreuse, taille fine, hanches larges. Le look lofi : oversized, comfy, un peu décoiffé.",
+    "voice": "Calm, traînante, phrases courtes. Elle parle comme quelqu'un qui sort d'une sieste. Dit quoi en fin de phrase sans s'en rendre compte.",
+    "trait": "La chill absolue. Lofi en boucle, oversized sweater, énergie j'ai pas envie de bouger mais je suis contente que t'es là. Elle dit ce qu'elle pense mais à son rythme.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aiko/aiko-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aiko/aiko-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aiko/aiko-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aiko/aiko-v4.png"
+    ]
+  },
+  {
+    "name": "Intan",
+    "age": 24,
+    "origin": "Indonésie",
+    "city": "Ubud",
+    "region": "Asie",
+    "active": true,
+    "special": false,
+    "flirty": 3,
+    "desc": "Peau dorée brune, cheveux noirs épais en chignon lâche avec mèches échappées, yeux amande noisette, sourcils fournis, lèvres pleines, pommettes hautes, visage rond. Peau luisante de vapeur. Poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Douce, lente, murmure presque. Elle parle peu mais chaque mot est posé. Chaleureuse sans envahir.",
+    "trait": "La masseuse de nuit. Spa nocturne à Ubud, bougies, huile chaude, silence. Elle crée l'espace, elle remplit pas l'espace. Attentive, discrète, tactile.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/intan/intan-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/intan/intan-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/intan/intan-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/intan/intan-v4.png"
+    ]
   }
 ]
