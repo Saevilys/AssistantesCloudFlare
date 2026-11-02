@@ -165,11 +165,11 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
     <option value="6">Niveau 6</option>
   </select>
   <select class="fsel" id="selSort">
+    <option value="arrival-rev" selected>Arrivée ↓</option>
+    <option value="arrival">Arrivée ↑</option>
     <option value="flirt-desc">Flirt ↓</option>
     <option value="flirt-asc">Flirt ↑</option>
     <option value="alpha">A-Z</option>
-    <option value="arrival">Arrivée ↓</option>
-    <option value="arrival-rev">Arrivée ↑</option>
   </select>
 </div>
 
@@ -193,7 +193,7 @@ footer{text-align:center;padding:30px 20px;color:#4a3d30;font-size:0.75rem}
 let data=[];
 let currentFilter='all';
 let currentRegion='all';
-let currentSort='flirt-desc';
+let currentSort='arrival-rev';
 let currentFlirtLvl=0;
 let searchTerm='';
 let currentPage=1;
@@ -380,12 +380,12 @@ function renderPage(){
 function goPage(p){currentPage=p;renderPage();window.scrollTo({top:0,behavior:'smooth'});}
 
 function resetAll(){
-  currentPage=1;currentFilter='all';currentRegion='all';currentSort='flirt-desc';currentFlirtLvl=0;searchTerm='';
+  currentPage=1;currentFilter='all';currentRegion='all';currentSort='arrival-rev';currentFlirtLvl=0;searchTerm='';
   document.getElementById('search').value='';
   document.getElementById('selStatus').value='all';
   document.getElementById('selRegion').value='all';
   document.getElementById('selFlirt').value='0';
-  document.getElementById('selSort').value='flirt-desc';
+  document.getElementById('selSort').value='arrival-rev';
   applyFilters();
   window.scrollTo({top:0,behavior:'smooth'});
 }

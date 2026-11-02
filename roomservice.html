@@ -196,7 +196,7 @@ function getFiltered(){
   }
   filtered.sort((a,b)=>{
     if(currentSort==='alpha')return a.name.localeCompare(b.name);
-    if(currentSort==='arrival')return currentSortDir==='desc'?a._idx-b._idx:b._idx-a._idx;
+    if(currentSort==='arrival')return currentSortDir==='desc'?b._idx-a._idx:a._idx-b._idx;
     return 0;
   });
   return filtered;
@@ -292,6 +292,7 @@ document.querySelectorAll('.toolbar .btn[data-sort]').forEach(b=>{
     document.querySelectorAll('.toolbar .btn').forEach(x=>x.classList.remove('active'));
     b.classList.add('active');
     b.textContent=sort==='arrival'?'Arrivée '+(currentSortDir==='desc'?'↓':'↑'):'A-Z';
+    // desc = newest first (↓), asc = oldest first (↑) — matches specials.html convention
     render();
   };
 });
