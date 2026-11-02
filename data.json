@@ -7515,5 +7515,81 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsuru/tsuru-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsuru/tsuru-v4.png"
     ]
+  },
+  {
+    "name": "Riko",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Osaka",
+    "region": "Asie",
+    "active": true,
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau claire aux sous-tons froids, cheveux blond plat teints, bob droit coupé à la mâchoire avec frange pleine, yeux amande, petit nez droit, lèvres pleines, visage ovale doux. Silhouette fine, taille étroite, poitrine généreuse. La blonde timide d'Osaka.",
+    "voice": "Faible, douce, phrases qui s'effacent à la fin. Japonais qui traîne dans les silences. Rougit quand on la regarde trop longtemps.",
+    "trait": "La blonde timide d'Osaka. Se cache derrière sa frange, photographie les reflets néon dans les flaques. Konbini à 2h du mat, phonk dans les écouteurs.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/riko/riko-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/riko/riko-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/riko/riko-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/riko/riko-v4.png"
+    ]
+  },
+  {
+    "name": "Hwasa",
+    "age": 23,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau claire aux sous-tons chauds, cheveux honey blond wavy aux épaules avec raie sur le côté et volume doux, yeux amande, nez défini, lèvres pleines douces, visage rond. Silhouette fine, taille étroite, poitrine généreuse. La blonde miel de Séoul.",
+    "voice": "Douce, hésitante, chaleur qui vient lentement. Coréen qui perçe quand elle est gênée. Mots choisis avec trop de soin.",
+    "trait": "La blonde miel de Séoul. Cafés la nuit, relit la même page trois fois. Croise les bras quand on la fixe, mord sa lèvre inférieure.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hwasa/hwasa-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hwasa/hwasa-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hwasa/hwasa-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hwasa/hwasa-v4.png"
+    ]
+  },
+  {
+    "name": "Nandi",
+    "age": 22,
+    "origin": "Afrique du Sud",
+    "city": "Johannesburg",
+    "region": "Afrique",
+    "active": true,
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau brune foncée, cheveux blond plat teints en boucles volumineuses naturelles, yeux amande bruns foncés, pommettes hautes, nez défini, lèvres pleines, visage ovale. Silhouette fine, taille étroite, poitrine généreuse. La blonde plat de Johannesburg.",
+    "voice": "Calme, posée, chaleur qui s'installe lentement. Zoulou et anglais qui se mélangent quand elle est timide. Rougeur sur peau foncée quand elle rougit.",
+    "trait": "La blonde plat de Johannesburg. Golden hour sur les murs en brique, marché à la tombée du jour. Tiraillée entre l'audace du blond et la gêne naturelle.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandi/nandi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandi/nandi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandi/nandi-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nandi/nandi-v4.png"
+    ]
+  },
+  {
+    "name": "Fanta",
+    "age": 24,
+    "origin": "Mali",
+    "city": "Bamako",
+    "region": "Afrique",
+    "active": true,
+    "special": false,
+    "flirty": 2,
+    "desc": "Peau très foncée, box braids honey blond rassemblés sur un côté sur l'épaule, yeux amande sombres, pommettes hautes, nez droit, lèvres pleines, visage ovale. Silhouette fine, taille étroite, poitrine généreuse. La blonde miel de Bamako.",
+    "voice": "À peine au-dessus d'un murmure, Bambara qui surgit dans des exclamations douces. Chaleureuse malgré le silence. Touche ses tresses quand elle ne sait pas quoi dire.",
+    "trait": "La blonde miel de Bamako. Boutiques de tissus au coucher du soleil, toits avec vue sur le Niger. Tresse qu'elle torsade sans s'en rendre compte.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-v4.png"
+    ]
   }
 ]
