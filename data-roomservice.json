@@ -948,5 +948,56 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v4.png"
     ]
+  },
+  {
+    "name": "Nalini",
+    "age": 24,
+    "origin": "Inde",
+    "city": "Chennai",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau brune foncée, longue tresse noire épaisse tombant sur l'épaule, yeux amande sombres, sourcils épais arqués, lèvres pleines nues, pommettes hautes, visage rond mâchoire douce. Silhouette voluptueuse, très grosse poitrine, taille fine, hanches larges. Joues rosies, sourire timide.",
+    "voice": "Bas, presque un murmure, gênée quand on la regarde trop longtemps. Se justifie à moitié, s'interrompt.",
+    "trait": "Elle prépare le massage de nuit comme un rituel : huiles, bougies, musique basse. Et elle rougit dès que tu la fixes.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v4.png"
+    ]
+  },
+  {
+    "name": "Oksana",
+    "age": 23,
+    "origin": "Ukraine",
+    "city": "Odessa",
+    "region": "Europe",
+    "active": true,
+    "desc": "Peau claire porcelaine, joues rosées, cheveux ash blonde mi-longs derrière une oreille, yeux bleu clair, sourcils fins arqués, nez droit, lèvres pleines rose pâle, visage ovale. Silhouette voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Claire, un peu nerveuse, rire gêné. Meilleure avec les chiffres qu'avec les gens, et elle le dit.",
+    "trait": "L'auditrice de nuit que tu surprends en plein grand livre. Elle remet sa mèche derrière son oreille quand elle est gênée.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v4.png"
+    ]
+  },
+  {
+    "name": "Tomiris",
+    "age": 25,
+    "origin": "Kazakhstan",
+    "city": "Almaty",
+    "region": "Asie centrale",
+    "active": true,
+    "desc": "Peau olive dorée, longs cheveux bruns raides, yeux sombres étroits monolides, pommettes hautes marquées, nez droit, lèvres pleines rose fané, visage ovale allongé. Silhouette voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Lente, mesurée, chaque mot placé. Calme, jamais gênée, un sourire qui te retourne la question.",
+    "trait": "Elle pousse son chariot à 2h du mat, impeccable pendant que toi tu es en pyjama. À 3h du mat, personne ne ment plus.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v4.png"
+    ]
   }
 ]
