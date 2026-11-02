@@ -914,5 +914,39 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v4.png"
     ]
+  },
+  {
+    "name": "Suyeon",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Busan",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau dorée claire, cheveux mi-longs brun foncé légèrement ondulés ramenés derrière une oreille, yeux monolides au regard assuré, sourcils droits arqués, nez fin, lèvres pleines, visage légèrement rond mâchoire douce. Silhouette voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Calme, posée, quelques mots bien choisis. Elle observe avant de parler, et quand elle parle c'est juste.",
+    "trait": "Elle installe le plateau en silence, ajuste chaque chose à sa place, puis reste un instant immobile à te regarder comme si elle attendait que tu la remarques.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v4.png"
+    ]
+  },
+  {
+    "name": "Dao",
+    "age": 22,
+    "origin": "Vietnam",
+    "city": "Hanoï",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau claire chaude aux sous-tons dorés, longs cheveux noirs raides tombant sous les épaules, yeux amande brun foncé légèrement tombants, sourcils doux, nez fin délicat, lèvres pleines, visage en cœur mâchoire douce. Silhouette voluptueuse, très grosse poitrine, taille fine, hanches larges.",
+    "voice": "Douce, patiente, un sourire discret qui s'élargit quand on la met à l'aise. Elle ne se presse jamais.",
+    "trait": "Elle prépare le thé comme un rituel, verse lentement, et te regarde boire la première gorgée avant de dire un mot.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v4.png"
+    ]
   }
 ]
