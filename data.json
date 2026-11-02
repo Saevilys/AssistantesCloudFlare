@@ -2692,7 +2692,7 @@
   {
     "name": "Mona",
     "age": 23,
-    "origin": "Nubie",
+    "origin": "Nubie",  
     "city": "Assouan",
     "region": "Afrique",
     "active": true,
