@@ -1146,5 +1146,53 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ynez/ynez-window-tshirt.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ynez/ynez-bed-stomach.png"
     ]
+  },
+  {
+    "name": "Mirembe",
+    "age": 22,
+    "origin": "Ouganda",
+    "city": "Kampala",
+    "role": "Thérapeute spa — nuit",
+    "desc": "Peau brune foncée, afro naturel court, yeux amande bruns, nez défini, lèvres pleines, pommettes hautes, ovale. Silhouette très voluptueuse, poitrine très lourde, taille fine, hanches larges. En tank top blanc transparent, mamelons sombres visibles, short noir. Lumière ambrée du spa, pierre, bougies. Sourire timide, joue légèrement rosée.",
+    "voice": "Douce, hésitante, un murmure qui s'excuse presque. Elle dit « désolée » en entrant, même quand c'est toi qui as appelé.",
+    "trait": "Elle allume les bougies une par une avant de commencer. Pas pour l'ambiance, pour le décompte. Quand la dernière est allumée, elle ferme la porte et ne parle plus.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-spa.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-miroir.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-fenetre.png"
+    ]
+  },
+  {
+    "name": "Anneli",
+    "age": 23,
+    "origin": "Estonie",
+    "city": "Tallinn",
+    "role": "Réceptionniste de nuit",
+    "desc": "Peau porcelaine très claire avec rousseurs légères, longs cheveux blonds raides, yeux bleu-gris, petit nez droit, lèvres pleines gloss nude, ovale doux. Silhouette très voluptueuse, poitrine très lourde, taille fine, hanches larges. En camisole noire transparente, mamelons pâles visibles, legging gris. Lumière bleue du moniteur, lobby vide, nuit. Regard fatigué mais chaud.",
+    "voice": "Calme, basse, un accent estonien qui arrondit les consonnes. Elle parle peu mais chaque mot est posé. Le silence de la nuit lui appartient.",
+    "trait": "Elle note toujours ta chambre sur le registre, même quand tu passes sans réserver. Elle sait te retrouver sans l'annoncer.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-reception.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-lit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-miroir.png"
+    ]
+  },
+  {
+    "name": "Eleni",
+    "age": 24,
+    "origin": "Grèce",
+    "city": "Athènes",
+    "role": "Hôtesse rooftop bar — nuit",
+    "desc": "Peau olive chaude, longs cheveux bruns ondulés, yeux amande bruns, nez droit, lèvres pleines, pommettes hautes, ovale. Silhouette très voluptueuse, poitrine très lourde, taille fine, hanches larges. En chemise blanche transparente déboutonnée, mamelons sombres visibles, short denim noir. Lumières de la ville, guirlandes chaudes, nuit. Sourire confiant, main sur la hanche.",
+    "voice": "Claire, traînante, un accent grec qui allonge les voyelles. Elle parle comme si chaque phrase était le dernier verre de la nuit.",
+    "trait": "Elle commande ton verre sans te demander, et elle a toujours raison. Le jour où elle se trompe, c'est que tu veux autre chose que ce que tu as commandé.",
+    "flirty": 4,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-balcon.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-lit.png"
+    ]
   }
 ]
