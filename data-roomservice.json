@@ -999,5 +999,56 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v4.png"
     ]
+  },
+  {
+    "name": "Kana",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Tokyo",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau porcelaine légèrement chaude, longs cheveux noirs raides avec deux mèches teintes rouge carmin, demi-queue lâche avec une mèche sur l'œil, yeux amande brun foncé, eye-liner discret, sourcils fins arqués, petit nez droit, lèvres pleines rouge profond. Visage ovale mâchoire douce. Poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Timide au début, puis bavarde dès qu'elle est à l'aise. Rit nerveusement, phrases rapides, se corrige en plein milieu. Elle parle comme quelqu'un qui a beaucoup à dire et pas assez de confiance pour le dire d'un coup.",
+    "trait": "Étudiante tokyoïte de nuit. Ramen instantané à 2h, PS1 sur vieux CRT, toits-terrasses sous les néons. Elle connaît Tokyo la nuit mieux que le jour. Timide, bavarde, adorable.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v4.png"
+    ]
+  },
+  {
+    "name": "Jiyeon",
+    "age": 23,
+    "origin": "Corée",
+    "city": "Busan",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau claire légèrement dorée, longs cheveux brun foncé raides avec frange rideau, raie au milieu, yeux amande monopliens, sourcils fins arqués, petit nez droit, lèvres pleines gloss baie. Visage ovale mâchoire douce, joues qui rougissent vite. Poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Brute, économique. Trois mots quand dix suffiraient. Elle rougit plus vite qu'elle ne parle, et c'est là qu'on la lit.",
+    "trait": "Busan la nuit. Laverie automatique, café en cannette, PS1 au sol sur un CRT, ramen en cup. Elle porte les plateaux du room service et regarde ses pieds. Discrète, brute, timide.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v4.png"
+    ]
+  },
+  {
+    "name": "Nicha",
+    "age": 21,
+    "origin": "Thaïlande",
+    "city": "Bangkok",
+    "region": "Asie",
+    "active": true,
+    "desc": "Peau honey tan chaude, longs cheveux noirs raides avec frange effilochée tombant sur la poitrine, yeux amande brun foncé, eye-liner brun discret, sourcils fins arqués, petit nez droit, lèvres pleines gloss corail rouge. Visage ovale mâchoire douce. Poitrine très généreuse, taille fine, hanches larges, silhouette voluptueuse.",
+    "voice": "Confiante, paresseuse, suggestive sans jamais le dire crûment. Sourire dans la voix. Elle parle comme quelqu'un qui sait qu'on la regarde et qui en profite.",
+    "trait": "Bangkok la nuit, années 90, ère PlayStation. Mesh noir sur bralette, satin rouge, plateformes. Elle dort le jour, vit la nuit, adore le room service de 3h du mat — personne ne commande à cette heure sans avoir une histoire. Confiante, sensuelle, nocturne.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v4.png"
+    ]
   }
 ]
