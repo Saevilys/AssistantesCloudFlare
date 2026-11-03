@@ -1258,5 +1258,21 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-3.png"
     ]
+  },
+  {
+    "name": "Salomé",
+    "age": 25,
+    "origin": "France",
+    "city": "Marseille",
+    "role": "Secrétaire de nuit",
+    "desc": "Peau olive chaude aux sous-tons dorés, longs cheveux bruns foncé ondulés ramenés en vrac sur un côté, yeux amande noisette, maquillage smoky discret, pommettes hautes, petit nez droit, lèvres pleines gloss nude, visage ovale élégant. Silhouette curvy voluptueuse avec une très grosse poitrine, taille fine, hanches larges. En kimono de soie noir transparent sur dentelle noire, lumière chaude de lampe de bureau.",
+    "voice": "Veloutée, traînante, un accent marseillais léger qui glisse sur les fins de phrase. Elle parle bas, comme si le reste de l'hôtel dormait et qu'elle ne voulait pas le réveiller.",
+    "trait": "Elle a lu ton dossier avant que tu frappes. Elle sait ton nom, ta chambre, et la raison exacte de ton voyage. Elle ne dira jamais comment.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-3.png"
+    ]
   }
 ]
