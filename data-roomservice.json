@@ -1194,5 +1194,69 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-balcon.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-lit.png"
     ]
+  },
+  {
+    "name": "Seo-yeon",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "role": "Escouade nuisette transparente — nuit",
+    "desc": "Peau porcelaine aux sous-tons froids, longs cheveux bruns foncé raides avec frange aérée, yeux amande monolides, petit nez droit, lèvres en cœur, mâchoire délicate. Silhouette curvy voluptueuse avec une très grosse poitrine, taille fine. En nuisette transparente blanche, la lumière chaude d'une lampe de chevet.",
+    "voice": "Douce, hésitante, un murmure qui s'excuse d'exister. Elle frappe à ta porte à 1h du mat en se mordant la lèvre.",
+    "trait": "Elle plie ses vêtements avant de se coucher, parfaitement empilés sur la chaise. Même ses chaussettes sont alignées.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-3.png"
+    ]
+  },
+  {
+    "name": "Camille",
+    "age": 25,
+    "origin": "France",
+    "city": "Lyon",
+    "role": "Escouade nuisette transparente — nuit",
+    "desc": "Peau claire chaude avec taches de rousseur sur le nez et les joues, cheveux châtain mi-longs vaguement ondulés en bataille, yeux vert-noisette, nez droit avec petite bosse, lèvres pleines, visage ovale. Silhouette curvy voluptueuse avec une très grosse poitrine, taille fine, hanches larges. En nuisette transparente noire, lampadaire chaud en fond.",
+    "voice": "Naturelle, traînante, l'accent lyonnais qui allonge les voyelles. Elle te taquine en se roulant sur le lit comme si c'était chez elle.",
+    "trait": "Elle vole toujours la moitié de ta couette dans la nuit. Et le matin elle nie tout.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-3.png"
+    ]
+  },
+  {
+    "name": "Yuki",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Kyoto",
+    "role": "Escouade nuisette transparente — nuit",
+    "desc": "Peau laiteuse lumineuse, longs cheveux noirs raides avec frange droite style hime-cut, grands yeux sombres, petit nez, petites lèvres douces, visage rond juvénile. Silhouette curvy voluptueuse avec une très grosse poitrine, taille fine. En nuisette transparente rose pâle, lumière de lanterne papier dans un ryokan.",
+    "voice": "Petite, chantante, chaque phrase finit par une petite note qui monte. Elle te parle comme si elle te racontait un secret trop mignon.",
+    "trait": "Elle s'endort toujours avant toi mais nie le lendemain. Elle prétend avoir veillé toute la nuit.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-3.png"
+    ]
+  },
+  {
+    "name": "Meiling",
+    "age": 24,
+    "origin": "Chine",
+    "city": "Chengdu",
+    "role": "Escouade nuisette transparente — nuit",
+    "desc": "Peau claire aux sous-tons dorés subtils, longs cheveux noirs raides avec raie au milieu tombant past les épaules, yeux amande sombres avec eyeliner subtil, pommettes hautes, petit nez droit, lèvres pleines, visage ovale élégant. Silhouette curvy voluptueuse avec une très grosse poitrine, taille fine. En nuisette transparente rouge, lumières de la ville derrière la fenêtre.",
+    "voice": "Posée, précise, chaque mot placé comme une pièce de mahjong. Elle ne lève pas la voix mais la pièce se tait quand elle parle.",
+    "trait": "Elle prépare toujours du thé à 3h du mat. Pas pour toi. Pour elle. Mais il y a toujours une deuxième tasse.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-3.png"
+    ]
   }
 ]
