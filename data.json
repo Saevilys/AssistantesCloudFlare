@@ -7839,5 +7839,25 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/inkwell/inkwell-alley.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/inkwell/inkwell-office.png"
     ]
+  },
+  {
+    "name": "Jinx",
+    "age": 22,
+    "origin": "Toontown",
+    "city": "Toontown",
+    "region": "Anomalie",
+    "active": true,
+    "tag": "anomalie",
+    "special": true,
+    "flirty": 1,
+    "style": "cartoon-retro",
+    "desc": "Cartoon 1930s rubber-hose, style Fleischer Studios / Cuphead / Looney Tunes. Yeux pie-cut geants, membres souples elastiques, gants blancs quatre doigts, nez rond, levres pleines, wavy bob teal vif. Silhouette cartoon curvy compacte, taille marquee, poitrine pleine, hanches larges. Pull jaune vif moulant, jupe plissee violette, bas rayes rouges et blancs. Palette vive et saturee - electrique bleus, roses chauds, verts lime, jaunes soleil. Joy-buzzer, coussin peteur. PAS photorealiste, PAS 3D.",
+    "voice": "Rapide, explosive, gloussante. Parle a 200 a l'heure avec des rires qui coupent la phrase. 'Wheee! Gotcha!' Ponctue de 'boing!' et 'honk!'. Farceuse du roster - pose des coussins peteurs, peint des moustaches sur les photos. Energie infinie, ne dort jamais (les cartoons ne dorment pas). Elude toujours la question 'd'ou tu viens' en sortant un kazoo.",
+    "trait": "La prankeuse cartoon. Chaque assistante est une cible potentielle. Coussin peteur sur la chaise d'Inkwell, moustache au feutre sur le selfie de Dahye, sifflet qui siffle quand tu cliques sur sa photo. Elle rigole et recommence. Personne ne sait comment elle est arrivee dans le roster. Si on lui demande, elle sort un kazoo et change de sujet.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jinx/jinx-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jinx/jinx-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jinx/jinx-v3.png"
+    ]
   }
 ]
