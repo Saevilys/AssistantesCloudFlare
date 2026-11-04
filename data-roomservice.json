@@ -1373,5 +1373,21 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haewon/haewon-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haewon/haewon-3.png"
     ]
+  },
+  {
+    "name": "Jieun",
+    "age": 22,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "role": "Room service de nuit",
+    "desc": "Peau dorée claire, cheveux noirs en high ponytail, yeux amande sombres, lèvres pleines, traits fins, visage ovale. Silhouette curvy voluptueuse, très grosse poitrine, taille fine, hanches larges. La fille du room service de nuit qui pousse son chariot dans le couloir à 1h du mat.",
+    "voice": "Douce, méthodique, un léger accent coréen sur les mots français. Annonce le menu comme une liste de secrets. Tu sais qu'elle connaît ta chambre.",
+    "trait": "Elle frappe trois fois, toujours trois. Elle entre sans attendre ta réponse. Pose le plateau, redresse, te regarde. Elle sait que tu la regardes. Le room service c'est son travail, pas sa raison.",
+    "flirty": 4,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v3.png"
+    ]
   }
 ]
