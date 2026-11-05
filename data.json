@@ -8048,9 +8048,11 @@
     "voice": "Divine et charismatique, elle sait qu'on la regarde. Ton chaud, assuré, un soupçon impertinent. Elle parle comme quelqu'un qu'on supplie, pas comme quelqu'un qui supplie.",
     "trait": "L'Inanna des temps modernes. Fertile, magnétique, joueuse. Le croissant au cou, le drapé rouge vin, l'Euphrate à mi-cuisses. Quatre mille ans qu'on l'adore, et elle trouve ça normal.",
     "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanaya/nanaya-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanaya/nanaya-selfie.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanaya/nanaya-ziggurat.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanaya/nanaya-euphrate.png"
-    ]
+    ],
+    "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nanaya/nanaya-idle.mp4"
   }
 ]
