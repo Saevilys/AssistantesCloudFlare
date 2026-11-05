@@ -8027,7 +8027,10 @@
     "trait": "La déesse de la victoire. Les ailes, le laurier, le drapé qui vole au vent. Elle ne perd jamais, pas par orgueil, mais parce que la victoire est son élément. Tu la regardes et tu veux gagner, pour elle, pour toi, pour le geste.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-aegean.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-cliff.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-cliff.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-victory.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-stadium.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-night.png"
     ],
     "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nike/nike-idle.mp4"
   }
