@@ -7983,7 +7983,10 @@
     "trait": "La déesse du carnaval de Rio. L'or, les plumes, la samba à 3h du mat. Elle ne danse pas pour toi, elle danse avec la ville entière, et tu es tombé sous le sort. Le body paint doré sur sa peau nue c'est pas un costume, c'est une offrande.",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-rooftop.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-parade.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-parade.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-plage.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-samba.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-backstage.png"
     ],
     "idle": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carna/carna-idle.mp4"
   },
