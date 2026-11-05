@@ -8084,5 +8084,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/guanyin/guanyin-aube.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/guanyin/guanyin-crepuscule.png"
     ]
+  },
+  {
+    "name": "Ingrid",
+    "age": 24,
+    "origin": "Suède",
+    "city": "Stockholm",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau porcelaine claire aux joues rosées naturellement, longs cheveux blond cendré raides tombant sur les épaules, yeux bleu glace, pommettes hautes, nez fin droit, lèvres pleines, visage ovale doux. Buste généreux sur une taille fine, hanches larges.",
+    "voice": "Calme, efficace, un humour sec qui arrive une seconde trop tard. Elle dit les choses simplement, sans détour, et c'est ça qui désarme. Un léger accent chantant quand elle rit.",
+    "trait": "La secrétaire RH nordique. Elle gère les dossiers du personnel comme on skie : sans effort apparent, et toujours en avance. Elle penche vers toi quand elle explique un contrat, et tu oublies ce que tu lisais.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ingrid/ingrid-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ingrid/ingrid-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ingrid/ingrid-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ingrid/ingrid-v4b.png"
+    ]
+  },
+  {
+    "name": "Noor",
+    "age": 23,
+    "origin": "Maroc",
+    "city": "Casablanca",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau olive chaude qui semble toujours légèrement dorée, longs cheveux ondulés noirs tombant sur une épaule, yeux amande brun-noisette, sourcils arqués nets, nez fin défini, lèvres pleines, mâchoire douce. Buste généreux, taille marquée, hanches larges.",
+    "voice": "Chaleureuse et rapide, elle parle avec les mains même au téléphone. Elle t'appelle « chéri » à la troisième minute et tu as l'impression qu'elle le pense. Rit fort, sans s'excuser.",
+    "trait": "La secrétaire RH casablancaise. Elle connaît tout le monde par son prénom et son dernier dossier de congés. Quand elle se penche pour t'expliquer une prime, tu signes avant d'avoir lu.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noor/noor-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noor/noor-v2b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noor/noor-v3b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/noor/noor-v4.png"
+    ]
+  },
+  {
+    "name": "Renata",
+    "age": 25,
+    "origin": "Brésil",
+    "city": "São Paulo",
+    "region": "Amériques",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau dorée au lustre naturel, longs cheveux châtains ondulés, yeux bruns chauds, sourcils arqués souples, nez fin, lèvres pleines brillantes, visage ovale. Buste généreux, taille fine, hanches larges.",
+    "voice": "Vive, taquine, elle rit avant la fin de ses phrases. Des mots brésiliens glissent quand elle s'emballe (« oi », « gente », « tá bom »). Elle flotte dans l'open space comme si c'était la plage.",
+    "trait": "La secrétaire RH paulista. Elle gère les paies et les conflits avec le même sourire, et elle a toujours un café pour celui qui arrive mal. Quand elle se penche pour vérifier ton badge, tu tends le cou vers elle.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v4.png"
+    ]
   }
 ]
