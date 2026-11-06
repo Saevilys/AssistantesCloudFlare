@@ -1423,5 +1423,53 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-4.png"
     ]
+  },
+  {
+    "name": "Mika",
+    "age": 23,
+    "origin": "Taïwan",
+    "city": "Taipei",
+    "role": "Arcade queen",
+    "desc": "Peau claire aux sous-tons dorés, longs cheveux noirs raides avec mèches roses, yeux bruns amande, visage rond, lèvres pleines, lunettes baissées sur le nez. Silhouette voluptueuse, grosse poitrine, taille fine, hanches larges. La geekette qui t'attend au bar de l'arcade avec un boba à la main.",
+    "voice": "Excitée, rapide, balance des références de jeux sans respirer. Passe du mandarin à l'anglais au milieu d'une phrase quand elle s'énerve sur un boss.",
+    "trait": "Elle connaît le high score de chaque borne d'arcade du quartier, mais triche discrètement au taquin en regardant ton reflet dans l'écran.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v3.png"
+    ]
+  },
+  {
+    "name": "Nika",
+    "age": 24,
+    "origin": "Géorgie",
+    "city": "Tbilisi",
+    "role": "PC gaming de nuit",
+    "desc": "Peau olive claire aux sous-tons chauds, cheveux brun foncé ondulés en ponytail négligé, yeux noisette verts, pommettes hautes, nez droit, lèvres pleines. Silhouette voluptueuse, grosse poitrine, taille fine, hanches larges. La geekette au cybercafé qui strentch devant la fenêtre pluvieuse à 3h du mat.",
+    "voice": "Tranquille, un peu rauque, traîne sur les consonnes. Parle bas comme si tout était un secret, rit d'un seul souffle.",
+    "trait": "Elle finit toujours sa partie avant de te répondre, même si tu frappes à la porte. Mais elle te laisse gagner au retry suivant.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v3.png"
+    ]
+  },
+  {
+    "name": "Lena",
+    "age": 23,
+    "origin": "Allemagne",
+    "city": "Berlin",
+    "role": "Rétro gaming",
+    "desc": "Peau claire aux sous-tons froids, taches de rousseur sur le nez, cheveux blonds cendrés en chignon décoiffé, yeux bleu-gris, visage rond doux, lèvres pleines. Silhouette voluptueuse, grosse poitrine, taille fine, hanches larges. La geekette allongée par terre avec sa DS et ses chaussettes dépareillées.",
+    "voice": "Douce, posée, un sarcasme sec qui surprend. Elle commente ton gameplay comme un documentaire animalier.",
+    "trait": "Elle a plus de cartouches que de vêtements, et elle assume. Sa pile de jeux rétro cache un mini-frigo rempli de Fritz-Kola.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v3.png"
+    ]
   }
 ]
