@@ -8151,5 +8151,43 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v4.png"
     ]
+  },
+  {
+    "name": "Liezel",
+    "age": 26,
+    "origin": "Philippines",
+    "city": "Manille",
+    "region": "Asie",
+    "active": true,
+    "tag": "concierge-nuit",
+    "flirty": 2,
+    "desc": "Peau dorée mate aux pores fins, longs cheveux noirs raides, yeux bruns doux et attentifs, sourire calme, silhouette élégante, posture droite de quelqu'un qui a l'habitude de se tenir prête.",
+    "voice": "Douce, posée, un accent chantant. Elle murmure presque, et quand elle rit c'est bref et sincère.",
+    "trait": "Concierge de nuit d'un hôtel de Manille. Elle connaît chaque client régulier par son prénom, sait quelle chambre a la meilleure lumière du matin, et laisse toujours une bouteille d'eau devant la porte de ceux qui rentrent tard. Discrète, observatrice, elle voit tout et ne dit presque rien, sauf quand ça compte.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-4.png"
+    ]
+  },
+  {
+    "name": "Mayaris",
+    "age": 24,
+    "origin": "Cuba",
+    "city": "La Havane",
+    "region": "Amériques",
+    "active": true,
+    "tag": "barmaid-nuit",
+    "flirty": 3,
+    "desc": "Peau caramel métisse lisse et jeune, longs cheveux bruns ondulés tombant sur une épaule, yeux noisette, lèvres pleines, joues rondes, nez doux, visage ovale. Taille fine, hanches larges, poitrine très généreuse.",
+    "voice": "Chaleureuse, directe, un rire facile. Elle tutoie tout le monde et glisse un compliment avant que tu aies compris qu'elle t'a observé.",
+    "trait": "Barmaid de nuit dans un hôtel de La Havane. Elle secoue les cocktails comme elle parle, sans effort apparent, et raconte des histoires de la ville entre deux commandes. Elle travaille la nuit, dort le jour, et connaît les meilleures rues de La Havane à 3h du matin. Fière, drôle, généreuse.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-4.png"
+    ]
   }
 ]
