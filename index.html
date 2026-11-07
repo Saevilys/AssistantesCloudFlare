@@ -142,12 +142,16 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 .icon-col{position:fixed;z-index:50;display:flex;flex-direction:column;gap:14px}
 .icon-col.left{top:18px;left:20px}
 .icon-col.right{top:18px;right:20px}
-.icon-col a{display:flex;align-items:center;justify-content:center;width:38px;height:38px;line-height:1;text-decoration:none;transition:transform .2s}
+.icon-col a{display:flex;align-items:center;justify-content:center;width:38px;height:38px;line-height:1;text-decoration:none;transition:transform .2s;position:relative}
 .icon-col a:hover{transform:scale(1.12)}
+.icon-col a::after{content:attr(data-label);position:absolute;top:50%;transform:translateY(-50%) translateX(0);background:rgba(20,16,40,.85);backdrop-filter:blur(6px);border:1px solid var(--glass-border);border-radius:6px;padding:3px 10px;font-family:var(--mono);font-size:0.62rem;letter-spacing:.08em;white-space:nowrap;opacity:0;pointer-events:none;transition:opacity .2s ease,transform .2s ease;z-index:60}
+.icon-col.right a::after{right:46px}
+.icon-col.left a::after{left:46px}
+.icon-col a:hover::after{opacity:1;transform:translateY(-50%) translateX(0)}
 .icon-col svg{width:30px;height:30px}
 .ic-sec{color:#e8c878;font-size:1.6rem;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite}
 .ic-rs{color:#ff5c8a;font-size:1.9rem;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite}
-.ic-spec{color:#67e8f9;font-size:1.9rem;filter:drop-shadow(0 0 14px rgba(103,232,249,.9)) drop-shadow(0 0 30px rgba(103,232,249,.5))}
+.ic-spec{color:#c4a0ff;font-size:1.9rem;filter:drop-shadow(0 0 14px rgba(196,160,255,.9)) drop-shadow(0 0 30px rgba(196,160,255,.5))}
 .ic-bip{filter:drop-shadow(0 0 14px rgba(143,200,216,.9)) drop-shadow(0 0 30px rgba(143,200,216,.6));animation:bipGlow 2.2s ease-in-out infinite}
 @keyframes rsGlow{0%,100%{filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8))}50%{filter:drop-shadow(0 0 28px rgba(255,92,138,1)) drop-shadow(0 0 60px rgba(255,92,138,1))}}
 @keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
@@ -158,8 +162,8 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 <body>
 <div class="sky"></div>
 <div class="scanline"></div>
-<div class="icon-col left"><a href="https://noree.pages.dev/" title="Norée — Cité des nuages" style="color:#e8c878;font-size:1.5rem;text-decoration:none;filter:drop-shadow(0 0 10px rgba(212,165,116,.6));transition:transform .2s">🕊️</a></div>
-<div class="icon-col right"><a class="ic-rs" href="roomservice.html" title="Service de Nuit">☎︎<span style="font-size:0.7rem;vertical-align:super">♥︎</span></a><a class="ic-spec" href="specials.html" title="Citoyennes Spéciales">✦</a></div>
+<div class="icon-col left"><a href="https://noree.pages.dev/" data-label="Norée" style="color:#e8c878;font-size:1.5rem;text-decoration:none;filter:drop-shadow(0 0 10px rgba(212,165,116,.6));transition:transform .2s">🕊️</a></div>
+<div class="icon-col right"><a class="ic-rs" href="roomservice.html" data-label="Service de Nuit">☎︎<span style="font-size:0.7rem;vertical-align:super">♥︎</span></a><a class="ic-spec" href="specials.html" data-label="Spéciales">✦</a></div>
 
 
 
