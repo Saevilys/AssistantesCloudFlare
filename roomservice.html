@@ -10,11 +10,17 @@
 body{background:#0a0608;color:#e8d8dc;font-family:system-ui,-apple-system,sans-serif;line-height:1.5;min-height:100vh}
 .bgglow{position:fixed;inset:0;background:radial-gradient(ellipse 60% 40% at 50% 0%,rgba(214,51,108,.10),transparent 70%);pointer-events:none}
 header{padding:60px 20px 20px;text-align:center;position:relative}
-.back{position:absolute;top:20px;right:20px;color:#8a6a74;text-decoration:none;font-size:0.85rem;transition:color .2s}
-.sec-icon-fixed{position:fixed;top:18px;left:20px;z-index:50;color:#d4a574;text-decoration:none;font-size:1.6rem;line-height:1;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite;transition:transform .2s}
-.sec-icon-fixed:hover{transform:scale(1.12)}
+.icon-col{position:fixed;z-index:50;display:flex;flex-direction:column;gap:14px}
+.icon-col.left{top:18px;left:20px}
+.icon-col.right{top:18px;right:20px}
+.icon-col a{display:flex;align-items:center;justify-content:center;width:38px;height:38px;line-height:1;text-decoration:none;transition:transform .2s}
+.icon-col a:hover{transform:scale(1.12)}
+.ic-sec{color:#d4a574;font-size:1.6rem;filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4));animation:secBtnGlow 2.6s ease-in-out infinite}
+.ic-rs{color:#ff5c8a;font-size:1.9rem;filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8));animation:rsGlow 1.6s ease-in-out infinite}
+.ic-spec{color:#67e8f9;font-size:1.9rem;filter:drop-shadow(0 0 14px rgba(103,232,249,.9)) drop-shadow(0 0 30px rgba(103,232,249,.5))}
+.ic-spec2{color:#c4a0ff;font-size:1.9rem;filter:drop-shadow(0 0 14px rgba(196,160,255,.9)) drop-shadow(0 0 30px rgba(196,160,255,.5))}
+@keyframes rsGlow{0%,100%{filter:drop-shadow(0 0 16px rgba(255,92,138,1)) drop-shadow(0 0 35px rgba(255,92,138,.8))}50%{filter:drop-shadow(0 0 28px rgba(255,92,138,1)) drop-shadow(0 0 60px rgba(255,92,138,1))}}
 @keyframes secBtnGlow{0%,100%{filter:drop-shadow(0 0 12px rgba(212,165,116,.7)) drop-shadow(0 0 28px rgba(212,165,116,.4))}50%{filter:drop-shadow(0 0 20px rgba(212,165,116,.95)) drop-shadow(0 0 45px rgba(212,165,116,.7))}}
-.back:hover{color:#ff5c8a}
 .icon-phone{font-size:3.4rem;line-height:1;filter:drop-shadow(0 0 14px rgba(255,92,138,.8)) drop-shadow(0 0 30px rgba(255,92,138,.4));animation:phoneGlow 2.4s ease-in-out infinite}
 @keyframes phoneGlow{0%,100%{filter:drop-shadow(0 0 10px rgba(255,92,138,.7)) drop-shadow(0 0 24px rgba(255,92,138,.35))}50%{filter:drop-shadow(0 0 18px rgba(255,92,138,.95)) drop-shadow(0 0 42px rgba(255,92,138,.55))}}
 header h1{font-size:2.2rem;font-weight:300;letter-spacing:6px;color:#ff5c8a;margin-top:14px}
@@ -80,10 +86,10 @@ footer{text-align:center;padding:30px 20px;color:#4a2430;font-size:0.75rem}
 </head>
 <body>
 <div class="bgglow"></div>
-<a class="sec-icon-fixed" href="https://noree.pages.dev/" title="Norée — Cité des nuages" style="font-size:1.5rem">🕊️</a>
+<div class="icon-col left"><a href="https://noree.pages.dev/" title="Norée — Cité des nuages" style="color:#d4a574;font-size:1.5rem;text-decoration:none;filter:drop-shadow(0 0 10px rgba(212,165,116,.6));transition:transform .2s">🕊️</a></div>
+<div class="icon-col right"><a class="ic-spec" href="index.html" title="Citoyennes de Norée">✦</a><a class="ic-spec2" href="specials.html" title="Citoyennes Spéciales">✦</a></div>
 
 <header>
-  <a class="back" href="index.html">&larr; retour aux citoyennes</a>
   <div class="icon-phone">&#9742;&#xFE0E;</div>
   <h1>SERVICE DE NUIT</h1>
   <p>Elles ne dorment jamais. Elles ne sont pas dans le roster, jamais dans le tirage du matin. Elles existent pour un seul truc : répondre quand tu appelles.</p>
