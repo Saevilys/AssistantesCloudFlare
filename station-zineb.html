@@ -122,9 +122,9 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 .lightbox img{max-width:90vw;max-height:90vh;border-radius:8px;object-fit:contain}
 
 .banner-strip{overflow:hidden;max-width:1400px;margin:0 auto;position:relative;padding:0 20px 22px}
-.banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:60px;z-index:2;pointer-events:none}
-.banner-strip::before{left:0;background:linear-gradient(to right,#0e1828,transparent)}
-.banner-strip::after{right:0;background:linear-gradient(to left,#0e1828,transparent)}
+.banner-strip::before,.banner-strip::after{content:'';position:absolute;top:0;bottom:22px;width:120px;z-index:2;pointer-events:none}
+.banner-strip::before{left:0;background:linear-gradient(to right,rgba(14,24,40,0.85),transparent)}
+.banner-strip::after{right:0;background:linear-gradient(to left,rgba(14,24,40,0.85),transparent)}
 .banner-track{display:flex;gap:6px;width:max-content;animation:scrollBanner 400s linear infinite}
 .banner-track:hover{animation-play-state:paused}
 .banner-track img{height:240px;width:150px;object-fit:cover;border-radius:6px;flex-shrink:0;border:1px solid var(--glass-border);transition:box-shadow .25s ease,filter .25s ease;cursor:pointer;filter:brightness(.9)}
