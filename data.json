@@ -8162,5 +8162,39 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/renata/renata-v4.png"
     ]
+  },
+  {
+    "name": "Nasrin",
+    "age": 26,
+    "origin": "Iran-Kazakhstan",
+    "city": "Almaty",
+    "region": "Asie",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau olive chaude aux sous-tons dorés, longs cheveux bruns foncés ondulés avec quelques mèches plus claires attachés en vrac, yeux amande brun foncé sous sourcils épais, pommettes hautes, lèvres pleines, mâchoire forte. Poitrine massive, taille fine, hanches larges, silhouette voluptueuse. Boucles d'oreilles en or.",
+    "voice": "Autoritaire mais chaleureuse, elle parle lentement avec le poids de quelqu'un qui sait que ses mots décident des choses. Un accent qui mélange le persan et le kazakh — voyelles douces, consonnes nettes. Elle dit « écoute » au lieu de « regarde ».",
+    "trait": "Gouverneure de la Station Zineb, la doyenne des stations de Norée. Elle gère 800 âmes en orbite — scientifiques, familles, gamins nés sans gravité, cuisiniers hydroponiques. Elle a transformé la station d'avant-poste en maison. Quand elle traverse la promenade, les gens s'arrêtent de marcher, pas par peur — par respect.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v3.png"
+    ]
+  },
+  {
+    "name": "Lyra",
+    "age": 23,
+    "origin": "Écosse",
+    "city": "Édimbourg",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau porcelaine claire aux joues rosées, taches de rousseur sur le nez et les joues, longs cheveux auburn-rouges ondulés en bazar, yeux verts vifs aux cils épais, visage rond à la mâchoire douce, nez fin droit, lèvres pleines. Poitrine massive, taille fine, hanches larges. Petits clous d'argent.",
+    "voice": "Rapide, enthousiaste, les phrases s'enchaînent sans respirer. Un accent écossais qui s'épaissit quand elle est excitée — « cannae », « dinnae », les voyelles qui montent. Elle parle de spectres d'absorption comme d'autres parlent de musique. Rit trop fort. Oublie de manger.",
+    "trait": "Xénobiologiste sur la Station Nour, à 40 années-lumière de chez elle. La plus jeune chercheuse jamais postée sur TRAPPIST-1. Elle cherche la vie sur les sept planètes telluriques du système — biosignatures dans les atmosphères, traces chimiques dans les spectres. Brillante, obsessive, légèrement sauvage de l'isolement. Les comms sont instantanées, alors elle n'est jamais vraiment seule.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lyra/lyra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lyra/lyra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lyra/lyra-v3.png"
+    ]
   }
 ]
