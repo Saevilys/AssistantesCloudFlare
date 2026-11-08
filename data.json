@@ -8269,7 +8269,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/derya/derya-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/derya/derya-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/derya/derya-v3.png"
-    ]
+    ],
+    "station": "nour"
   },
   {
     "name": "Vesna",
@@ -8287,7 +8288,8 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/vesna/vesna-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/vesna/vesna-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/vesna/vesna-v3.png"
-    ]
+    ],
+    "station": "nour"
   },
   {
     "name": "Palesa",
@@ -8305,6 +8307,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/palesa/palesa-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/palesa/palesa-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/palesa/palesa-v3.png"
-    ]
+    ],
+    "station": "nour"
   }
 ]
