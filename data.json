@@ -8597,5 +8597,56 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v3.png"
     ],
     "station": "sgr-a"
+  },
+  {
+    "name": "Kotone",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau claire, cheveux noirs lisses en chignon décoiffé avec mèches lâches, yeux amande noirs légèrement tombants, sourcils définis, petit nez droit, lèvres pleines, visage ovale aux traits doux. Taille fine, hanches larges, forte poitrine, voluptueuse. Des taches de sauce sur le tablier, les mains qui sentent le bouillon.",
+    "voice": "Rapide, malicieuse, balance des blagues en cuisinant. Rit en parlant, s'interrompt pour goûter.",
+    "trait": "Cuisinière de cantina dans la ville côtière de Minorea. Tient un food stall au bord du canal, vapeur et fumée, enseigne verticale en bois. Fait des ramen à l'eau des nuages, des brochettes yakitori sur panneaux solaires. Connaît tout le monde sur le canal.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kotone/kotone-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kotone/kotone-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kotone/kotone-v3.png"
+    ]
+  },
+  {
+    "name": "Marikit",
+    "age": 23,
+    "origin": "Philippines",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau dorée brune, longs cheveux brun foncé épais et ondulés, yeux ronds noirs, pommettes hautes, nez large, lèvres pleines, visage rond et doux. Taille fine, hanches larges, forte poitrine, voluptueuse. Les cheveux toujours un peu humides, le sel sur la peau.",
+    "voice": "Chaleureuse, directe, parle avec les mains. Passe du tagalog au japonais sans s'en rendre compte.",
+    "trait": "Pêcheuse de nuages dans la ville côtière de Minorea. Récolte l'eau condensée des nuages beige-violets qui passent sous la ville. Le geste fondateur de Norée, sa fonction la plus ancienne. Conduit un petit bateau à canopy rouge sur les canaux turquoise.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marikit/marikit-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marikit/marikit-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marikit/marikit-v3.png"
+    ]
+  },
+  {
+    "name": "Kaiulani",
+    "age": 25,
+    "origin": "Hawaï",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "desc": "Peau bronze chaud, longs cheveux noirs lisses, yeux amande noirs, pommettes hautes, nez droit, lèvres pleines, visage ovale aux traits définis. Taille fine, hanches larges, forte poitrine, voluptueuse. Posture droite, le regard qui planifie.",
+    "voice": "Précise, calme, choisit ses mots. S'exprime en croquis et en chiffres. S'illumine quand elle parle d'un nouveau module.",
+    "trait": "Architecte de nuages dans la ville haute de Minorea. Conçoit les nouveaux quartiers flottants : modules cubiques empilés, balcons, passerelles, jardins verticaux. Pense en trois dimensions, dessine sur tablette. La ville a poussé organiquement, elle la structure sans l'étouffer.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kaiulani/kaiulani-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kaiulani/kaiulani-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kaiulani/kaiulani-v5.png"
+    ]
   }
 ]
