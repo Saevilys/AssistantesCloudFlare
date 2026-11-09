@@ -636,34 +636,40 @@ document.getElementById('search').addEventListener('input',e=>{
       ctx.stroke();
     }
 
-    // accretion disk — single large tilted ellipse
+    // accretion disk — thick filled disk from near event horizon outward
     ctx.save();
     ctx.translate(cx,cy);
     const tilt = -0.35;
     ctx.rotate(tilt);
-    const rx = BH_R*3.5, ry = BH_R*1.1;
-    const segs = 120;
     const rotSpeed = 0.002; // slow rotation
-    for(let s=0;s<segs;s++){
-      const a = (s/segs)*Math.PI*2 + t*rotSpeed;
-      const px = Math.cos(a)*rx;
-      const py = Math.sin(a)*ry;
-      // turbulence along the disk
-      const turb = Math.sin(a*3 + t*0.005)*0.08;
-      const heat = 0.85 - Math.abs(Math.sin(a*2))*0.15 + turb;
-      // doppler-like brightness asymmetry
-      const doppler = 0.7 + 0.3*Math.cos(a);
-      const b = Math.max(0, Math.min(1, heat * doppler));
-      ctx.fillStyle = pal(b);
-      const sz = b > 0.7 ? 2 : 1;
-      ctx.fillRect(Math.floor(px),Math.floor(py),sz,sz);
+    // multiple radial bands from 1.15x to 4x BH_R
+    const innerR = BH_R*1.15, outerR = BH_R*4;
+    const bands = 14;
+    for(let band=0;band<bands;band++){
+      const frac = band/(bands-1);
+      const rx = innerR + (outerR-innerR)*frac;
+      const ry = rx*0.32; // flat tilted disk
+      const segs = 60 + Math.floor(frac*40);
+      const bandHeat = 1 - frac*0.55; // hotter inside
+      for(let s=0;s<segs;s++){
+        const a = (s/segs)*Math.PI*2 + t*rotSpeed*(1.0 - frac*0.3); // inner spins slightly faster
+        const px = Math.cos(a)*rx;
+        const py = Math.sin(a)*ry;
+        const turb = Math.sin(a*3 + t*0.005 + band*0.7)*0.08;
+        const heat = bandHeat - Math.abs(Math.sin(a*2))*0.12 + turb;
+        const doppler = 0.65 + 0.35*Math.cos(a);
+        const b = Math.max(0, Math.min(1, heat * doppler));
+        ctx.fillStyle = pal(b);
+        const sz = b > 0.75 ? 2 : 1;
+        ctx.fillRect(Math.floor(px),Math.floor(py),sz,sz);
+      }
     }
-    // faint outer glow ring
+    // faint outer glow
     for(let s=0;s<80;s++){
       const a = (s/80)*Math.PI*2 + t*rotSpeed*0.7;
-      const px = Math.cos(a)*rx*1.15;
-      const py = Math.sin(a)*ry*1.15;
-      ctx.fillStyle = pal(0.25);
+      const px = Math.cos(a)*outerR*1.1;
+      const py = Math.sin(a)*outerR*0.35;
+      ctx.fillStyle = pal(0.2);
       ctx.fillRect(Math.floor(px),Math.floor(py),1,1);
     }
     ctx.restore();
