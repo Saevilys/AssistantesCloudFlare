@@ -175,8 +175,6 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 <div class="cloud-layer cloud-near"></div>
 <div class="castle-bg"><img src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minorea/castle-pixelart.png" alt="" loading="eager"></div>
 <canvas id="sky-canvas"></canvas>
-<div class="castle-bg"><img src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minorea/castle-pixelart.png" alt="" loading="eager"></div>
-<canvas id="sky-canvas"></canvas>
 <a class="back-home" href="index.html">Citoyennes</a>
 <div class="icon-col left"><a href="https://noree.pages.dev/" data-label="Norée" style="color:#f0c860;font-size:1.5rem;text-decoration:none;filter:drop-shadow(0 0 10px rgba(240,200,96,.6));transition:transform .2s">🕊️</a></div>
 <div class="icon-col right">
@@ -571,7 +569,7 @@ document.getElementById('search').addEventListener('input',e=>{
   function spawnBird(layer) {
     // layer 0 = loin (petit, lent, sombre), 1 = moyen, 2 = proche (grand, rapide)
     const sizes = [1, 1.5, 2.5];
-    const speeds = [0.08, 0.15, 0.28];
+    const speeds = [0.04, 0.08, 0.15];
     const opacities = [0.25, 0.4, 0.6];
     const dir = Math.random() < 0.5 ? 1 : -1;
     return {
@@ -582,7 +580,7 @@ document.getElementById('search').addEventListener('input',e=>{
       size: sizes[layer],
       opacity: opacities[layer],
       flapPhase: Math.random() * Math.PI * 2,
-      flapSpeed: 0.08 + Math.random() * 0.05,
+      flapSpeed: 0.04 + Math.random() * 0.03,
       layer: layer,
       // V-formation : offset par rapport au leader
       vOffset: 0,
@@ -592,7 +590,7 @@ document.getElementById('search').addEventListener('input',e=>{
   // --- Vaisseaux : petits pods avec lumières ---
   function spawnShip(layer) {
     const sizes = [3, 4, 6];
-    const speeds = [0.12, 0.2, 0.35];
+    const speeds = [0.06, 0.1, 0.18];
     const opacities = [0.35, 0.5, 0.7];
     const dir = Math.random() < 0.5 ? 1 : -1;
     return {
@@ -698,7 +696,10 @@ document.getElementById('search').addEventListener('input',e=>{
     for (let i = 0; i < 2; i++) { const s = spawnShip(2); s.x = Math.random() * W; ships.push(s); }
   }
 
-  function draw() {
+  let lastFrame = 0;
+  function draw(now) {
+    if (now - lastFrame < 16) { requestAnimationFrame(draw); return; }
+    lastFrame = now;
     ctx.clearRect(0, 0, W, H);
 
     // Oiseaux
@@ -728,7 +729,7 @@ document.getElementById('search').addEventListener('input',e=>{
 
   window.addEventListener('resize', resize);
   resize();
-  draw();
+  requestAnimationFrame(draw);
 })();
 
 </script>
