@@ -8485,7 +8485,7 @@
     "station": "nour"
   },
   {
-    "name": "Tara",
+    "name": "Roshni",
     "age": 24,
     "origin": "Inde",
     "city": "Jaipur",
@@ -8497,9 +8497,9 @@
     "voice": "Précise, vive, s'emballe sur les détails. Elle commence une phrase normalement et finit en train de dériver sur l'horizon des événements. Corrige les approximations gentiment.",
     "trait": "Astrophysicienne des trous noirs à SGR A*. Elle étudie l'horizon des événements et la radiation de Hawking. 26 000 années-lumière de chez elle, mais elle a l'air chez elle devant les équations.",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshni/roshni-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshni/roshni-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshni/roshni-v3.png"
     ],
     "station": "sgr-a"
   },
@@ -8523,7 +8523,7 @@
     "station": "sgr-a"
   },
   {
-    "name": "Nadira",
+    "name": "Yasmine",
     "age": 25,
     "origin": "Algérie",
     "city": "Alger",
@@ -8535,9 +8535,9 @@
     "voice": "Lente, réfléchie, chaque phrase construite comme une démonstration. Elle marque des pauses où tu sens qu'elle calcule. L'accent d'Alger, doux.",
     "trait": "Mathématicienne de l'espace-temps à SGR A*. Topologie de l'espace près d'un trou noir supermassif. Elle écrit des équations à la main dans un carnet en cuir, refuse les écrans.",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v3.png"
     ],
     "station": "sgr-a"
   }
