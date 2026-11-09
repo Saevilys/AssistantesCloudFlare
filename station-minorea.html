@@ -16,7 +16,10 @@
   --card-bg:rgba(255,255,255,0.70);--card-border:rgba(180,150,80,0.20);
 }
 body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-weight:300;line-height:1.7}
-.sky{position:fixed;inset:0;z-index:-2;pointer-events:none;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(255,255,255,0.6),transparent 50%),radial-gradient(ellipse 60% 40% at 30% 30%,rgba(200,220,255,0.4),transparent 55%),radial-gradient(ellipse 70% 50% at 75% 60%,rgba(255,240,200,0.3),transparent 60%),linear-gradient(180deg,#a8c8e8 0%,#c8d8e8 20%,#e0e8f0 40%,#eef2f6 60%,#f4f6fa 80%,#f8f9fc 100%)}
+.sky{position:fixed;inset:0;z-index:-3;pointer-events:none;background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(255,255,255,0.5),transparent 50%),radial-gradient(ellipse 60% 40% at 30% 30%,rgba(200,220,255,0.35),transparent 55%),radial-gradient(ellipse 70% 50% at 75% 60%,rgba(255,240,200,0.25),transparent 60%),linear-gradient(180deg,#a8c8e8 0%,#c8d8e8 20%,#e0e8f0 40%,#eef2f6 60%,#f4f6fa 80%,#f8f9fc 100%)}
+.castle-bg{position:fixed;left:50%;top:8vh;transform:translateX(-50%);width:min(800px,90vw);z-index:-2;pointer-events:none;opacity:0.85;filter:drop-shadow(0 0 40px rgba(255,240,200,0.3))}
+.castle-bg img{width:100%;display:block;image-rendering:pixelated}
+#sky-canvas{position:fixed;inset:0;z-index:-1;pointer-events:none;width:100vw;height:100vh}
 
 
 @keyframes drift{0%{transform:translateX(-5%)}100%{transform:translateX(5%)}}
@@ -170,6 +173,10 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 <div class="cloud-layer cloud-far"></div>
 <div class="cloud-layer cloud-mid"></div>
 <div class="cloud-layer cloud-near"></div>
+<div class="castle-bg"><img src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minorea/castle-pixelart.png" alt="" loading="eager"></div>
+<canvas id="sky-canvas"></canvas>
+<div class="castle-bg"><img src="https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minorea/castle-pixelart.png" alt="" loading="eager"></div>
+<canvas id="sky-canvas"></canvas>
 <a class="back-home" href="index.html">Citoyennes</a>
 <div class="icon-col left"><a href="https://noree.pages.dev/" data-label="Norée" style="color:#f0c860;font-size:1.5rem;text-decoration:none;filter:drop-shadow(0 0 10px rgba(240,200,96,.6));transition:transform .2s">🕊️</a></div>
 <div class="icon-col right">
@@ -548,175 +555,182 @@ document.getElementById('search').addEventListener('input',e=>{
 });
 </script>
 <script>
+// Canvas pixel art : oiseaux + vaisseaux volant au-dessus des nuages de Minorea
+// Technique : low-res canvas (PIXEL=3) scaled up — même approche que le trou noir SGR A*
 (function(){
-  var cv=document.getElementById('starfield');
-  var ctx=cv.getContext('2d');
-  var W=0,H=0,stars=[],crossStars=[],comets=[],supernovas=[],station=null,stationCD=0,galaxies=[];
-  var SC=["255,240,200","255,220,160","255,200,120","240,200,120","255,180,80","220,200,255","255,240,180","200,180,220","240,200,96","255,220,100"],CROSS="255,240,180",COMET="255,220,140",COMET_GL="240,200,96",SN=["255,200,80","255,240,160","255,220,120","200,160,220"],GAL=["220,200,140","200,180,160","180,160,200"];
-  var ST={hull:"#b8a880",hullDark:"#806848",hullLight:"#d8c8a0",panel:"#5a4838",panelLine:"#4a3828",win:"#f4c878",winGlow:"rgba(244,200,120,0.5)",glow:"rgba(244,200,120,0.12)",dome:"rgba(200,160,80,0.25)",accent:"#f4c878"};
-  function resize(){W=cv.width=window.innerWidth||document.documentElement.clientWidth||800;H=cv.height=window.innerHeight||document.documentElement.clientHeight||600;}
-  function rnd(a,b){return a+Math.random()*(b-a);}
-  function pick(a){return a[Math.floor(Math.random()*a.length)];}
-  function initStars(){
-    stars=[];var n=Math.max(80,Math.floor(W*H/5000));
-    for(var i=0;i<n;i++){
-      var cr=Math.random(),c;
-      if(cr<0.25)c=SC[0];
-      else if(cr<0.45)c=SC[1];
-      else if(cr<0.60)c=SC[2];
-      else if(cr<0.72)c=SC[3];
-      else if(cr<0.82)c=SC[4];
-      else if(cr<0.89)c=SC[5];
-      else if(cr<0.94)c=SC[6];
-      else if(cr<0.97)c=SC[7];
-      else if(cr<0.99)c=SC[8]||SC[0];
-      else c=SC[9]||SC[0];
-      stars.push({x:Math.random()*W,y:Math.random()*H,r:rnd(0.5,1.8),tw:Math.random()*Math.PI*2,tws:rnd(0.01,0.04),c:c});
+  const cv = document.getElementById('sky-canvas');
+  if(!cv) return;
+  const ctx = cv.getContext('2d');
+  let W, H, t = 0;
+  const PIXEL = 3;
+  let birds = [];
+  let ships = [];
+  let clouds = [];
+
+  // --- Oiseaux : petits V qui battent des ailes ---
+  function spawnBird(layer) {
+    // layer 0 = loin (petit, lent, sombre), 1 = moyen, 2 = proche (grand, rapide)
+    const sizes = [1, 1.5, 2.5];
+    const speeds = [0.08, 0.15, 0.28];
+    const opacities = [0.25, 0.4, 0.6];
+    const dir = Math.random() < 0.5 ? 1 : -1;
+    return {
+      x: dir > 0 ? -10 : W + 10,
+      y: Math.random() * H * 0.5 + H * 0.05,
+      dir: dir,
+      speed: speeds[layer] * (0.8 + Math.random() * 0.4),
+      size: sizes[layer],
+      opacity: opacities[layer],
+      flapPhase: Math.random() * Math.PI * 2,
+      flapSpeed: 0.08 + Math.random() * 0.05,
+      layer: layer,
+      // V-formation : offset par rapport au leader
+      vOffset: 0,
+    };
+  }
+
+  // --- Vaisseaux : petits pods avec lumières ---
+  function spawnShip(layer) {
+    const sizes = [3, 4, 6];
+    const speeds = [0.12, 0.2, 0.35];
+    const opacities = [0.35, 0.5, 0.7];
+    const dir = Math.random() < 0.5 ? 1 : -1;
+    return {
+      x: dir > 0 ? -20 : W + 20,
+      y: Math.random() * H * 0.4 + H * 0.08,
+      dir: dir,
+      speed: speeds[layer] * (0.7 + Math.random() * 0.6),
+      size: sizes[layer],
+      opacity: opacities[layer],
+      layer: layer,
+      lightPhase: Math.random() * Math.PI * 2,
+      lightSpeed: 0.04 + Math.random() * 0.03,
+      wobble: Math.random() * Math.PI * 2,
+      wobbleSpeed: 0.01 + Math.random() * 0.01,
+    };
+  }
+
+  function drawBird(b) {
+    const flap = Math.sin(b.flapPhase);
+    const s = b.size;
+    ctx.globalAlpha = b.opacity;
+    ctx.fillStyle = '#3a4858';
+
+    // Corps : 1 pixel
+    ctx.fillRect(Math.round(b.x), Math.round(b.y), s, s);
+
+    // Ailes : V qui bat
+    const wingY = flap * s * 1.5;
+    // Aile gauche
+    for (let i = 1; i <= s * 2; i++) {
+      const px = Math.round(b.x - i);
+      const py = Math.round(b.y - wingY * (i / (s * 2)));
+      if (py >= 0 && py < H && px >= 0 && px < W) ctx.fillRect(px, py, 1, 1);
     }
-    crossStars=[];var cn=Math.max(5,Math.floor(n/14));
-    for(var i=0;i<cn;i++)crossStars.push({x:Math.random()*W,y:Math.random()*H,r:rnd(1.5,3),tw:Math.random()*Math.PI*2,tws:rnd(0.008,0.02),c:pick(SC)});
-    galaxies=[];var gn=1+Math.floor(Math.random()*2);
-    for(var i=0;i<gn;i++)galaxies.push({x:rnd(W*0.1,W*0.9),y:rnd(H*0.05,H*0.55),rx:rnd(40,90),ry:rnd(15,35),rot:rnd(0,Math.PI),c:pick(GAL),a:rnd(0.04,0.09)});
-  }
-  function spawnComet(){
-    var edge=Math.floor(Math.random()*4),sx,sy,dx,dy;
-    if(edge===0){sx=-50;sy=rnd(0,H*0.6);dx=rnd(0.5,1.5);dy=rnd(0.2,0.8);}
-    else if(edge===1){sx=W+50;sy=rnd(0,H*0.6);dx=-rnd(0.5,1.5);dy=rnd(0.2,0.8);}
-    else if(edge===2){sx=rnd(0,W);sy=-50;dx=rnd(-0.5,0.8);dy=rnd(0.5,1.5);}
-    else{sx=rnd(0,W);sy=H+50;dx=rnd(-0.5,0.8);dy=-rnd(0.5,1.2);}
-    comets.push({x:sx,y:sy,vx:dx,vy:dy,trail:[],life:1,maxLife:rnd(600,1200)});
-  }
-  function spawnSupernova(){
-    if(supernovas.length>0)return;
-    supernovas.push({x:rnd(W*0.1,W*0.9),y:rnd(H*0.05,H*0.45),r:0,maxR:rnd(120,220),life:0,maxLife:rnd(500,800),color:pick(SN)});
-  }
-  function spawnStation(){
-    var dir=Math.random()<0.5?1:-1;
-    station={x:dir>0?-120:W+120,y:rnd(H*0.08,H*0.40),vx:dir*rnd(0.08,0.20),scale:2,dir:dir};
-  }
-  function drawGalaxy(g){
-    ctx.save();ctx.translate(g.x,g.y);ctx.rotate(g.rot);
-    var rg=ctx.createRadialGradient(0,0,0,0,0,g.rx);
-    rg.addColorStop(0,'rgba('+g.c+','+g.a+')');
-    rg.addColorStop(0.3,'rgba('+g.c+','+(g.a*0.6)+')');
-    rg.addColorStop(0.7,'rgba('+g.c+','+(g.a*0.2)+')');
-    rg.addColorStop(1,'rgba('+g.c+',0)');
-    ctx.fillStyle=rg;ctx.beginPath();ctx.ellipse(0,0,g.rx,g.ry,0,0,Math.PI*2);ctx.fill();
-    ctx.fillStyle='rgba('+g.c+','+(g.a*1.4)+')';
-    ctx.beginPath();ctx.ellipse(0,0,g.rx*0.15,g.ry*0.15,0,0,Math.PI*2);ctx.fill();
-    ctx.restore();
-  }
-  function drawStation(s){
-    var sc=s.scale,x=Math.round(s.x),y=Math.round(s.y);
-    /* glow halo */
-    var gg=ctx.createRadialGradient(x+24*sc,y+12*sc,0,x+24*sc,y+12*sc,50*sc);
-    gg.addColorStop(0,ST.glow);gg.addColorStop(1,'rgba(0,0,0,0)');
-    ctx.fillStyle=gg;ctx.fillRect(x-20*sc,y-20*sc,90*sc,60*sc);
-    /* left solar panel */
-    ctx.fillStyle=ST.panel;ctx.fillRect(x,y+8*sc,10*sc,6*sc);
-    ctx.fillStyle=ST.panelLine;
-    for(var i=0;i<5;i++)ctx.fillRect(x+i*2*sc,y+8*sc,sc,6*sc);
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+10*sc,y+10*sc,2*sc,2*sc);
-    /* right solar panel */
-    ctx.fillStyle=ST.panel;ctx.fillRect(x+38*sc,y+8*sc,10*sc,6*sc);
-    ctx.fillStyle=ST.panelLine;
-    for(var i=0;i<5;i++)ctx.fillRect(x+38*sc+i*2*sc,y+8*sc,sc,6*sc);
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+36*sc,y+10*sc,2*sc,2*sc);
-    /* connecting struts */
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+12*sc,y+10*sc,2*sc,2*sc);
-    ctx.fillRect(x+34*sc,y+10*sc,2*sc,2*sc);
-    /* main hull - lower module (wider) */
-    ctx.fillStyle=ST.hull;ctx.fillRect(x+14*sc,y+6*sc,20*sc,10*sc);
-    ctx.fillStyle=ST.hullLight;ctx.fillRect(x+14*sc,y+6*sc,20*sc,sc);
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+14*sc,y+15*sc,20*sc,sc);
-    /* windows on lower module */
-    ctx.fillStyle=ST.winGlow;ctx.fillRect(x+15*sc,y+9*sc,18*sc,sc);
-    ctx.fillStyle=ST.win;
-    for(var i=0;i<5;i++)ctx.fillRect(x+16*sc+i*3*sc,y+9*sc,sc,sc);
-    ctx.fillStyle=ST.win;ctx.fillRect(x+20*sc,y+12*sc,sc,sc);ctx.fillRect(x+26*sc,y+12*sc,sc,sc);
-    /* middle module (narrower) */
-    ctx.fillStyle=ST.hull;ctx.fillRect(x+18*sc,y+2*sc,12*sc,5*sc);
-    ctx.fillStyle=ST.hullLight;ctx.fillRect(x+18*sc,y+2*sc,12*sc,sc);
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+18*sc,y+6*sc,12*sc,sc);
-    ctx.fillStyle=ST.win;ctx.fillRect(x+20*sc,y+4*sc,sc,sc);ctx.fillRect(x+23*sc,y+4*sc,sc,sc);ctx.fillRect(x+26*sc,y+4*sc,sc,sc);
-    /* top module (smallest) */
-    ctx.fillStyle=ST.hull;ctx.fillRect(x+20*sc,y-sc,8*sc,4*sc);
-    ctx.fillStyle=ST.hullLight;ctx.fillRect(x+20*sc,y-sc,8*sc,sc);
-    /* geodesic dome with greenery */
-    ctx.fillStyle=ST.dome;ctx.beginPath();ctx.arc(x+24*sc,y-sc,4*sc,0,Math.PI,true);ctx.fill();
-    ctx.strokeStyle=ST.dome;ctx.lineWidth=0.5;
-    for(var a=0;a<Math.PI;a+=Math.PI/6){ctx.beginPath();ctx.moveTo(x+24*sc,y-sc);ctx.lineTo(x+24*sc+Math.cos(a-Math.PI/2)*4*sc,y-sc+Math.sin(a-Math.PI/2)*4*sc);ctx.stroke();}
-    ctx.fillStyle='#4a8a4a';ctx.fillRect(x+22*sc,y-2*sc,sc,sc);ctx.fillRect(x+25*sc,y-2*sc,sc,sc);
-    /* antenna */
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+23*sc,y-5*sc,sc,4*sc);
-    ctx.fillStyle=ST.accent;ctx.fillRect(x+23*sc,y-5*sc,sc,sc);
-    /* side modules */
-    ctx.fillStyle=ST.hull;ctx.fillRect(x+12*sc,y+7*sc,3*sc,4*sc);
-    ctx.fillRect(x+33*sc,y+7*sc,3*sc,4*sc);
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+12*sc,y+10*sc,3*sc,sc);ctx.fillRect(x+33*sc,y+10*sc,3*sc,sc);
-    /* accent lights */
-    ctx.fillStyle=ST.accent;ctx.fillRect(x+15*sc,y+7*sc,sc,sc);ctx.fillRect(x+32*sc,y+7*sc,sc,sc);
-    /* bottom antennae */
-    ctx.fillStyle=ST.hullDark;ctx.fillRect(x+20*sc,y+16*sc,sc,4*sc);ctx.fillRect(x+26*sc,y+16*sc,sc,3*sc);
-    ctx.fillStyle=ST.accent;ctx.fillRect(x+20*sc,y+19*sc,sc,sc);
-  }
-  function draw(){
-    ctx.clearRect(0,0,W,H);
-    /* galaxies first, furthest back */
-    for(var i=0;i<galaxies.length;i++)drawGalaxy(galaxies[i]);
-    for(var i=0;i<stars.length;i++){
-      var s=stars[i];s.tw+=s.tws;var a=0.4+0.6*(0.5+0.5*Math.sin(s.tw));
-      ctx.fillStyle='rgba('+s.c+','+a+')';ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fill();
+    // Aile droite
+    for (let i = 1; i <= s * 2; i++) {
+      const px = Math.round(b.x + s - 1 + i);
+      const py = Math.round(b.y - wingY * (i / (s * 2)));
+      if (py >= 0 && py < H && px >= 0 && px < W) ctx.fillRect(px, py, 1, 1);
     }
-    for(var i=0;i<crossStars.length;i++){
-      var cs=crossStars[i];cs.tw+=cs.tws;var pulse=0.5+0.5*Math.sin(cs.tw),a=0.5+0.5*pulse;
-      var cx=cs.x,cy=cs.y,cr=cs.r*(0.8+0.4*pulse);
-      ctx.save();ctx.translate(cx,cy);
-      var g=ctx.createRadialGradient(0,0,0,0,0,cr*6);
-      g.addColorStop(0,'rgba('+cs.c+','+(a*0.7)+')');g.addColorStop(0.3,'rgba('+cs.c+','+(a*0.2)+')');g.addColorStop(1,'rgba('+cs.c+',0)');
-      ctx.fillStyle=g;ctx.beginPath();ctx.arc(0,0,cr*6,0,Math.PI*2);ctx.fill();
-      ctx.strokeStyle='rgba('+cs.c+','+a+')';ctx.lineWidth=0.8;
-      ctx.beginPath();ctx.moveTo(-cr*3.5,0);ctx.lineTo(cr*3.5,0);ctx.moveTo(0,-cr*3.5);ctx.lineTo(0,cr*3.5);ctx.stroke();
-      ctx.lineWidth=0.4;ctx.beginPath();ctx.moveTo(-cr*2.2,-cr*2.2);ctx.lineTo(cr*2.2,cr*2.2);ctx.moveTo(-cr*2.2,cr*2.2);ctx.lineTo(cr*2.2,-cr*2.2);ctx.stroke();
-      ctx.fillStyle='rgba('+cs.c+','+a+')';ctx.beginPath();ctx.arc(0,0,cr*0.6,0,Math.PI*2);ctx.fill();
-      ctx.restore();
+    ctx.globalAlpha = 1;
+  }
+
+  function drawShip(s) {
+    const sx = Math.round(s.x);
+    const sy = Math.round(s.y + Math.sin(s.wobble) * 2);
+    const sz = s.size;
+    ctx.globalAlpha = s.opacity;
+
+    // Corps : rectangle arrondi (simplifié en pixels)
+    ctx.fillStyle = '#4a5868';
+    // Centre
+    ctx.fillRect(sx, sy, sz * 3, sz);
+    // Coins arrondis
+    ctx.fillRect(sx + 1, sy - 1, sz * 3 - 2, 1);
+    ctx.fillRect(sx + 1, sy + sz, sz * 3 - 2, 1);
+
+    // Hublot lumineux
+    const lightOn = Math.sin(s.lightPhase) > 0.3;
+    if (lightOn) {
+      ctx.fillStyle = '#ffd860';
+      ctx.fillRect(sx + Math.round(sz * 1.2), sy + Math.round(sz * 0.3), Math.max(1, sz - 1), Math.max(1, sz - 1));
     }
-    for(var i=supernovas.length-1;i>=0;i--){
-      var sn=supernovas[i];sn.life++;var t=sn.life/sn.maxLife;
-      /* slow expansion phase: 0 to 0.5, slow fade: 0.5 to 1 */
-      if(t<0.5){sn.r=sn.maxR*(1-Math.pow(1-t/0.5,2));}else{sn.r=sn.maxR*(1+0.3*(t-0.5)/0.5);}
-      var br;
-      if(t<0.15)br=1;else if(t<0.5)br=1-(t-0.15)/0.35*0.3;else br=0.7*(1-(t-0.5)/0.5);
-      br=Math.max(0,br);
-      var cg=ctx.createRadialGradient(sn.x,sn.y,0,sn.x,sn.y,Math.max(1,sn.r));
-      cg.addColorStop(0,'rgba(255,255,255,'+(br*0.7)+')');
-      cg.addColorStop(0.08,'rgba(255,255,255,'+(br*0.5)+')');
-      cg.addColorStop(0.2,'rgba('+sn.color+','+(br*0.35)+')');
-      cg.addColorStop(0.5,'rgba('+sn.color+','+(br*0.12)+')');
-      cg.addColorStop(1,'rgba('+sn.color+',0)');
-      ctx.fillStyle=cg;ctx.beginPath();ctx.arc(sn.x,sn.y,Math.max(1,sn.r),0,Math.PI*2);ctx.fill();
-      /* shock ring, late and faint */
-      if(t>0.2&&t<0.8){
-        var sr=sn.r*0.85,sa=br*0.15*(1-Math.abs(t-0.5)/0.3);
-        if(sa>0){ctx.strokeStyle='rgba('+sn.color+','+sa+')';ctx.lineWidth=1.5;ctx.beginPath();ctx.arc(sn.x,sn.y,Math.max(1,sr),0,Math.PI*2);ctx.stroke();}
-      }
-      if(sn.life>=sn.maxLife)supernovas.splice(i,1);
+
+    // Lueur sous le vaisseau
+    if (lightOn) {
+      ctx.fillStyle = 'rgba(255,216,96,0.15)';
+      ctx.fillRect(sx + Math.round(sz * 1.2), sy + sz + 1, Math.max(1, sz - 1), 2);
     }
-    if(Math.random()<0.0004&&supernovas.length===0)spawnSupernova();
-    if(Math.random()<0.0012&&comets.length<1)spawnComet();
-    for(var i=comets.length-1;i>=0;i--){
-      var c=comets[i];c.trail.push({x:c.x,y:c.y});if(c.trail.length>40)c.trail.shift();
-      c.x+=c.vx;c.y+=c.vy;c.life++;
-      for(var j=0;j<c.trail.length;j++){var tt=c.trail[j],f=j/c.trail.length;ctx.fillStyle='rgba('+COMET+','+(f*0.6)+')';ctx.beginPath();ctx.arc(tt.x,tt.y,f*2.5,0,Math.PI*2);ctx.fill();}
-      var hg=ctx.createRadialGradient(c.x,c.y,0,c.x,c.y,10);hg.addColorStop(0,'rgba(255,255,255,0.9)');hg.addColorStop(0.3,'rgba('+COMET_GL+',0.5)');hg.addColorStop(1,'rgba('+COMET_GL+',0)');
-      ctx.fillStyle=hg;ctx.beginPath();ctx.arc(c.x,c.y,10,0,Math.PI*2);ctx.fill();
-      if(c.life>c.maxLife||c.x<-100||c.x>W+100||c.y<-100||c.y>H+100)comets.splice(i,1);
+
+    // Traînée
+    if (s.dir > 0) {
+      ctx.fillStyle = 'rgba(180,200,220,0.12)';
+      ctx.fillRect(sx - sz * 2, sy + Math.round(sz * 0.3), sz * 2, Math.max(1, Math.round(sz * 0.4)));
+    } else {
+      ctx.fillStyle = 'rgba(180,200,220,0.12)';
+      ctx.fillRect(sx + sz * 3, sy + Math.round(sz * 0.3), sz * 2, Math.max(1, Math.round(sz * 0.4)));
     }
-    if(!station){stationCD--;if(stationCD<=0)spawnStation();}
-    if(station){station.x+=station.vx;drawStation(station);if(station.dir>0&&station.x>W+150){station=null;stationCD=Math.floor(rnd(200,600));}else if(station.dir<0&&station.x<-150){station=null;stationCD=Math.floor(rnd(200,600));}}
+
+    ctx.globalAlpha = 1;
+  }
+
+  function resize() {
+    W = cv.width = Math.floor(window.innerWidth / PIXEL);
+    H = cv.height = Math.floor(window.innerHeight / PIXEL);
+    cv.style.width = window.innerWidth + 'px';
+    cv.style.height = window.innerHeight + 'px';
+    cv.style.position = 'fixed';
+    cv.style.inset = '0';
+    cv.style.zIndex = '-1';
+    cv.style.pointerEvents = 'none';
+
+    // Reset les entités
+    birds = [];
+    ships = [];
+    // Oiseaux : ~15 lointains, ~8 moyens, ~4 proches
+    for (let i = 0; i < 15; i++) { const b = spawnBird(0); b.x = Math.random() * W; birds.push(b); }
+    for (let i = 0; i < 8; i++) { const b = spawnBird(1); b.x = Math.random() * W; birds.push(b); }
+    for (let i = 0; i < 4; i++) { const b = spawnBird(2); b.x = Math.random() * W; birds.push(b); }
+    // Vaisseaux : ~4 lointains, ~3 moyens, ~2 proches
+    for (let i = 0; i < 4; i++) { const s = spawnShip(0); s.x = Math.random() * W; ships.push(s); }
+    for (let i = 0; i < 3; i++) { const s = spawnShip(1); s.x = Math.random() * W; ships.push(s); }
+    for (let i = 0; i < 2; i++) { const s = spawnShip(2); s.x = Math.random() * W; ships.push(s); }
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // Oiseaux
+    for (let i = birds.length - 1; i >= 0; i--) {
+      const b = birds[i];
+      b.x += b.speed * b.dir;
+      b.flapPhase += b.flapSpeed;
+      drawBird(b);
+      if (b.dir > 0 && b.x > W + 20) birds[i] = spawnBird(b.layer);
+      else if (b.dir < 0 && b.x < -20) birds[i] = spawnBird(b.layer);
+    }
+
+    // Vaisseaux
+    for (let i = ships.length - 1; i >= 0; i--) {
+      const s = ships[i];
+      s.x += s.speed * s.dir;
+      s.lightPhase += s.lightSpeed;
+      s.wobble += s.wobbleSpeed;
+      drawShip(s);
+      if (s.dir > 0 && s.x > W + 30) ships[i] = spawnShip(s.layer);
+      else if (s.dir < 0 && s.x < -30) ships[i] = spawnShip(s.layer);
+    }
+
+    t++;
     requestAnimationFrame(draw);
   }
-  /* starfield retire : Minorea est terrestre, ciel de nuages en CSS */
-})();</script>
+
+  window.addEventListener('resize', resize);
+  resize();
+  draw();
+})();
+
+</script>
 </body>
 </html>
