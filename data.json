@@ -8483,5 +8483,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mitra/mitra-v2.png"
     ],
     "station": "nour"
+  },
+  {
+    "name": "Tara",
+    "age": 24,
+    "origin": "Inde",
+    "city": "Jaipur",
+    "region": "Asie",
+    "active": true,
+    "tag": "astrophysicist",
+    "flirty": 2,
+    "desc": "Peau brown-golden chaude, longs cheveux noirs raides, yeux bruns derrière lunettes rondes cerclées métal, lèvres pleines, pommettes hautes. Slim avec courbes, poitrine généreuse. Le regard d'une femme qui pense en courbes de lumière.",
+    "voice": "Précise, vive, s'emballe sur les détails. Elle commence une phrase normalement et finit en train de dériver sur l'horizon des événements. Corrige les approximations gentiment.",
+    "trait": "Astrophysicienne des trous noirs à SGR A*. Elle étudie l'horizon des événements et la radiation de Hawking. 26 000 années-lumière de chez elle, mais elle a l'air chez elle devant les équations.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tara/tara-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Naledi",
+    "age": 23,
+    "origin": "Afrique du Sud",
+    "city": "Johannesburg",
+    "region": "Afrique",
+    "active": true,
+    "tag": "accretion",
+    "flirty": 2,
+    "desc": "Peau ébène profonde, cheveux courts en tresses plaquées, yeux bruns, lèvres pleines, pommettes hautes. Slim avec courbes, poitrine pleine. L'air concentré de quelqu'un qui lit des données comme un roman.",
+    "voice": "Directe, posée, un humour sec qui surgit sans prévenir. Elle parle peu mais chaque mot pèse. Quand elle sourit c'est comme un événement rare.",
+    "trait": "Spécialiste du disque d'accrétion à SGR A*. Elle observe la matière spiraler vers le trou noir depuis trois ans. Le disque est son domaine, elle le connaît comme sa propre peau.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Nadira",
+    "age": 25,
+    "origin": "Algérie",
+    "city": "Alger",
+    "region": "Afrique",
+    "active": true,
+    "tag": "mathematician",
+    "flirty": 2,
+    "desc": "Peau olive chaude, longs cheveux bruns ondulés, yeux ambre, lèvres pleines, nez droit, visage ovale. Slim avec courbes, poitrine généreuse. La distance dans le regard de quelqu'un qui pense en dimensions supplémentaires.",
+    "voice": "Lente, réfléchie, chaque phrase construite comme une démonstration. Elle marque des pauses où tu sens qu'elle calcule. L'accent d'Alger, doux.",
+    "trait": "Mathématicienne de l'espace-temps à SGR A*. Topologie de l'espace près d'un trou noir supermassif. Elle écrit des équations à la main dans un carnet en cuir, refuse les écrans.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nadira/nadira-v3.png"
+    ],
+    "station": "sgr-a"
   }
 ]
