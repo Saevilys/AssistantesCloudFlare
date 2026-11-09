@@ -599,7 +599,7 @@ document.getElementById('search').addEventListener('input',e=>{
     lastFrame = now;
     // erase previous frame gradually (keeps canvas transparent for starfield behind)
     ctx.globalCompositeOperation = 'destination-out';
-    ctx.fillStyle = 'rgba(0,0,0,0.08)';
+    ctx.fillStyle = 'rgba(0,0,0,0.35)';
     ctx.fillRect(0,0,W,H);
     ctx.globalCompositeOperation = 'source-over';
 
