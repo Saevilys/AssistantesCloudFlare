@@ -553,7 +553,7 @@ document.getElementById('search').addEventListener('input',e=>{
   var ST={hull:"#8a80a8",hullDark:"#5a506a",hullLight:"#b0a0c8",panel:"#3a3a5a",panelLine:"#2a2a4a",win:"#e8a040",winGlow:"rgba(232,160,64,0.5)",glow:"rgba(232,160,64,0.12)",dome:"rgba(140,100,200,0.25)",accent:"#e8a040"};
   /* black hole */
   var BH={cx:0,cy:0,shadowR:0,einsteinR:0};
-  function updateBH(){BH.cx=W*0.5;BH.cy=H*0.36;BH.shadowR=Math.min(W,H)*0.038;BH.einsteinR=BH.shadowR*2.6;}
+  function updateBH(){BH.cx=W*0.22;BH.cy=H*0.20;BH.shadowR=Math.min(W,H)*0.055;BH.einsteinR=BH.shadowR*2.6;}
   /* gravitational lensing: star at distance d from center appears at theta = (d + sqrt(d² + 4R²)) / 2 */
   function lens(x,y){
     var dx=x-BH.cx,dy=y-BH.cy,d=Math.sqrt(dx*dx+dy*dy);
