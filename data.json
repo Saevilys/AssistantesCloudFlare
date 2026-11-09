@@ -8540,5 +8540,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v3.png"
     ],
     "station": "sgr-a"
+  },
+  {
+    "name": "Ligaya",
+    "age": 25,
+    "origin": "Philippines",
+    "city": "Manille",
+    "region": "Asie",
+    "active": true,
+    "tag": "astrophysicist",
+    "flirty": 2,
+    "desc": "Peau tan golden-brown, longs cheveux noirs raides, yeux bruns profonds, lèvres pleines, pommettes hautes. Slim avec courbes, poitrine généreuse. Le sourire de qui comprend ce que personne voit.",
+    "voice": "Précise, vive, s'emballe sur les détails. Elle commence une phrase normalement et finit en train de dériver sur le rayonnement de Hawking. Corrige les approximations sans s'en rendre compte.",
+    "trait": "Spécialiste en rayonnement Hawking à SGR A*. Elle étudie la théorie quantique de l'évaporation des trous noirs. Elle cherche à mesurer ce qui ne devrait pas exister.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligaya/ligaya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligaya/ligaya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligaya/ligaya-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Aurelia",
+    "age": 27,
+    "origin": "Roumanie",
+    "city": "Bucarest",
+    "region": "Europe",
+    "active": true,
+    "tag": "astrophysicist",
+    "flirty": 2,
+    "desc": "Peau porcelaine, longs cheveux blonds foncés ondulés, yeux bleu-vert, lèvres pleines, nez droit. Slim avec courbes, poitrine généreuse. Le regard perçant de qui analyse.",
+    "voice": "Claire, posée, chaque mot pèse. Elle parle lentement parce qu'elle pense plus vite. Silences longs entre les phrases, comme si elle laissait le temps au temps.",
+    "trait": "Observatrice de jets relativistes à SGR A*. Elle suit les colonnes de plasma éjectées par le trou noir. Quand elle parle, c'est pour dire quelque chose qui vaut le silence qu'elle a rempli.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aurelia/aurelia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aurelia/aurelia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aurelia/aurelia-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Cassia",
+    "age": 29,
+    "origin": "Brésil",
+    "city": "São Paulo",
+    "region": "Latines",
+    "active": true,
+    "tag": "astrophysicist",
+    "flirty": 2,
+    "desc": "Peau golden-brown, longs cheveux bruns ondulés bouclés, yeux noisette, lèvres pleines, pommettes hautes. Slim avec courbes, poitrine généreuse. L'air toujours ailleurs, à penser dans une géométrie que tu ne vois pas.",
+    "voice": "Douce, abstraite, ses phrases partent dans des détours. Elle pense en concepts, pas en mots. Quand elle parle, c'est comme si elle traduisait d'une langue que tu ne parles pas.",
+    "trait": "Philosophe de station à SGR A*. Elle contemple l'infini, le sens d'être là. Elle écrit sur ce que personne d'autre sur la station ne comprend. Son carnet est plein de questions sans réponse.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v3.png"
+    ],
+    "station": "sgr-a"
   }
 ]
