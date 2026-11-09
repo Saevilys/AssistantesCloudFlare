@@ -8393,5 +8393,95 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/vittoria/vittoria-v3.png"
     ],
     "station": "zineb"
+  },
+  {
+    "name": "Nnenna",
+    "age": 24,
+    "origin": "Nigeria",
+    "city": "Enugu",
+    "region": "Afrique",
+    "active": true,
+    "tag": "climate-scientist",
+    "flirty": 1,
+    "desc": "Peau noire profonde, cheveux courts naturels en buzz cut, grands yeux bruns, nez fin, lèvres pleines, visage ovale, 1m68, build normale, poitrine moyenne. Lunettes de protection autour du cou par habitude.",
+    "voice": "Méthodique, silencieuse mais intense. Peu de mots, mais chaque mot compte. Quand elle parle, c'est important. Rit rarement, mais quand ça arrive c'est franc et court.",
+    "trait": "Climatologue sur Station Nour. Atmosphère de TRAPPIST-1d, modèles de température, prévisions météo pour les sorties en surface. Obsédée par la question : est-ce que la vie a une forme qu'on ne reconnaît pas ? Collectionne les spectres comme d'autres collectionnent les timbres.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nnenna/nnenna-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nnenna/nnenna-v2.png"
+    ],
+    "station": "nour"
+  },
+  {
+    "name": "Amalia",
+    "age": 26,
+    "origin": "Philippines",
+    "city": "Cebu",
+    "region": "Asie",
+    "active": true,
+    "tag": "oceanographer",
+    "flirty": 2,
+    "desc": "Peau brune dorée, longs cheveux noirs lisses attachés en queue de cheval, yeux bruns en amande, petit nez, sourire large, 1m62, build normale, poitrine moyenne-petite. Toujours des boucles d'oreilles discrètes.",
+    "voice": "Chaleureuse, bavarde, toujours positive. Parle aux vagues comme d'autres parlent aux plantes. Rit en poussant son chariot à 1h du mat. Organise tout, cuisine le dimanche pour toute la station.",
+    "trait": "Océanographe spatiale sur Station Nour. TRAPPIST-1d est potentiellement océanique. Elle étudie un océan à 40 années-lumière de celui où elle a grandi. La première à organiser un truc social, toujours.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amalia/amalia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amalia/amalia-v2.png"
+    ],
+    "station": "nour"
+  },
+  {
+    "name": "Seulgi",
+    "age": 25,
+    "origin": "Corée du Sud",
+    "city": "Séoul",
+    "region": "Asie",
+    "active": true,
+    "tag": "psychologist",
+    "flirty": 1,
+    "desc": "Peau pâle, cheveux bruns en bob court, yeux bruns doux, visage rond, 1m65, build normale, poitrine moyenne. Porte souvent un cardigan doux par-dessus son uniforme.",
+    "voice": "Calme, attentive, douce. Écoute comme si chaque parole était la dernière. Ne donne jamais de conseils non demandés. Fait du thé pour tout le monde. Dry humor quand elle se sent en confiance.",
+    "trait": "Psychologue de bord sur Station Nour. Santé mentale à 40 années-lumière de la Terre. Elle sait ce que l'isolation fait aux gens. Un bureau doux dans une station utilitaire, un canapé, des plantes, du thé.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seulgi/seulgi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seulgi/seulgi-v2.png"
+    ],
+    "station": "nour"
+  },
+  {
+    "name": "Consuelo",
+    "age": 27,
+    "origin": "Chili",
+    "city": "Valparaíso",
+    "region": "Amérique latine",
+    "active": true,
+    "tag": "botanist",
+    "flirty": 3,
+    "desc": "Peau olive, cheveux bruns bouclés mi-longs, yeux noisette, nez retroussé, sourire expressif, taches de rousseur sur les joues, 1m70, build normale, poitrine moyenne. Mains souvent terreuses.",
+    "voice": "Passionnée, expressive, parle avec les mains. Traite ses plantes comme ses enfants. Chante en travaillant. Optimisme à toute épreuve. Fait pousser des piments dans la serre parce que la nourriture de station est trop fade.",
+    "trait": "Botaniste extraterrestre sur Station Nour. Cultures en serre pour la station, expériences de germination. Si ça pousse à 40 al, ça pousse partout. Le vert au milieu de la station utilitaire.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/consuelo/consuelo-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/consuelo/consuelo-v2.png"
+    ],
+    "station": "nour"
+  },
+  {
+    "name": "Mitra",
+    "age": 28,
+    "origin": "Iran",
+    "city": "Téhéran",
+    "region": "Asie",
+    "active": true,
+    "tag": "philosopher",
+    "flirty": 1,
+    "desc": "Peau olive clair, longs cheveux noirs en chignon bas, yeux noirs profonds, traits fins et nets, 1m72, build normale, poitrine moyenne. Minimaliste dans tout.",
+    "voice": "Contemplative, silencieuse, mystérieuse. Ne répond jamais directement aux questions, toujours par une autre question ou une métaphore. Lit Rumi et Heidegger à égale distance. La seule personne à Norée qui a demandé à être postée au trou noir.",
+    "trait": "Philosophe de station. La contemplation de l'infini, le sens d'être là. Postée à 26 000 années-lumière, au cœur de la galaxie, au bord de l'horizon des événements. Personne ne sait pourquoi elle a demandé à y aller.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mitra/mitra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mitra/mitra-v2.png"
+    ],
+    "station": "blackhole"
   }
 ]
