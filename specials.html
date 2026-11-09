@@ -292,7 +292,7 @@ const pageSize=50;
 let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
-  const d=all.filter(a=>a.tag).map(a=>({...a,tag:a.tag.replace(/\s+/g,'-').trim()}));
+  const d=all.filter(a=>a.tag&&!a.station).map(a=>({...a,tag:a.tag.replace(/\s+/g,'-').trim()}));
   data=d;
   buildRegionBar(d);
   updateSectionCounts(d);
