@@ -563,35 +563,70 @@ document.getElementById('search').addEventListener('input',e=>{
     var s=theta/d;
     return{x:BH.cx+dx*s,y:BH.cy+dy*s};
   }
+  var BH_TIME=0;
   function drawBH(){
+    BH_TIME+=0.012;
     var cx=BH.cx,cy=BH.cy,sr=BH.shadowR;
-    /* far accretion glow - wide, diffuse, asymmetric */
-    var farG=ctx.createRadialGradient(cx-sr*0.15,cy+sr*0.3,sr*1.2,cx,cy,sr*6);
-    farG.addColorStop(0,'rgba(255,110,30,0.07)');
-    farG.addColorStop(0.4,'rgba(255,80,15,0.02)');
-    farG.addColorStop(1,'rgba(255,50,0,0)');
-    ctx.fillStyle=farG;ctx.beginPath();ctx.arc(cx,cy,sr*6,0,Math.PI*2);ctx.fill();
-    /* smooth photon ring via gradient strokes - Doppler asymmetry */
+    var diskR=sr*2.2, diskY=sr*0.55, tilt=0.28;
+    /* diffuse glow behind everything */
+    var farG=ctx.createRadialGradient(cx,cy+sr*0.2,sr*1.5,cx,cy,sr*5);
+    farG.addColorStop(0,'rgba(255,100,20,0.06)');farG.addColorStop(1,'rgba(255,50,0,0)');
+    ctx.fillStyle=farG;ctx.beginPath();ctx.arc(cx,cy,sr*5,0,Math.PI*2);ctx.fill();
+
+    /* helper: draw one arc of the disk, given angle range and vertical offset sign */
+    function diskArc(a0,a1,ySign,opacity,scale){
+      var segs=48,prevX=0,prevY=0,hasPrev=false;
+      ctx.save();ctx.globalCompositeOperation='lighter';
+      for(var i=0;i<=segs;i++){
+        var t=i/segs,a=a0+(a1-a0)*t;
+        /* rotating turbulence: offset angle by BH_TIME, modulate brightness */
+        var spin=a+BH_TIME;
+        var turb=0.7+0.3*Math.sin(spin*2.3)+0.15*Math.sin(spin*5.1);
+        /* radius varies slightly with angle for irregular edge */
+        var rr=diskR*scale*(1+0.04*Math.sin(spin*3.7));
+        /* disk seen at tilt: x=cos(a)*rr, y=sin(a)*rr*tilt, lensed over top if ySign<0 */
+        var dx=Math.cos(a)*rr;
+        var dy=Math.sin(a)*rr*tilt;
+        /* Doppler boost: left side approaching (a~PI) = brighter */
+        var doppler=0.4+0.6*Math.pow(Math.max(0,-Math.cos(a)),1.5);
+        /* lensed arc: the back of the disk curves over the top (ySign=-1) or under (ySign=+1) */
+        var lx=cx+dx;
+        var ly=cy+ySign*(Math.abs(dy)+sr*0.3+rr*0.0);
+        if(hasPrev){
+          var grad=ctx.createLinearGradient(prevX,prevY,lx,ly);
+          var br=turb*doppler*opacity;
+          var r2=Math.floor(200+br*55),g2=Math.floor(100+br*120),b2=Math.floor(20+br*40);
+          grad.addColorStop(0,'rgba('+r2+','+g2+','+b2+','+Math.min(0.85,br)+')');
+          grad.addColorStop(1,'rgba('+r2+','+g2+','+b2+','+Math.min(0.85,br*0.7)+')');
+          ctx.strokeStyle=grad;ctx.lineWidth=sr*0.16+br*sr*0.08;
+          ctx.beginPath();ctx.moveTo(prevX,prevY);ctx.lineTo(lx,ly);ctx.stroke();
+        }
+        prevX=lx;prevY=ly;hasPrev=true;
+      }
+      ctx.restore();
+    }
+
+    /* back of disk lensed OVER the top (the Interstellar look) */
+    diskArc(Math.PI*0.15,Math.PI*0.85,-1,0.7,1.0);
+    /* front of disk passing in front of shadow */
+    diskArc(Math.PI*1.15,Math.PI*1.85,1,0.9,1.0);
+    /* secondary fainter wider ring */
+    diskArc(Math.PI*0.05,Math.PI*0.95,-1,0.25,1.35);
+    diskArc(Math.PI*1.05,Math.PI*1.95,1,0.30,1.35);
+
+    /* photon ring - thin bright circle right at shadow edge, Doppler asymmetric */
     ctx.save();
-    /* dim half (top) */
-    ctx.strokeStyle='rgba(200,100,30,0.25)';ctx.lineWidth=sr*0.08;
-    ctx.beginPath();ctx.arc(cx,cy,sr*1.2,Math.PI*0.9,Math.PI*2.1);ctx.stroke();
-    /* bright half (bottom = approaching side, Doppler boosted) */
-    ctx.strokeStyle='rgba(255,160,50,0.55)';ctx.lineWidth=sr*0.14;
-    ctx.beginPath();ctx.arc(cx,cy,sr*1.2,Math.PI*0.1,Math.PI*0.9);ctx.stroke();
-    /* hottest crescent - bottom-left peak */
-    ctx.globalCompositeOperation='lighter';
-    ctx.strokeStyle='rgba(255,200,90,0.35)';ctx.lineWidth=sr*0.10;
-    ctx.beginPath();ctx.arc(cx,cy,sr*1.2,Math.PI*0.35,Math.PI*0.75);ctx.stroke();
+    ctx.strokeStyle='rgba(255,180,60,0.4)';ctx.lineWidth=sr*0.06;
+    ctx.beginPath();ctx.arc(cx,cy,sr*1.05,Math.PI*0.1,Math.PI*0.9);ctx.stroke();
+    ctx.strokeStyle='rgba(200,100,30,0.15)';ctx.lineWidth=sr*0.04;
+    ctx.beginPath();ctx.arc(cx,cy,sr*1.05,Math.PI*0.9,Math.PI*2.1);ctx.stroke();
     ctx.restore();
-    /* Einstein ring - very faint */
-    ctx.strokeStyle='rgba(255,140,50,0.03)';ctx.lineWidth=sr*0.03;
-    ctx.beginPath();ctx.arc(cx,cy,BH.einsteinR*0.95,0,Math.PI*2);ctx.stroke();
-    /* inner shadow - pure black, clean edge */
-    var sg=ctx.createRadialGradient(cx,cy,sr*0.75,cx,cy,sr*1.06);
-    sg.addColorStop(0,'#000');sg.addColorStop(0.88,'#000');
-    sg.addColorStop(0.97,'rgba(0,0,0,0.6)');sg.addColorStop(1,'rgba(0,0,0,0)');
-    ctx.fillStyle=sg;ctx.beginPath();ctx.arc(cx,cy,sr*1.06,0,Math.PI*2);ctx.fill();
+
+    /* inner shadow - pure black */
+    var sg=ctx.createRadialGradient(cx,cy,sr*0.8,cx,cy,sr*1.04);
+    sg.addColorStop(0,'#000');sg.addColorStop(0.9,'#000');
+    sg.addColorStop(0.98,'rgba(0,0,0,0.5)');sg.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.fillStyle=sg;ctx.beginPath();ctx.arc(cx,cy,sr*1.04,0,Math.PI*2);ctx.fill();
   }
   function resize(){W=cv.width=window.innerWidth||document.documentElement.clientWidth||800;H=cv.height=window.innerHeight||document.documentElement.clientHeight||600;updateBH();}
   function rnd(a,b){return a+Math.random()*(b-a);}
