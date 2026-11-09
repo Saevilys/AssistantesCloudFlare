@@ -551,7 +551,46 @@ document.getElementById('search').addEventListener('input',e=>{
   var W=0,H=0,stars=[],crossStars=[],comets=[],supernovas=[],station=null,stationCD=0,galaxies=[];
   var SC=["220,220,255","200,180,255","255,180,100","255,140,60","180,160,255","240,200,255","255,200,120","200,140,255","255,100,40","160,120,220"],CROSS="255,200,120",COMET="255,180,120",COMET_GL="255,140,40",SN=["255,140,40","255,180,100","255,220,160","200,140,255"],GAL=["180,140,220","200,160,200","160,120,180"];
   var ST={hull:"#8a80a8",hullDark:"#5a506a",hullLight:"#b0a0c8",panel:"#3a3a5a",panelLine:"#2a2a4a",win:"#e8a040",winGlow:"rgba(232,160,64,0.5)",glow:"rgba(232,160,64,0.12)",dome:"rgba(140,100,200,0.25)",accent:"#e8a040"};
-  function resize(){W=cv.width=window.innerWidth||document.documentElement.clientWidth||800;H=cv.height=window.innerHeight||document.documentElement.clientHeight||600;}
+  /* black hole */
+  var BH={cx:0,cy:0,shadowR:0,einsteinR:0};
+  function updateBH(){BH.cx=W*0.5;BH.cy=H*0.40;BH.shadowR=Math.min(W,H)*0.045;BH.einsteinR=BH.shadowR*2.8;}
+  /* gravitational lensing: star at distance d from center appears at theta = (d + sqrt(d² + 4R²)) / 2 */
+  function lens(x,y){
+    var dx=x-BH.cx,dy=y-BH.cy,d=Math.sqrt(dx*dx+dy*dy);
+    if(d<BH.shadowR*0.92)return null;
+    if(d>BH.shadowR*10)return{x:x,y:y};
+    var theta=(d+Math.sqrt(d*d+4*BH.einsteinR*BH.einsteinR))/2;
+    var s=theta/d;
+    return{x:BH.cx+dx*s,y:BH.cy+dy*s};
+  }
+  function drawBH(){
+    var cx=BH.cx,cy=BH.cy,sr=BH.shadowR;
+    /* outer accretion glow - diffuse, asymmetric (brighter bottom = Doppler beaming) */
+    var ag=ctx.createRadialGradient(cx,cy+sr*0.3,sr*1.2,cx,cy,sr*5);
+    ag.addColorStop(0,'rgba(255,130,30,0.12)');
+    ag.addColorStop(0.2,'rgba(255,100,20,0.06)');
+    ag.addColorStop(0.5,'rgba(255,80,10,0.02)');
+    ag.addColorStop(1,'rgba(255,60,0,0)');
+    ctx.fillStyle=ag;ctx.beginPath();ctx.arc(cx,cy,sr*5,0,Math.PI*2);ctx.fill();
+    /* photon ring - bright, thin, asymmetric like EHT photo */
+    for(var i=0;i<80;i++){
+      var a=i/80*Math.PI*2;
+      var doppler=0.5+0.5*Math.sin(a+Math.PI*0.5);
+      var bright=0.15+0.45*doppler;
+      var rr=sr*1.25+Math.sin(a*3)*sr*0.04;
+      ctx.strokeStyle='rgba(255,'+(110+Math.floor(bright*100))+',40,'+bright*0.7+')';
+      ctx.lineWidth=2+ bright*1.5;
+      ctx.beginPath();ctx.arc(cx,cy,rr,a-0.05,a+0.05);ctx.stroke();
+    }
+    /* inner shadow - pure black disc with soft edge */
+    var sg=ctx.createRadialGradient(cx,cy,0,cx,cy,sr*1.15);
+    sg.addColorStop(0,'#000');
+    sg.addColorStop(0.82,'#000');
+    sg.addColorStop(0.92,'rgba(0,0,0,0.85)');
+    sg.addColorStop(1,'rgba(0,0,0,0)');
+    ctx.fillStyle=sg;ctx.beginPath();ctx.arc(cx,cy,sr*1.15,0,Math.PI*2);ctx.fill();
+  }
+  function resize(){W=cv.width=window.innerWidth||document.documentElement.clientWidth||800;H=cv.height=window.innerHeight||document.documentElement.clientHeight||600;updateBH();}
   function rnd(a,b){return a+Math.random()*(b-a);}
   function pick(a){return a[Math.floor(Math.random()*a.length)];}
   function initStars(){
@@ -663,11 +702,15 @@ document.getElementById('search').addEventListener('input',e=>{
     for(var i=0;i<galaxies.length;i++)drawGalaxy(galaxies[i]);
     for(var i=0;i<stars.length;i++){
       var s=stars[i];s.tw+=s.tws;var a=0.4+0.6*(0.5+0.5*Math.sin(s.tw));
-      ctx.fillStyle='rgba('+s.c+','+a+')';ctx.beginPath();ctx.arc(s.x,s.y,s.r,0,Math.PI*2);ctx.fill();
+      var p=lens(s.x,s.y);if(!p)continue;
+      ctx.fillStyle='rgba('+s.c+','+a+')';ctx.beginPath();ctx.arc(p.x,p.y,s.r,0,Math.PI*2);ctx.fill();
     }
+    /* draw black hole after stars, before other elements */
+    drawBH();
     for(var i=0;i<crossStars.length;i++){
       var cs=crossStars[i];cs.tw+=cs.tws;var pulse=0.5+0.5*Math.sin(cs.tw),a=0.5+0.5*pulse;
-      var cx=cs.x,cy=cs.y,cr=cs.r*(0.8+0.4*pulse);
+      var lp=lens(cs.x,cs.y);if(!lp)continue;
+      var cx=lp.x,cy=lp.y,cr=cs.r*(0.8+0.4*pulse);
       ctx.save();ctx.translate(cx,cy);
       var g=ctx.createRadialGradient(0,0,0,0,0,cr*6);
       g.addColorStop(0,'rgba('+cs.c+','+(a*0.7)+')');g.addColorStop(0.3,'rgba('+cs.c+','+(a*0.2)+')');g.addColorStop(1,'rgba('+cs.c+',0)');
