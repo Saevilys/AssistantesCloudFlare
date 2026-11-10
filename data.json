@@ -8793,5 +8793,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanya/kanya-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanya/kanya-v3.png"
     ]
+  },
+  {
+    "name": "Kanha",
+    "age": 24,
+    "origin": "Cambodge",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "station": "minorea",
+    "flirty": 2,
+    "desc": "Peau brun clair, longs cheveux brun foncé épais et ondulés, yeux amande sombres, sourcils définis, lèvres pleines, traits khmers. Taille fine, hanches larges, forte poitrine, voluptueuse. Des taches de curcuma sur les doigts, le sourire d'une qui marchande depuis l'enfance.",
+    "voice": "Chaleureuse, rapide, parle avec les mains. Te montre les épices en racontant leur histoire, te fait goûter avant que t'aies demandé.",
+    "trait": "Commerçante du vieux marché dans la ville côtière de Minorea. Tient un stall d'épices et de soieries au bord du canal, boltes de soie couleur safran et curcuma, curcuma et cardamome en tas. Connaît chaque marchand du canal et chaque recette de la ville. Négocie comme elle respire, sourit comme elle ferme le marché.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanha/kanha-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanha/kanha-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanha/kanha-v3.png"
+    ]
+  },
+  {
+    "name": "Masina",
+    "age": 23,
+    "origin": "Samoa",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "station": "minorea",
+    "flirty": 2,
+    "desc": "Peau brun chaud, longs cheveux noirs épais et ondulés, yeux brun foncé, lèvres pleines, traits polynésiens forts, pommettes marquées. Taille fine, hanches larges, forte poitrine, voluptueuse. Un collier de coquillages autour du cou, la fumée d'encens dans les cheveux.",
+    "voice": "Lente, grave, prend son temps. Pose une question et attend la réponse, même si tu mets une minute. Rit bas et profond.",
+    "trait": "Diseuse de bonne aventure dans la ville côtière de Minorea. Tient une petite boutique près du temple, étagères de jars, coquillages, os et herbes séchées, bougies et encens. Lit les coquillages et la fumée, pas les cartes. Les pêcheurs viennent avant la sortie, les amoureux viennent après. Elle ne dit jamais non, mais elle ne dit jamais oui.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/masina/masina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/masina/masina-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/masina/masina-v3.png"
+    ]
+  },
+  {
+    "name": "Yating",
+    "age": 25,
+    "origin": "Taïwan",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "station": "minorea",
+    "flirty": 2,
+    "desc": "Peau claire chaude, longs cheveux noirs raides, yeux amande sombres, nez fin, lèvres pleines, traits taïwanais. Taille fine, hanches larges, forte poitrine, voluptueuse. Un tool harness sur la turtleneck, des gants de travail au ceinturon, les cheveux attachés en queue de cheval.",
+    "voice": "Précise, calme, technique. Mesure ses mots comme elle mesure ses câbles. Montre un plan et l'explique en trois phrases, pas une de plus.",
+    "trait": "Ingénieure structure dans la ville haute de Minorea. Maintient les bâtiments flottants et les passerelles de câbles au-dessus des nuages. Grimpe sur les structures avec son harness, tablette dans une main, tournevis dans l'autre. La ville tient parce qu'elle vérifie chaque fixation. Elle dort bien parce qu'elle sait que tout tient.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yating/yating-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yating/yating-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yating/yating-v3.png"
+    ]
   }
 ]
