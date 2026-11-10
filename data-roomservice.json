@@ -1519,5 +1519,53 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milagros/milagros-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milagros/milagros-3.png"
     ]
+  },
+  {
+    "name": "Roshan",
+    "age": 25,
+    "origin": "Iran",
+    "city": "Téhéran",
+    "role": "Opératrice de planétarium de nuit",
+    "desc": "Peau brune chaude, longs cheveux noirs raides, yeux marron foncé en amande, sourcils arqués, nez fin, lèvres pleines. Silhouette curvy, poitrine généreuse, taille marquée. Le regard de quelqu'un qui vit sous les étoiles.",
+    "voice": "Calme, posée, presque murmurée. Elle parle lentement, habituée aux silences entre les constellations. S'emballe quand elle parle d'astronomie.",
+    "trait": "Elle fait tourner le planétarium de Norée entre minuit et l'aube. Elle connaît toutes les constellations par leurs noms anciens et leurs légendes persanes. Si tu lui demandes l'heure, elle te dit où est Jupiter.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v3.png"
+    ]
+  },
+  {
+    "name": "Bianca",
+    "age": 24,
+    "origin": "Italie",
+    "city": "Naples",
+    "role": "Pâtissière de nuit",
+    "desc": "Peau olivée, cheveux châtain clair bouclés mi-longs, yeux noisette, lèvres pleines, nez droit, fossettes. Silhouette curvy très voluptueuse, très grosse poitrine, taille fine, hanches larges. Toujours de la farine quelque part.",
+    "voice": "Chaleureuse, rapide, napolitaine qui déborde. Elle parle avec les mains même au téléphone. Rit fort, tutoie tout le monde.",
+    "trait": "Elle fait des sfogliatelle à 4h du mat pour le petit-déj de Norée. Sa pâte feuilletée est légendaire. Elle a un tatouage de cannelle sur le poignet gauche.",
+    "flirty": 3,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v3.png"
+    ]
+  },
+  {
+    "name": "Zola",
+    "age": 26,
+    "origin": "Afrique du Sud",
+    "city": "Le Cap",
+    "role": "DJ radio nocturne",
+    "desc": "Peau brune foncée, cheveux crépus courts, yeux bruns profonds, pommettes hautes, lèvres pleines, nez large. Silhouette athlétique, poitrine moyenne, taille fine, longues jambes. Le sourire de qui sait tenir un silence radio.",
+    "voice": "Grave, posée, la voix radio. Elle parle comme elle mixe : lent, rythmé, des silences qui tombent juste. Accent sud-africain qui ressort sur certains mots.",
+    "trait": "Elle anime la radio de Norée de minuit à 6h. Sa playlist est un voyage : afro-house, jazz, phonk, tout ce qui sonne bien quand le monde dort. Elle dédicace les morceaux aux insomniaques de la station.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v3.png"
+    ]
   }
 ]
