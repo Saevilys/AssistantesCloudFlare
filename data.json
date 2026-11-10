@@ -9024,5 +9024,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chinwe/chinwe-v3-hublot.png"
     ],
     "station": "nour"
+  },
+  {
+    "name": "Quynh",
+    "age": 25,
+    "origin": "Vietnam",
+    "city": "Minorea",
+    "region": "Asie",
+    "active": true,
+    "tag": "noble-palais",
+    "flirty": 2,
+    "desc": "Peau dorée claire, longs cheveux noirs raides avec épingle dorée ornée, yeux bruns foncés, pommettes hautes, traits élégants et raffinés, sourire discret. Silhouette fine et élancée, petite poitrine, taille étroite, posture noble. Ao dai en soie, bijoux en or délicat.",
+    "voice": "Posée, mesurée, chaque mot choisi. Elle parle bas et les gens se taisent pour entendre. Le pouvoir sans le volume.",
+    "trait": "Noble du palais impérial de Minorea. Courtisane de la ville haute, elle évolue entre les dômes dorés et les jardins suspendus. Flirte par la retenue, un regard qui dure une seconde de trop, la soie qui frôle quand elle passe.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/quynh/quynh-v1-balcon.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/quynh/quynh-v2-throne.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/quynh/quynh-v3-jardin.png"
+    ],
+    "station": "minorea"
+  },
+  {
+    "name": "Rini",
+    "age": 23,
+    "origin": "Indonésie",
+    "city": "Minorea",
+    "region": "Asie",
+    "active": true,
+    "tag": "livreuse",
+    "flirty": 2,
+    "desc": "Peau brun moyen hâlée, cheveux noirs en queue de cheval haute, yeux bruns foncés, visage rond, sourire énergique et confiant. Silhouette athlétique et tonique, poitrine moyenne, épaules fortes, bras définis. Windbreaker, tank top, cargo pants, bottines.",
+    "voice": "Rapide, vive, rires qui résonnent dans les couloirs. Elle parle en marchant, jamais immobile. La livreuse qui connaît tous les raccourcis.",
+    "trait": "Livreuse par tout temps de Minorea. Elle connaît chaque passerelle, chaque ascenseur, chaque coupure entre les modules. Pluie, vent, tempête, elle livre. Flirte en te raccompagnant, en trouvant des excuses pour faire le détour.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rini/rini-v1-pont.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rini/rini-v2-scooter.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rini/rini-v3-pluie.png"
+    ],
+    "station": "minorea"
+  },
+  {
+    "name": "Mali",
+    "age": 26,
+    "origin": "Thaïlande",
+    "city": "Minorea",
+    "region": "Asie",
+    "active": true,
+    "tag": "street-food",
+    "flirty": 2,
+    "desc": "Peau brun clair, cheveux noirs en chignon défait tenu par un bâton de bois, yeux bruns foncés, visage baby-faced aux joues rondes, sourire ouvert avec fossettes. Silhouette pulpeuse et voluptueuse, hanches larges, forte poitrine, taille pleine. Tank top sous tablier, shorts en jean.",
+    "voice": "Bruyante, chaleureuse, le rire toujours prêt. Elle crie ta commande d'une station à l'autre. Le canal entier la connaît.",
+    "trait": "Tenancière de street food sur le canal de Minorea. Son stall est une plateforme en bois sur l'eau, lanternes rouges, vapeur qui monte. Cuisine pad thai et brochettes satay. Flirte en te servant en premier, en rajoutant une portion gratuite, en essuyant ses mains sur son tablier pendant qu'elle te regarde.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mali/mali-v1-canal.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mali/mali-v2-cuisine.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mali/mali-v3-nuit.png"
+    ],
+    "station": "minorea"
   }
 ]
