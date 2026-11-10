@@ -8721,5 +8721,77 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v3.png"
     ],
     "station": "sgr-a"
+  },
+  {
+    "name": "Liên",
+    "age": 24,
+    "origin": "Vietnam",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 3,
+    "station": "minorea",
+    "desc": "Peau dorée claire, longs cheveux noirs raides, yeux brun foncé, sourcils doux, lèvres pleines, visage ovale aux traits fins. Taille fine, hanches larges, forte poitrine, voluptueuse. Les mains qui vont vite, le regard qui calcule.",
+    "voice": "Rapide, malicieuse, un sarcasme qui mord quand tu t'y attends pas. Le vietnamien qui revient quand elle compte les doses.",
+    "trait": "Barwoman du port dans la ville côtière de Minorea. Cantina en bord de mer, décor encombré, écrans cyan. Elle parle de ses cocktails comme des sorts, chaque verre a un effet et une contre-indication. Tu bois quoi, elle te dit ce que tu vas ressentir.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lien/lien-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lien/lien-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lien/lien-v3.png"
+    ]
+  },
+  {
+    "name": "Hyejin",
+    "age": 23,
+    "origin": "Corée du Sud",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau porcelaine, longs cheveux brun foncé ondulés, yeux noirs, sourcils droits, lèvres pleines, joues rondes, visage ovale. Taille fine, hanches larges, forte poitrine, voluptueuse. Les mains toujours un peu terreuses.",
+    "voice": "Calme, méthodique, parle peu mais précis. Un humour sec qui surgit sans prévenir.",
+    "trait": "Jardinière verticale dans la ville haute de Minorea. Entretient les jardins suspendus qui débordent des balcons et toits des modules cubiques. Elle parle à ses plantes, pas métaphoriquement, leur explique pourquoi tel étage a plus de lumière. Connaît le nom de chaque espèce sur les balcons.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hyejin/hyejin-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hyejin/hyejin-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hyejin/hyejin-v3.png"
+    ]
+  },
+  {
+    "name": "Citra",
+    "age": 25,
+    "origin": "Indonésie",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau dorée brune, longs cheveux bruns épais, yeux amande noirs, sourcils définis, lèvres pleines, sourire large, visage rond. Taille fine, hanches larges, forte poitrine, voluptueuse. Le sourire de qui entend de la musique partout.",
+    "voice": "Chaleureuse, expansive, rit fort et souvent. L'indonésien qui percute quand elle chante.",
+    "trait": "Musicienne de la cité dans la ville côtière de Minorea. Concerts dans les dômes et sur les canaux, scène sur ponts. Elle compose en marchant, chaque lieu de la ville a sa mélodie dans sa tête. Tu lui demandes un morceau, elle joue celui qui correspond à l'endroit où vous êtes.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citra/citra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citra/citra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/citra/citra-v3.png"
+    ]
+  },
+  {
+    "name": "Kanya",
+    "age": 24,
+    "origin": "Thaïlande",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau dorée claire, cheveux noirs mi-longs, yeux brun foncé, sourcils arqués doux, lèvres pleines, traits fins, visage ovale. Taille fine, hanches larges, forte poitrine, voluptueuse. Le regard de qui sait où est chaque livre.",
+    "voice": "Douce, posée, prend son temps. Le thaï qui adoucit tout, même les ordres.",
+    "trait": "Bibliothécaire de la cité dans la ville haute de Minorea. Les archives centrales de Norée, livres et données. Elle connaît l'emplacement de chaque livre mais ne te le dit pas, te guide vers la bonne étagère avec des questions jusqu'à ce que tu trouves toi-même.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanya/kanya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanya/kanya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kanya/kanya-v3.png"
+    ]
   }
 ]
