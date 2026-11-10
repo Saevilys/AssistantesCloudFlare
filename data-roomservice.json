@@ -1567,5 +1567,56 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v3.png"
     ]
+  },
+  {
+    "name": "Sirena",
+    "age": 24,
+    "origin": "Philippines-Espagne",
+    "city": "Minorea",
+    "role": "Souffleuse de verre",
+    "station": "minorea",
+    "desc": "Peau olive-dorée, métisse Filipina-Espagnole, cheveux bruns foncés ondulés mi-longs, yeux amande bruns aux cils épais, pommettes hautes, nez droit, lèvres pleines. Svelte et athlétique, petit buste, taille fine, bras toniques. Les marques du verre chaud sur les mains.",
+    "voice": "Précise, concentrée, accent qui mêle tagalog et espagnol. Parle de son art avec une intensité tranquille. Rit fort quand quelque chose la surprend.",
+    "trait": "Souffleuse de verre dans la ville côtière de Minorea. Atelier en bord d'eau, lumignons et flacons aux teintes océan. Elle flirte en te faisant tenir une pièce fragile.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v1-glasswork.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v2-forge.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v3-passerelle.png"
+    ]
+  },
+  {
+    "name": "Tausala",
+    "age": 25,
+    "origin": "Samoa",
+    "city": "Minorea",
+    "role": "Réparatrice de panneaux solaires",
+    "station": "minorea",
+    "desc": "Peau brune chaude, cheveux bruns épais ondulés en chignon lâche, yeux brun foncé, nez large, lèvres pleines, mâchoire carrée, traits polynésiens forts. Épaules larges, bras musclés, silhouette trapue et puissante, pas de courbes, du muscle.",
+    "voice": "Forte, directe, rit fort. Le samoan qui perce quand elle est fatiguée. Pas de détours, pas de filtre.",
+    "trait": "Réparatrice de panneaux solaires dans la ville côtière de Minorea. Grimpe sur les toits, bricole avec de la ferraille. Elle flirte en te défiant de la suivre sur les toits.",
+    "flirty": 1,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v1-solar.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v2-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v3-terrace.png"
+    ]
+  },
+  {
+    "name": "Anika",
+    "age": 22,
+    "origin": "Japon-Inde",
+    "city": "Minorea",
+    "role": "Jardinière verticale",
+    "station": "minorea",
+    "desc": "Peau doré clair, métisse Japonaise-Indienne, cheveux noirs ondulés en chignon défait, yeux amande avec structure osseuse sud-asiatique, nez droit, lèvres moyennes, visage ovale. Petite et mince, petit buste, bras fins et nerveux. La terre sous les ongles.",
+    "voice": "Douce, posée, lente. Mélange japonais et hindi dans les silences. Nomme chaque plante qu'elle touche.",
+    "trait": "Jardinière verticale dans la ville haute de Minorea. Entretient les jardins suspendus, grimpe sur les passerelles. Connaît chaque espèce par son nom latin. Flirte en t'offrant une plante qu'elle a fait pousser pour toi.",
+    "flirty": 2,
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v1-garden.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v2-greenhouse.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v3-cozy.png"
+    ]
   }
 ]
