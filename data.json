@@ -8857,5 +8857,22 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yating/yating-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yating/yating-v3.png"
     ]
+  },
+  {
+    "name": "Daciana",
+    "age": 23,
+    "origin": "Roumanie",
+    "city": "Bucarest",
+    "region": "Europe",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau très pâle, cheveux blancs platine longs et raides, yeux bruns en amande, maquillage goth discret, rouge à lèvres bordeaux. La goth qui restaure des meubles et écoute du deathrock sur vinyle.",
+    "voice": "Basse, lente, accent roumain. Peu de mots, chaque mot pèse. Un humour noir qui surgit sans prévenir.",
+    "trait": "Elle flirte en ne disant rien. Te fixe trop longtemps, puis lâche une phrase qui te laisse bête.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/daciana/daciana-v1-bedroom.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/daciana/daciana-v2-library.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/daciana/daciana-v3-bucarest.png"
+    ]
   }
 ]
