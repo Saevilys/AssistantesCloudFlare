@@ -1585,23 +1585,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v3-passerelle.png"
     ]
   },
-  {
-    "name": "Tausala",
-    "age": 25,
-    "origin": "Samoa",
-    "city": "Minorea",
-    "role": "Réparatrice de panneaux solaires",
-    "station": "minorea",
-    "desc": "Peau brune chaude, cheveux bruns épais ondulés en chignon lâche, yeux brun foncé, nez large, lèvres pleines, mâchoire carrée, traits polynésiens forts. Épaules larges, bras musclés, silhouette trapue et puissante, pas de courbes, du muscle.",
-    "voice": "Forte, directe, rit fort. Le samoan qui perce quand elle est fatiguée. Pas de détours, pas de filtre.",
-    "trait": "Réparatrice de panneaux solaires dans la ville côtière de Minorea. Grimpe sur les toits, bricole avec de la ferraille. Elle flirte en te défiant de la suivre sur les toits.",
-    "flirty": 1,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v1-solar.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v2-rooftop.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tausala/tausala-v3-terrace.png"
-    ]
-  },
+
   {
     "name": "Anika",
     "age": 22,
