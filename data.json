@@ -8655,5 +8655,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kaiulani/kaiulani-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kaiulani/kaiulani-v5.png"
     ]
+  },
+  {
+    "name": "Nehir",
+    "age": 25,
+    "origin": "Turquie",
+    "city": "Istanbul",
+    "region": "Europe",
+    "active": true,
+    "tag": "gravitational",
+    "flirty": 2,
+    "desc": "Peau olive chaude, longs cheveux bruns ondulés, yeux noisette, lèvres pleines, nez droit, visage ovale. Taille fine, hanches larges, forte poitrine, voluptueuse.",
+    "voice": "Méthodique, posée, un accent turc léger. Elle parle en courbes et en trajectoires, voit les déformations partout. Quand elle explique quelque chose, ses mains tracent des lignes dans l'air. Lente, mais chaque phrase est une équation.",
+    "trait": "Gravitationnelle à Sgr A*. Elle étudie la déformation de l'espace-temps près du trou noir et cartographie les lentilles gravitationnelles. 26000 années-lumière de la Terre, et la lumière elle-même plie autour d'elle. Elle voit le monde comme une surface courbe — parce que près d'ici, elle l'est.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nehir/nehir-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nehir/nehir-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nehir/nehir-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Wanjiku",
+    "age": 24,
+    "origin": "Kenya",
+    "city": "Nairobi",
+    "region": "Afrique",
+    "active": true,
+    "tag": "cartographer",
+    "flirty": 2,
+    "desc": "Peau ébène profonde, cheveux courts en coils naturels, yeux bruns, lèvres pleines, pommettes hautes, nez large, visage rond. Taille fine, hanches larges, forte poitrine, voluptueuse.",
+    "voice": "Claire, directe, un sourire facile. Elle parle de l'horizon comme d'un paysage qu'elle connaît par cœur. Pratique, jamais abstraite — elle traduit l'impossible en cartes. Kikuyu sous le swahili sous l'anglais.",
+    "trait": "Cartographe de l'horizon à Sgr A*. Elle construit le modèle 3D du trou noir, l'objet le plus impossible à cartographier. On ne peut pas voir l'horizon, seulement ce qu'il déforme — et elle dessine à partir des déformations. Son travail est une carte de ce qui n'existe pas.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanjiku/wanjiku-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanjiku/wanjiku-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanjiku/wanjiku-v3.png"
+    ],
+    "station": "sgr-a"
+  },
+  {
+    "name": "Hà",
+    "age": 26,
+    "origin": "Vietnam",
+    "city": "Hanoï",
+    "region": "Asie",
+    "active": true,
+    "tag": "instrumentation",
+    "flirty": 2,
+    "desc": "Peau tan claire, longs cheveux noirs raides, yeux amande noirs, lèvres pleines, nez droit et fin, traits délicats. Taille fine, hanches larges, forte poitrine, voluptueuse.",
+    "voice": "Précise, brève, un accent vietnamien qui rétrécit les voyelles. Elle parle peu mais ses phrases sont des spécifications techniques. Quand elle décrit un capteur, ses doigts le construisent dans l'air. Le contraire de Cassia — elle ne pense pas, elle fait.",
+    "trait": "Ingénieure en instrumentation à Sgr A*. Elle conçoit les capteurs qui tiennent à proximité de l'horizon des événements, là où les forces de marée étirent la matière. Ses instruments mesurent ce que la physique dit impossible à mesurer. Elle bricole l'impossible avec des outils concrets.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v3.png"
+    ],
+    "station": "sgr-a"
   }
 ]
