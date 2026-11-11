@@ -66,6 +66,8 @@ header .biplink:hover{border-color:#e8c878;color:#e8c878}
 .status-dot{position:absolute;top:10px;right:10px;width:10px;height:10px;border-radius:50%;border:2px solid #1a1020}
 .status-dot.on{background:#4ade80}
 .status-dot.off{background:#ef4444}
+.reporter-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(196,167,255,.6));cursor:default}
+.reporter-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(60,40,80,.6);color:#c4a7ff;border:1px solid rgba(196,167,255,.4);box-shadow:0 0 8px rgba(196,167,255,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
 .card-info{padding:12px 14px}
 .card-name{font-size:1rem;font-weight:500;color:var(--gold);font-family:var(--serif);letter-spacing:.02em}
 .card-meta{font-size:0.68rem;color:var(--ink-faint);margin-top:2px;font-family:var(--mono);letter-spacing:.05em}
@@ -395,7 +397,7 @@ function renderPage(){
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
-      <div class="status-dot ${a.active?'on':'off'}"></div>
+      ${a.tag==='reporter'?'<span class="reporter-icon">📷</span>':`<div class="status-dot ${a.active?'on':'off'}"></div>`}
       ${a.region==='Androides'?'<span class="android-tag">ANDROID</span>':''}
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
@@ -476,7 +478,7 @@ function buildProfile(a){
         : a.flirty>=4
         ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px">♥\uFE0E! LVL 4</span>`
         : `<span class="profile-badge badge-flirt flirt-hearts" style="font-size:0.85rem;padding:4px 12px">${'♥\uFE0E'.repeat(a.flirty)}${'♡\uFE0E'.repeat(3-a.flirty)} Flirt L${a.flirty}</span>`}
-      <span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>
+      ${a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':`<span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>`}
     </div>
     <div class="profile-body">
       ${photoHtml}
