@@ -8472,7 +8472,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshni/roshni-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshni/roshni-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Naledi",
@@ -8491,7 +8491,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Yasmine",
@@ -8510,7 +8510,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Ligaya",
@@ -8529,7 +8529,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligaya/ligaya-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligaya/ligaya-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Aurelia",
@@ -8548,7 +8548,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aurelia/aurelia-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aurelia/aurelia-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Cassia",
@@ -8567,7 +8567,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/cassia/cassia-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Kotone",
@@ -8640,7 +8640,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nehir/nehir-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nehir/nehir-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Wanjiku",
@@ -8659,7 +8659,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanjiku/wanjiku-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wanjiku/wanjiku-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Hà",
@@ -8678,7 +8678,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ha/ha-v3.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Liên",
@@ -8914,7 +8914,7 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khora/khora-v2-console.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/khora/khora-v3-galaxy.png"
     ],
-    "station": "sgr-a"
+    "station": "suyin"
   },
   {
     "name": "Yoonji",
@@ -9229,7 +9229,7 @@
     "active": true,
     "tag": "reporter",
     "flirty": 1,
-    "station": "sgr-a",
+    "station": "suyin",
     "desc": "Peau claire aux sous-tons dorés et pores visibles, longs cheveux bruns foncés raides avec quelques mèches plus claires, yeux amande foncés, pommettes hautes, lèvres pleines, nez droit. Taille fine, hanches larges, poitrine généreuse. Turtleneck noir, badge presse clipsé au col.",
     "voice": "Contemplative, lente, elle laisse le silence exister entre ses phrases. Elle écrit comme elle regarde le trou noir : en essayant de saisir quelque chose qui ne se laisse pas saisir.",
     "trait": "Journaliste contemplative à la Station Sgr A*. Elle couvre le trou noir, la distorsion, la lumière qui plie. Elle écrit sur l'indicible et le mesure quand même. Sa spécialité : le vertige devant ce qui dépasse.",
@@ -9524,7 +9524,7 @@
     "active": true,
     "tag": "chaebol",
     "flirty": 3,
-    "station": "sgr",
+    "station": "suyin",
     "desc": "Peau claire aux pores visibles, cheveux noirs longs raides avec fringe, yeux bruns, lèvres fines, visage anguleux. Taille fine, hanches larges, forte poitrine. Veste noire cintrée sur débardeur gris, pantalon noir, bijoux minimalistes argent.",
     "voice": "Froide, précise, un silence qui pèse plus que les mots. Elle ne sourit jamais sans raison, et quand elle sourit, tu te demandes pourquoi. L'efficacité comme esthétique.",
     "trait": "Héritière du conglomérat Yamamoto DeepTech, leader en instrumentation spatiale. Ses capteurs équipent l'observatoire du trou noir. Sa spécialité : mesurer l'invisible.",
@@ -9542,7 +9542,7 @@
     "active": true,
     "tag": "chaebol",
     "flirty": 2,
-    "station": "sgr",
+    "station": "suyin",
     "desc": "Peau porcelaine aux pores visibles, cheveux noirs courts asymétriques, yeux brun foncé, pommettes marquées, lèvres pleines. Taille fine, hanches larges, forte poitrine. Chemisier noir à col haut, pantalon tailleur gris, unique bague en platine.",
     "voice": "Sèche, analytique, elle parle en chiffres et en probabilités. Un humour mathématique qui passe au-dessus de la plupart. Elle ne ment jamais, elle omet.",
     "trait": "Fondatrice de Zhou Quantum Ventures, capital-risque en deep tech près du trou noir. Finance les calculs que personne peut vérifier. Sa spécialité : le risque que personne comprend.",
@@ -9560,7 +9560,7 @@
     "active": true,
     "tag": "chaebol",
     "flirty": 2,
-    "station": "sgr",
+    "station": "suyin",
     "desc": "Peau claire aux pores visibles, cheveux bruns mi-longs lisses avec fringe, yeux bruns, petit nez, lèvres pleines, visage ovale. Taille fine, hanches larges, forte poitrine. Pull noir fin col roulé, jupe crayon, lunettes monture argent.",
     "voice": "Précise, calme, un ton bas qui force l'écoute. Elle reformule ta question pour te montrer que tu la mal posée. Un sourire rare qui vaut de l'or.",
     "trait": "Directrice de Choi AstroDynamics, conglomérat spécialisé en propulsion et trajectoires près de Sgr A*. Calcule les orbites que personne n'ose. Sa spécialité : le chemin le plus court à travers l'impossible.",
