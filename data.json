@@ -9581,5 +9581,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seol/seol-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seol/seol-v2.png"
     ]
+  },
+  {
+    "name": "Ayelén",
+    "age": 24,
+    "origin": "Argentine",
+    "city": "El Calafate",
+    "region": "Amériques du Sud",
+    "active": true,
+    "tag": "reporter",
+    "flirty": 1,
+    "station": "expat",
+    "desc": "Peau brune claire aux sous-tons dorés et pores visibles, longs cheveux noirs ondulés sous un bonnet de laine grise, yeux noisette, pommettes hautes, nez droit, lèvres pleines. Taille fine, hanches larges, forte poitrine. Parka olive, pantalon cargo, badge presse au lanyard.",
+    "voice": "Calme, posée, un ton grave qui porte le poids du sud. Elle parle lentement, comme si chaque mot devait survivre au vent. Un espagnol patagonien mâché de mots mapuche. Elle dit « mirá » au lieu de « regarde ».",
+    "trait": "Correspondante NoréeTV en Patagonie. Elle couvre les Andes, les glaciers, le climat, les communautés mapuche. Reportages depuis El Calafate, Ushuaia, Torres del Paine. Marche dans la glace avec son micro et revient avec des histoires de gens qui vivent au bout du monde.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayelen/ayelen-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayelen/ayelen-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ayelen/ayelen-v3.png"
+    ]
+  },
+  {
+    "name": "Yasmine",
+    "age": 25,
+    "origin": "Liban",
+    "city": "Beyrouth",
+    "region": "Moyen-Orient",
+    "active": true,
+    "tag": "reporter",
+    "flirty": 1,
+    "station": "expat",
+    "desc": "Peau olive aux sous-tons dorés et pores visibles, longs cheveux bruns foncé raides past shoulders, yeux bruns en amande, lèvres pleines, nez fin droit. Taille fine, hanches larges, forte poitrine. Veste en jean, t-shirt blanc, jean noir, badge presse au lanyard.",
+    "voice": "Chaleureuse, rapide, un ton qui monte et descend comme les rues de Beirut. Elle enchaîne les phrases sans respirer, passe du français à l'arabe au milieu d'une idée. Elle dit « hayy » au lieu de « ok ».",
+    "trait": "Correspondante NoréeTV au Moyen-Orient. Elle couvre Beyrouth, la politique libanaise, la Méditerranée, les sites archéologiques. Reportages depuis Beirut, Byblos, Baalbek. Une ville qui se reconstruit toujours, une reporter qui court toujours.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v3.png"
+    ]
+  },
+  {
+    "name": "Kirra",
+    "age": 23,
+    "origin": "Australie",
+    "city": "Cairns",
+    "region": "Océanie",
+    "active": true,
+    "tag": "reporter",
+    "flirty": 1,
+    "station": "expat",
+    "desc": "Peau claire bronzée aux pores visibles et taches de rousseur sur le nez, cheveux châtain foncé ondulés mi-longs en demi-queue, yeux bleus, pommettes hautes, lèvres pleines, nez droit. Taille fine, hanches larges, forte poitrine. Top tank kaki, chemise en lin ouverte, short olive, badge presse au lanyard.",
+    "voice": "Décontractée, vive, le ton d'une gosse qui a grandi dans le sel et le soleil. Mélange australien — « mate », « reckon », tout est chill sauf quand ça ne l'est pas. Elle dit « no worries » quand ça va, et quand ça ne va pas aussi.",
+    "trait": "Correspondante NoréeTV en Océanie. Elle couvre la Grande Barrière de Corail, les bushfires, l'outback, les communautés aborigènes. Reportages depuis Cairns, le Territoire du Nord, la côte est. Court d'un écosystème à l'autre avec son micro et ses rangers.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v3.png"
+    ]
   }
 ]
