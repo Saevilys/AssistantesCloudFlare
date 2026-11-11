@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Citoyennes de Norée — Sélection</title>
+<title>Citoyennes expatriées — Sélection</title>
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Inter:wght@200;300;400;500&family=JetBrains+Mono:wght@300;400&display=swap');
@@ -217,7 +217,7 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--gold);opac
 
 <header>
   <div class="hero-label">// Sélection</div>
-  <h1 onclick="resetAll()" style="cursor:pointer">Citoyennes <span style="color:var(--gold)">de Norée</span></h1>
+  <h1 onclick="resetAll()" style="cursor:pointer">Citoyennes <span style="color:var(--gold)">expatriées</span></h1>
   <p id="count">chargement…</p>
 </header>
 
@@ -282,7 +282,7 @@ let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
   // Page Classiques : tout sauf rang S (flirty 6), succubes (flirty 5) et Androides
-  const d=all.filter(a=>!a.tag&&!a.station);
+  const d=all.filter(a=>(!a.tag&&!a.station)||a.station==='expat');
   data=d;
   buildRegionBar(d);
   applyFilters();
