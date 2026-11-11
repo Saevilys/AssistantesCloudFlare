@@ -738,9 +738,6 @@
     "voice": "Douce et feutrée, un murmure qui se perd dans le silence de la bibliothèque. Parle peu, mais chaque mot est pesé. S'excuse presque pour le bruit d'une page qu'elle tourne.",
     "trait": "Elle te prépare un café au cardamome sans que tu demandes, à l'heure où personne ne boit. Elle connaît le livre que tu liras avant toi, et le pose sur la table basse, fermé, comme une promesse.",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v3-edit.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v5.png",
@@ -1566,91 +1563,6 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v3.png"
-    ]
-  },
-  {
-    "name": "Sirena",
-    "age": 24,
-    "origin": "Philippines-Espagne",
-    "city": "Minorea",
-    "role": "Souffleuse de verre",
-    "station": "minorea",
-    "desc": "Peau olive-dorée, métisse Filipina-Espagnole, cheveux bruns foncés ondulés mi-longs, yeux amande bruns aux cils épais, pommettes hautes, nez droit, lèvres pleines. Svelte et athlétique, petit buste, taille fine, bras toniques. Les marques du verre chaud sur les mains.",
-    "voice": "Précise, concentrée, accent qui mêle tagalog et espagnol. Parle de son art avec une intensité tranquille. Rit fort quand quelque chose la surprend.",
-    "trait": "Souffleuse de verre dans la ville côtière de Minorea. Atelier en bord d'eau, lumignons et flacons aux teintes océan. Elle flirte en te faisant tenir une pièce fragile.",
-    "flirty": 2,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v1-glasswork.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v2-forge.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sirena/sirena-v3-passerelle.png"
-    ]
-  },
-  {
-    "name": "Anika",
-    "age": 22,
-    "origin": "Japon-Inde",
-    "city": "Minorea",
-    "role": "Jardinière verticale",
-    "station": "minorea",
-    "desc": "Peau doré clair, métisse Japonaise-Indienne, cheveux noirs ondulés en chignon défait, yeux amande avec structure osseuse sud-asiatique, nez droit, lèvres moyennes, visage ovale. Petite et mince, petit buste, bras fins et nerveux. La terre sous les ongles.",
-    "voice": "Douce, posée, lente. Mélange japonais et hindi dans les silences. Nomme chaque plante qu'elle touche.",
-    "trait": "Jardinière verticale dans la ville haute de Minorea. Entretient les jardins suspendus, grimpe sur les passerelles. Connaît chaque espèce par son nom latin. Flirte en t'offrant une plante qu'elle a fait pousser pour toi.",
-    "flirty": 2,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v1-garden.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v2-greenhouse.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anika/anika-v3-cozy.png"
-    ]
-  },
-  {
-    "name": "Yoonji",
-    "age": 23,
-    "origin": "Corée du Sud",
-    "city": "Minorea (palais)",
-    "role": "Soubrette du palais impérial",
-    "station": "minorea",
-    "desc": "Peau claire, cheveux noirs en chignon bas avec mèches lâches, yeux bruns foncés, joues rondes, visage baby-faced, sourire doux. Slim avec courbes, poitrine pleine. Uniformes de soubrette en tissu translucide, soie impériale visible en dessous.",
-    "voice": "Douce, posée, poli. Coréen sous-jacent. Suggestive sans le dire, translucide comme ses vêtements.",
-    "trait": "Soubrette du palais impérial de Minorea. Entretient les appartements royaux, plie le linge de soie. Porte des tenues transparentes par goût. Flirte en laissant deviner ce que la soie cache.",
-    "flirty": 2,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoonji/yoonji-v1-palais.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoonji/yoonji-v2-balcon.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoonji/yoonji-v3-couloir.png"
-    ]
-  },
-  {
-    "name": "Dandara",
-    "age": 24,
-    "origin": "Brésil",
-    "city": "Station Zineb",
-    "role": "Soubrette du hub de transit",
-    "station": "zineb",
-    "desc": "Peau brun moyen, cheveux noirs bouclés lâches, yeux bruns, joues rondes, sourire chaud. Slim avec courbes, poitrine pleine. Blouses transparentes par-dessus des bralettes.",
-    "voice": "Chaleureuse, directe, rit facilement. Portugais dans les exclamations. Flirte en te faisant attendre ton verre.",
-    "trait": "Soubrette du hub de transit sur Station Zineb. Gère l'accueil, le bar, les cabines. Porte des tenues transparentes. Flirte en prenant son temps.",
-    "flirty": 2,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dandara/dandara-v1-hub.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dandara/dandara-v2-cupola.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dandara/dandara-v3-passerelle.png"
-    ]
-  },
-  {
-    "name": "Chinwe",
-    "age": 23,
-    "origin": "Nigéria (Igbo)",
-    "city": "Station Nour",
-    "role": "Soubrette des serres hydroponiques",
-    "station": "nour",
-    "desc": "Peau brun foncé, box braids noires, yeux bruns, joues rondes, sourire ouvert. Slim avec courbes, poitrine pleine. Tops translucides par-dessus des camisoles.",
-    "voice": "Vive, lumineuse, igbo dans les salutations. Flirte en t'offrant une fleur qu'elle a fait pousser.",
-    "trait": "Soubrette des serres hydroponiques de Station Nour. Cultures, arrosage, récolte. Tenues transparentes parce que les serres sont chaudes. Flirte en t'invitant à l'aider.",
-    "flirty": 2,
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chinwe/chinwe-v1-serre.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chinwe/chinwe-v2-serre.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chinwe/chinwe-v3-hublot.png"
     ]
   }
 ]
