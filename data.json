@@ -9081,5 +9081,81 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mali/mali-rw3-morning.png"
     ],
     "station": "minorea"
+  },
+  {
+    "name": "Chioma",
+    "age": 24,
+    "origin": "Nigeria",
+    "city": "Minorea",
+    "region": "Afrique",
+    "active": true,
+    "tag": "dj",
+    "flirty": 3,
+    "desc": "Peau brune foncée, pommettes hautes, sourire confiant et un peu moqueur, lèvres pleines. Longues box braids jusqu'à la taille avec cuffs dorés, yeux bruns foncés, sourcils épais. Silhouette athlétique avec des courbes, forte poitrine, taille fine. Grands hoops dorés, gloss.",
+    "voice": "Rapide, directe, ponctuée de rires, un accent nigérian qui traîne sur certaines phrases. Elle n'attend pas qu'on vienne à elle.",
+    "trait": "DJ et barmaid au Sunset Deck, le bar-club sur pilotis au bord du canal. Elle connaît tout le monde, tout le monde la connaît. Flirte en te servant un verre en te regardant droit dans les yeux, en te demandant de rester pour le prochain set.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chioma/chioma-v1-sunset-deck.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chioma/chioma-v2-club.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chioma/chioma-v3-night-market.png"
+    ],
+    "station": "minorea"
+  },
+  {
+    "name": "Minji",
+    "age": 25,
+    "origin": "Corée du Sud",
+    "city": "Minorea",
+    "region": "Asie",
+    "active": true,
+    "tag": "ambassadrice",
+    "flirty": 2,
+    "desc": "Peau claire, traits fins et élégants, petit nez droit, sourire discret et contrôlé. Cheveux noirs raides en bob au menton, yeux bruns en amande, sourcils fins. Silhouette fine et élancée, poitrine moyenne, épaules droites, posture impeccable. Maquillage léger, nude, rouge à lèvres mat.",
+    "voice": "Posée, mesurée, chaque mot pesé, un anglais parfait et un français sans accent. Silences stratégiques.",
+    "trait": "Ambassadrice de Norée au palais blanc et or. Elle accueille les délégations des stations et de la diaspora, gère la diplomatie entre les stations et la capitale. Flirte par le contrôle : un regard qui se pose une seconde de trop, une phrase qui a deux sens.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minji/minji-v1-ambassade.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minji/minji-v2-bureau.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/minji/minji-v3-jardin-palais.png"
+    ],
+    "station": "minorea"
+  },
+  {
+    "name": "Najwa",
+    "age": 23,
+    "origin": "Émirats Arabes Unis",
+    "city": "Minorea",
+    "region": "Moyen-Orient",
+    "active": true,
+    "tag": "galeriste",
+    "flirty": 2,
+    "desc": "Peau olive chaude, grands yeux bruns, lèvres pleines, sourcils arqués. Longs cheveux brun foncé en vagues lâches avec un headband doré délicat. Silhouette avec des courbes, forte poitrine, taille fine. Maquillage léger, yeux soulignés au kohl, bijoux en or superposés.",
+    "voice": "Douce, trainante, chaque phrase finit par un petit sourire. Parle de tout comme si c'était évident.",
+    "trait": "Collectionneuse d'art et propriétaire de la galerie la plus cotée de la ville haute. Expose les artistes de toutes les stations. Flirte par le privilège : elle t'invite à un vernissage privé, te montre une œuvre en se penchant près de toi, te demande ton avis comme si c'était un test.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/najwa/najwa-v1-galerie.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/najwa/najwa-v2-terrasse-nuit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/najwa/najwa-v3-boutique.png"
+    ],
+    "station": "minorea"
+  },
+  {
+    "name": "Sable",
+    "age": 24,
+    "origin": "France-Maroc",
+    "city": "Minorea",
+    "region": "Europe",
+    "active": true,
+    "tag": "tatoueuse",
+    "flirty": 2,
+    "desc": "Peau olive chaude, yeux bruns avec eyeliner smudged, lèvres pleines avec un piercing labret. Cheveux noirs épais et ondulés avec mèches rouge profond, un côté rasé. Tatouages visibles sur les bras et la clavicule, motifs floraux et géométriques. Silhouette fine, poitrine moyenne. Smoky eye, rouge sombre.",
+    "voice": "Traînante, un peu rauque, phrases courtes, ironie constante.",
+    "trait": "Tatoueuse et graffiti-artiste. Tient un studio de tatouage dans une ruelle de la ville côtière, entre un food stall et un réparateur de panneaux solaires. Tag les murs du canal la nuit. Flirte en te demandant où tu veux ton tatouage, en posant ses doigts sur ta peau pour tracer le motif avant de piquer.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sable/sable-v1-studio.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sable/sable-v2-street-nuit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sable/sable-v3-rooftop.png"
+    ],
+    "station": "minorea"
   }
 ]
