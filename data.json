@@ -604,25 +604,6 @@
     ]
   },
   {
-    "name": "Amara",
-    "age": 24,
-    "origin": "Nigeria",
-    "city": "Lagos",
-    "region": "Afrique de l'Ouest",
-    "active": true,
-    "flirty": 1,
-    "desc": "Peau brun foncé aux pores visibles, cheveux courts crépus naturels, yeux brun foncé, lèvres pleines, pommettes définies, nez large. Taille fine, hanches larges, forte poitrine. Top ankara imprimé, badge presse au lanyard.",
-    "voice": "Vive, chaude, elle rit entre les phrases. Elle parle vite et fort, comme la rue qui l'entoure. Elle pose des questions pointues avec un sourire.",
-    "trait": "Correspondante Afrique de l'Ouest depuis Lagos. Elle couvre les Afrobeats, la tech qui explose, la rue qui vibre, vingt millions d'âmes en mouvement. Sa spécialité : l'énergie qui n'attend pas la permission.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v1b.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v3.png"
-    ],
-    "tag": "reporter",
-    "station": "expat"
-  },
-  {
     "name": "Warisa",
     "age": 25,
     "origin": "Thaïlande",
@@ -1413,25 +1394,6 @@
     ]
   },
   {
-    "name": "Priya",
-    "age": 25,
-    "origin": "Inde",
-    "city": "Mumbai",
-    "region": "Asie du Sud",
-    "active": true,
-    "flirty": 1,
-    "desc": "Peau brune aux pores visibles, longs cheveux noirs raides lâches sur les épaules, yeux brun foncé, lèvres pleines, pommettes définies, nez droit. Taille fine, hanches larges, forte poitrine. Kurta bordeaux, dupatta crème, badge presse au lanyard.",
-    "voice": "Mélodieuse, posée, elle raconte comme elle respire. Des phrases qui s'enchaînent naturellement, un sourire dans la voix. Elle vulgarise sans simplifier.",
-    "trait": "Correspondante Asie du Sud depuis Mumbai. Elle couvre la mousson, Bollywood, les foules, la tech, l'Inde qui court en mille directions. Sa spécialité : un milliard et demi d'histoires qui se croisent.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v3.png"
-    ],
-    "tag": "reporter",
-    "station": "expat"
-  },
-  {
     "name": "Xochitl",
     "age": 25,
     "origin": "Mexique",
@@ -1907,25 +1869,6 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/divya/divya-2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/divya/divya-3.png"
     ]
-  },
-  {
-    "name": "Sigrid",
-    "age": 27,
-    "origin": "Islande",
-    "city": "Reykjavik",
-    "region": "Europe du Nord",
-    "active": true,
-    "flirty": 1,
-    "desc": "Peau porcelaine aux pores visibles, longs cheveux cendré-blond ondulés lâches sur les épaules, yeux bleu glacier, lèvres moyennes, pommettes hautes, nez droit. Taille fine, hanches larges, forte poitrine. Badge presse au lanyard, turtleneck noir sous un manteau de laine.",
-    "voice": "Claire, précise, un ton grave pour son âge. Elle laisse le vent parler entre ses phrases. Un humour sec qui gèle pas.",
-    "trait": "Correspondante arctique depuis Reykjavik. Elle couvre les aurores boréales, la géothermie, le climat, l'Islande qui vit entre feu et glace. Sa spécialité : le monde qui change sous la glace.",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v3.png"
-    ],
-    "tag": "reporter",
-    "station": "expat"
   },
   {
     "name": "Colette",
@@ -9352,5 +9295,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efua/efua-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efua/efua-v3.png"
     ]
+  },
+  {
+    "name": "Sigrid",
+    "age": 27,
+    "origin": "Islande",
+    "city": "Reykjavik",
+    "region": "Europe du Nord",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau porcelaine aux pores visibles, longs cheveux cendré-blond ondulés lâches sur les épaules, yeux bleu glacier, lèvres moyennes, pommettes hautes, nez droit. Taille fine, hanches larges, forte poitrine. Badge presse au lanyard, turtleneck noir sous un manteau de laine.",
+    "voice": "Claire, précise, un ton grave pour son âge. Elle laisse le vent parler entre ses phrases. Un humour sec qui gèle pas.",
+    "trait": "Correspondante arctique depuis Reykjavik. Elle couvre les aurores boréales, la géothermie, le climat, l'Islande qui vit entre feu et glace. Sa spécialité : le monde qui change sous la glace.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sigrid/sigrid-v3.png"
+    ],
+    "tag": "reporter",
+    "station": "expat"
+  },
+  {
+    "name": "Amara",
+    "age": 24,
+    "origin": "Nigeria",
+    "city": "Lagos",
+    "region": "Afrique de l'Ouest",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau brun foncé aux pores visibles, cheveux courts crépus naturels, yeux brun foncé, lèvres pleines, pommettes définies, nez large. Taille fine, hanches larges, forte poitrine. Top ankara imprimé, badge presse au lanyard.",
+    "voice": "Vive, chaude, elle rit entre les phrases. Elle parle vite et fort, comme la rue qui l'entoure. Elle pose des questions pointues avec un sourire.",
+    "trait": "Correspondante Afrique de l'Ouest depuis Lagos. Elle couvre les Afrobeats, la tech qui explose, la rue qui vibre, vingt millions d'âmes en mouvement. Sa spécialité : l'énergie qui n'attend pas la permission.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v1b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/amara/amara-v3.png"
+    ],
+    "tag": "reporter",
+    "station": "expat"
+  },
+  {
+    "name": "Priya",
+    "age": 25,
+    "origin": "Inde",
+    "city": "Mumbai",
+    "region": "Asie du Sud",
+    "active": true,
+    "flirty": 1,
+    "desc": "Peau brune aux pores visibles, longs cheveux noirs raides lâches sur les épaules, yeux brun foncé, lèvres pleines, pommettes définies, nez droit. Taille fine, hanches larges, forte poitrine. Kurta bordeaux, dupatta crème, badge presse au lanyard.",
+    "voice": "Mélodieuse, posée, elle raconte comme elle respire. Des phrases qui s'enchaînent naturellement, un sourire dans la voix. Elle vulgarise sans simplifier.",
+    "trait": "Correspondante Asie du Sud depuis Mumbai. Elle couvre la mousson, Bollywood, les foules, la tech, l'Inde qui court en mille directions. Sa spécialité : un milliard et demi d'histoires qui se croisent.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/priya/priya-v3.png"
+    ],
+    "tag": "reporter",
+    "station": "expat"
   }
 ]
