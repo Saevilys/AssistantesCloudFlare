@@ -168,7 +168,7 @@ let currentSortDir='desc';
 let searchTerm='';
 fetch('data.json').then(r=>r.json()).then(all=>{
   data=all.filter(a=>a.collection==='roomservice');
-  buildBanner(d);
+  buildBanner(data);
   render();
   document.getElementById('rsCount').textContent=data.length+' membres en service';
 });
