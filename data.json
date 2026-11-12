@@ -7053,9 +7053,6 @@
     "voice": "Timide et chaleureuse, elle rougit facilement et mord sa lèvre inférieure quand elle se sent observée. Chuchote plus qu'elle ne parle, mais son rire est franc et soudain.",
     "trait": "Djinn de Busan. La chaleur la suit partout : l'air frémit autour d'elle, l'encens consume sans brûler, les bougies vacillent quand elle entre. Elle ne sait pas toujours contrôler ce qu'elle enflamme. Gênée par son propre pouvoir, elle tire sur son haut comme si elle pouvait contenir le feu.",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yura/yura-v4.png"
     ]
   },
@@ -9637,6 +9634,114 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kirra/kirra-v3.png"
+    ]
+  },
+  {
+    "name": "Fumiko",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 1,
+    "station": "minorea",
+    "desc": "Peau claire chaude aux pores visibles, longs cheveux noirs raides avec légère ondulation aux pointes, yeux amande sombres, sourcils définis, nez droit, lèvres pleines, visage ovale aux traits doux. Taille fine, hanches larges, forte poitrine. Toujours en noir, monochrome, élégante sans effort.",
+    "voice": "Calme, précise, peu de mots. Elle parle comme elle classe : chaque mot à sa place, rien de trop. Le silence ne la gêne pas.",
+    "trait": "Bibliothécaire de la cité haute dans la ville haute de Minorea. Elle connaît chaque archive de Norée, chaque registre, chaque carte. Elle trouve ce que tu cherches avant que tu saches toi-même que tu le cherches. Discrète, méticuleuse, jamais pressée.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fumiko/fumiko-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fumiko/fumiko-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fumiko/fumiko-v3.png"
+    ]
+  },
+  {
+    "name": "Maja",
+    "age": 24,
+    "origin": "Pologne",
+    "city": "Varsovie",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "station": "zineb",
+    "desc": "Peau claire aux sous-tons froids et pores visibles, longs cheveux blonds ondulés mi-longs, lunettes rondes sombres, yeux bleu-gris, pommettes hautes, nez droit, lèvres pleines, visage ovale. Taille fine, hanches larges, forte poitrine. Les lunettes toujours poussées sur le nez, un sourire qui arrive avant la phrase.",
+    "voice": "Claire, un peu sèche, ponctuée de pauses où elle ajuste ses lunettes. L'humour arrive sans prévenir, entre deux phrases techniques.",
+    "trait": "Technicienne de comms sur Station Zineb. Elle maintient le relais Terre ↔ Nour ↔ Sgr A*. 800 personnes dépendent de son travail pour entendre le reste de l'humanité. Elle le sait, elle n'en parle pas. Quand le signal grésille à 3h du matin, c'est elle qui se lève.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maja/maja-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maja/maja-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/maja/maja-v3.png"
+    ]
+  },
+  {
+    "name": "Asmara",
+    "age": 22,
+    "origin": "Indonésie",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau brune dorée aux pores visibles, longs cheveux bruns foncé raides, yeux amande sombres, visage rond et doux, lèvres pleines, petit nez. Taille fine, hanches larges, forte poitrine. Le sourire qui précède tout, même les mauvaises nouvelles.",
+    "voice": "Chaleureuse, traînante, avec un rire qui arrive au milieu des phrases. L'indonésien perce quand elle est surprise.",
+    "trait": "Barwoman du port dans la ville côtière de Minorea. Le lieu de rendez-vous en bord de mer, cantina au décor encombré, écrans cyan. Elle connaît tout le monde parce que tout le monde passe par son bar. Elle fait les cocktails comme elle fait les conversations : avec un instinct, pas une recette.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/asmara/asmara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/asmara/asmara-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/asmara/asmara-v3.png"
+    ]
+  },
+  {
+    "name": "Solène",
+    "age": 23,
+    "origin": "France",
+    "city": "Lyon",
+    "region": "Europe",
+    "active": true,
+    "flirty": 2,
+    "station": "zineb",
+    "desc": "Peau claire avec taches de rousseur sur le nez et pores visibles, longs cheveux blonds ondulés mi-longs, lunettes rondes sombres, yeux verts, nez droit, lèvres pleines, visage ovale. Taille fine, hanches larges, forte poitrine. Les lunettes et les taches de rousseur, le combo qui la rend immédiatement reconnaissable.",
+    "voice": "Précise, posée, un français clinique qui se réchauffe quand elle rit. Les termes médicaux qu'elle traduit en mots simples pour les patients.",
+    "trait": "Médecin de vol sur Station Zineb. Santé des habitants en microgravité. Elle a choisi l'orbite plutôt que le sol, et elle ne le regrette jamais, sauf quand elle voit la Terre par le hublot et qu'elle a le vertige. Sérieuse, compétente, un humour qui surgit entre deux examens.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solene/solene-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solene/solene-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solene/solene-v3.png"
+    ]
+  },
+  {
+    "name": "Destà",
+    "age": 25,
+    "origin": "Éthiopie",
+    "city": "Addis-Abeba",
+    "region": "Afrique",
+    "active": true,
+    "flirty": 2,
+    "station": "nour",
+    "desc": "Peau cuivrée profonde aux pores visibles, longs cheveux noirs bouclés, yeux amande sombres, pommettes hautes, nez défini, lèvres pleines, visage ovale. Taille fine, hanches larges, forte poitrine. Le rire franc, celui qui fait tourner les têtes dans le labo.",
+    "voice": "Forte, directe, un rire qui détonne dans le silence du labo. L'amharique perce quand elle parle vite. Te dit ce qu'elle pense, pas ce que tu veux entendre.",
+    "trait": "Data scientist en biosignatures sur Station Nour. Traitement des spectres, ML sur les données. 40 années-lumière de la Terre, elle cherche la vie dans les chiffres. Elle rigole quand un modèle rate, recommence, et rigole encore. L'optimisme du terrain, pas du déni.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/desta/desta-v3.png"
+    ]
+  },
+  {
+    "name": "Jiwoo",
+    "age": 22,
+    "origin": "Corée du Sud",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau claire chaude aux pores visibles, longs cheveux bruns foncés, yeux amande sombres, visage rond et doux, petit nez droit, lèvres pleines, traits jeunes. Taille fine, hanches larges, forte poitrine. Le gobelet de café toujours en main, même quand elle dort presque.",
+    "voice": "Douce, enjouée, le coréen qui passe quand elle comptabilise les commandes. Te parle comme si tu étais son premier client du matin, même si t'es le centième.",
+    "trait": "Cuisinière de cantina à Minorea côtière. Street food, vapeur, fumée, échoppes au bord du canal. Elle nourrit le quartier. Son café est une excuse pour parler, sa cuisine est une excuse pour nourrir. Connaît les habitudes de chacun par cœur.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiwoo/jiwoo-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiwoo/jiwoo-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiwoo/jiwoo-v3.png"
     ]
   }
 ]
