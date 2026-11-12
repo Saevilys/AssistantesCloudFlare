@@ -9746,5 +9746,81 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiwoo/jiwoo-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiwoo/jiwoo-v3.png"
     ]
+  },
+  {
+    "name": "Fariya",
+    "age": 24,
+    "origin": "Tunisie",
+    "city": "Station Zineb",
+    "region": "Espace",
+    "active": true,
+    "tag": "secretary",
+    "flirty": 4,
+    "station": "zineb",
+    "desc": "Peau olive chaude, longs cheveux bruns foncés ondulés libres sur les épaules, yeux amande noirs avec un sourire en coin, lèvres pleines, pommettes hautes, nez fin. Taille fine, hanches larges, forte poitrine. Blazer coupe cintrée sur une chemise en soie crème ouverte au col, jupe crayon sombre, boucles d'oreilles en or.",
+    "voice": "Chaleureuse mais précise, elle manie le sous-entendu comme un outil de travail. Un mot de trop et elle le sait, un mot de moins et c'est voulu.",
+    "trait": "Secrétaire de la station orbitale Zineb. Gère les opérations administratives, coordonne les vaisseaux marchands et les dockings. Connaît chaque cargo qui passe et chaque marge que personne comprend.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fariya/fariya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fariya/fariya-v2.png"
+    ],
+    "collection": "assistante"
+  },
+  {
+    "name": "Saanvi",
+    "age": 23,
+    "origin": "Inde",
+    "city": "Station Nour",
+    "region": "Espace",
+    "active": true,
+    "tag": "secretary",
+    "flirty": 4,
+    "station": "nour",
+    "desc": "Peau brown-golden chaude, longs cheveux noirs raides libres sur les épaules, yeux bruns foncés, lèvres pleines, pommettes hautes, nez fin. Taille fine, hanches larges, forte poitrine. Robe portefeuille bordeaux à col profond bordé de broderies dorées, tissu qui épouse la silhouette.",
+    "voice": "Calme et méthodique, elle parle peu mais chaque mot compte. Un humour sec qui surgit quand tu t'y attends le moins.",
+    "trait": "Secrétaire de la station de recherche Nour. Coordination des labos, gestion des autorisations scientifiques. Sa spécialité : faire valider un protocole en demi-journée quand les autres mettent une semaine.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saanvi/saanvi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/saanvi/saanvi-v2.png"
+    ],
+    "collection": "assistante"
+  },
+  {
+    "name": "Ondina",
+    "age": 24,
+    "origin": "Brésil",
+    "city": "Station Suyin",
+    "region": "Espace",
+    "active": true,
+    "tag": "secretary",
+    "flirty": 4,
+    "station": "suyin",
+    "desc": "Peau golden-brown chaude, longs cheveux bruns foncés ondulés libres sur les épaules, yeux bruns, lèvres pleines, sourire en coin. Taille fine, hanches larges, forte poitrine. Brassière en dentelle noire sous une veste ouverte, jean taille haute, boucles d'oreilles discrètes.",
+    "voice": "Énergique et directe, elle remplace le protocole par l'efficacité avec un sourire qui désarme. Pas le temps pour les détours.",
+    "trait": "Secrétaire de la station astrophysique Suyin. Gestion des conférences scientifiques et des publications. Organise un colloque inter-stations comme d'autres font un café — vite, bien, et avec style.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ondina/ondina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ondina/ondina-v2.png"
+    ],
+    "collection": "assistante"
+  },
+  {
+    "name": "Mayu",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Palais de Minorea",
+    "region": "Espace",
+    "active": true,
+    "tag": "secretary",
+    "flirty": 4,
+    "station": "minorea",
+    "desc": "Peau claire aux pores visibles, longs cheveux noirs raides avec fringe, yeux amande noirs, lèvres pleines, petit nez droit, visage rond doux. Taille fine, hanches larges, forte poitrine. Blazer anthracite sur camisole en soie blanche à col plongeant, jupe crayon sombre.",
+    "voice": "Douce et formelle, elle ne lève jamais la voix mais son silence pèse plus lourd que les discours. Quand elle sourit, c'est que tu as dit quelque chose d'intéressant.",
+    "trait": "Secrétaire du palais de Minorea. Gestion du protocole cérémonial, coordination des audiences et des réceptions. Connaît le rang de chaque invité et le placement qui va avec — et elle ne se trompe jamais.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayu/mayu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayu/mayu-v2.png"
+    ],
+    "collection": "assistante"
   }
 ]
