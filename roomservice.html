@@ -166,7 +166,7 @@ let data=[];
 let currentSort='arrival';
 let currentSortDir='desc';
 let searchTerm='';
-fetch('data.json').then(r=>r.json()).then(all=>{
+fetch('data-full.json').then(r=>r.json()).then(all=>{
   data=all.filter(a=>a.collection==='roomservice');
   buildBanner(data);
   render();
