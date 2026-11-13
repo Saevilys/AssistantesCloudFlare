@@ -10114,6 +10114,7 @@
     "origin": "Japon",
     "city": "Haute Minorea",
     "region": "Minorea",
+    "station": "minorea",
     "active": true,
     "tag": "anchor",
     "flirty": 2,
