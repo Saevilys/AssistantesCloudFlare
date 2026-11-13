@@ -9786,5 +9786,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yasmine/yasmine-v3.png"
     ]
+  },
+  {
+    "name": "Setsuna",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "tag": "goth",
+    "flirty": 2,
+    "desc": "Peau porcelaine pâle aux pores visibles, longs cheveux blancs raides past shoulders, yeux amande bruns avec heavy black eyeliner et dark eyeshadow, sourcils arqués fins, lèvres pleines rouge bordeaux foncé, visage en cœur, maquillage goth. Taille fine, hanches larges, macromastia, forte poitrine généreuse. Bodycon mini dress noir avec spaghetti straps, tissu stretch qui épouse la silhouette.",
+    "voice": "Lente, traînante, chaque mot comme un calcul. Elle ne répond pas direct, laisse une phrase en l'air, attend que tu la finisses. Le mystère c'est pas une pose, c'est sa façon de penser.",
+    "trait": "Diseuse de bonne aventure de la cité côtière de Minorea. Elle lit les cartes, les lignes de la main, la fumée de l'encens. Y croit-elle ? Elle dirait que la question n'est pas la bonne. Le contraste : la mystique et la jeune femme qui boit son café noir en lisant un manga derrière le comptoir quand y'a pas de clients.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/setsuna/setsuna-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/setsuna/setsuna-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/setsuna/setsuna-v3.png"
+    ]
+  },
+  {
+    "name": "Sua",
+    "age": 23,
+    "origin": "Corée du Sud",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "tag": "goth",
+    "flirty": 2,
+    "desc": "Peau claire aux sous-tons chauds et pores visibles, cheveux noirs en bun haut soigné, yeux monolides avec smoky eyeshadow et winged eyeliner, sourcils droits, lèvres pleines lipstick plum foncé, visage petit, maquillage goth. Taille fine, hanches larges, macromastia, très forte poitrine. Black virgin killer sweater, open back, wide off-shoulder neckline.",
+    "voice": "Précise, méthodique, phrases courtes et affirmées. Elle parle peu mais chaque mot compte. Calme qui ne craque pas.",
+    "trait": "Artisane de la cité haute de Minorea, elle travaille le métal et le verre, fabrique les ornements des modules flottants. Ses mains sont toujours occupées. Le contraste : la précision chirurgicale au travail et le look goth complet, le virgin killer qui montre le dos.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sua/sua-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sua/sua-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sua/sua-v3.png"
+    ]
+  },
+  {
+    "name": "Yoru",
+    "age": 21,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "tag": "goth",
+    "flirty": 3,
+    "desc": "Peau légèrement dorée aux pores visibles, cheveux noirs en carré lisse avec frange droite, yeux bruns avec kohl noir épais, sourcils épais, lèvres pleines lipstick noir, visage rond, maquillage goth. Taille fine, hanches larges, macromastia, très forte poitrine. Black crop top with fishnet sleeves et black pleated mini-skirt.",
+    "voice": "Sèche, rapide, un sarcasme par phrase. Elle te sert un drink et un commentaire dans le même geste. Rire bref qui surprend.",
+    "trait": "Barwoman du port de Minorea, le bar goth du quartier côtier avec néon violet et musique trap. Elle connaît les rumeurs de la ville avant tout le monde. Le contraste : les bras chargés de tatouages et le mini-skirt, le service rapide et le regard qui juge.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoru/yoru-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoru/yoru-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoru/yoru-v3.png"
+    ]
   }
 ]
