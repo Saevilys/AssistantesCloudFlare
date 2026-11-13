@@ -46,16 +46,16 @@
   }
 
   var debounceTimer;
+  // Determine current page from URL
+  var currentPage=(window.location.pathname.split('/').pop()||'index.html').split('?')[0].split('#')[0];
+
   function checkSearch(){
     if(!loaded)return;
     var input=document.getElementById('search');
     if(!input)return;
     var q=input.value.trim().toLowerCase();
     if(!q||q.length<2){suggest.style.display='none';return}
-    var grid=document.getElementById('grid');
-    var hasResults=grid&&grid.children.length>0;
-    if(hasResults){suggest.style.display='none';return}
-    // No local results — check map
+    // Look up in nameMap (exact or substring match)
     var match=nameMap[q];
     if(!match){
       var keys=Object.keys(nameMap);
@@ -63,7 +63,7 @@
         if(keys[i].includes(q)){match=nameMap[keys[i]];break}
       }
     }
-    if(match){
+    if(match&&match.url!==currentPage){
       insertSuggest();
       suggest.innerHTML='<strong>'+match.name+'</strong> est dans la section <a href="'+match.url+'" style="color:#e8c878;text-decoration:underline;font-weight:500">'+match.section+'</a>';
       suggest.style.display='block';
