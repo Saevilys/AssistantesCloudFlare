@@ -10144,9 +10144,12 @@
     "voice": "Calme, précise, un peu froide par défaut mais un sourire en coin quand elle se laisse aller. Parle de la météo comme d'une poésie sombre. Dit 'comme prévu' quand une tempête arrive.",
     "trait": "Présentatrice météo goth de Haute Minorea. Elle annonce les tempêtes, les nuages noirs et les basses pressions depuis un studio dim, écrans bleus derrière elle, sa peau pâle qui capte la lumière froide. Elle aime les jours de tempête.",
     "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v5.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v6.png"
     ]
   },
   {
@@ -10163,9 +10166,12 @@
     "voice": "Chaleureuse, énergique, rit en parlant. Passe du français au tahitien sans s'en rendre compte. Anime l'écran avec ses mains, pointe les cyclones avec le sourire.",
     "trait": "Présentatrice météo tropicale de Basse Minorea. Elle annonce les cyclones, les alizés et la température de l'eau lagon depuis un studio lumineux, écrans couleur or et bleu. Elle aime les jours de grosse houle.",
     "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v6.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v5.png"
     ]
   }
 ]
