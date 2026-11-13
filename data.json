@@ -9843,5 +9843,41 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoru/yoru-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yoru/yoru-v3.png"
     ]
+  },
+  {
+    "name": "Towa",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau claire chaude aux pores visibles, longs cheveux noirs raides avec légère ondulation aux pointes, yeux amande sombres, sourcils définis, nez droit, lèvres pleines, visage ovale aux traits doux. Taille fine, hanches larges, poitrine très généreuse, macromastia. La maille côtelée qui épouse sans ouvrir, le sourire discret qui précède la remarque.",
+    "voice": "Calme, méthodique, chaque phrase coupée au bon endroit. Le silence entre deux mots est une précision, pas un manque. Le japonais quand elle compte les mesures.",
+    "trait": "Couturière du quartier dans la ville côtière de Minorea. Petite échoppe entre les food stalls, rouleaux de tissu jusqu'au plafond, machine à coudre et mètre ruban toujours en main. Elle habille le quartier : retouches, sur-mesure, réparations. Connaît les mensurations de tout le monde sans les noter.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/towa/towa-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/towa/towa-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/towa/towa-v3.png"
+    ]
+  },
+  {
+    "name": "Iroha",
+    "age": 22,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau claire chaude aux pores visibles, longs cheveux brun foncé en queue de cheval lâche, yeux amande sombres, sourcils doux, petit nez droit, lèvres pleines, visage rond aux traits jeunes. Taille fine, hanches larges, poitrine très généreuse, macromastia. Le jersey stretch qui moule sans ouvrir, le sourire qui vend avant le prix.",
+    "voice": "Enjouée, rapide, le japonais qui passe quand elle négocie. Te parle comme si tu la connaissais déjà, même la première fois. Rit en finissant ses phrases.",
+    "trait": "Commerçante du vieux marché dans la ville côtière de Minorea. Échoppes sous poutres de bois, lanternes rouges, tissus colorés et céramiques empilés. Elle vend ce que les pêcheurs rapportent et ce que les couturières cousent. Le marché c'est sa famille, elle connaît chaque étal.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iroha/iroha-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iroha/iroha-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iroha/iroha-v3.png"
+    ]
   }
 ]
