@@ -9974,5 +9974,43 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halia/halia-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/halia/halia-v3.png"
     ]
+  },
+  {
+    "name": "Sela",
+    "age": 24,
+    "origin": "Tonga",
+    "city": "Station Nour",
+    "station": "nour",
+    "region": "Océanie",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "desc": "Peau bronzée chaude aux pores visibles, longs cheveux noirs ondulés lâches sur les épaules, quelques mèches libres sur le visage, yeux brun foncé amande, sourcils définis, nez droit fin, lèvres pleines, visage ovale aux traits doux, features polynésiennes. Taille fine, hanches larges, poitrine pleine proportionnée.",
+    "voice": "Chaleureuse, traînante, le calme tropical. Elle annonce la mousson comme d'autres disent bonjour — avec un sourire dans la voix. Le tongan fuse quand elle s'énerve contre une prévision ratée.",
+    "trait": "Présentatrice météo de la Station Nour. Elle lit les courants océaniques, les formations tropicales, l'humidité des serres botaniques. Le bulletin météo de la station diffusé depuis la promenade des serres. Posée comme l'océan qu'elle annonce.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sela/sela-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sela/sela-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sela/sela-v3.png"
+    ]
+  },
+  {
+    "name": "Wayra",
+    "age": 24,
+    "origin": "Pérou",
+    "city": "Station Zineb",
+    "station": "zineb",
+    "region": "Amérique du Sud",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "desc": "Peau bronzée métisse aux pores visibles, longs cheveux noirs raides lâches sur les épaules, pommettes saillantes, yeux brun foncé, sourcils épais définis, nez droit, lèvres pleines, visage ovale à la mâchoire marquée, features quechua. Taille fine, hanches larges, poitrine pleine proportionnée.",
+    "voice": "Posée, directe, le vent dans la voix. Elle annonce la pression atmosphérique comme une évidence. Le quechua affleure quand elle décrit les formations andines. En extérieur, jamais en studio.",
+    "trait": "Présentatrice météo de la Station Zineb. Le bulletin diffusé depuis la terrasse panoramique. Elle lit les vents de la vallée, les formations andines, la pression atmosphérique. Wayra signifie vent en quechua.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wayra/wayra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wayra/wayra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wayra/wayra-v3.png"
+    ]
   }
 ]
