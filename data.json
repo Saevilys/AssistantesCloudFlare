@@ -9889,6 +9889,7 @@
     "active": true,
     "tag": null,
     "flirty": 2,
+    "station": "minorea",
     "desc": "Peau brun moyen aux pores visibles, longs cheveux noirs raides en haute queue de cheval, yeux amande bruns avec eyeliner discret, sourcils épais, lèvres pleines gloss, visage rond à la mâchoire douce. Taille fine, hanches larges, poitrine généreuse.",
     "voice": "Précise, calme, parle technique avec passion. Elle t'explique un gel couleur avec la même intensité qu'un secret. Le malais qui passe quand elle branche un circuit.",
     "trait": "Technicienne éclairagiste au théâtre de Minorea. Elle monte les rigs, calibre les gels, règle chaque spot à la main. La lumière de la scène, c'est elle. Silencieuse dans les cintres, méticuleuse au console.",
@@ -9907,6 +9908,7 @@
     "active": true,
     "tag": null,
     "flirty": 2,
+    "station": "minorea",
     "desc": "Peau bronzée claire aux pores visibles, longs cheveux bruns foncé ondulés libres sur les épaules, yeux bruns avec eyeliner ailé fin, sourcils définis, lèvres pleines gloss nude, petit nez droit, visage ovale aux traits doux. Taille fine, hanches larges, poitrine généreuse.",
     "voice": "Pratique, directe, le rire facile entre deux ordres. Le thaï qui fuse quand elle gère un conflit de quai. Elle te parle comme si tu faisais partie de l'équipe.",
     "trait": "Gestionnaire de dock au port de Minorea. Containers, manifests, plannings de déchargement — tout passe par elle. Elle connaît chaque soute, chaque sceau, chaque retard. Rire franc, poigne ferme.",
@@ -9914,6 +9916,25 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suchada/suchada-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suchada/suchada-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suchada/suchada-v3b.png"
+    ]
+  },
+  {
+    "name": "Shinobu",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Tokyo",
+    "region": "Asie",
+    "active": true,
+    "tag": "reporter",
+    "flirty": 3,
+    "station": "expat",
+    "desc": "Peau dorée claire aux pores visibles, longs cheveux noirs ondulés ébouriffés tombant past les épaules, yeux sombres bienveillants, pommettes rondes, nez droit, lèvres pleines, visage ovale. Taille fine, hanches larges, poitrine généreuse. Veste blanche structurée ouverte en V sur top noir, micro lavalier.",
+    "voice": "Chaleureuse, naturelle, un peu décontractée pour une anchor. La phrase qui t'inclut, le contact direct de la radio. Sérieuse quand il faut.",
+    "trait": "Présentatrice du journal des citoyennes expatriées, diffusée depuis un studio satellite. Elle parle aux Minoreennes disséminées dans le monde, météo de Tokyo, de Paris, de Reykjavik. Moins rigide que Michiru, plus humaine, elle sourit plus qu'une anchor devrait.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shinobu/shinobu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shinobu/shinobu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shinobu/shinobu-v3.png"
     ]
   }
 ]
