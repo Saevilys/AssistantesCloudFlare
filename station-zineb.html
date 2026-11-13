@@ -68,6 +68,10 @@ header .biplink:hover{border-color:#e8c878;color:#e8c878}
 .status-dot.off{background:#ef4444}
 .reporter-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(196,167,255,.6));cursor:default}
 .reporter-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(60,40,80,.6);color:#c4a7ff;border:1px solid rgba(196,167,255,.4);box-shadow:0 0 8px rgba(196,167,255,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
+.anchor-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(232,200,120,.6));cursor:default}
+.anchor-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(60,50,30,.6);color:#e8c878;border:1px solid rgba(232,200,120,.4);box-shadow:0 0 8px rgba(232,200,120,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
+.meteo-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(127,217,200,.6));cursor:default}
+.meteo-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(30,50,50,.6);color:#7fd9c8;border:1px solid rgba(127,217,200,.4);box-shadow:0 0 8px rgba(127,217,200,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
 .card-info{padding:12px 14px}
 .card-name{font-size:1rem;font-weight:500;color:var(--gold);font-family:var(--serif);letter-spacing:.02em}
 .card-meta{font-size:0.68rem;color:var(--ink-faint);margin-top:2px;font-family:var(--mono);letter-spacing:.05em}
@@ -397,7 +401,7 @@ function renderPage(){
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
-      ${a.tag==='reporter'?'<span class="reporter-icon">📷</span>':`<div class="status-dot ${a.active?'on':'off'}"></div>`}
+      ${a.tag==='reporter'?'<span class="reporter-icon">📷</span>':a.tag==='anchor'?'<span class="anchor-icon">🎙️</span>':a.tag==='meteo'?'<span class="meteo-icon">🌤️</span>':`<div class="status-dot ${a.active?'on':'off'}"></div>`}
       ${a.region==='Androides'?'<span class="android-tag">ANDROID</span>':''}
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
@@ -478,7 +482,7 @@ function buildProfile(a){
         : a.flirty>=4
         ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px">♥\uFE0E! LVL 4</span>`
         : `<span class="profile-badge badge-flirt flirt-hearts" style="font-size:0.85rem;padding:4px 12px">${'♥\uFE0E'.repeat(a.flirty)}${'♡\uFE0E'.repeat(3-a.flirty)} Flirt L${a.flirty}</span>`}
-      ${a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':`<span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>`}
+      ${a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':a.tag==='anchor'?'<span class="anchor-badge">🎙️ Anchor</span>':a.tag==='meteo'?'<span class="meteo-badge">🌤️ Météo</span>':`<span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>`}
     </div>
     <div class="profile-body">
       ${photoHtml}
