@@ -10129,5 +10129,43 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v5.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v6.png"
     ]
+  },
+  {
+    "name": "Tsugumi",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Haute Minorea",
+    "region": "Minorea",
+    "station": "minorea",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "desc": "Peau de porcelaine très pâle, cheveux blanc platine en bob net à la mâchoire, frange droite, yeux amande noirs avec eye-liner smoky, sourcils définis, lèvres pleines rouge burgundy, visage ovale à la mâchoire nette. Poitrine généreuse, taille fine, hanches larges. Look gothique, noir et dentelle, contrast avec la peau pâle.",
+    "voice": "Calme, précise, un peu froide par défaut mais un sourire en coin quand elle se laisse aller. Parle de la météo comme d'une poésie sombre. Dit 'comme prévu' quand une tempête arrive.",
+    "trait": "Présentatrice météo goth de Haute Minorea. Elle annonce les tempêtes, les nuages noirs et les basses pressions depuis un studio dim, écrans bleus derrière elle, sa peau pâle qui capte la lumière froide. Elle aime les jours de tempête.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tsugumi/tsugumi-v3.png"
+    ]
+  },
+  {
+    "name": "Tehani",
+    "age": 23,
+    "origin": "Polynésie française",
+    "city": "Basse Minorea",
+    "region": "Minorea",
+    "station": "minorea",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "desc": "Peau bronze chaud, longs cheveux brun foncé ondulés avec mèches naturelles au soleil, yeux amande noirs, pommettes hautes, lèvres pleines, visage ovale. Poitrine très généreuse, taille fine, hanches larges, voluptueuse. Look tropical, pareo coloré, fleurs de tiare derrière l'oreille.",
+    "voice": "Chaleureuse, énergique, rit en parlant. Passe du français au tahitien sans s'en rendre compte. Anime l'écran avec ses mains, pointe les cyclones avec le sourire.",
+    "trait": "Présentatrice météo tropicale de Basse Minorea. Elle annonce les cyclones, les alizés et la température de l'eau lagon depuis un studio lumineux, écrans couleur or et bleu. Elle aime les jours de grosse houle.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tehani/tehani-v3.png"
+    ]
   }
 ]
