@@ -10107,5 +10107,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/burcu/burcu-anchor-v1.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/burcu/burcu-v1.png"
     ]
+  },
+  {
+    "name": "Benio",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Haute Minorea",
+    "region": "Minorea",
+    "active": true,
+    "tag": "anchor",
+    "flirty": 2,
+    "desc": "Peau claire et chaude, visage rond avec des fossettes quand elle sourit, grands yeux marrons vifs, taille fine, hanches larges, forte poitrine. Cheveux noirs en lob avec des mèches auburn subtiles. Regard direct.",
+    "voice": "Voix calme et chaude qui rassemble plutôt qu'elle ne commande. A commencé à la radio avant de passer à la télé. Dit « saa » en réfléchissant.",
+    "trait": "La présentatrice du journal de Haute Minorea. Le visage de confiance que tout le monde regarde chaque soir.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/benio/benio-v6.png"
+    ]
   }
 ]
