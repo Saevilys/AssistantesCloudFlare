@@ -10014,5 +10014,25 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wayra/wayra-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/wayra/wayra-v3.png"
     ]
+  },
+  {
+    "name": "Solbi",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Station Sgr A*",
+    "region": "Espace",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "station": "suyin",
+    "desc": "Peau claire aux pores visibles, cheveux noirs courts et lisses, yeux bruns vifs, pommettes douces, nez droit, lèvres pleines, visage rond aux traits fins. Taille fine, hanches étroites, poitrine moyenne. Combinaison spatiale blanche ouverte, gants technique, tablette de bord.",
+    "voice": "Précise, calme, le chiffre avant l'adjectif. Elle lit la pression comme une partition. Le coréen affleure quand elle annonce les tempêtes solaires.",
+    "trait": "Présentatrice météo de la Station Suyin, poste orbital avancé. Bulletin diffusé depuis la coupole d'observation. Elle lit les tempêtes solaires, les vents stellaires, la pression cosmique. Solbi signifie soleil en coréen.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solbi/solbi-meteo.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solbi/solbi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solbi/solbi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/solbi/solbi-v3.png"
+    ]
   }
 ]
