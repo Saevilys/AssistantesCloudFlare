@@ -10251,5 +10251,43 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v5.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v6.png"
     ]
+  },
+  {
+    "name": "Yifei",
+    "age": 24,
+    "origin": "Chine",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "tag": "meteo",
+    "desc": "Peau claire chaude aux pores visibles, cheveux noirs raides en bob mi-long, yeux amande sombres, sourcils fins arqués, nez droit, lèvres pleines, visage ovale aux traits doux. Taille fine, hanches larges, forte poitrine. Crêpe dress bordeaux fluide, V-neck subtil, manches courtes.",
+    "voice": "Posée, analytique. Elle lit le ciel comme un chercheur lit des données : avec précision, sans émotion inutile. Chaque phrase est une observation.",
+    "trait": "Présentatrice météo des decks extérieurs de Minorea. Elle lit le ciel depuis les ponts, pas depuis un studio. Analytique, posée, elle explique les courants ascendants du Pacifique et les formations célestes avec une précision de chercheuse.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yifei/yifei-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yifei/yifei-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yifei/yifei-v3.png"
+    ]
+  },
+  {
+    "name": "Taeyeon",
+    "age": 23,
+    "origin": "Corée du Sud",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 3,
+    "station": "minorea",
+    "tag": "meteo",
+    "desc": "Teint clair, longs cheveux bruns ondulés au vent, yeux monolides, sourcils droits, petit nez droit, lèvres pleines, visage rond aux traits juvéniles, sourire énergique. Taille fine, hanches larges, forte poitrine. Maille côtelée charcoal, col rond, manches longues, genoux.",
+    "voice": "Vive, haute, parfois elle crie par-dessus le vent. Le bulletin météo comme un terrain, pas un studio. L'énergie d'une orageuse.",
+    "trait": "Présentatrice météo matinale des decks extérieurs de Minorea. Énergie vive, sourire large, elle crie presque par-dessus le vent parfois. Le bulletin météo comme un terrain, pas un studio. Elle est dehors quand tout le monde rentre.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taeyeon/taeyeon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taeyeon/taeyeon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taeyeon/taeyeon-v3.png"
+    ]
   }
 ]
