@@ -78,6 +78,7 @@ header .biplink:hover{border-color:#e8c878;color:#e8c878}
 .flirt{position:absolute;top:10px;left:10px;display:flex;gap:2px}
 .flirt svg{display:block}
 .flirt-hearts{display:flex;gap:2px;background:rgba(255,255,255,0.07);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid rgba(255,255,255,0.12);border-radius:7px;padding:2px 4px}
+.flirt-lvl4{display:flex;align-items:center;background:rgba(255,255,255,0.07);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);border:1px solid rgba(255,51,102,0.25);border-radius:7px;padding:2px 4px}
 .flirt-lvl4 svg{animation:glowPulse 1.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff3366) drop-shadow(0 0 8px #ff3366)}
 .flirt-lvl5 svg{animation:glowPulseRed 1.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff0033) drop-shadow(0 0 8px #ff0033)}
 .flirt-lvl6 svg{animation:rainbowGlow 1.5s ease-in-out infinite}
@@ -451,7 +452,7 @@ function renderPage(){
       : a.flirty>=5
       ? `<span class="flirt-lvl5">${skullHeartSVG(18)}</span>`
       : a.flirty>=4
-      ? `<span class="flirt-lvl4">${heartGlowSVG(28)}</span>`
+      ? `<span class="flirt-lvl4">${heartGlowSVG(20)}</span>`
       : `<span class="flirt-hearts">${[1,2,3].map(i=>heartSVG(i<=a.flirty,16)).join('')}</span>`;
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
