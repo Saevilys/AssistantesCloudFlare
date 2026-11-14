@@ -354,7 +354,7 @@ function heartGlowSVG(size){
   var w=ps*7+1,h=ps*6+1,sh='',rects='';
   for(var y=0;y<6;y++)for(var x=0;x<7;x++)if(_heartGrid[y][x]){
     sh+='<rect x="'+(x*ps+1)+'" y="'+(y*ps+1)+'" width="'+ps+'" height="'+ps+'" fill="#0a0818" fill-opacity="0.6"/>';
-    var f;if(y<=1)f='#ff80aa';else if(y>=4)f='#aa1144';else f='#ff3366';}
+    var f;if(y<=1)f='#ff80aa';else if(y>=4)f='#aa1144';else f='#ff3366';
     rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+ps+'" fill="'+f+'"/>';
     if(y<=2){var hl=(y===0?0.32:0.18);rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+Math.ceil(ps*0.4)+'" fill="#fff" fill-opacity="'+hl+'"/>';}
   }
