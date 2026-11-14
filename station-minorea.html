@@ -112,9 +112,11 @@ header .strate.s2{color:var(--turquoise);border-color:rgba(42,154,176,0.25)}
 .flirt{position:absolute;top:10px;left:10px;display:flex;gap:3px}
 .flirt-hearts{display:flex;gap:3px}
 .flirt svg{display:block}
-.flirt-lvl4 svg{filter:drop-shadow(0 0 4px rgba(208,112,96,0.6))}
+.flirt-lvl4 svg{animation:glowPulse 1.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff3366) drop-shadow(0 0 8px #ff3366)}
 .flirt-lvl5 svg{filter:drop-shadow(0 0 4px rgba(212,72,72,0.5))}
 .flirt-lvl6 svg{animation:rainbowGlow 1.5s ease-in-out infinite}
+@keyframes glowPulse{0%,100%{opacity:1;text-shadow:0 0 6px #ff3366,0 0 12px #ff3366,0 0 18px #ff336680}50%{opacity:.7;text-shadow:0 0 3px #ff3366,0 0 6px #ff3366,0 0 12px #ff336660}}
+@keyframes rainbowGlow{0%,100%{filter:drop-shadow(0 0 5px #ff3366) drop-shadow(0 0 10px #6644ff)}50%{filter:drop-shadow(0 0 8px #44ff44) drop-shadow(0 0 16px #ffdd00)}}
 .flirt-lvl6 .s-mark{font-size:0.85rem;font-weight:900;font-style:italic;color:#d4b878;filter:drop-shadow(0 0 4px rgba(208,136,56,0.5))}
 @keyframes rainbowShift{0%{background-position:0% center}100%{background-position:300% center}}
 .dim{opacity:0.5;filter:grayscale(60%)}
