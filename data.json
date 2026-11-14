@@ -10370,5 +10370,49 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yalda/yalda-v4.png"
     ],
     "collection": "assistante"
+  },
+  {
+    "name": "Klara",
+    "age": 23,
+    "origin": "Tchèque",
+    "city": "Station Zineb",
+    "region": "Espace",
+    "active": true,
+    "tag": "anchor",
+    "flirty": 3,
+    "station": "zineb",
+    "desc": "Peau claire aux sous-tons chauds, pores visibles. Cheveux châtain clair attachés en low ponytail décoiffé avec mèches lâches encadrant le visage. Yeux bleu-gris, sourcils arqués définis, nez droit, lèvres pleines, visage ovale à mâchoire douce, traits jeunes. Taille fine, hanches larges, forte poitrine. Robe maille vert sauge ajustée, col scoop, ourlet mi-cuisse, collants noirs opaques.",
+    "voice": "Douce mais qui tremble un peu au début des émissions. Elle prépare ses bullets avec des notes manuscrites, refuse le prompteur. Stressée elle parle plus vite et zappe des syllabes. La voix fait je débute mais je suis sérieuse.",
+    "trait": "Anchor de la Station Zineb, la station la plus peuplée de Norée. Ancienne étudiante en journalisme à Prague, arrivée à 21 ans, deux ans comme reporter de terrain avant le fauteuil du journal. Sa spécialité : les interviews des habitants, les histoires humaines de la station. Le trac avant chaque émission mais une fois le compte à rebours fini, elle est dedans. La Terre au hublot la fascine encore.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/klara/klara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/klara/klara-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/klara/klara-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/klara/klara-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/klara/klara-anchor-desk.png"
+    ],
+    "collection": "assistante"
+  },
+  {
+    "name": "Kesi",
+    "age": 24,
+    "origin": "Égypte",
+    "city": "Station Nour",
+    "region": "Espace",
+    "active": true,
+    "tag": "anchor",
+    "flirty": 4,
+    "station": "nour",
+    "desc": "Peau doré-brun chaude, pores visibles. Cheveux bruns foncés ondulés relevés en high puff avec mèches lâches. Yeux amande bruns foncés, sourcils définis, nez droit avec légère bosse, lèvres pleines, pommettes hautes, visage ovale, traits jeunes. Taille fine, hanches larges, forte poitrine. Jumpsuit navy ajusté, manches roulées aux coudes, col popped, camisole noire en dessous, bottes pratiques.",
+    "voice": "Claire et posée, avec le grain de quelqu'un qui a fait du terrain avant le studio. Elle parle lentement, laisse respirer les silences, donne du poids aux mots. Pas de prompteur, elle sait ses bullets par cœur. Quand elle hésite, elle regarde le viewport et reprend.",
+    "trait": "Anchor de la Station Nour, le bout du monde habité. Ex-reporter scientifique au Caire, recrutée pour couvrir la recherche sur la vie à TRAPPIST-1d. Elle a fait le voyage de 40 années-lumière à 28 ans, sachant qu'elle ne reviendrait pas. Sa spécialité : les découvertes, les missions EVA, les analyses spectrales. La naine rouge au viewport la calme.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-anchor-desk.png"
+    ],
+    "collection": "assistante"
   }
 ]
