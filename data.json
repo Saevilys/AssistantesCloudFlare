@@ -10230,5 +10230,26 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruoxi/ruoxi-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ruoxi/ruoxi-v3.png"
     ]
+  },
+  {
+    "name": "Chiharu",
+    "age": 23,
+    "origin": "Japon-Minorea",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau claire chaude aux pores visibles, longs cheveux noirs raides tombant sous les épaules avec une légère ondulation aux pointes, yeux amande sombres avec eyeliner discret, sourcils arqués définis, petit nez droit, lèvres pleines, visage ovale aux mâchoires douces, pommettes hautes, traits jeunes. Taille fine, silhouette voluptueuse, poitrine généreuse, hanches larges. Lunettes jamais, gloss léger.",
+    "voice": "Douce mais sûre d'elle. Elle parle de la cité haute comme d'une chose vivante, les modules qui poussent, les nuages en dessous. Un ton posé qui glisse vers le taquin sans prévenir.",
+    "trait": "Habitante de la cité haute de Minorea, née là, jamais descendue en bas avant ses 20 ans. Elle connaît chaque passerelle, chaque jardin suspendu, chaque heure où la lumière traverse les modules blancs et or. Elle guide, elle commente, elle s'arrête quand le panorama mérite de s'arrêter.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chiharu/chiharu-v6.png"
+    ]
   }
 ]
