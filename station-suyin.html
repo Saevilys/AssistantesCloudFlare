@@ -67,11 +67,11 @@ header .biplink:hover{border-color:#e8c878;color:#e8c878}
 .status-dot{position:absolute;top:10px;right:10px;width:10px;height:10px;border-radius:50%;border:2px solid #1a1020}
 .status-dot.on{background:#4ade80}
 .status-dot.off{background:#ef4444}
-.reporter-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(196,167,255,.6));cursor:default}
+.reporter-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,0.08);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(196,167,255,0.2);box-shadow:0 2px 8px rgba(0,0,0,0.25),inset 0 1px 0 rgba(255,255,255,0.15);filter:drop-shadow(0 0 5px rgba(196,167,255,.6));cursor:default}
 .reporter-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(60,40,80,.6);color:#c4a7ff;border:1px solid rgba(196,167,255,.4);box-shadow:0 0 8px rgba(196,167,255,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
-.anchor-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(232,200,120,.6));cursor:default}
+.anchor-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,0.08);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(232,200,120,0.2);box-shadow:0 2px 8px rgba(0,0,0,0.25),inset 0 1px 0 rgba(255,255,255,0.15);filter:drop-shadow(0 0 5px rgba(232,200,120,.6));cursor:default}
 .anchor-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(60,50,30,.6);color:#e8c878;border:1px solid rgba(232,200,120,.4);box-shadow:0 0 8px rgba(232,200,120,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
-.meteo-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;filter:drop-shadow(0 0 5px rgba(127,217,200,.6));cursor:default}
+.meteo-icon{position:absolute;top:7px;right:7px;font-size:1.05rem;z-index:2;display:flex;align-items:center;justify-content:center;width:26px;height:26px;border-radius:8px;background:rgba(255,255,255,0.08);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(127,217,200,0.2);box-shadow:0 2px 8px rgba(0,0,0,0.25),inset 0 1px 0 rgba(255,255,255,0.15);filter:drop-shadow(0 0 5px rgba(127,217,200,.6));cursor:default}
 .meteo-badge{display:inline-block;padding:4px 14px;border-radius:12px;font-size:0.72rem;background:rgba(30,50,50,.6);color:#7fd9c8;border:1px solid rgba(127,217,200,.4);box-shadow:0 0 8px rgba(127,217,200,.15);margin-top:8px;font-family:var(--mono);letter-spacing:.06em}
 .card-info{padding:12px 14px}
 .card-name{font-size:1rem;font-weight:500;color:var(--gold);font-family:var(--serif);letter-spacing:.02em}
@@ -333,15 +333,31 @@ function buildBanner(d){
   });
 }
 
+var _heartGrid=[[0,1,1,0,1,1,0],[1,1,1,1,1,1,1],[1,1,1,1,1,1,1],[0,1,1,1,1,1,0],[0,0,1,1,1,0,0],[0,0,0,1,0,0,0]];
 function heartSVG(filled,size){
-  size=size||16;
-  var fill=filled?'#e8c878':'none';
-  var stroke=filled?'#1a1020':'#807868';
-  return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="1.5" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+  size=size||14;
+  var ps=Math.max(2,Math.round(size/7));
+  var w=ps*7+1,h=ps*6+1,sh='',rects='';
+  for(var y=0;y<6;y++)for(var x=0;x<7;x++)if(_heartGrid[y][x]){
+    sh+='<rect x="'+(x*ps+1)+'" y="'+(y*ps+1)+'" width="'+ps+'" height="'+ps+'" fill="#0a0818" fill-opacity="0.5"/>';
+    var f;if(filled){if(y<=1)f='#ffb380';else if(y>=4)f='#cc6622';else f='#ff8c42';}
+    else{f='#ff8c42';}
+    rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+ps+'" fill="'+f+'"/>';
+    if(y<=2){var hl=(y===0?0.28:0.15);rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+Math.ceil(ps*0.4)+'" fill="#fff" fill-opacity="'+hl+'"/>';}
+  }
+  return '<svg viewBox="0 0 '+w+' '+h+'" width="'+size+'" height="'+Math.round(size*h/w)+'" shape-rendering="crispEdges">'+sh+rects+'</svg>';
 }
 function heartGlowSVG(size){
-  size=size||18;
-  return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" fill="#ff3366" stroke="#1a1020" stroke-width="1.5" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+  size=size||16;
+  var ps=Math.max(2,Math.round(size/7));
+  var w=ps*7+1,h=ps*6+1,sh='',rects='';
+  for(var y=0;y<6;y++)for(var x=0;x<7;x++)if(_heartGrid[y][x]){
+    sh+='<rect x="'+(x*ps+1)+'" y="'+(y*ps+1)+'" width="'+ps+'" height="'+ps+'" fill="#0a0818" fill-opacity="0.6"/>';
+    var f;if(y<=1)f='#ff80aa';else if(y>=4)f='#aa1144';else f='#ff3366';}
+    rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+ps+'" fill="'+f+'"/>';
+    if(y<=2){var hl=(y===0?0.32:0.18);rects+='<rect x="'+(x*ps)+'" y="'+(y*ps)+'" width="'+ps+'" height="'+Math.ceil(ps*0.4)+'" fill="#fff" fill-opacity="'+hl+'"/>';}
+  }
+  return '<svg viewBox="0 0 '+w+' '+h+'" width="'+size+'" height="'+Math.round(size*h/w)+'" shape-rendering="crispEdges">'+sh+rects+'</svg>';
 }
 function skullHeartSVG(size){
   size=size||18;
@@ -415,8 +431,8 @@ function renderPage(){
       : a.flirty>=5
       ? `<span class="flirt-lvl5">${skullHeartSVG(18)}</span>`
       : a.flirty>=4
-      ? `<span class="flirt-lvl4">${heartGlowSVG(18)}<span style="color:#ff3366;font-weight:700;font-size:0.8rem">!</span></span>`
-      : `<span class="flirt-hearts">${[1,2,3].map(i=>heartSVG(i<=a.flirty,16)).join('')}</span>`;
+      ? `<span class="flirt-lvl4">${heartGlowSVG(16)}<span style="color:#ff3366;font-weight:700;font-size:0.8rem">!</span></span>`
+      : `<span class="flirt-hearts">${[1,2,3].map(i=>heartSVG(i<=a.flirty,14)).join('')}</span>`;
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
