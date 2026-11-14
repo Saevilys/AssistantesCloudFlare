@@ -10414,5 +10414,62 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kesi/kesi-anchor-desk.png"
     ],
     "collection": "assistante"
+  },
+  {
+    "name": "Nami",
+    "age": 23,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Minorea",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "station": "minorea",
+    "desc": "Peau claire et jeune, pores visibles, cheveux noirs longs raisses avec couches subtiles, yeux amande légèrement monolides, sourcils arqués définis, petit nez droit, lèvres pleines, ovale doux adouci par la jeunesse, joues rondes qui rosissent vite. Taille fine, hanches larges, très forte poitrine. Mini dress noir ajusté sans bretelles, tissu plaqué sur les courbes, mi-cuisse, beaucoup de jambe.",
+    "voice": "Timide devant la caméra mais précise sur les chiffres. Rougit dès qu'on la complimente, s'accroche au bord de sa robe. Connaît chaque courant du Pacifique par cœur, parle des nuages comme d'amis. En dehors du plateau, presque muette.",
+    "trait": "Visage du bulletin météo de Minorea, la seule présentatrice à faire la météo d'une ville qui vit SOUS les nuages. Ses cartes montrent la mer de nuages beige-violets comme un océan, avec la houle, les marées et les zones de condensation pour les pêcheuses de nuages. Les cantinas du port coupent la musique pour son bulletin.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nami/nami-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nami/nami-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nami/nami-v3.png"
+    ]
+  },
+  {
+    "name": "Deka",
+    "age": 24,
+    "origin": "Somalie",
+    "city": "Station Nour",
+    "region": "Nour",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "station": "nour",
+    "desc": "Peau sombre brune et jeune, pores visibles, cheveux noirs longs raides et lisses, grands yeux bruns, sourcils arqués, petit nez, lèvres pleines brillantes, ovale doux adouci par la jeunesse, joues rondes. Taille fine, hanches larges, très forte poitrine. Robe émeraude à une épaule, encolure asymétrique dénudant l'épaule et la clavicule, tissu plaqué sur les courbes, mi-cuisse.",
+    "voice": "Doucement fière de ses modèles. Explique l'atmosphère de TRAPPIST-1d avec des gestes larges, comme si on pouvait voir le vent. Timide quand la caméra s'allume, bavarde quand on lui parle de nuages. Rit fort quand elle oublie d'être gênée.",
+    "trait": "Climatologue de la station Nour et visage du bulletin météo de TRAPPIST-1d. Ses prévisions servent aux pilotes de sondes et aux botanistes des serres : heures d'ouverture des dômes, températures au terminateur, alertes tempête de poussière. À quarante années-lumière, sa voix est la météo de la frontière.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/deka/deka-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/deka/deka-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/deka/deka-v3.png"
+    ]
+  },
+  {
+    "name": "Ziya",
+    "age": 25,
+    "origin": "Arabie",
+    "city": "Station Suyin",
+    "region": "Suyin",
+    "active": true,
+    "tag": "meteo",
+    "flirty": 2,
+    "station": "suyin",
+    "desc": "Peau olive claire et jeune, pores visibles, longs cheveux noirs raides balayés sur un côté, grands yeux amande sombres, longs cils, sourcils arqués, nez droit, lèvres pleines, ovale doux adouci par la jeunesse, joues rondes. Taille fine, hanches larges, très forte poitrine. Robe noire ajustée à découpes stratégiques à la taille et aux côtes, manches longues, tissu épousant le corps, mi-cuisse. Eyeliner khol.",
+    "voice": "Silencieuse la plupart du temps, parle par chiffres et par silences. Devant la caméra, elle lit ses bulletins d'une voix basse qui oblige à se pencher. Fascinée par les radiations comme d'autres par la mer. Ne sourit que quand quelqu'un comprend sa blague, ce qui est rare.",
+    "trait": "Face du bulletin météo de la station Suyin. Sa météo : flux de rayonnement, tempêtes de plasma dans le disque d'accrétion, indice de lensing, alertes jets relativistes. Personne d'autre ne présente la météo d'un trou noir. Les ingénieures de structure calent leurs rotations sur ses alertes.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ziya/ziya-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ziya/ziya-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ziya/ziya-v3.png"
+    ]
   }
 ]
