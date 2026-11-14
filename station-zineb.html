@@ -78,6 +78,7 @@ header .biplink:hover{border-color:#e8c878;color:#e8c878}
 .card-trait{font-size:0.75rem;color:#c0b8a8;margin-top:6px;line-height:1.4;max-height:2.8em;overflow:hidden}
 .flirt{position:absolute;top:10px;left:10px;display:flex;gap:3px}
 .flirt svg{display:block}
+.flirt-hearts{display:flex;gap:2px}
 .flirt-lvl4 svg{animation:glowPulse 1.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff3366) drop-shadow(0 0 8px #ff3366)}
 .flirt-lvl5 svg{animation:glowPulseRed 1.8s ease-in-out infinite;filter:drop-shadow(0 0 4px #ff0033) drop-shadow(0 0 8px #ff0033)}
 .flirt-lvl6 svg{animation:rainbowGlow 1.5s ease-in-out infinite}
@@ -432,7 +433,7 @@ function renderPage(){
       : a.flirty>=5
       ? `<span class="flirt-lvl5">${skullHeartSVG(18)}</span>`
       : a.flirty>=4
-      ? `<span class="flirt-lvl4">${heartGlowSVG(16)}<span style="color:#ff3366;font-weight:700;font-size:0.8rem">!</span></span>`
+      ? `<span class="flirt-lvl4">${heartGlowSVG(16)}</span>`
       : `<span class="flirt-hearts">${[1,2,3].map(i=>heartSVG(i<=a.flirty,14)).join('')}</span>`;
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
@@ -516,7 +517,7 @@ function buildProfile(a){
         : a.flirty>=5
         ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px;display:inline-flex;align-items:center;gap:4px">${skullHeartSVG(18)} LVL 5 — Succubus</span>`
         : a.flirty>=4
-        ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px;display:inline-flex;align-items:center;gap:2px">${heartGlowSVG(18)}<span style="color:#ff3366;font-weight:700;font-size:0.8rem">!</span> LVL 4</span>`
+        ? `<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px;display:inline-flex;align-items:center;gap:2px">${heartGlowSVG(18)} LVL 4</span>`
         : `<span class="profile-badge badge-flirt flirt-hearts" style="font-size:0.85rem;padding:4px 12px;display:inline-flex;align-items:center;gap:3px">${[1,2,3].map(i=>heartSVG(i<=a.flirty,16)).join('')} Flirt L${a.flirty}</span>`}
 
       ${a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':a.tag==='anchor'?'<span class="anchor-badge">🎙️ Anchor</span>':a.tag==='meteo'?'<span class="meteo-badge">🌤️ Météo</span>':`<span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>`}
