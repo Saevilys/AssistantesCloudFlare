@@ -110,14 +110,11 @@ header .strate.s2{color:var(--turquoise);border-color:rgba(42,154,176,0.25)}
 .card-meta{font-size:0.68rem;color:var(--ink-faint);margin-top:2px;font-family:var(--mono);letter-spacing:0.05em}
 .card-trait{font-size:0.75rem;color:var(--ink-dim);margin-top:6px;line-height:1.4;max-height:2.8em;overflow:hidden}
 .flirt{position:absolute;top:10px;left:10px;display:flex;gap:3px}
-.flirt-hearts{font-size:0.85rem;line-height:1;letter-spacing:1px;font-family:'Times New Roman',Georgia,serif;text-shadow:1px 1px 0 #fff,-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff}
-.flirt-hearts .on{color:var(--terracotta)}
-.flirt-hearts .off{color:rgba(180,160,120,0.4)}
-.flirt-lvl4{font-size:1.15rem;line-height:1;font-family:'Times New Roman',Georgia,serif;text-shadow:0 0 4px rgba(208,112,96,0.6);color:var(--terracotta)}
-.flirt-lvl5{font-size:1.3rem;line-height:1;font-family:'Times New Roman',Georgia,serif;color:#d44848;text-shadow:0 0 4px rgba(212,72,72,0.5)}
-.flirt-lvl6{font-size:1.5rem;line-height:1}
-.flirt-lvl6 .heart{font-family:'Times New Roman',Georgia,serif;background:linear-gradient(90deg,#d44848,#e89048,#d4b048,#48b890,#48a8c8,#9048c8,#d44848);background-size:300% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rainbowShift 2s linear infinite;filter:drop-shadow(0 0 2px rgba(208,72,72,0.5))}
-.flirt-lvl6 .s-mark{font-size:1rem;font-weight:900;font-style:italic;background:linear-gradient(90deg,#d4b878,#e89048,#d4b878,#d44848,#d4b878);background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:rainbowShift 2.5s linear infinite reverse}
+.flirt svg{display:block}
+.flirt-lvl4 svg{filter:drop-shadow(0 0 4px rgba(208,112,96,0.6))}
+.flirt-lvl5 svg{filter:drop-shadow(0 0 4px rgba(212,72,72,0.5))}
+.flirt-lvl6 svg{animation:rainbowGlow 1.5s ease-in-out infinite}
+.flirt-lvl6 .s-mark{font-size:0.85rem;font-weight:900;font-style:italic;color:#d4b878;filter:drop-shadow(0 0 4px rgba(208,136,56,0.5))}
 @keyframes rainbowShift{0%{background-position:0% center}100%{background-position:300% center}}
 .dim{opacity:0.5;filter:grayscale(60%)}
 .android-tag{position:absolute;top:10px;right:10px;background:rgba(42,154,176,0.85);color:#fff;font-size:0.62rem;letter-spacing:0.08em;padding:3px 7px;border-radius:6px;font-weight:600;z-index:2}
@@ -293,11 +290,29 @@ img.addEventListener('click',function(){var n=img.dataset.name||'';if(n){documen
 });
 }
 
+function heartSVG(filled,size){
+size=size||16;
+var fill=filled?'#a85830':'none';
+var stroke=filled?'#fff':'rgba(180,160,120,0.5)';
+return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" fill="'+fill+'" stroke="'+stroke+'" stroke-width="1.5" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+}
+function heartGlowSVG(size){
+size=size||18;
+return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" fill="#a85830" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+}
+function skullHeartSVG(size){
+size=size||18;
+return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" fill="#d44848" stroke="#fff" stroke-width="1.5" stroke-linejoin="round"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>';
+}
+function rainbowHeartSVG(size){
+size=size||20;
+return '<svg viewBox="0 0 24 24" width="'+size+'" height="'+size+'" stroke="#fff" stroke-width="1" stroke-linejoin="round"><defs><linearGradient id="rbGradM" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#d44848"/><stop offset="16%" stop-color="#e89048"/><stop offset="33%" stop-color="#d4b048"/><stop offset="50%" stop-color="#48b890"/><stop offset="66%" stop-color="#48a8c8"/><stop offset="83%" stop-color="#9048c8"/><stop offset="100%" stop-color="#d44848"/></linearGradient></defs><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="url(#rbGradM)"/></svg>';
+}
 function flirtBannerLabel(lvl){
-if(lvl>=6)return '♥\uFE0E S — Rang S';
-if(lvl>=5)return '☠\uFE0E♥\uFE0E LVL 5 — Succubus';
-if(lvl>=4)return '♥\uFE0E! LVL 4 — Passionné';
-if(lvl>=1)return '♥\uFE0E'.repeat(lvl)+'♡\uFE0E'.repeat(3-lvl)+' Flirt L'+lvl;
+if(lvl>=6)return 'Rang S';
+if(lvl>=5)return 'LVL 5 — Succubus';
+if(lvl>=4)return 'LVL 4 — Passionné';
+if(lvl>=1)return 'Flirt L'+lvl;
 return '';
 }
 
@@ -339,10 +354,10 @@ const grid=document.getElementById('grid');
 grid.innerHTML=pageItems.map(a=>{
 const hasPhoto=a.photos&&a.photos.length>0;
 const img=hasPhoto?'<img src="'+a.photos[0]+'" loading="lazy" decoding="async" alt="'+a.name+'">':'<div class="card-placeholder">photo à venir</div>';
-const flirtDots=a.flirty>=6?'<span class="flirt-lvl6"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span></span>'
-:a.flirty>=5?'<span class="flirt-lvl5">☠\uFE0E♥\uFE0E</span>'
-:a.flirty>=4?'<span class="flirt-lvl4">♥\uFE0E!</span>'
-:'<span class="flirt-hearts">'+[1,2,3].map(i=>'<span class="'+(i<=a.flirty?'on':'off')+'">♥\uFE0E</span>').join('')+'</span>';
+const flirtDots=a.flirty>=6?'<span class="flirt-lvl6">'+rainbowHeartSVG(20)+'<span class="s-mark">S</span></span>'
+:a.flirty>=5?'<span class="flirt-lvl5">'+skullHeartSVG(18)+'</span>'
+:a.flirty>=4?'<span class="flirt-lvl4">'+heartGlowSVG(18)+'<span style="color:#a85830;font-weight:700;font-size:0.8rem">!</span></span>'
+:'<span class="flirt-hearts">'+[1,2,3].map(i=>heartSVG(i<=a.flirty,16)).join('')+'</span>';
 return '<div class="card '+(a.active?'':'dim')+'" data-name="'+a.name+'"><div class="flirt">'+flirtDots+'</div>'+(a.tag==='reporter'?'<span class="reporter-icon">📷</span>':a.tag==='anchor'?'<span class="anchor-icon">🎙️</span>':a.tag==='meteo'?'<span class="meteo-icon">🌤️</span>':'<div class="status-dot '+(a.active?'on':'off')+'"></div>')+(a.region==='Androides'?'<span class="android-tag">ANDROID</span>':'')+img+(a.idle?'<video class="hovervid" src="'+a.idle+'" muted loop preload="metadata" playsinline></video>':'')+'<div class="card-info"><div class="card-name">'+a.name+'</div><div class="card-meta">'+a.age+' ans · '+a.origin+' · '+a.city+'</div><div class="card-trait">'+(a.trait||'')+'</div></div></div>';
 }).join('');
 if(filtered.length===0){grid.innerHTML='<div style="grid-column:1/-1;text-align:center;padding:60px 20px;color:var(--ink-faint);font-style:italic">Aucune citoyenne recensée. La capitale attend ses habitantes.</div>';}
@@ -383,7 +398,7 @@ document.getElementById('overlay').classList.add('open');
 function buildProfile(a){
 const hasPhotos=a.photos&&a.photos.length>0;
 const photoHtml=hasPhotos?'<div class="profile-photos">'+a.photos.map((p,i)=>'<img src="'+p+'" loading="lazy" decoding="async" data-idx="'+i+'" onclick="openLightbox(\''+a.name+'\','+i+')">').join('')+'</div>':'<div class="profile-photos"><div class="ph-empty">photos à venir</div></div>';
-document.getElementById('profile').innerHTML='<div class="profile-header"><span class="profile-close" onclick="closeProfile()">&times;</span><h2>'+a.name+'</h2><div class="profile-meta">'+a.age+' ans · '+a.origin+' · '+a.city+'</div>'+(a.region==='Androides'?'<span class="profile-badge badge-android">ANDROID</span>':'')+(a.tag==='kungfupunk'?'<span class="profile-badge" style="background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':'')+(a.flirty>=6?'<span class="profile-badge badge-flirt"><span class="flirt-lvl6" style="font-size:0.9rem"><span class="heart">♥\uFE0E</span><span class="s-mark">S</span> — Rang S</span></span>':a.flirty>=5?'<span class="profile-badge badge-flirt" style="font-size:0.9rem">☠\uFE0E♥\uFE0E LVL 5</span>':a.flirty>=4?'<span class="profile-badge badge-flirt" style="font-size:0.8rem">♥\uFE0E! LVL 4</span>':'<span class="profile-badge badge-flirt" style="font-size:0.85rem">'+'♥\uFE0E'.repeat(a.flirty)+'♡\uFE0E'.repeat(3-a.flirty)+' Flirt L'+a.flirty+'</span>')+(a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':a.tag==='anchor'?'<span class="anchor-badge">🎙️ Anchor</span>':a.tag==='meteo'?'<span class="meteo-badge">🌤️ Météo</span>':'<span class="toggle-btn '+(a.active?'on':'off')+'" onclick="toggleActive(\''+a.name+'\')">'+(a.active?'● Active':'○ Inactive')+'</span>')+'</div><div class="profile-body">'+photoHtml+((a.idle||a.idle2)?'<div class="profile-section"><div class="profile-label">Vidéos</div><div class="profile-photos">'+(a.idle?'<video src="'+a.idle+'" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>':'')+(a.idle2?'<video src="'+a.idle2+'" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>':'')+'</div></div>':'')+'<div class="profile-section"><div class="profile-label">Apparence</div><div class="profile-text">'+a.desc+'</div></div><div class="profile-section"><div class="profile-label">Voix</div><div class="profile-text">'+a.voice+'</div></div><div class="profile-section"><div class="profile-label">Signature</div><div class="profile-text">'+a.trait+'</div></div></div>';
+document.getElementById('profile').innerHTML='<div class="profile-header"><span class="profile-close" onclick="closeProfile()">&times;</span><h2>'+a.name+'</h2><div class="profile-meta">'+a.age+' ans · '+a.origin+' · '+a.city+'</div>'+(a.region==='Androides'?'<span class="profile-badge badge-android">ANDROID</span>':'')+(a.tag==='kungfupunk'?'<span class="profile-badge" style="background:#1a1408;color:#e8c84b">☯\uFE0E Kung Fu Punk</span>':'')+(a.flirty>=6?'<span class="profile-badge badge-flirt flirt-lvl6" style="font-size:0.9rem;padding:4px 12px;display:inline-flex;align-items:center;gap:4px">'+rainbowHeartSVG(20)+'<span class="s-mark">S</span> — Rang S</span>':a.flirty>=5?'<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px;display:inline-flex;align-items:center;gap:4px">'+skullHeartSVG(18)+' LVL 5</span>':a.flirty>=4?'<span class="profile-badge badge-flirt flirt-lvl4" style="font-size:0.8rem;padding:4px 12px;display:inline-flex;align-items:center;gap:2px">'+heartGlowSVG(18)+'<span style="color:#a85830;font-weight:700">!</span> LVL 4</span>':'<span class="profile-badge badge-flirt" style="font-size:0.85rem;padding:4px 12px;display:inline-flex;align-items:center;gap:3px">'+[1,2,3].map(i=>heartSVG(i<=a.flirty,18)).join('')+' Flirt L'+a.flirty+'</span>')+(a.tag==='reporter'?'<span class="reporter-badge">📷 Reporter</span>':a.tag==='anchor'?'<span class="anchor-badge">🎙️ Anchor</span>':a.tag==='meteo'?'<span class="meteo-badge">🌤️ Météo</span>':'<span class="toggle-btn '+(a.active?'on':'off')+'" onclick="toggleActive(\''+a.name+'\')">'+(a.active?'● Active':'○ Inactive')+'</span>')+'</div><div class="profile-body">'+photoHtml+((a.idle||a.idle2)?'<div class="profile-section"><div class="profile-label">Vidéos</div><div class="profile-photos">'+(a.idle?'<video src="'+a.idle+'" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>':'')+(a.idle2?'<video src="'+a.idle2+'" muted loop controls playsinline preload="metadata" style="border-radius:6px;object-fit:cover;aspect-ratio:3/4;width:100%"></video>':'')+'</div></div>':'')+'<div class="profile-section"><div class="profile-label">Apparence</div><div class="profile-text">'+a.desc+'</div></div><div class="profile-section"><div class="profile-label">Voix</div><div class="profile-text">'+a.voice+'</div></div><div class="profile-section"><div class="profile-label">Signature</div><div class="profile-text">'+a.trait+'</div></div></div>';
 }
 
 function toggleActive(name){const a=data.find(x=>x.name===name);if(!a)return;a.active=!a.active;buildProfile(a);applyFilters();}
