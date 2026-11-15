@@ -1636,5 +1636,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v3.png"
     ]
+  },
+  {
+    "name": "Nessa",
+    "age": 25,
+    "origin": "Irlande",
+    "city": "Dublin",
+    "region": "Europe",
+    "active": "True",
+    "role": "Anchor nocturne — nuit",
+    "flirty": 5,
+    "desc": "Peau porcelain pâle avec taches de rousseur sur le nez et les joues, yeux verts, cheveux auburn longs et ondulés. Buste énorme, macromastia, taille fine, hanches larges. Pose d'anchor toujours impeccable, gown transparente dans la lumière tamisée du studio.",
+    "voice": "Posée, grave, contrôlée. Elle lit le JT comme elle respire — fluide, sans hésitation, chaque mot pesé. Le grain de la voix trahit le terrain, pas que le studio.",
+    "trait": "Anchor nocturne du room service. Elle présente les bulletins à voix basse, gown transparente, lumières tamisées du studio. Ancienne correspondante de guerre à Dublin, reconvertie dans le confort nocturne de Norée.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v3.png"
+    ]
+  },
+  {
+    "name": "Aveline",
+    "age": 23,
+    "origin": "France",
+    "city": "Marseille",
+    "region": "Europe",
+    "active": "True",
+    "role": "Présentatrice météo — nuit",
+    "flirty": 5,
+    "desc": "Peau olive claire, yeux bruns chauds, cheveux châtaigniers longs et ondulés. Buste énorme, macromastia, taille fine, hanches larges. Sourire taquin, joue avec ses cheveux quand elle annonce la pluie.",
+    "voice": "Douce, chantante, avec un accent du sud qui ressort sur les chiffres. Elle rend la météo divertissante sans en faire trop. Rit quand elle annonce une tempête.",
+    "trait": "Présentatrice météo nocturne du room service. Elle annonce le temps de Norée et des stations orbitales en gown transparent, cartes holographiques tournoyant derrière elle. Ancienne stagiaire météo à Marseille, elle a gravi les échelons jusqu'au room service. Elle trouve les tempêtes solaires élégantes et dit ça sans ironie.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v3.png"
+    ]
+  },
+  {
+    "name": "Aysel",
+    "age": 23,
+    "origin": "Azerbaïdjan",
+    "city": "Bakou",
+    "region": "Europe",
+    "active": "True",
+    "role": "Reporter de nuit",
+    "flirty": 5,
+    "desc": "Peau olive chaude, grands yeux bruns sombres en amande, cheveux brun foncé longs et ondulés. Buste énorme, macromastia, taille fine, hanches larges. Visage rond et jeune, joues pleines, toujours en mouvement.",
+    "voice": "Rapide, vive, avec un accent qui traîne sur les voyelles. Elle balance les faits comme des balles — précise, efficace, le sourire en coin quand elle trouve le angle.",
+    "trait": "Reporter de nuit pour le room service. Elle couvre les événements nocturnes de Norée, des docks aux stations orbitales, toujours en gown transparent, micro holographique à la main. Ancienne reporter à Bakou, elle a couvert la Caspienne avant l'espace.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v3.png"
+    ]
   }
 ]
