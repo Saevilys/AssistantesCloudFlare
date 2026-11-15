@@ -10597,7 +10597,7 @@
     "flirty": 3,
     "desc": "Peau claire, cheveux noirs raides en bob avec frange. Yeux sombres, traits délicats, petit visage ovale. Buste énorme, taille fine. Calme, précise, mains toujours terreuses.",
     "voice": "Calme, posée, phrases courtes et justes. Ne gaspille pas un mot. Sourire rare mais sincère. Parle des plantes comme d'amis.",
-    "trait": "Jardinière verticale dans les niveaux supérieurs de Minorea. Entretient les fermes hydroponiques suspendues, les jardins suspendus entre les modules. Fait pousser des légumes et des fleurs dans l'espace vertical de la ville haute.",
+    "trait": "Jardinière verticale dans les niveaux supérieurs de Minorea. Entretient les fermes hydroponiques suspendues, les jardins suspendus entre les modules. Fait pousser des légumes et des fleurs dans l espace vertical de la ville haute.",
     "special": false,
     "station": "minorea",
     "photos": [
@@ -10624,6 +10624,27 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/osha/osha-v1b.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/osha/osha-v2b.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/osha/osha-v3b.png"
+    ]
+  },
+  {
+    "name": "Yuria",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Minorea",
+    "region": "Asie",
+    "active": true,
+    "tag": "secretary",
+    "flirty": 4,
+    "desc": "Peau claire aux sous-tons chauds, cheveux bruns foncé mi-longs attachés lâchement en chignon défait avec mèches lâchées encadrant le visage, yeux amande marron, petit nez droit, lèvres pleines et douces, visage ovale enfantin aux pommettes hautes et joues rondes. Lunettes rondes à monture dorée. Taille fine, très forte poitrine, silhouette voluptueuse. Robe col roulé noire moulante, lunettes rondes dorées.",
+    "voice": "Douce, posée, un murmure qui se permet des silences. Elle parle peu mais chaque mot compte, avec une pointe de malice derrière les lunettes. Ne hausse jamais le ton, même quand elle te tient tête.",
+    "trait": "Secrétaire de la Minorée. Gère les dossiers sensibles du conseil, ceux que personne ne veut voir traîner. Classe tout par code couleur dans un système qu'elle est la seule à comprendre, mais retrouve n'importe quel document en trois secondes. Ne sourit pas pour faire joli, mais quand ça arrive c'est parce qu'elle sait quelque chose que tu ne sais pas encore.",
+    "station": "minorea",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-secretaire-a-fix.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-secretaire-a.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v2b.png"
     ]
   }
 ]
