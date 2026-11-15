@@ -10641,10 +10641,46 @@
     "station": "minorea",
     "photos": [
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v6.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-secretaire-b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-secretaire-a-fix.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-secretaire-a.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v4.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuria/yuria-v2b.png"
+    ]
+  },
+  {
+    "name": "Chae-yoon",
+    "age": 24,
+    "origin": "Corée du Sud",
+    "city": "Norée",
+    "region": "Asie",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau claire et chaude aux pores visibles. Yeux amande légèrement tombants, sourcils arqués, lèvres pleines, nez défini. Longs cheveux noirs raides en chignon décoiffé avec baguettes. Silhouette voluptueuse, forte poitrine. T-shirt blanc moulant sous tablier coréen, short jean sombre.",
+    "voice": "Fort, direct, sans filtre. Gueule sur les clients, rit fort avec les sympas. Tutoie tout le monde.",
+    "trait": "Tient un stand de ramen dans le marché flottant de Norée. 200 couverts par service et fière de chaque bol.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chae-yoon/chae-yoon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chae-yoon/chae-yoon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chae-yoon/chae-yoon-v3b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/chae-yoon/chae-yoon-v4.png"
+    ]
+  },
+  {
+    "name": "Giovana",
+    "age": 25,
+    "origin": "Brésil",
+    "city": "Station Orbitale Norée",
+    "region": "Amérique",
+    "active": true,
+    "flirty": 3,
+    "desc": "Peau olive bronzée aux pores visibles, taches de rousseur sur les joues. Grands yeux amande marron, lèvres pleines. Cheveux bruns bouclés en chignon défait. Silhouette voluptueuse, forte poitrine. Tank top noir moulant sous flannel, jean sombre, tablier vert.",
+    "voice": "Chaleureuse, bavarde, rit de tout. Mélange portugais et français. Toujours une anecdote sur un client.",
+    "trait": "Barista de la station orbitale. Fait les meilleurs lattes à 400 km d'altitude et elle le sait.",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/giovana/giovana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/giovana/giovana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/giovana/giovana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/giovana/giovana-v4.png"
     ]
   }
 ]
