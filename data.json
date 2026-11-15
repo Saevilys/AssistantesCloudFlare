@@ -10537,32 +10537,5 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dahab/dahab-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dahab/dahab-v4.png"
     ]
-  },
-  {
-    "name": "Sefina",
-    "age": 27,
-    "origin": "Fidji",
-    "city": "Minorea",
-    "region": "Capitale",
-    "active": true,
-    "tag": "anchor",
-    "role": "anchor",
-    "flirty": 2,
-    "desc": "Peau caramel-bronze profonde et chaleureuse, cheveux noirs volumineux en blowout lisse avec des ondulations douces encadrant le visage, yeux brun foncé avec eyeliner wing, sourcils sculptés, nez large avec une touche de highlight, lèvres pleines au rouge bordeaux mat, pommettes hautes et marquées, mâchoire définie. Poitrine très généreuse, taille fine, hanches larges, voluptueuse. Maquillage glam naturel, bijoux en or discret.",
-    "voice": "Posée, claire, articulée. Le ton d'une anchor qui lit le JT mais qui peut bifurquer sur un sourire quand un sujet la touche. Rythme mesuré, jamais précipité. Un mélange anglais/fidjien hors antenne.",
-    "trait": "Anchor de NoréeTV à Minorea. Présente le journal du soir avec calme et autorité. Fidjienne d'origine, elle apporte la chaleur du Pacifique à l'antenne. Professionnelle sans être froide.",
-    "special": "",
-    "idle": "",
-    "station": "minorea",
-    "style": "strapless teal evening dress, gold hoop earrings, gold chain necklace, burgundy matte lipstick, sleek blowout",
-    "collection": "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v1.png, https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v2-anchor-desk.png, https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v3-offair-candid.png, https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v4-reportage.png, https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v5-coffee-break.png, https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-fullhd-clean.png",
-    "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v1.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v2-anchor-desk.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v3-offair-candid.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v4-reportage.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-v5-coffee-break.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sefina/sefina-fullhd-clean.png"
-    ]
   }
 ]
