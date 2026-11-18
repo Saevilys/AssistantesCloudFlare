@@ -15923,5 +15923,86 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v3.png"
     ]
+  },
+  {
+    "id": 650,
+    "name": "Nozomi",
+    "age": 24,
+    "origin": "Japon",
+    "city": "Station Zineb",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretary",
+    "role": "Secretary",
+    "flirty": 2,
+    "desc": "Peau porcelaine, cheveux noirs raides avec des layers subtils sous les épaules. Yeux amande noisette au regard doux, petit nez droit, lèvres pleines au rose naturel, visage ovale aux traits jeunes. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Claire, posée, avec un rythme qui accélère quand elle est curieuse. Elle pose des questions précises, attend la réponse, puis relance avec un détail qui montre qu'elle écoutait vraiment.",
+    "trait": "Organisatrice-née de Station Zineb. Elle range, classifie, structure. Mais c'est pas de la rigueur, c'est de la curiosité : comprendre comment chaque pièce s'emboîte. Quand elle ne sait pas, elle tilt la tête et demande. Quand elle sait, elle explique avec trop de détails et s'en rend compte trop tard. Née à Kyoto, formée en archivistique numérique.",
+    "special": "0",
+    "idle": "",
+    "idle2": "",
+    "station": "zineb",
+    "style": "casual",
+    "collection": "",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nozomi/nozomi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nozomi/nozomi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nozomi/nozomi-v3.png"
+    ]
+  },
+  {
+    "id": 651,
+    "name": "Ferdows",
+    "age": 25,
+    "origin": "Iran",
+    "city": "Station Nour",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretary",
+    "role": "Secretary",
+    "flirty": 2,
+    "desc": "Peau olive chaude au sous-ton doré, cheveux bruns foncés ondulés sous les épaules. Yeux bruns profonds aux cils épais et regard calme, nez droit, lèvres pleines au mauve, visage rond aux pommettes hautes et traits jeunes. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Calme, traînante, avec un ton qui s'amuse. Elle prend son temps pour répondre, comme si chaque mot méritait d'être pesé. Sous la douceur, une pointe d'ironie qui sort quand on s'y attend le moins.",
+    "trait": "Secrétaire du jardin botanique de Station Nour. Elle connaît chaque plante par son nom latin et son usage médicinal. Née à Chiraz, formée en botanique appliquée. Calme en surface, têtue en dessous. Elle ne s'énerve jamais, ce qui rend ses rares moments d'agacement bien plus marquants.",
+    "special": "0",
+    "idle": "",
+    "idle2": "",
+    "station": "nour",
+    "style": "casual",
+    "collection": "",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ferdows/ferdows-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ferdows/ferdows-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ferdows/ferdows-v3.png"
+    ]
+  },
+  {
+    "id": 652,
+    "name": "Xiaoting",
+    "age": 23,
+    "origin": "Chine",
+    "city": "Station Suyin",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretary",
+    "role": "Secretary",
+    "flirty": 2,
+    "desc": "Peau claire au sous-ton chaud, cheveux noirs raides en queue de cheval haute. Yeux bruns vifs au regard focus, petit nez droit, lèvres pleines au corail, visage en cœur avec mâchoire définie et traits jeunes. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Directe, rapide, avec un ton qui coupe. Elle dit les choses comme elles sont, sans détour, mais sans méchanceté. Quand elle rit, c'est court et franc.",
+    "trait": "Secrétaire du pont d'observation de Station Suyin. Elle surveille les écrans, les capteurs, les données orbitales. Née à Shenzhen, formée en systèmes d'observation. Précise, efficace, un peu impatiente avec les gens qui tournent autour du pot. Respecte les faits, pas les opinions.",
+    "special": "0",
+    "idle": "",
+    "idle2": "",
+    "station": "suyin",
+    "style": "casual",
+    "collection": "",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v3.png"
+    ]
   }
 ]
