@@ -1,13 +1,8 @@
-#!/usr/bin/env python3
-"""Check if candidate names exist in data.json."""
 import json
-with open('data.json') as f:
+with open("data.json", encoding="utf-8") as f:
     data = json.load(f)
-names = {e['name'].lower() for e in data}
-
-candidates = ['Rima', 'Lama', 'Serene', 'Reine', 'Maya', 'Tatiana', 'Carla', 'Nadine', 'Sahar', 'Dana', 'Lena', 'Yara', 'Salma', 'Rola', 'Layla', 'Myriam', 'Nadine', 'Celine', 'Joelle']
-for c in candidates:
-    if c.lower() in names:
-        print(f"  {c} — EXISTS")
-    else:
-        print(f"  {c} — available")
+print(f"Total: {len(data)}")
+print(f"Last 5: {[c['name'] for c in data[-5:]]}")
+for name in ["Aimi","Ploi","Lan"]:
+    found = [c for c in data if c.get("name") == name]
+    print(f"  {name}: {'FOUND' if found else 'MISSING'}")
