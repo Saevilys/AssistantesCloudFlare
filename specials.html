@@ -489,14 +489,13 @@ function renderPage(){
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
-      <div class="status-dot ${a.active?'on':'off'}"></div>
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
       <div class="card-info">
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['?','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700'],'secret-boss':['👑','Boss Secret','#ff1a4b']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['?','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700'],'secret-boss':['👑','Boss Secret','#ff1a4b'],'secretary':['💼','Secrétaire','#f9a8d4']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
@@ -576,7 +575,7 @@ function buildProfile(a){
         : a.tag==='succube'
         ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E Succube</span>`
         : ''}
-      <span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>
+      ${a.tag==='secretary'?'<span class="secretary-badge">💼 Secrétaire</span>':''}
     </div>
     <div class="profile-body">
       ${photoHtml}

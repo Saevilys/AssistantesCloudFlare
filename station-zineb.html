@@ -440,7 +440,7 @@ function renderPage(){
     return `
     <div class="card ${a.active?'':'dim'}" data-name="${a.name}">
       <div class="flirt">${flirtDots}</div>
-      ${a.tag==='reporter'?'<span class="reporter-icon">📷</span>':a.tag==='anchor'?'<span class="anchor-icon">🎙️</span>':a.tag==='meteo'?'<span class="meteo-icon">🌤️</span>':`<div class="status-dot ${a.active?'on':'off'}"></div>`}
+      ${a.tag==='reporter'?'<span class="reporter-icon">📷</span>':a.tag==='anchor'?'<span class="anchor-icon">🎙️</span>':a.tag==='meteo'?'<span class="meteo-icon">🌤️</span>':a.tag==='secretary'?'<span class="secretary-icon">💼</span>':''}
       ${a.region==='Androides'?'<span class="android-tag">ANDROID</span>':''}
       ${img}
       ${a.idle?`<video class="hovervid" src="${a.idle}" muted loop preload="metadata" playsinline></video>`:''}
