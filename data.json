@@ -16013,7 +16013,7 @@
     "city": "Accra",
     "region": "Afrique",
     "active": 1,
-    "tag": "secretary",
+    "tag": null,
     "role": null,
     "flirty": 2,
     "desc": "Peau brune foncée, afro naturel sous un headscarf kente (vert, rouge, jaune), yeux vifs, sourcils arqués, nez défini, lèvres pleines, visage ovale allongé. Poitrine généreuse, taille fine, hanches larges. Le headscarf c est elle — pas un accessoire, une signature.",
@@ -16022,11 +16022,15 @@
     "special": null,
     "idle": null,
     "idle2": null,
-    "station": null,
+    "station": "expat",
     "style": null,
     "collection": null,
     "category": "roster",
-    "photos": []
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adjoa/adjoa-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adjoa/adjoa-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adjoa/adjoa-v3.png"
+    ]
   },
   {
     "id": 654,
@@ -16036,7 +16040,7 @@
     "city": "Dar es Salaam",
     "region": "Afrique",
     "active": 1,
-    "tag": "secretary",
+    "tag": null,
     "role": null,
     "flirty": 2,
     "desc": "Peau brune foncée, longues box braids avec pointes blondes, yeux amande doux, joues rondes mais traits adultes raffinés, nez défini, lèvres pleines. Corps voluptueux, taille fine, hanches larges, poitrine pleine et généreuse.",
@@ -16045,11 +16049,15 @@
     "special": null,
     "idle": null,
     "idle2": null,
-    "station": null,
+    "station": "expat",
     "style": null,
     "collection": null,
     "category": "roster",
-    "photos": []
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zawadi/zawadi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zawadi/zawadi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zawadi/zawadi-v3.png"
+    ]
   },
   {
     "id": 655,
@@ -16059,7 +16067,7 @@
     "city": "Johannesburg",
     "region": "Afrique",
     "active": 1,
-    "tag": "secretary",
+    "tag": null,
     "role": null,
     "flirty": 2,
     "desc": "Peau noire riche, longues box braids sombres, petites boucles d oreilles en or, traits régaliens et frappants, pommettes hautes, yeux sombres intenses, nez défini, lèvres pleines, visage ovale allongé. Corps voluptueux, taille fine, hanches larges, poitrine pleine et généreuse.",
@@ -16068,10 +16076,14 @@
     "special": null,
     "idle": null,
     "idle2": null,
-    "station": null,
+    "station": "expat",
     "style": null,
     "collection": null,
     "category": "roster",
-    "photos": []
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lindiwe/lindiwe-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lindiwe/lindiwe-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lindiwe/lindiwe-v3.png"
+    ]
   }
 ]
