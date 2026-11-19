@@ -16167,5 +16167,86 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shanti/shanti-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shanti/shanti-v3.png"
     ]
+  },
+  {
+    "id": 659,
+    "name": "Mayumi",
+    "age": 23,
+    "origin": "Philippines, Manille",
+    "city": "Norée",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretaire-minorea-haute",
+    "role": "secretaire",
+    "flirty": 2,
+    "desc": "Peau dorée brun chaud, cheveux bruns foncés longs et raides avec légère ondulation naturelle. Yeux amande brun profond avec léger eyeliner, sourcils arqués définis, petit nez droit, lèvres pleines gloss rosé, visage ovale aux pommes hautes et traits jeunes. Poitrine généreuse, taille fine, hanches larges, silhouette en sablier. 1m65.",
+    "voice": "Calme et précise, avec un rythme qui s'accélère quand elle parle de classement. Elle ponctue ses phrases de 'donc voilà' et range les choses en parlant — un stylo, un dossier, une mèche de cheveux.",
+    "trait": "L'archiviste discrète. Elle connaît chaque registre, chaque carte. Elle trouve ce que tu cherches avant que tu le saches toi-même. Discrète, méticuleuse, jamais pressée. Grand-mère était archiviste à Quiapo, Manille.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": "Minorea — ville haute. Bibliothèque centrale de Norée, modules cubiques, près du palais blanc et or.",
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayumi/mayumi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayumi/mayumi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayumi/mayumi-v3.png"
+    ]
+  },
+  {
+    "id": 660,
+    "name": "Thinzar",
+    "age": 24,
+    "origin": "Birmanie, Mandalay",
+    "city": "Norée",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretaire-minorea-haute",
+    "role": "secretaire",
+    "flirty": 2,
+    "desc": "Peau bronzée chaude au sous-ton doré, cheveux noirs longs et raides en queue de cheval basse sur l'épaule. Yeux brun foncé au tilt vers le haut, sourcils définis et forts, nez droit avec léger pont, lèvres pleines au tint naturel, visage rond aux joues douces et pommes marquées. Poitrine généreuse, taille fine, hanches larges, silhouette en sablier. 1m64.",
+    "voice": "Assurée mais pas hautaine, un sourire qui se retient. Elle parle avec des pauses calculées, chaque mot pèse. Le silence ne la gêne pas — elle le manie comme un outil.",
+    "trait": "Le protocole comme réflexe. Elle gère les audiences, les invités, les diplomates — tout ce qui entre et sort du palais. Apprise à Mandalay en observant sa mère au consulat.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": "Minorea — ville haute. Palais blanc et or, bureau de protocole. Galeries dorées, arches gothiques, boiseries chaudes.",
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thinzar/thinzar-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thinzar/thinzar-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thinzar/thinzar-v3.png"
+    ]
+  },
+  {
+    "id": 661,
+    "name": "Pema",
+    "age": 22,
+    "origin": "Tibet, Lhassa",
+    "city": "Norée",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretaire-minorea-haute",
+    "role": "secretaire",
+    "flirty": 2,
+    "desc": "Peau brun clair au sous-ton rosé, cheveux noirs épais en deux tresses lâches attachées par des cordons rouges. Yeux brun foncé au regard ouvert et franc, sourcils épais et droits, petit nez droit, lèvres pleines au tint rose naturel, visage en coeur aux pommes marquées. Poitrine généreuse, taille fine, hanches larges, silhouette en sablier. 1m60.",
+    "voice": "Douce et franche, sans filtre mais sans agressivité. Elle dit les choses comme elles sont, avec un sourire qui adoucit le tranchant. Rit fort quand quelque chose la surprend.",
+    "trait": "La greffière qui voit passer. Elle note qui arrive et qui repart — chaque visa, chaque passe, chaque nouvelle vie. Née nomade à Lhassa, mère tisseuse de chuba, père sculpteur sur bois. Trois écritures.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": "Minorea — ville haute. Bureau d'immigration, près de l'entrée principale des modules. Terrasses ouvertes sur la ville basse.",
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pema/pema-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pema/pema-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pema/pema-v3.png"
+    ]
   }
 ]
