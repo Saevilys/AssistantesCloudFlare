@@ -16086,5 +16086,86 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lindiwe/lindiwe-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lindiwe/lindiwe-v3.png"
     ]
+  },
+  {
+    "id": 656,
+    "name": "Gamze",
+    "age": 24,
+    "origin": "Turquie",
+    "city": "Istanbul",
+    "region": "Eurasie",
+    "active": 1,
+    "tag": "secretary",
+    "role": null,
+    "flirty": 2,
+    "desc": "Peau olive claire, longs cheveux bruns raides séparés au centre, yeux amande sombres légèrement tombants, sourcils arqués, nez défini, lèvres pleines, visage ovale allongé. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Douce, hésitante, avec des pauses où elle cherche ses mots. Elle murmure quand elle est gênée. Le turc transparaît dans sa façon de peser chaque phrase avant de la lâcher.",
+    "trait": "La ponctuelle. Étudiante en communication à l université du Bosphore, elle travaille le soir dans le café de son oncle à Karaköy. Elle ne rate jamais un rendez-vous. Timide mais pas effacée — elle réfléchit, puis elle agit.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": null,
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/gamze/gamze-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/gamze/gamze-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/gamze/gamze-v3.png"
+    ]
+  },
+  {
+    "id": 657,
+    "name": "Nkechi",
+    "age": 23,
+    "origin": "Nigeria",
+    "city": "Lagos",
+    "region": "Afrique",
+    "active": 1,
+    "tag": "secretary",
+    "role": null,
+    "flirty": 2,
+    "desc": "Peau brune foncée, cheveux naturels courts et volumineux, yeux amande sombres, pommettes hautes, nez défini, lèvres pleines, visage ovale à la mâchoire marquée. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Claire, posée, avec une précision qui coupe. Elle parle peu mais chaque mot compte. L igbo transparaît dans sa façon de structurer — directe, pas de fioritures.",
+    "trait": "La mémoire. Office administration à Yaba, Lagos. Elle oublie rien — noms, dates, ce que quelqu un a dit il y a trois semaines. Pas bavarde, juste efficace. Si elle dit quelque chose, c est que c est vrai.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": null,
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nkechi/nkechi-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nkechi/nkechi-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nkechi/nkechi-v3.png"
+    ]
+  },
+  {
+    "id": 658,
+    "name": "Shanti",
+    "age": 25,
+    "origin": "Indonésie",
+    "city": "Bali",
+    "region": "Asie",
+    "active": 1,
+    "tag": "secretary",
+    "role": null,
+    "flirty": 2,
+    "desc": "Peau brune dorée, longs cheveux noirs raides, yeux amande sombres, sourcils doux arqués, petit nez défini, lèvres pleines, visage rond à la mâchoire douce. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges.",
+    "voice": "Calme, souriante, avec une douceur qui désamorce. Elle parle lentement, comme si chaque phrase devait apaiser. L indonésien transparaît dans sa façon de tout prendre avec légèreté.",
+    "trait": "La patiente. Gestion des réservations et des plaintes dans une guesthouse à Seminyak. Elle gère les drames, les compliments, les urgences — et sourit même quand c est un drame. Rien ne la déborde.",
+    "special": null,
+    "idle": null,
+    "idle2": null,
+    "station": null,
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shanti/shanti-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shanti/shanti-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/shanti/shanti-v3.png"
+    ]
   }
 ]
