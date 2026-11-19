@@ -15919,7 +15919,7 @@
     "collection": "",
     "category": "roster",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v1-fixed.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v3.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lan/lan-v1-alt.png"
@@ -16001,9 +16001,10 @@
     "collection": "",
     "category": "roster",
     "photos": [
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v1-fixed.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v2.png",
-      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v3.png"
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiaoting/xiaoting-v4.png"
     ]
   },
   {
