@@ -16248,5 +16248,85 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pema/pema-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/pema/pema-v3.png"
     ]
+  },
+  {
+    "id": 662,
+    "name": "Elara",
+    "age": 24,
+    "origin": "Grecque",
+    "city": "Station Suyin",
+    "region": "Espace",
+    "active": 1,
+    "tag": "anchor",
+    "role": null,
+    "flirty": 4,
+    "desc": "Peau claire aux sous-tons chauds, pores visibles. Cheveux bruns ondulates mi-longs. Yeux noisette, sourcils arcs, nez droit, levres pleines, visage ovale a machoire douce, traits jeunes. Taille fine, hanches larges, forte poitrine. Bodycon noir sans manches, col en V, stretch, fibre tiree sur la poitrine, ourlet mi-cuisse.",
+    "voice": "Cool et moqueuse. Elle parle avec le recul de quelqu'un qui a vu les etoiles de pres et trouve ca banal. Accent grec qui revient sur les mots d'argot. Elle rit avant les chaines difficiles, ralentit sur les passages serres.",
+    "trait": "Anchor de Station Suyin, la station la plus ancienne de Noree. Ancienne navigatrice d'Athenes, trois ans de vol interstellaire avant le fauteuil. Sa specialite : les phenomenes exotiques, les trous noirs, les anomalies gravitationnelles. Le trou noir au viewport la fascine et l'effraie. Elle presente le journal avec le flegme de qui a vu pire.",
+    "special": "0",
+    "idle": null,
+    "idle2": null,
+    "station": "suyin",
+    "style": null,
+    "collection": "assistante",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/elara/elara-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/elara/elara-v3.png"
+    ]
+  },
+  {
+    "id": 663,
+    "name": "Nasreen",
+    "age": 25,
+    "origin": "Iranienne",
+    "city": "Station Nour",
+    "region": "Espace",
+    "active": 1,
+    "tag": "anchor",
+    "role": null,
+    "flirty": 4,
+    "desc": "Peau olive chaude avec sous-tons dores, pores visibles. Cheveux noirs raides longs avec raie au milieu, laches sur les epaules. Yeux bruns en amande avec legere remontee, sourcils arcs definis, nez droit et fin, levres pleines, pommettes hautes, visage ovale aux traits doux et jeunes. Taille fine, hanches larges, forte poitrine. Bodycon jersey bordeaux sans manches, col en V, stretch, fibre tiree sur la poitrine, ourlet mi-cuisse.",
+    "voice": "Chaleureuse mais precise. Elle parle avec l'autorite de quelqu'un qui a vecu la recherche avant de la presenter. Accent persan qui reveille sur les mots techniques. Elle ralentit sur les decouvertes importantes, accelere sur les routines de station.",
+    "trait": "Anchor de Station Nour, le frontier a 40 annees-lumiere. Ancienne xenobiologiste de Teheran recalee comme reporter scientifique. Elle a choisi de rester apres sa premiere annee. Sa specialite : les analyses spectrales, les missions EVA, les signatures de vie potentielle. La naine rouge au viewport la fait rever. Elle presente le journal avec la conviction que ce qu'on cherche existe.",
+    "special": "0",
+    "idle": null,
+    "idle2": null,
+    "station": "nour",
+    "style": null,
+    "collection": "assistante",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasreen/nasreen-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasreen/nasreen-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasreen/nasreen-v3.png"
+    ]
+  },
+  {
+    "id": 664,
+    "name": "Carina",
+    "age": 23,
+    "origin": "Bresilienne",
+    "city": "Station Zineb",
+    "region": "Espace",
+    "active": 1,
+    "tag": "anchor",
+    "role": null,
+    "flirty": 4,
+    "desc": "Peau doree chaude aux sous-tons ambrés, pores visibles. Cheveux bruns ondules longs, laches sur les epaules. Yeux verts, sourcils arcs, nez petit et droit, levres pleines, visage rond aux traits jeunes et doux. Taille fine, hanches larges, forte poitrine. Bodycon sarcelle fonce sans manches, col scoop, stretch, fibre tiree sur la poitrine, ourlet mi-cuisse.",
+    "voice": "Chaleureuse et posée. Elle parle avec la patience de quelqu'un qui cultive des choses dans l'espace. Accent bresilien qui s'adoucit sur les mots doux, s'accelere quand elle s'enthousiasme. Elle sourit entre les phrases, laisse des silences comfy.",
+    "trait": "Anchor de Station Zineb, la station la plus peuplee de Noree. Ancienne botaniste de Sao Paulo, deux ans dans les hydroponiques avant le fauteuil. Sa specialite : les ecosystems de station, les recoltes, l'agriculture spatiale. La Terre au hublot lui manque mais les plantes la rapprochent. Elle presente le journal avec la tendresse de celle qui fait pousser la vie.",
+    "special": "0",
+    "idle": null,
+    "idle2": null,
+    "station": "zineb",
+    "style": null,
+    "collection": "assistante",
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carina/carina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carina/carina-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/carina/carina-v3.png"
+    ]
   }
 ]
