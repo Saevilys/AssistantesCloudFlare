@@ -19,7 +19,14 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandiwe/thandiwe-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandiwe/thandiwe-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandiwe/thandiwe-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandiwe/thandiwe-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandiwe/thandiwe-5.png"
+    ]
   },
   {
     "id": 545,
@@ -41,7 +48,14 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuleyka/zuleyka-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuleyka/zuleyka-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuleyka/zuleyka-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuleyka/zuleyka-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zuleyka/zuleyka-5.png"
+    ]
   },
   {
     "id": 546,
@@ -63,7 +77,15 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/farida/farida-6.png"
+    ]
   },
   {
     "id": 547,
@@ -85,7 +107,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meera/meera-nuisette.png"
+    ]
   },
   {
     "id": 548,
@@ -107,7 +140,17 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/marisol/marisol-nuisette.png"
+    ]
   },
   {
     "id": 549,
@@ -129,7 +172,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/xiomara/xiomara-nuisette.png"
+    ]
   },
   {
     "id": 550,
@@ -151,7 +205,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anush/anush-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anush/anush-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anush/anush-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anush/anush-4.png"
+    ]
   },
   {
     "id": 551,
@@ -173,7 +233,17 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-porte-2910.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-pied-du-lit-2910.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-straddle-2910.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dilnoza/dilnoza-kiss-2910.png"
+    ]
   },
   {
     "id": 552,
@@ -195,7 +265,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kavya/kavya-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kavya/kavya-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kavya/kavya-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kavya/kavya-4.png"
+    ]
   },
   {
     "id": 553,
@@ -217,7 +293,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigul/aigul-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigul/aigul-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigul/aigul-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aigul/aigul-4.png"
+    ]
   },
   {
     "id": 554,
@@ -239,7 +321,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/socheata/socheata-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/socheata/socheata-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/socheata/socheata-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/socheata/socheata-4.png"
+    ]
   },
   {
     "id": 555,
@@ -261,7 +349,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nilar/nilar-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nilar/nilar-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nilar/nilar-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nilar/nilar-4.png"
+    ]
   },
   {
     "id": 556,
@@ -283,7 +377,16 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naree/naree-nuisette.png"
+    ]
   },
   {
     "id": 557,
@@ -305,7 +408,16 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/huong/huong-nuisette.png"
+    ]
   },
   {
     "id": 558,
@@ -327,7 +439,15 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hanae/hanae-6.png"
+    ]
   },
   {
     "id": 559,
@@ -349,7 +469,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-shower-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-bath-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nurul/nurul-nuisette-edit.png"
+    ]
   },
   {
     "id": 560,
@@ -371,7 +502,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-shower-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-bath-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liya/liya-nuisette-edit.png"
+    ]
   },
   {
     "id": 561,
@@ -393,7 +535,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-shower-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-bath-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lian/lian-nuisette-edit.png"
+    ]
   },
   {
     "id": 562,
@@ -415,7 +568,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ximena/ximena-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ximena/ximena-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ximena/ximena-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ximena/ximena-4.png"
+    ]
   },
   {
     "id": 563,
@@ -437,7 +596,16 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/coralie/coralie-nuisette.png"
+    ]
   },
   {
     "id": 564,
@@ -459,7 +627,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efia/efia-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efia/efia-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efia/efia-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/efia/efia-nuisette.png"
+    ]
   },
   {
     "id": 565,
@@ -481,7 +655,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eshe/eshe-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eshe/eshe-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eshe/eshe-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eshe/eshe-nuisette.png"
+    ]
   },
   {
     "id": 566,
@@ -503,7 +683,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/odalys/odalys-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/odalys/odalys-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/odalys/odalys-bath.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/odalys/odalys-nuisette.png"
+    ]
   },
   {
     "id": 567,
@@ -525,7 +711,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zafira/zafira-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zafira/zafira-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zafira/zafira-3.png"
+    ]
   },
   {
     "id": 568,
@@ -547,7 +738,19 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-v2-6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-nuisette-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-nuisette-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-nuisette-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sneha/sneha-nuisette-transparente.png"
+    ]
   },
   {
     "id": 569,
@@ -569,7 +772,14 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bukola/bukola-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bukola/bukola-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bukola/bukola-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bukola/bukola-4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bukola/bukola-5.png"
+    ]
   },
   {
     "id": 570,
@@ -591,7 +801,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suwanna/suwanna-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suwanna/suwanna-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suwanna/suwanna-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suwanna/suwanna-roomservice.png"
+    ]
   },
   {
     "id": 571,
@@ -613,7 +829,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulit/lulit-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulit/lulit-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulit/lulit-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulit/lulit-roomservice.png"
+    ]
   },
   {
     "id": 572,
@@ -635,7 +857,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-shower.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-nuisette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fanta/fanta-roomservice.png"
+    ]
   },
   {
     "id": 573,
@@ -657,7 +885,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zeynep/zeynep-4.png"
+    ]
   },
   {
     "id": 574,
@@ -679,7 +913,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tiana/tiana-1-kitchen.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tiana/tiana-2-minibar.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tiana/tiana-3-bathroom.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tiana/tiana-4-bed.png"
+    ]
   },
   {
     "id": 575,
@@ -701,7 +941,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adama/adama-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adama/adama-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/adama/adama-v3.png"
+    ]
   },
   {
     "id": 576,
@@ -723,7 +968,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dahlia/dahlia-v1b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dahlia/dahlia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dahlia/dahlia-v3.png"
+    ]
   },
   {
     "id": 577,
@@ -745,7 +995,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalani/kalani-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalani/kalani-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kalani/kalani-v3.png"
+    ]
   },
   {
     "id": 578,
@@ -767,7 +1022,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulama/lulama-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulama/lulama-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lulama/lulama-v3.png"
+    ]
   },
   {
     "id": 579,
@@ -789,7 +1049,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hajar/hajar-v4.png"
+    ]
   },
   {
     "id": 580,
@@ -811,7 +1077,15 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v6-soubrette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/malu/malu-v5-shower.png"
+    ]
   },
   {
     "id": 581,
@@ -833,7 +1107,15 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v6-soubrette.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ofelia/ofelia-v5-shower.png"
+    ]
   },
   {
     "id": 582,
@@ -855,7 +1137,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/paloma/paloma-v4.png"
+    ]
   },
   {
     "id": 583,
@@ -877,7 +1165,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/luana/luana-v4.png"
+    ]
   },
   {
     "id": 584,
@@ -899,7 +1193,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-pool-brush.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-tanktop-skimmer.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-bikini-poolside.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/taina/taina-linen-shirt.png"
+    ]
   },
   {
     "id": 585,
@@ -921,7 +1221,15 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v3-edit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v7.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nasrin/nasrin-v8.png"
+    ]
   },
   {
     "id": 586,
@@ -943,7 +1251,18 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v7.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v8.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roksolana/roksolana-v9.png"
+    ]
   },
   {
     "id": 587,
@@ -965,7 +1284,17 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v7.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/fadumo/fadumo-v8.png"
+    ]
   },
   {
     "id": 588,
@@ -987,7 +1316,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ligeia/ligeia-v4.png"
+    ]
   },
   {
     "id": 589,
@@ -1009,7 +1344,16 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v4.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v5.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/angele/angele-v7.png"
+    ]
   },
   {
     "id": 590,
@@ -1031,7 +1375,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v1-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v2-stone.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v3-balcony.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/thandi/thandi-v4-home.png"
+    ]
   },
   {
     "id": 591,
@@ -1053,7 +1403,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/iara/iara-4.png"
+    ]
   },
   {
     "id": 592,
@@ -1075,7 +1431,25 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-v8.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat4b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat5b.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat6.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat7.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-nat8.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-drawing-day-20oct.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-cafe.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-bed.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/senna/senna-goodnight.png"
+    ]
   },
   {
     "id": 593,
@@ -1097,7 +1471,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/esra/esra-v4.png"
+    ]
   },
   {
     "id": 594,
@@ -1119,7 +1499,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/suyeon/suyeon-v4.png"
+    ]
   },
   {
     "id": 595,
@@ -1141,7 +1527,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/dao/dao-v4.png"
+    ]
   },
   {
     "id": 596,
@@ -1163,7 +1555,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalini/nalini-v4.png"
+    ]
   },
   {
     "id": 597,
@@ -1185,7 +1583,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/oksana/oksana-v4.png"
+    ]
   },
   {
     "id": 598,
@@ -1207,7 +1611,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/tomiris/tomiris-v4.png"
+    ]
   },
   {
     "id": 599,
@@ -1229,7 +1639,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/kana/kana-v4.png"
+    ]
   },
   {
     "id": 600,
@@ -1251,7 +1667,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jiyeon/jiyeon-v4.png"
+    ]
   },
   {
     "id": 601,
@@ -1273,7 +1695,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nicha/nicha-v4.png"
+    ]
   },
   {
     "id": 602,
@@ -1295,7 +1723,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sariyah/sariyah-spa.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sariyah/sariyah-jardin-orchidee.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sariyah/sariyah-temple-kebaya.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sariyah/sariyah-spa-tanktop.png"
+    ]
   },
   {
     "id": 603,
@@ -1317,7 +1751,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linal/linal-spa-abhyanga.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linal/linal-marche-epices.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linal/linal-backwaters-saree.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/linal/linal-spa-sesame.png"
+    ]
   },
   {
     "id": 604,
@@ -1339,7 +1779,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/phawadi/phawadi-spa-jasmin.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/phawadi/phawadi-rivieres-matin.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/phawadi/phawadi-temple-lampang.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/phawadi/phawadi-spa-wai.png"
+    ]
   },
   {
     "id": 605,
@@ -1361,7 +1807,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ysolde/ysolde-balcony-dusk.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ysolde/ysolde-mirror-bathroom.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ysolde/ysolde-bed-morning.png"
+    ]
   },
   {
     "id": 606,
@@ -1383,7 +1834,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-sheer-bathroom.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-mirror-lace.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/naledi/naledi-corridor-night.png"
+    ]
   },
   {
     "id": 607,
@@ -1405,7 +1861,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ynez/ynez-bed-lace.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ynez/ynez-window-tshirt.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ynez/ynez-bed-stomach.png"
+    ]
   },
   {
     "id": 608,
@@ -1427,7 +1888,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-spa.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-miroir.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirembe/mirembe-fenetre.png"
+    ]
   },
   {
     "id": 609,
@@ -1449,7 +1915,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-reception.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-lit.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/anneli/anneli-miroir.png"
+    ]
   },
   {
     "id": 610,
@@ -1471,7 +1942,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-rooftop.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-balcon.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/eleni/eleni-lit.png"
+    ]
   },
   {
     "id": 611,
@@ -1493,7 +1969,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/seoyeon/seoyeon-3.png"
+    ]
   },
   {
     "id": 612,
@@ -1515,7 +1996,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/camille/camille-3.png"
+    ]
   },
   {
     "id": 613,
@@ -1537,7 +2023,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/yuki/yuki-3.png"
+    ]
   },
   {
     "id": 614,
@@ -1559,7 +2050,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/meiling/meiling-3.png"
+    ]
   },
   {
     "id": 615,
@@ -1581,7 +2077,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/salome/salome-3.png"
+    ]
   },
   {
     "id": 616,
@@ -1603,7 +2104,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalani/nalani-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalani/nalani-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalani/nalani-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nalani/nalani-v4.png"
+    ]
   },
   {
     "id": 617,
@@ -1625,7 +2132,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/catalina/catalina-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/catalina/catalina-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/catalina/catalina-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/catalina/catalina-v4.png"
+    ]
   },
   {
     "id": 618,
@@ -1647,7 +2160,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosalia/rosalia-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosalia/rosalia-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosalia/rosalia-v3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/rosalia/rosalia-v4.png"
+    ]
   },
   {
     "id": 619,
@@ -1669,7 +2188,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aino/aino-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aino/aino-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aino/aino-3.png"
+    ]
   },
   {
     "id": 620,
@@ -1691,7 +2215,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hekla/hekla-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hekla/hekla-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/hekla/hekla-3.png"
+    ]
   },
   {
     "id": 621,
@@ -1713,7 +2242,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haewon/haewon-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haewon/haewon-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/haewon/haewon-3.png"
+    ]
   },
   {
     "id": 622,
@@ -1735,7 +2269,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/jieun/jieun-v3.png"
+    ]
   },
   {
     "id": 623,
@@ -1757,7 +2296,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liezel/liezel-4.png"
+    ]
   },
   {
     "id": 624,
@@ -1779,7 +2324,13 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-3.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mayaris/mayaris-4.png"
+    ]
   },
   {
     "id": 625,
@@ -1801,7 +2352,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mika/mika-v3.png"
+    ]
   },
   {
     "id": 626,
@@ -1823,7 +2379,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nika/nika-v3.png"
+    ]
   },
   {
     "id": 627,
@@ -1845,7 +2406,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/lena/lena-v3.png"
+    ]
   },
   {
     "id": 628,
@@ -1867,7 +2433,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ilinca/ilinca-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ilinca/ilinca-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/ilinca/ilinca-3.png"
+    ]
   },
   {
     "id": 629,
@@ -1889,7 +2460,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sahar/sahar-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sahar/sahar-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/sahar/sahar-3.png"
+    ]
   },
   {
     "id": 630,
@@ -1911,7 +2487,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milagros/milagros-1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milagros/milagros-2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/milagros/milagros-3.png"
+    ]
   },
   {
     "id": 631,
@@ -1933,7 +2514,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/roshan/roshan-v3.png"
+    ]
   },
   {
     "id": 632,
@@ -1955,7 +2541,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/bianca/bianca-v3.png"
+    ]
   },
   {
     "id": 633,
@@ -1977,7 +2568,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/zola/zola-v3.png"
+    ]
   },
   {
     "id": 638,
@@ -1999,7 +2595,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/nessa/nessa-v3.png"
+    ]
   },
   {
     "id": 639,
@@ -2021,7 +2622,12 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aveline/aveline-v3.png"
+    ]
   },
   {
     "id": 640,
@@ -2043,6 +2649,11 @@
     "station": null,
     "style": null,
     "collection": null,
-    "category": "room_service"
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v3.png"
+    ]
   }
 ]
