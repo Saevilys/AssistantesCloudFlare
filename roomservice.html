@@ -265,6 +265,7 @@ function render(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
+        ${a.tag==='anchor'?'<span class="card-tag-badge" style="color:#67e8f9;border-color:#67e8f940">🎙\uFE0E Ancre</span>':''}
       </div>
     </div>`;
   }).join('');
@@ -291,6 +292,7 @@ function buildProfile(a){
       <h2>${a.name}</h2>
       <div class="profile-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
       <span class="profile-meta" style="color:#ff5c8a">&#9742;&#xFE0E; Room Service — toujours disponible</span>
+      ${a.tag==='anchor'?'<span class="profile-badge" style="display:inline-block;margin-top:8px;background:#0a1a1a;color:#67e8f9;font-size:0.9rem;padding:4px 12px;border:1px solid #67e8f940;border-radius:4px">🎙\uFE0E Ancre</span>':''}
     </div>
     <div class="profile-body">
       ${photoHtml}

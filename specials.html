@@ -263,6 +263,7 @@ footer::before{content:'✦';display:block;font-size:1rem;color:var(--accent);op
     <option value="wuxia">Wuxia</option>
     <option value="déesses">Déesses</option>
     <option value="boss">Boss Secrets</option>
+    <option value="ancres">Ancres</option>
   </select>
   <select class="fsel" id="selRegion"></select>
   <select class="fsel" id="selStatus">
@@ -308,7 +309,7 @@ const pageSize=50;
 let filteredData=[];
 
 fetch('data.json').then(r=>r.json()).then(all=>{
-  const d=all.filter(a=>a.tag&&a.tag!=='secretary'&&a.tag!=='meteo'&&a.tag!=='reporter'&&a.tag!=='anchor'&&!a.station).map(a=>({...a,tag:a.tag.replace(/\s+/g,'-').trim()}));
+  const d=all.filter(a=>a.tag&&a.tag!=='secretary'&&a.tag!=='meteo'&&a.tag!=='reporter'&&(!a.station||(a.tag==='anchor'&&a.station==='specials'))).map(a=>({...a,tag:a.tag.replace(/\s+/g,'-').trim()}));
   data=d;
   buildRegionBar(d);
   updateSectionCounts(d);
@@ -318,7 +319,7 @@ fetch('data.json').then(r=>r.json()).then(all=>{
 });
 
 function updateSectionCounts(d){
-  const counts={all:d.length,rangS:d.filter(a=>a.tag==='surnaturel').length,succubes:d.filter(a=>a.tag==='succube').length,androides:d.filter(a=>a.tag==='androide').length,vampires:d.filter(a=>a.tag==='vampire').length,gardes:d.filter(a=>a.tag==='garde-du-corps').length,djinns:d.filter(a=>a.tag==='djinn').length,anges:d.filter(a=>a.tag==='ange').length,demones:d.filter(a=>a.tag==='démone').length,anomalies:d.filter(a=>a.tag==='anomalie').length,kungfu:d.filter(a=>a.tag==='kungfupunk').length,'sorcières':d.filter(a=>a.tag==='sorcière').length,wuxia:d.filter(a=>a.tag==='wuxia').length,'déesses':d.filter(a=>a.tag==='déesse').length,boss:d.filter(a=>a.tag==='secret-boss').length};
+  const counts={all:d.length,rangS:d.filter(a=>a.tag==='surnaturel').length,succubes:d.filter(a=>a.tag==='succube').length,androides:d.filter(a=>a.tag==='androide').length,vampires:d.filter(a=>a.tag==='vampire').length,gardes:d.filter(a=>a.tag==='garde-du-corps').length,djinns:d.filter(a=>a.tag==='djinn').length,anges:d.filter(a=>a.tag==='ange').length,demones:d.filter(a=>a.tag==='démone').length,anomalies:d.filter(a=>a.tag==='anomalie').length,kungfu:d.filter(a=>a.tag==='kungfupunk').length,'sorcières':d.filter(a=>a.tag==='sorcière').length,wuxia:d.filter(a=>a.tag==='wuxia').length,'déesses':d.filter(a=>a.tag==='déesse').length,boss:d.filter(a=>a.tag==='secret-boss').length,ancres:d.filter(a=>a.tag==='anchor').length};
   document.getElementById('selSection').querySelectorAll('option').forEach(o=>{const c=counts[o.value];if(c!==undefined)o.textContent=o.textContent.replace(/\s*\(.*\)/,'')+' ('+c+')';});
 }
 
@@ -393,6 +394,7 @@ function tagLabel(tag){
   if(tag==='wuxia') return '🗡\uFE0E Wuxia';
   if(tag==='déesse') return '☀\uFE0E Déesse';
   if(tag==='secret-boss') return '👑 Boss Secret';
+  if(tag==='anchor') return '🎙\uFE0E Ancre';
   return '';
 }
 
@@ -420,6 +422,7 @@ function applyFilters(){
   else if(currentSection==='wuxia')filtered=filtered.filter(a=>a.tag==='wuxia');
   else if(currentSection==='déesses')filtered=filtered.filter(a=>a.tag==='déesse');
   else if(currentSection==='boss')filtered=filtered.filter(a=>a.tag==='secret-boss');
+  else if(currentSection==='ancres')filtered=filtered.filter(a=>a.tag==='anchor');
   if(currentFilter==='active')filtered=filtered.filter(a=>a.active);
   else if(currentFilter==='inactive')filtered=filtered.filter(a=>!a.active);
   else if(currentFilter==='photos')filtered=filtered.filter(a=>a.photos&&a.photos.length>0);
@@ -498,7 +501,7 @@ function renderPage(){
         <div class="card-name">${a.name}</div>
         <div class="card-meta">${a.age} ans · ${a.origin} · ${a.city}</div>
         <div class="card-trait">${a.trait||''}</div>
-        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['?','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700'],'secret-boss':['👑','Boss Secret','#ff1a4b'],'secretary':['💼','Secrétaire','#f9a8d4']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
+        ${(()=>{const tags={surnaturel:['👁\uFE0E','Surnaturel','#ccc'],succube:['☠\uFE0E','Succube','#ff5c8a'],androide:['⚡\uFE0E','Androïde','#67e8f9'],vampire:['🩸','Vampire','#e8484b'],'garde-du-corps':['⚔\uFE0E','Garde du corps','#d4a574'],'garde du corps':['⚔\uFE0E','Garde du corps','#d4a574'],djinn:['🔥','Djinn','#ff8c42'],ange:['🕊\uFE0E','Ange','#f0e6c8'],'démone':['✚','Démone','#ff0033'],anomalie:['?','Anomalie','#67e8f9'],kungfupunk:['☯','Kung Fu Punk','#e8c84b'],'sorcière':['🔮','Sorcière','#a78bfa'],'wuxia':['🗡\uFE0E','Wuxia','#8a9bb4'],'déesse':['☀\uFE0E','Déesse','#ffd700'],'secret-boss':['👑','Boss Secret','#ff1a4b'],'secretary':['💼','Secrétaire','#f9a8d4'],'anchor':['🎙\uFE0E','Ancre','#67e8f9']};const t=tags[String(a.tag||'').trim()];return t?`<span class="card-tag-badge" style="color:${t[2]};border-color:${t[2]}40">${t[0]} ${t[1]}</span>`:'';})()}
       </div>
     </div>`;
   }).join('');
@@ -578,6 +581,7 @@ function buildProfile(a){
         : a.tag==='succube'
         ? `<span class="profile-badge badge-flirt flirt-lvl5" style="font-size:0.9rem;padding:4px 12px">☠\uFE0E♥\uFE0E Succube</span>`
         : ''}
+      ${a.tag==='anchor'?'<span class="profile-badge" style="margin-top:8px;background:#0a1a1a;color:#67e8f9;font-size:0.9rem;padding:4px 12px;border:1px solid #67e8f940">🎙\uFE0E Ancre</span>':''}
       ${a.tag==='secretary'?'<span class="secretary-badge">💼 Secrétaire</span>':`<span class="toggle-btn ${a.active?'on':'off'}" onclick="toggleActive('${a.name}')">${a.active?'● Active':'○ Inactive'}</span>`}
     </div>
     <div class="profile-body">
