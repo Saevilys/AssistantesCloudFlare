@@ -16529,5 +16529,59 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/natalia/natalia-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/natalia/natalia-v3.png"
     ]
+  },
+  {
+    "id": 672,
+    "name": "Raeda",
+    "age": 26,
+    "origin": "Libanaise",
+    "city": "Beyrouth",
+    "region": "Expat",
+    "active": 1,
+    "tag": "anchor",
+    "role": "anchor",
+    "flirty": 3,
+    "desc": "Peau olive chaude, longs cheveux bruns foncés ondulés sous les épaules. Yeux noisette au regard vif, sourcils marqués, nez droit, lèvres pleines au rose naturel, visage ovale aux pommettes hautes. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges. Tailleur pantalon beige, chemisier soie ivoire, col V, taille marquée par une ceinture fine.",
+    "voice": "Chaude, rapide, avec un accent libanais qui ressort sur les noms propres. Elle traduit les nouvelles internationales avec une intensité personnelle, pose des questions directes à ses invités. Elle finit ses phrases par un sourire qui dit qu'elle en a encore à dire.",
+    "trait": "Anchor de la station Expat, la station des citoyennes nées hors de Norée. Née à Beyrouth, ancienne correspondante de guerre pour Al Jazeera, reconvertie dans le journalisme culturel. Sa spécialité : les portraits, les histoires d'exil, les diasporas. Elle lit ses sujets sans prompteur, garde un carnet de notes manuscrit.",
+    "special": "0",
+    "idle": null,
+    "idle2": null,
+    "station": "expat",
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raeda/raeda-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raeda/raeda-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/raeda/raeda-v3.png"
+    ]
+  },
+  {
+    "id": 673,
+    "name": "Mirage",
+    "age": 25,
+    "origin": "Noréenne",
+    "city": "Minorea",
+    "region": "Capitale",
+    "active": 1,
+    "tag": "anchor",
+    "role": "anchor",
+    "flirty": 4,
+    "desc": "Peau porcelaine, cheveux noirs raides avec mèche violette sur le côté. Yeux bleu glacial au regard pénétrant, nez fin, lèvres pleines au bordeaux, visage anguleux aux pommettes saillantes. Silhouette élancée, poitrine moyenne, taille fine, hanches étroites. Robe bodycon jersey noire, sans manches, col asymétrique, ourlet mi-cuisse, une chaîne fine en or au cou.",
+    "voice": "Froide au premier abord, précise, chaque mot pesé. Elle lit les titres avec une lenteur calculée, laisse le silence travailler. Quand elle pose une question, c'est un scalpel. Rarement un sourire, mais quand il vient, il déstabilise.",
+    "trait": "Anchor de la station Spéciales, dédiée aux citoyennes au statut spécial — combattantes, vampires, mages, gardes du corps. Ancienne analyste du renseignement de Norée, elle a basculé à l'antenne après avoir refusé une promotion. Sa spécialité : les sujets sensibles, les dossiers classifiés, les interviews qui font trembler.",
+    "special": "1",
+    "idle": null,
+    "idle2": null,
+    "station": "specials",
+    "style": null,
+    "collection": null,
+    "category": "roster",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirage/mirage-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirage/mirage-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/mirage/mirage-v3.png"
+    ]
   }
 ]

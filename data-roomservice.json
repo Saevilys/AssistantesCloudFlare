@@ -2655,5 +2655,32 @@
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v2.png",
       "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/aysel/aysel-v3.png"
     ]
+  },
+  {
+    "id": 674,
+    "name": "Liora",
+    "age": 27,
+    "origin": "Méditerranéenne",
+    "city": "Minorea",
+    "region": "Capitale",
+    "active": 1,
+    "tag": "anchor",
+    "role": "anchor",
+    "flirty": 2,
+    "desc": "Peau dorée au sous-ton ambré, cheveux auburn ondulés mi-long. Yeux verts pétillants, sourcils arqués, petit nez retroussé, lèvres souriantes au corail, visage rond aux traits doux. Silhouette en sablier, poitrine généreuse, taille fine, hanches larges. Robe portefeuille bleu nuit, sans manches, col plongeant, ourlet genou, une fine ceinture dorée.",
+    "voice": "Douce, chaleureuse, avec un rire facile. Elle lit les menus et les services avec une voix qui donne faim, ralentit sur les descriptions de plats, glisse des anecdotes entre les lignes. Elle recommande toujours un dessert en fin de segment.",
+    "trait": "Anchor de la station Room Service, dédiée aux citoyennes du service de nuit. Ancienne chef de rang dans un palace méditerranéen, reconvertie à l'antenne. Sa spécialité : les recettes, les portraits de chefs, les histoires de service. Elle cuisine en direct le dimanche matin.",
+    "special": "0",
+    "idle": null,
+    "idle2": null,
+    "station": "roomservice",
+    "style": null,
+    "collection": null,
+    "category": "room_service",
+    "photos": [
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liora/liora-v1.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liora/liora-v2.png",
+      "https://pub-a88b6eff97bc4ebb9c2158d3a1f98b4b.r2.dev/img/liora/liora-v3.png"
+    ]
   }
 ]
