@@ -3092,7 +3092,7 @@
     "special": "0",
     "idle": null,
     "idle2": null,
-    "station": null,
+    "station": "expat",
     "style": null,
     "collection": null,
     "category": "roster",
